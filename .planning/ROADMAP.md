@@ -6,6 +6,14 @@
 - [ ] Configure basic layout components (Navbar, Footer, Container).
 - [ ] Define the data structure for laptops (JSON or initial DB schema).
 
+**Requirements:** [RNF1.1, RNF1.2, RNF3.1, RF2.2, RNF2.1]
+**Plans:** 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Initialize Next.js project with Tailwind, shadcn/ui, and Apple-minimalist design tokens
+- [ ] 01-02-PLAN.md — Build layout shell: Navbar (frosted glass, mobile hamburger), Footer, Container
+- [ ] 01-03-PLAN.md — Define laptop data model (TypeScript types, Supabase SQL schema, client config)
+
 ## Phase 2: Core Discovery Quiz
 - [ ] Implement the multi-step quiz component.
 - [ ] Develop the logic for mapping quiz answers to laptop categories/profiles.
