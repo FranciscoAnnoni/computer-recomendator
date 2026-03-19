@@ -35,3 +35,8 @@ next-env.d.ts
 # project specific
 .gemini
 .mcp.json
+
+# ai tooling
+.agents/
+.claude/skills/
+skills-lock.json
