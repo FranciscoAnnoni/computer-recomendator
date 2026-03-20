@@ -56,9 +56,8 @@ All sizes sourced from `src/app/globals.css` `@theme inline` block.
 | Body | 17px (1.0625rem) | 400 | 1.5 | Card labels, result laptop tags, profile description body, "Volver al Inicio" link |
 | Label | 12px (0.75rem) | 400 | 1.4 | "Paso X/3" progress label, price display, simplified_tags badges |
 | Subhead | 28px (1.75rem) | 500 | 1.3 | Step question heading (e.g., "¿Cómo usas tu laptop?"), result profile name |
-| Heading | 56px (3.5rem) | 900 | 1.1 | Not used in quiz flow — reserved for landing page hero |
 
-Note: Heading (56px/900) is intentionally excluded from the quiz and result screens. The quiz is a focused interaction flow, not a marketing surface.
+Weights in use: 400 (Body, Label) and 500 (Subhead). Heading (56px/900) is not used in this phase — reserved for landing page hero only.
 
 ---
 
@@ -86,6 +85,8 @@ Accent is NOT applied to: unselected cards, "Volver al Inicio" link, back-arrow 
 ---
 
 ## Interaction Contract
+
+Primary visual anchor: centered carousel card at scale 1.03 with accent border — draws the eye first on every step screen.
 
 ### Carousel Mechanic
 
@@ -190,7 +191,7 @@ All copy in Spanish (product language is Spanish — confirmed by CONTEXT.md car
 | Loading state (sr-only) | Buscando tus laptops recomendadas… |
 | Error state heading | No encontramos tu perfil |
 | Error state body | Algo salió mal al buscar tu perfil. Intenta hacer el quiz de nuevo. |
-| Error state CTA | Reintentar |
+| Error state CTA | Volver a intentarlo |
 | Empty state (no laptops) | Aún no hay laptops para este perfil. Vuelve pronto. |
 | Destructive action: clear quiz | "Rehacer quiz" → clears localStorage; no secondary confirmation dialog (action is reversible by taking quiz again) |
 
