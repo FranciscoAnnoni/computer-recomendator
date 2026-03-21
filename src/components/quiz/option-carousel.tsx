@@ -13,15 +13,32 @@ interface OptionCarouselProps {
 }
 
 export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarouselProps) {
-  // Derive centerIndex from selectedValue; if no selection yet, default to 1 (visual center)
+  const INITIAL_CENTER = 1; // middle card (index 1 of 3)
+
   const derivedCenter = selectedValue
     ? options.findIndex((o) => o.value === selectedValue)
-    : 1;
+    : INITIAL_CENTER;
 
-  // Local state for center index — only drives visual; selection state lives in parent
-  const [centerIndex, setCenterIndex] = useState(derivedCenter >= 0 ? derivedCenter : 1);
+  const [centerIndex, setCenterIndex] = useState(derivedCenter >= 0 ? derivedCenter : INITIAL_CENTER);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // Sync centerIndex if parent's selectedValue changes (e.g., on back navigation)
+  // Detect mobile breakpoint
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
+  // Auto-select the center card on mount so Siguiente is never disabled
+  useEffect(() => {
+    if (!selectedValue) {
+      onSelect(options[INITIAL_CENTER].value);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // intentionally mount-only
+
+  // Sync centerIndex when parent's selectedValue changes (e.g., back navigation)
   useEffect(() => {
     if (selectedValue) {
       const idx = options.findIndex((o) => o.value === selectedValue);
@@ -29,35 +46,94 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
     }
   }, [selectedValue, options]);
 
-  const handleArrowLeft = () => {
-    if (centerIndex <= 0) return;
-    const newIndex = centerIndex - 1;
+  const navigate = (newIndex: number) => {
+    if (newIndex < 0 || newIndex >= options.length) return;
     setCenterIndex(newIndex);
     onSelect(options[newIndex].value);
   };
 
-  const handleArrowRight = () => {
-    if (centerIndex >= options.length - 1) return;
-    const newIndex = centerIndex + 1;
-    setCenterIndex(newIndex);
-    onSelect(options[newIndex].value);
-  };
+  const handleArrowLeft = () => navigate(centerIndex - 1);
+  const handleArrowRight = () => navigate(centerIndex + 1);
 
   const handleDragEnd = (_: unknown, info: { offset: { x: number } }) => {
-    if (info.offset.x < -40 && centerIndex < options.length - 1) {
-      const newIndex = centerIndex + 1;
-      setCenterIndex(newIndex);
-      onSelect(options[newIndex].value);
-    } else if (info.offset.x > 40 && centerIndex > 0) {
-      const newIndex = centerIndex - 1;
-      setCenterIndex(newIndex);
-      onSelect(options[newIndex].value);
-    }
+    if (info.offset.x < -40) navigate(centerIndex + 1);
+    else if (info.offset.x > 40) navigate(centerIndex - 1);
   };
 
   const isLeftDisabled = centerIndex === 0;
   const isRightDisabled = centerIndex === options.length - 1;
 
+  // ── MOBILE: deck / stacked card layout ──────────────────────────────────────
+  if (isMobile) {
+    return (
+      <div className="flex flex-col items-center gap-4">
+        {/* Deck container */}
+        <div className="relative w-[260px] h-[400px] mx-auto">
+          {options.map((option, index) => {
+            const offset = index - centerIndex; // -1, 0, or +1
+            const isCenter = offset === 0;
+            const isSelected = option.value === selectedValue;
+
+            return (
+              <motion.div
+                key={option.value}
+                className="absolute top-0"
+                style={{ left: "50%", marginLeft: "-130px" }}
+                animate={{
+                  x: offset === 0 ? 0 : offset < 0 ? -65 : 65,
+                  scale: isCenter ? 1 : 0.86,
+                  opacity: Math.abs(offset) > 1 ? 0 : isCenter ? 1 : 0.5,
+                  zIndex: isCenter ? 30 : 20,
+                  rotate: isCenter ? 0 : offset < 0 ? -4 : 4,
+                }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+                onClick={() => !isCenter && navigate(index)}
+              >
+                <OptionCard
+                  option={option}
+                  isCenter={isCenter}
+                  isSelected={isSelected}
+                  onClick={() => {
+                    setCenterIndex(index);
+                    onSelect(option.value);
+                  }}
+                />
+              </motion.div>
+            );
+          })}
+        </div>
+
+        {/* Arrow buttons below the deck */}
+        <div className="flex items-center gap-6">
+          <button
+            type="button"
+            aria-label="Opcion anterior"
+            onClick={handleArrowLeft}
+            className={`w-11 h-11 flex items-center justify-center rounded-full bg-background border border-border focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none ${
+              isLeftDisabled ? "opacity-30 pointer-events-none" : ""
+            }`}
+          >
+            <ChevronLeft className="size-5" />
+          </button>
+          <span className="text-xs text-muted-foreground">
+            {centerIndex + 1} / {options.length}
+          </span>
+          <button
+            type="button"
+            aria-label="Opcion siguiente"
+            onClick={handleArrowRight}
+            className={`w-11 h-11 flex items-center justify-center rounded-full bg-background border border-border focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none ${
+              isRightDisabled ? "opacity-30 pointer-events-none" : ""
+            }`}
+          >
+            <ChevronRight className="size-5" />
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // ── DESKTOP: horizontal row layout ──────────────────────────────────────────
   return (
     <div className="relative flex items-center w-full">
       {/* Left arrow */}

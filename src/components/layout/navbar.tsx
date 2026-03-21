@@ -119,7 +119,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile: theme toggle + hamburger */}
-          <div className="md:hidden flex items-center gap-2">
+          <div className="md:hidden flex items-center gap-4">
             <ThemeToggle />
             <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
               <SheetTrigger

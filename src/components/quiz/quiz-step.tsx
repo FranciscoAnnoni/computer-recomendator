@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ChevronLeft } from "lucide-react";
 import type { QuizStepDef } from "@/types/quiz";
 import { QUIZ_STEPS } from "@/types/quiz";
 import { Button } from "@/components/ui/button";
@@ -27,20 +26,6 @@ export function QuizStep({
 
   return (
     <div className="flex flex-col gap-6 w-full">
-      {/* Back arrow — hidden on step 0 */}
-      <div className="h-11">
-        {stepIndex > 0 && (
-          <button
-            type="button"
-            aria-label="Volver al paso anterior"
-            onClick={onBack}
-            className="w-11 h-11 flex items-center justify-center rounded-full hover:bg-muted focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
-          >
-            <ChevronLeft className="size-5" />
-          </button>
-        )}
-      </div>
-
       {/* Step heading + subheading */}
       <div className="text-center">
         <h2 className="text-subhead font-medium text-foreground">
@@ -61,15 +46,26 @@ export function QuizStep({
         onSelect={onSelect}
       />
 
-      {/* Siguiente / Ver mis recomendaciones */}
-      <Button
-        variant="default"
-        className="w-full h-11"
-        disabled={!currentSelection}
-        onClick={onNext}
-      >
-        {isLastStep ? "Ver mis recomendaciones" : "Siguiente"}
-      </Button>
+      {/* Bottom action row: [Anterior] [Siguiente / Ver mis recomendaciones] */}
+      <div className="flex items-center gap-3">
+        {stepIndex > 0 && (
+          <button
+            type="button"
+            aria-label="Volver al paso anterior"
+            onClick={onBack}
+            className="h-11 px-5 rounded-lg border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors text-sm font-medium focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none shrink-0"
+          >
+            Anterior
+          </button>
+        )}
+        <Button
+          variant="default"
+          className="flex-1 h-11"
+          onClick={onNext}
+        >
+          {isLastStep ? "Ver mis recomendaciones" : "Siguiente"}
+        </Button>
+      </div>
 
       {/* Exit link */}
       <Link
