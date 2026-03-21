@@ -67,8 +67,14 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
   if (isMobile) {
     return (
       <div className="flex flex-col items-center gap-4">
-        {/* Deck container */}
-        <div className="relative w-[260px] h-[400px] mx-auto">
+        {/* Deck container — drag to swipe on mobile */}
+        <motion.div
+          className="relative w-[260px] h-[400px] mx-auto cursor-grab active:cursor-grabbing"
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={0.2}
+          onDragEnd={handleDragEnd}
+        >
           {options.map((option, index) => {
             const offset = index - centerIndex; // -1, 0, or +1
             const isCenter = offset === 0;
@@ -101,7 +107,7 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
               </motion.div>
             );
           })}
-        </div>
+        </motion.div>
 
         {/* Arrow buttons below the deck */}
         <div className="flex items-center gap-6">
