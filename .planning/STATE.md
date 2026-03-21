@@ -3,20 +3,20 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 2 UI-SPEC approved
-last_updated: "2026-03-20T17:30:54.418Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-21T07:18:56.734Z"
 progress:
   total_phases: 5
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 8
+  completed_plans: 4
 ---
 
 # State: Computer Recomendator
 
 ## Project Overview
 
-- **Status:** Executing Phase 01 (Plan 01 complete, Plan 02 next)
+- **Status:** Executing Phase 02
 - **Current Milestone:** Phase 1 (Foundation & Setup).
 - **Recent Progress:** Plan 01-01 complete — Next.js 16.2 scaffold with Tailwind v4, shadcn/ui, Apple design tokens, dark mode.
 
@@ -44,6 +44,8 @@ progress:
 - [Phase 01-02]: SheetTrigger uses render prop pattern (base-ui) instead of asChild
 - [Phase 01-02]: Scroll detection adds shadow-sm on Navbar when scrollY > 0
 - [Phase 01-03]: Single laptops table with two display layers (technical + simplified_tags); Supabase createClient singleton; usage_profiles as TEXT[] with GIN index
+- [Phase 02-01]: UsageProfile union extended (not replaced) with quiz workload values for backward compat with catalog filtering
+- [Phase 02-01]: Profiles table uses Postgres enum types for database-level constraint enforcement on quiz values
 
 ## Performance Metrics
 
@@ -52,8 +54,9 @@ progress:
 | 01-foundation-project-setup | 01 | 6min | 2 | 10 |
 | Phase 01-foundation-project-setup P02 | 2min | 2 tasks | 8 files |
 | Phase 01-foundation-project-setup P03 | 3min | 2 tasks | 6 files |
+| Phase 02-core-discovery-quiz P01 | 2min | 2 tasks | 7 files |
 
 ## Session
 
-- **Last session:** 2026-03-20T17:30:54.415Z
-- **Stopped at:** Phase 2 UI-SPEC approved
+- **Last session:** 2026-03-21T07:18:56.732Z
+- **Stopped at:** Completed 02-01-PLAN.md
