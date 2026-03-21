@@ -1,4 +1,4 @@
-export type UsageProfile = "design" | "programming" | "study" | "general";
+export type UsageProfile = "design" | "programming" | "study" | "general" | "productividad_estudio" | "creacion_desarrollo" | "gaming_rendimiento";
 
 export interface Laptop {
   id: string;                      // UUID primary key
