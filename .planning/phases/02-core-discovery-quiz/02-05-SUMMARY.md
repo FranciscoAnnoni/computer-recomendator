@@ -60,7 +60,7 @@ completed: 2026-03-21
 - **Duration:** 3 min
 - **Started:** 2026-03-21T07:30:45Z
 - **Completed:** 2026-03-21T07:33:00Z
-- **Tasks:** 1 of 2 (Task 2 is human-verify checkpoint — awaiting approval)
+- **Tasks:** 2 of 2 (Task 2 checkpoint approved — revisions applied)
 - **Files modified:** 3
 
 ## Accomplishments
@@ -87,9 +87,22 @@ Each task was committed atomically:
 - `handleRehacer` clears both `PROFILE_STORAGE_KEY` and `QUIZ_STORAGE_KEY` to ensure the quiz always starts from a clean state when retaken.
 - ProfileAvatar renders initials (first letter uppercase) when `imageUrl` is null, matching the UI spec fallback requirement.
 
-## Deviations from Plan
+## Checkpoint Revisions (Task 2 human verification)
 
-None - plan executed exactly as written.
+User-requested revisions applied during checkpoint:
+
+1. **Dark mode default** — `defaultTheme` → `"dark"`, `enableSystem` disabled
+2. **ThemeToggle** (Sun/Moon) — new component added to navbar upper right
+3. **4th quiz step (OS preference)** — 3×3×3×3 = 81 profiles:
+   - New `OsPreference` type: windows | macos | abierto
+   - Updated `Lifestyle` type: maxima_portabilidad | movil_flexible | escritorio_fijo (Apple ecosystem moved to OS step)
+   - QUIZ_STEPS updated to 4 steps, all headings/sublabels refreshed in Spanish
+   - `fetchProfile` accepts 4th param; Supabase schema adds `os_preference_enum`
+4. **Card redesign** — neon cyan glow (#00e5ff), 380px tall, 150px illustration, dark bg
+5. **3 new illustrations** — windows, macos, flexible (compass)
+6. **Profile avatar** — moved to upper left of navbar
+
+Commit: `023d092`
 
 ## Issues Encountered
 
