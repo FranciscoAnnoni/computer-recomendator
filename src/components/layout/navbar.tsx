@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -10,6 +11,9 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Container } from "@/components/layout/container";
+import { ProfileAvatar } from "@/components/quiz/profile-avatar";
+import { ProfileSheet } from "@/components/quiz/profile-sheet";
+import { PROFILE_STORAGE_KEY, QUIZ_STORAGE_KEY } from "@/types/quiz";
 
 const navLinks = [
   { href: "/catalog", label: "Catalog" },
@@ -19,6 +23,13 @@ const navLinks = [
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [completedProfile, setCompletedProfile] = useState<{
+    profile_name: string;
+    profile_description: string;
+    profile_image_url: string | null;
+  } | null>(null);
+  const [profileSheetOpen, setProfileSheetOpen] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,6 +38,26 @@ export function Navbar() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    const saved = localStorage.getItem(PROFILE_STORAGE_KEY);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        setCompletedProfile(parsed);
+      } catch {
+        // Corrupted data — ignore
+      }
+    }
+  }, []);
+
+  const handleRehacer = () => {
+    localStorage.removeItem(PROFILE_STORAGE_KEY);
+    localStorage.removeItem(QUIZ_STORAGE_KEY);
+    setCompletedProfile(null);
+    setProfileSheetOpen(false);
+    router.push("/quiz");
+  };
 
   return (
     <nav
@@ -55,9 +86,31 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button>
-              <Link href="/quiz">Find My Laptop &rarr;</Link>
-            </Button>
+            {completedProfile ? (
+              <Sheet open={profileSheetOpen} onOpenChange={setProfileSheetOpen}>
+                <SheetTrigger
+                  render={
+                    <button className="inline-flex items-center justify-center" />
+                  }
+                >
+                  <ProfileAvatar
+                    imageUrl={completedProfile.profile_image_url}
+                    profileName={completedProfile.profile_name}
+                  />
+                </SheetTrigger>
+                <SheetContent side="right">
+                  <ProfileSheet
+                    profileName={completedProfile.profile_name}
+                    profileDescription={completedProfile.profile_description}
+                    onRehacer={handleRehacer}
+                  />
+                </SheetContent>
+              </Sheet>
+            ) : (
+              <Button>
+                <Link href="/quiz">Find My Laptop &rarr;</Link>
+              </Button>
+            )}
           </div>
 
           {/* Mobile hamburger — visible on small screens only */}
@@ -86,11 +139,33 @@ export function Navbar() {
                     </Link>
                   ))}
                   <div className="mt-4">
-                    <Button className="w-full">
-                      <Link href="/quiz" onClick={() => setMobileOpen(false)}>
-                        Find My Laptop &rarr;
-                      </Link>
-                    </Button>
+                    {completedProfile ? (
+                      <Sheet open={profileSheetOpen} onOpenChange={setProfileSheetOpen}>
+                        <SheetTrigger
+                          render={
+                            <button className="inline-flex items-center justify-center w-full" />
+                          }
+                        >
+                          <ProfileAvatar
+                            imageUrl={completedProfile.profile_image_url}
+                            profileName={completedProfile.profile_name}
+                          />
+                        </SheetTrigger>
+                        <SheetContent side="right">
+                          <ProfileSheet
+                            profileName={completedProfile.profile_name}
+                            profileDescription={completedProfile.profile_description}
+                            onRehacer={handleRehacer}
+                          />
+                        </SheetContent>
+                      </Sheet>
+                    ) : (
+                      <Button className="w-full">
+                        <Link href="/quiz" onClick={() => setMobileOpen(false)}>
+                          Find My Laptop &rarr;
+                        </Link>
+                      </Button>
+                    )}
                   </div>
                 </nav>
               </SheetContent>
