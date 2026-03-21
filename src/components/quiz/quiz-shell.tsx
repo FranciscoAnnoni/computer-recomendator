@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { QUIZ_STEPS, QUIZ_STORAGE_KEY } from "@/types/quiz";
+import { QUIZ_STEPS, QUIZ_STORAGE_KEY, PROFILE_STORAGE_KEY } from "@/types/quiz";
 import { QuizStep } from "@/components/quiz/quiz-step";
+import { QuizResult } from "@/components/quiz/quiz-result";
 
 export function QuizShell() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -58,10 +59,22 @@ export function QuizShell() {
     setCurrentStep((prev) => Math.max(0, prev - 1));
   };
 
+  const handleRetry = () => {
+    setQuizComplete(false);
+    setCurrentStep(0);
+    setSelections([null, null, null]);
+    try {
+      localStorage.removeItem(QUIZ_STORAGE_KEY);
+      localStorage.removeItem(PROFILE_STORAGE_KEY);
+    } catch {
+      // ignore storage errors
+    }
+  };
+
   if (quizComplete) {
     return (
-      <div data-testid="quiz-result-slot" className="w-full text-center py-16 text-muted-foreground">
-        Loading result...
+      <div className="w-full">
+        <QuizResult selections={selections} onRetry={handleRetry} />
       </div>
     );
   }

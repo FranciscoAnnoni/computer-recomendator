@@ -1,24 +1,23 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import type { Laptop } from "@/types/laptop";
 
 export function ResultLaptopCard({ laptop }: { laptop: Laptop }) {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <Card>
-      {laptop.image_url ? (
+      {laptop.image_url && !imgError ? (
         <img
           src={laptop.image_url}
           alt={laptop.name}
           className="w-full h-48 object-cover rounded-t-xl"
-          onError={(e) => {
-            const target = e.currentTarget;
-            target.style.display = "none";
-            const placeholder = target.nextElementSibling as HTMLElement | null;
-            if (placeholder) placeholder.style.display = "flex";
-          }}
+          onError={() => setImgError(true)}
         />
-      ) : null}
-      {!laptop.image_url && (
+      ) : (
         <div className="w-full h-48 bg-muted rounded-t-xl flex items-center justify-center text-muted-foreground text-sm">
           {laptop.brand}
         </div>
