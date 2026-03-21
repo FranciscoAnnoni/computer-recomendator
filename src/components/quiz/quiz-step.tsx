@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
 import type { QuizStepDef } from "@/types/quiz";
+import { QUIZ_STEPS } from "@/types/quiz";
 import { Button } from "@/components/ui/button";
 import { StepProgress } from "@/components/quiz/step-progress";
 import { OptionCarousel } from "@/components/quiz/option-carousel";
@@ -22,7 +23,7 @@ export function QuizStep({
   onNext,
   onBack,
 }: QuizStepProps) {
-  const isLastStep = stepIndex === 2;
+  const isLastStep = stepIndex === QUIZ_STEPS.length - 1;
 
   return (
     <div className="flex flex-col gap-6 w-full">
@@ -40,10 +41,15 @@ export function QuizStep({
         )}
       </div>
 
-      {/* Step heading */}
-      <h2 className="text-subhead font-medium text-foreground text-center">
-        {stepData.heading}
-      </h2>
+      {/* Step heading + subheading */}
+      <div className="text-center">
+        <h2 className="text-subhead font-medium text-foreground">
+          {stepData.heading}
+        </h2>
+        <p className="text-small text-muted-foreground mt-1">
+          {stepData.subheading}
+        </p>
+      </div>
 
       {/* Progress bar */}
       <StepProgress currentStep={stepIndex} />
@@ -70,7 +76,7 @@ export function QuizStep({
         href="/"
         className="text-body text-muted-foreground hover:text-foreground text-center transition-colors"
       >
-        Volver al Inicio
+        ↩ Volver al Inicio
       </Link>
     </div>
   );

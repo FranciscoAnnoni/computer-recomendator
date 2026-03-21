@@ -7,11 +7,11 @@ import { ResultSkeleton } from "@/components/quiz/result-skeleton";
 import { ResultLaptopCard } from "@/components/quiz/result-laptop-card";
 import { fetchProfile, fetchLaptopsByIds } from "@/lib/quiz-data";
 import { PROFILE_STORAGE_KEY } from "@/types/quiz";
-import type { Workload, Lifestyle, Budget, ProfileResult } from "@/types/quiz";
+import type { Workload, Lifestyle, Budget, OsPreference, ProfileResult } from "@/types/quiz";
 import type { Laptop } from "@/types/laptop";
 
 interface QuizResultProps {
-  selections: [string | null, string | null, string | null];
+  selections: [string | null, string | null, string | null, string | null];
   onRetry: () => void;
 }
 
@@ -26,13 +26,14 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
       setLoading(true);
       setError(null);
 
-      const [workload, lifestyle, budget] = selections;
+      const [workload, lifestyle, budget, osPreference] = selections;
 
       try {
         const profileResult = await fetchProfile(
           workload as Workload,
           lifestyle as Lifestyle,
-          budget as Budget
+          budget as Budget,
+          osPreference as OsPreference
         );
 
         const laptopResults = await fetchLaptopsByIds(profileResult.laptop_ids);
@@ -53,7 +54,7 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
       } catch (err) {
         console.error(
           "[QuizResult] fetchProfile error for combination:",
-          { workload, lifestyle, budget },
+          { workload, lifestyle, budget, osPreference },
           err
         );
         setError("error");
@@ -106,7 +107,7 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
         {profile.profile_description}
       </p>
       <h3 className="text-body font-medium text-foreground mt-8">
-        Tus 5 mejores opciones
+        Tus mejores opciones
       </h3>
       <div className="flex flex-col gap-4 mt-4">
         {laptops.map((laptop) => (

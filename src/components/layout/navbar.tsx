@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 import {
   Sheet,
   SheetContent,
@@ -67,16 +68,39 @@ export function Navbar() {
     >
       <Container>
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link
-            href="/"
-            className="font-semibold text-foreground hover:opacity-80 transition-opacity"
-          >
-            Computer Recomendator
-          </Link>
+          {/* LEFT: profile avatar (post-quiz) + logo */}
+          <div className="flex items-center gap-3">
+            {completedProfile && (
+              <Sheet open={profileSheetOpen} onOpenChange={setProfileSheetOpen}>
+                <SheetTrigger
+                  render={
+                    <button aria-label="Ver perfil" className="inline-flex items-center justify-center" />
+                  }
+                >
+                  <ProfileAvatar
+                    imageUrl={completedProfile.profile_image_url}
+                    profileName={completedProfile.profile_name}
+                  />
+                </SheetTrigger>
+                <SheetContent side="left">
+                  <ProfileSheet
+                    profileName={completedProfile.profile_name}
+                    profileDescription={completedProfile.profile_description}
+                    onRehacer={handleRehacer}
+                  />
+                </SheetContent>
+              </Sheet>
+            )}
+            <Link
+              href="/"
+              className="font-semibold text-foreground hover:opacity-80 transition-opacity"
+            >
+              Computer Recomendator
+            </Link>
+          </div>
 
-          {/* Desktop nav — hidden on mobile */}
-          <div className="hidden md:flex items-center gap-6">
+          {/* RIGHT: desktop nav links + theme toggle + CTA */}
+          <div className="hidden md:flex items-center gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -86,35 +110,17 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            {completedProfile ? (
-              <Sheet open={profileSheetOpen} onOpenChange={setProfileSheetOpen}>
-                <SheetTrigger
-                  render={
-                    <button className="inline-flex items-center justify-center" />
-                  }
-                >
-                  <ProfileAvatar
-                    imageUrl={completedProfile.profile_image_url}
-                    profileName={completedProfile.profile_name}
-                  />
-                </SheetTrigger>
-                <SheetContent side="right">
-                  <ProfileSheet
-                    profileName={completedProfile.profile_name}
-                    profileDescription={completedProfile.profile_description}
-                    onRehacer={handleRehacer}
-                  />
-                </SheetContent>
-              </Sheet>
-            ) : (
+            {!completedProfile && (
               <Button>
                 <Link href="/quiz">Find My Laptop &rarr;</Link>
               </Button>
             )}
+            <ThemeToggle />
           </div>
 
-          {/* Mobile hamburger — visible on small screens only */}
-          <div className="md:hidden">
+          {/* Mobile: theme toggle + hamburger */}
+          <div className="md:hidden flex items-center gap-2">
+            <ThemeToggle />
             <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
               <SheetTrigger
                 render={
@@ -138,35 +144,15 @@ export function Navbar() {
                       {link.label}
                     </Link>
                   ))}
-                  <div className="mt-4">
-                    {completedProfile ? (
-                      <Sheet open={profileSheetOpen} onOpenChange={setProfileSheetOpen}>
-                        <SheetTrigger
-                          render={
-                            <button className="inline-flex items-center justify-center w-full" />
-                          }
-                        >
-                          <ProfileAvatar
-                            imageUrl={completedProfile.profile_image_url}
-                            profileName={completedProfile.profile_name}
-                          />
-                        </SheetTrigger>
-                        <SheetContent side="right">
-                          <ProfileSheet
-                            profileName={completedProfile.profile_name}
-                            profileDescription={completedProfile.profile_description}
-                            onRehacer={handleRehacer}
-                          />
-                        </SheetContent>
-                      </Sheet>
-                    ) : (
+                  {!completedProfile && (
+                    <div className="mt-4">
                       <Button className="w-full">
                         <Link href="/quiz" onClick={() => setMobileOpen(false)}>
                           Find My Laptop &rarr;
                         </Link>
                       </Button>
-                    )}
-                  </div>
+                    </div>
+                  )}
                 </nav>
               </SheetContent>
             </Sheet>

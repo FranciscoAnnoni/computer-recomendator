@@ -6,13 +6,11 @@ import { QUIZ_STEPS, QUIZ_STORAGE_KEY, PROFILE_STORAGE_KEY } from "@/types/quiz"
 import { QuizStep } from "@/components/quiz/quiz-step";
 import { QuizResult } from "@/components/quiz/quiz-result";
 
+type Selections = [string | null, string | null, string | null, string | null];
+
 export function QuizShell() {
   const [currentStep, setCurrentStep] = useState(0);
-  const [selections, setSelections] = useState<[string | null, string | null, string | null]>([
-    null,
-    null,
-    null,
-  ]);
+  const [selections, setSelections] = useState<Selections>([null, null, null, null]);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [quizComplete, setQuizComplete] = useState(false);
 
@@ -21,7 +19,7 @@ export function QuizShell() {
     try {
       const raw = localStorage.getItem(QUIZ_STORAGE_KEY);
       if (raw) {
-        const parsed = JSON.parse(raw) as { selections?: [string | null, string | null, string | null] };
+        const parsed = JSON.parse(raw) as { selections?: Selections };
         if (parsed.selections) {
           setSelections(parsed.selections);
         }
@@ -33,9 +31,8 @@ export function QuizShell() {
 
   const handleSelect = (value: string) => {
     setSelections((prev) => {
-      const next: [string | null, string | null, string | null] = [...prev] as [string | null, string | null, string | null];
+      const next: Selections = [...prev] as Selections;
       next[currentStep] = value;
-      // Persist to localStorage
       try {
         localStorage.setItem(QUIZ_STORAGE_KEY, JSON.stringify({ selections: next }));
       } catch {
@@ -47,7 +44,7 @@ export function QuizShell() {
 
   const handleNext = () => {
     setDirection(1);
-    if (currentStep === 2) {
+    if (currentStep === QUIZ_STEPS.length - 1) {
       setQuizComplete(true);
     } else {
       setCurrentStep((prev) => prev + 1);
@@ -62,7 +59,7 @@ export function QuizShell() {
   const handleRetry = () => {
     setQuizComplete(false);
     setCurrentStep(0);
-    setSelections([null, null, null]);
+    setSelections([null, null, null, null]);
     try {
       localStorage.removeItem(QUIZ_STORAGE_KEY);
       localStorage.removeItem(PROFILE_STORAGE_KEY);
