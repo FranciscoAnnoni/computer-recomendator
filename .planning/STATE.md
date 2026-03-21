@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-01-PLAN.md
-last_updated: "2026-03-21T07:18:56.734Z"
+stopped_at: Completed 02-02-PLAN.md
+last_updated: "2026-03-21T07:23:00.730Z"
 progress:
   total_phases: 5
   completed_phases: 1
   total_plans: 8
-  completed_plans: 4
+  completed_plans: 5
 ---
 
 # State: Computer Recomendator
@@ -46,6 +46,8 @@ progress:
 - [Phase 01-03]: Single laptops table with two display layers (technical + simplified_tags); Supabase createClient singleton; usage_profiles as TEXT[] with GIN index
 - [Phase 02-01]: UsageProfile union extended (not replaced) with quiz workload values for backward compat with catalog filtering
 - [Phase 02-01]: Profiles table uses Postgres enum types for database-level constraint enforcement on quiz values
+- [Phase 02-02]: SVG stroke=currentColor for automatic theme adaptation in light and dark mode
+- [Phase 02-02]: ILLUSTRATIONS barrel export typed as Record<string,ComponentType> for dynamic illustrationId lookup
 
 ## Performance Metrics
 
@@ -55,8 +57,9 @@ progress:
 | Phase 01-foundation-project-setup P02 | 2min | 2 tasks | 8 files |
 | Phase 01-foundation-project-setup P03 | 3min | 2 tasks | 6 files |
 | Phase 02-core-discovery-quiz P01 | 2min | 2 tasks | 7 files |
+| Phase 02-core-discovery-quiz P02 | 3min | 1 tasks | 10 files |
 
 ## Session
 
-- **Last session:** 2026-03-21T07:18:56.732Z
-- **Stopped at:** Completed 02-01-PLAN.md
+- **Last session:** 2026-03-21T07:23:00.728Z
+- **Stopped at:** Completed 02-02-PLAN.md

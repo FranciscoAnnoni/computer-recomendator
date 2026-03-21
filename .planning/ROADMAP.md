@@ -23,11 +23,11 @@ Plans:
 **Goal:** Working 3-step carousel quiz at /quiz that maps user answers to one of 27 Supabase profiles, displays 5 recommended laptops, and persists the quiz profile in the Navbar.
 
 **Requirements:** [RF1.1, RF1.2, RF1.3, RNF1.1, RNF1.2, RNF1.3, RNF2.2, RNF3.1]
-**Plans:** 1/5 plans executed
+**Plans:** 2/5 plans executed
 
 Plans:
 - [x] 02-01-PLAN.md — Install dependencies (framer-motion, shadcn card), define quiz types/constants, create profiles DDL and Supabase query functions
-- [ ] 02-02-PLAN.md — Build quiz interaction UI: QuizShell state machine, carousel with drag/arrow nav, step transitions, 9 SVG illustrations
+- [x] 02-02-PLAN.md — Build quiz interaction UI: QuizShell state machine, carousel with drag/arrow nav, step transitions, 9 SVG illustrations
 - [ ] 02-03-PLAN.md — Build result view: profile header, 5 laptop cards, skeleton loading, error/empty states
 - [ ] 02-04-PLAN.md — Navbar profile integration: ProfileAvatar, ProfileSheet, conditional CTA, end-to-end verification
 
