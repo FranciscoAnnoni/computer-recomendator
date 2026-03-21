@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-04-PLAN.md
-last_updated: "2026-03-21T07:29:58.536Z"
+stopped_at: "Checkpoint reached: Task 2 human-verify in 02-05-PLAN.md"
+last_updated: "2026-03-21T07:32:45.164Z"
 progress:
   total_phases: 5
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 8
-  completed_plans: 7
+  completed_plans: 8
 ---
 
 # State: Computer Recomendator
@@ -53,6 +53,9 @@ progress:
 - [Phase 02-03]: quiz page.tsx is Server Component; use client only on QuizShell and OptionCarousel for minimal client bundle
 - [Phase 02-04]: QuizResult is the sole owner of fetchProfile, fetchLaptopsByIds calls, and PROFILE_STORAGE_KEY localStorage write
 - [Phase 02-04]: handleRetry in QuizShell clears both QUIZ_STORAGE_KEY and PROFILE_STORAGE_KEY to fully reset quiz state
+- [Phase 02-05]: Navbar uses two separate Sheet open state variables (mobileOpen vs profileSheetOpen) to keep hamburger and profile sheets independent
+- [Phase 02-05]: handleRehacer clears both PROFILE_STORAGE_KEY and QUIZ_STORAGE_KEY for full quiz state reset
+- [Phase 02-05]: ProfileAvatar renders initials fallback when imageUrl is null
 
 ## Performance Metrics
 
@@ -65,8 +68,9 @@ progress:
 | Phase 02-core-discovery-quiz P02 | 3min | 1 tasks | 10 files |
 | Phase 02-core-discovery-quiz P03 | 8min | 2 tasks | 6 files |
 | Phase 02-core-discovery-quiz P04 | 2min | 2 tasks | 4 files |
+| Phase 02-core-discovery-quiz P05 | 3min | 1 tasks | 3 files |
 
 ## Session
 
-- **Last session:** 2026-03-21T07:29:58.534Z
-- **Stopped at:** Completed 02-04-PLAN.md
+- **Last session:** 2026-03-21T07:32:45.162Z
+- **Stopped at:** Checkpoint reached: Task 2 human-verify in 02-05-PLAN.md
