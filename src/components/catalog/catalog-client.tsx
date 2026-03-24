@@ -11,7 +11,7 @@ import { CatalogSkeleton } from "@/components/catalog/catalog-skeleton";
 import { FilterDrawer } from "@/components/catalog/filter-drawer";
 import { ActiveFilterBar } from "@/components/catalog/active-filter-bar";
 import { fetchAllLaptops } from "@/lib/catalog-data";
-import type { Laptop, UsageProfile } from "@/types/laptop";
+import type { Laptop } from "@/types/laptop";
 import type { ProfileResult } from "@/types/quiz";
 import { PROFILE_STORAGE_KEY, QUIZ_STORAGE_KEY } from "@/types/quiz";
 
@@ -21,21 +21,29 @@ export interface CatalogFilters {
   brands: string[];
   priceMin: number | null;
   priceMax: number | null;
-  screenSizes: string[];
-  weights: string[];
-  usageProfiles: UsageProfile[];
   os: string[];
+  screenSizes: string[];
+  storage: string[];
+  portable: boolean;
+  canPlayGames: boolean;
 }
 
 export const EMPTY_FILTERS: CatalogFilters = {
   brands: [],
   priceMin: null,
   priceMax: null,
-  screenSizes: [],
-  weights: [],
-  usageProfiles: [],
   os: [],
+  screenSizes: [],
+  storage: [],
+  portable: false,
+  canPlayGames: false,
 };
+
+function parseWeightKg(weight: string | null): number | null {
+  if (!weight) return null;
+  const match = weight.match(/(\d+\.?\d*)/);
+  return match ? parseFloat(match[1]) : null;
+}
 
 // ---------- Animation variants ----------
 
@@ -195,17 +203,23 @@ export function CatalogClient() {
       );
     }
 
-    // Weight filter
-    if (filters.weights.length > 0) {
-      result = result.filter(
-        (l) => l.weight !== null && filters.weights.includes(l.weight)
-      );
+    // Storage filter
+    if (filters.storage.length > 0) {
+      result = result.filter((l) => filters.storage.includes(l.storage));
     }
 
-    // Usage profile filter
-    if (filters.usageProfiles.length > 0) {
+    // Portable filter (weight <= 1.8 kg)
+    if (filters.portable) {
+      result = result.filter((l) => {
+        const w = parseWeightKg(l.weight);
+        return w !== null && w <= 1.8;
+      });
+    }
+
+    // Gaming filter
+    if (filters.canPlayGames) {
       result = result.filter((l) =>
-        l.usage_profiles.some((p) => filters.usageProfiles.includes(p))
+        l.usage_profiles.includes("gaming_rendimiento")
       );
     }
 
@@ -226,16 +240,11 @@ export function CatalogClient() {
     const screenSizes = [
       ...new Set(laptops.map((l) => l.screen_size).filter((s): s is string => s !== null)),
     ].sort();
-    const weights = [
-      ...new Set(laptops.map((l) => l.weight).filter((w): w is string => w !== null)),
-    ].sort();
     const osOptions = [
       ...new Set(laptops.map((l) => l.os).filter((o): o is string => o !== null)),
     ].sort();
-    const usageProfiles = [
-      ...new Set(laptops.flatMap((l) => l.usage_profiles)),
-    ] as UsageProfile[];
-    return { brands, screenSizes, weights, osOptions, usageProfiles };
+    const storageOptions = [...new Set(laptops.map((l) => l.storage))].sort();
+    return { brands, screenSizes, osOptions, storageOptions };
   }, [laptops]);
 
   // ---------- Active filters check ----------
@@ -245,10 +254,11 @@ export function CatalogClient() {
       filters.brands.length > 0 ||
       filters.priceMin !== null ||
       filters.priceMax !== null ||
-      filters.screenSizes.length > 0 ||
-      filters.weights.length > 0 ||
-      filters.usageProfiles.length > 0 ||
       filters.os.length > 0 ||
+      filters.screenSizes.length > 0 ||
+      filters.storage.length > 0 ||
+      filters.portable ||
+      filters.canPlayGames ||
       profileFilter ||
       searchText.trim().length > 0
     );
@@ -274,25 +284,16 @@ export function CatalogClient() {
             return { ...prev, priceMin: null };
           case "priceMax":
             return { ...prev, priceMax: null };
-          case "screenSizes":
-            return {
-              ...prev,
-              screenSizes: prev.screenSizes.filter((s) => s !== value),
-            };
-          case "weights":
-            return {
-              ...prev,
-              weights: prev.weights.filter((w) => w !== value),
-            };
-          case "usageProfiles":
-            return {
-              ...prev,
-              usageProfiles: prev.usageProfiles.filter(
-                (p) => p !== (value as UsageProfile)
-              ),
-            };
           case "os":
             return { ...prev, os: prev.os.filter((o) => o !== value) };
+          case "screenSizes":
+            return { ...prev, screenSizes: prev.screenSizes.filter((s) => s !== value) };
+          case "storage":
+            return { ...prev, storage: prev.storage.filter((s) => s !== value) };
+          case "portable":
+            return { ...prev, portable: false };
+          case "canPlayGames":
+            return { ...prev, canPlayGames: false };
           default:
             return prev;
         }
@@ -463,7 +464,10 @@ export function CatalogClient() {
         filters={filters}
         onApply={handleApplyFilters}
         onClear={clearAllFilters}
-        availableOptions={availableOptions}
+        brands={availableOptions.brands}
+        osOptions={availableOptions.osOptions}
+        screenSizes={availableOptions.screenSizes}
+        storageOptions={availableOptions.storageOptions}
       />
 
       {/* Detail overlay — slides up with Framer Motion */}

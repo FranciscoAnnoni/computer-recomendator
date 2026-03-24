@@ -6,25 +6,13 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetFooter,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
+import { Backpack, Gamepad2 } from "lucide-react";
+import { cn } from "@/lib/utils";
 import type { CatalogFilters } from "@/components/catalog/catalog-client";
-import type { UsageProfile } from "@/types/laptop";
 
-// ---------- Usage profile display labels ----------
-
-const USAGE_PROFILE_LABELS: Record<UsageProfile, string> = {
-  productividad_estudio: "Productividad",
-  creacion_desarrollo: "Creacion",
-  gaming_rendimiento: "Gaming",
-  design: "Diseño",
-  programming: "Programacion",
-  study: "Estudio",
-  general: "General",
-};
-
-// ---------- Props ----------
+// ---------- Types ----------
 
 interface FilterDrawerProps {
   open: boolean;
@@ -32,16 +20,95 @@ interface FilterDrawerProps {
   filters: CatalogFilters;
   onApply: (filters: CatalogFilters) => void;
   onClear: () => void;
-  availableOptions: {
-    brands: string[];
-    screenSizes: string[];
-    weights: string[];
-    osOptions: string[];
-    usageProfiles: UsageProfile[];
-  };
+  brands: string[];
+  osOptions: string[];
+  screenSizes: string[];
+  storageOptions: string[];
 }
 
-// ---------- Component ----------
+// ---------- Responsive side hook ----------
+
+function useSheetSide(): "left" | "bottom" {
+  const [side, setSide] = useState<"left" | "bottom">("bottom");
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 768px)");
+    setSide(mq.matches ? "left" : "bottom");
+    const handler = (e: MediaQueryListEvent) =>
+      setSide(e.matches ? "left" : "bottom");
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+  return side;
+}
+
+// ---------- Sub-components ----------
+
+function SectionTitle({ children }: { children: React.ReactNode }) {
+  return (
+    <h3 className="text-[13px] font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+      {children}
+    </h3>
+  );
+}
+
+interface ChipProps {
+  label: string;
+  active: boolean;
+  onClick: () => void;
+}
+
+function Chip({ label, active, onClick }: ChipProps) {
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "px-3 py-1.5 rounded-full border text-[14px] transition-colors whitespace-nowrap",
+        active
+          ? "bg-foreground text-background border-foreground"
+          : "bg-background text-foreground border-border hover:border-foreground/40"
+      )}
+    >
+      {label}
+    </button>
+  );
+}
+
+interface ToggleRowProps {
+  icon: React.ReactNode;
+  label: string;
+  sublabel: string;
+  active: boolean;
+  onClick: () => void;
+}
+
+function ToggleRow({ icon, label, sublabel, active, onClick }: ToggleRowProps) {
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "flex items-center gap-3 w-full px-4 py-3 rounded-xl border text-left transition-colors",
+        active
+          ? "bg-foreground text-background border-foreground"
+          : "bg-background text-foreground border-border hover:border-foreground/40"
+      )}
+    >
+      <span className="shrink-0">{icon}</span>
+      <div>
+        <p className="text-[15px] font-medium leading-none">{label}</p>
+        <p
+          className={cn(
+            "text-[12px] mt-0.5",
+            active ? "text-background/70" : "text-muted-foreground"
+          )}
+        >
+          {sublabel}
+        </p>
+      </div>
+    </button>
+  );
+}
+
+// ---------- Main component ----------
 
 export function FilterDrawer({
   open,
@@ -49,66 +116,38 @@ export function FilterDrawer({
   filters,
   onApply,
   onClear,
-  availableOptions,
+  brands,
+  osOptions,
+  screenSizes,
+  storageOptions,
 }: FilterDrawerProps) {
-  // Local filter state — cloned from props when drawer opens
-  const [localFilters, setLocalFilters] = useState<CatalogFilters>(filters);
+  const side = useSheetSide();
+  const [local, setLocal] = useState<CatalogFilters>(filters);
 
   // Sync local state when drawer opens
   useEffect(() => {
-    if (open) {
-      setLocalFilters(filters);
-    }
+    if (open) setLocal(filters);
   }, [open, filters]);
 
-  // ---------- Handlers ----------
+  // ---------- Toggle helpers ----------
 
-  function toggleCheckbox<T extends string>(
+  function toggleChip<T extends string>(
     list: T[],
     value: T,
-    setter: (updater: (prev: CatalogFilters) => CatalogFilters) => void,
     key: keyof CatalogFilters
   ) {
-    setter((prev) => ({
+    setLocal((prev) => ({
       ...prev,
       [key]: list.includes(value)
-        ? (list.filter((v) => v !== value) as T[])
-        : ([...list, value] as T[]),
+        ? list.filter((v) => v !== value)
+        : [...list, value],
     }));
   }
 
-  function handleBrandToggle(brand: string) {
-    toggleCheckbox(localFilters.brands, brand, setLocalFilters, "brands");
-  }
-
-  function handleScreenSizeToggle(size: string) {
-    toggleCheckbox(localFilters.screenSizes, size, setLocalFilters, "screenSizes");
-  }
-
-  function handleWeightToggle(weight: string) {
-    toggleCheckbox(localFilters.weights, weight, setLocalFilters, "weights");
-  }
-
-  function handleOsToggle(os: string) {
-    toggleCheckbox(localFilters.os, os, setLocalFilters, "os");
-  }
-
-  function handleUsageProfileToggle(profile: UsageProfile) {
-    toggleCheckbox(localFilters.usageProfiles, profile, setLocalFilters, "usageProfiles");
-  }
-
-  function handlePriceMinChange(e: React.ChangeEvent<HTMLInputElement>) {
-    const val = e.target.value === "" ? null : Number(e.target.value);
-    setLocalFilters((prev) => ({ ...prev, priceMin: val }));
-  }
-
-  function handlePriceMaxChange(e: React.ChangeEvent<HTMLInputElement>) {
-    const val = e.target.value === "" ? null : Number(e.target.value);
-    setLocalFilters((prev) => ({ ...prev, priceMax: val }));
-  }
+  // ---------- Apply / clear ----------
 
   function handleApply() {
-    onApply(localFilters);
+    onApply(local);
     onOpenChange(false);
   }
 
@@ -117,152 +156,167 @@ export function FilterDrawer({
     onOpenChange(false);
   }
 
+  // ---------- Active filter count ----------
+
+  const activeCount =
+    local.brands.length +
+    local.os.length +
+    local.screenSizes.length +
+    local.storage.length +
+    (local.priceMin !== null ? 1 : 0) +
+    (local.priceMax !== null ? 1 : 0) +
+    (local.portable ? 1 : 0) +
+    (local.canPlayGames ? 1 : 0);
+
   // ---------- Render ----------
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent side="bottom" className="max-h-[85vh] flex flex-col">
-        <SheetHeader>
-          <SheetTitle>Filtros</SheetTitle>
+      <SheetContent
+        side={side}
+        className={cn(
+          "flex flex-col p-0",
+          side === "left" ? "w-80 sm:max-w-80" : "max-h-[88vh]"
+        )}
+      >
+        {/* Header */}
+        <SheetHeader className="px-5 pt-5 pb-3 border-b shrink-0">
+          <div className="flex items-center justify-between">
+            <SheetTitle className="text-[17px]">Filtros</SheetTitle>
+            {activeCount > 0 && (
+              <span className="text-[12px] text-muted-foreground">
+                {activeCount} activo{activeCount !== 1 ? "s" : ""}
+              </span>
+            )}
+          </div>
         </SheetHeader>
 
-        {/* Scrollable filter body */}
-        <div className="flex-1 overflow-y-auto px-4 pb-4 space-y-6">
+        {/* Scrollable body */}
+        <div className="flex-1 overflow-y-auto px-5 py-4 space-y-6">
 
-          {/* Brand */}
-          {availableOptions.brands.length > 0 && (
-            <div>
-              <h3 className="text-[17px] font-medium mb-2">Marca</h3>
-              <div className="space-y-0">
-                {availableOptions.brands.map((brand) => (
-                  <label
-                    key={brand}
-                    className="flex items-center gap-2 min-h-[44px] cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      className="size-4 rounded accent-primary"
-                      checked={localFilters.brands.includes(brand)}
-                      onChange={() => handleBrandToggle(brand)}
-                    />
-                    <span className="text-[17px]">{brand}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Price range */}
+          {/* Precio */}
           <div>
-            <h3 className="text-[17px] font-medium mb-2">Precio</h3>
-            <div className="flex gap-3 items-center min-h-[44px]">
+            <SectionTitle>Precio (USD)</SectionTitle>
+            <div className="flex gap-2 items-center">
               <input
                 type="number"
-                placeholder="Min"
-                value={localFilters.priceMin ?? ""}
-                onChange={handlePriceMinChange}
-                className="w-full h-10 px-3 rounded-lg border bg-background text-[17px] placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                placeholder="Mín"
+                value={local.priceMin ?? ""}
+                onChange={(e) =>
+                  setLocal((p) => ({
+                    ...p,
+                    priceMin: e.target.value === "" ? null : Number(e.target.value),
+                  }))
+                }
+                className="w-full h-9 px-3 rounded-lg border bg-background text-[14px] placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               />
-              <span className="text-muted-foreground text-[17px] shrink-0">—</span>
+              <span className="text-muted-foreground text-[14px] shrink-0">—</span>
               <input
                 type="number"
-                placeholder="Max"
-                value={localFilters.priceMax ?? ""}
-                onChange={handlePriceMaxChange}
-                className="w-full h-10 px-3 rounded-lg border bg-background text-[17px] placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                placeholder="Máx"
+                value={local.priceMax ?? ""}
+                onChange={(e) =>
+                  setLocal((p) => ({
+                    ...p,
+                    priceMax: e.target.value === "" ? null : Number(e.target.value),
+                  }))
+                }
+                className="w-full h-9 px-3 rounded-lg border bg-background text-[14px] placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               />
             </div>
           </div>
 
-          {/* Screen size */}
-          {availableOptions.screenSizes.length > 0 && (
+          {/* Portabilidad toggle */}
+          <div>
+            <SectionTitle>Portabilidad</SectionTitle>
+            <ToggleRow
+              icon={<Backpack className="size-4" />}
+              label="Portátil"
+              sublabel="Peso ≤ 1.8 kg — para llevar en la mochila"
+              active={local.portable}
+              onClick={() => setLocal((p) => ({ ...p, portable: !p.portable }))}
+            />
+          </div>
+
+          {/* Gaming toggle */}
+          <div>
+            <SectionTitle>Gaming</SectionTitle>
+            <ToggleRow
+              icon={<Gamepad2 className="size-4" />}
+              label="Puede jugar videojuegos"
+              sublabel="GPU dedicada apta para gaming"
+              active={local.canPlayGames}
+              onClick={() =>
+                setLocal((p) => ({ ...p, canPlayGames: !p.canPlayGames }))
+              }
+            />
+          </div>
+
+          {/* Marcas */}
+          {brands.length > 0 && (
             <div>
-              <h3 className="text-[17px] font-medium mb-2">Pantalla</h3>
-              <div className="space-y-0">
-                {availableOptions.screenSizes.map((size) => (
-                  <label
-                    key={size}
-                    className="flex items-center gap-2 min-h-[44px] cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      className="size-4 rounded accent-primary"
-                      checked={localFilters.screenSizes.includes(size)}
-                      onChange={() => handleScreenSizeToggle(size)}
-                    />
-                    <span className="text-[17px]">{size}</span>
-                  </label>
+              <SectionTitle>Marca</SectionTitle>
+              <div className="flex flex-wrap gap-2">
+                {brands.map((brand) => (
+                  <Chip
+                    key={brand}
+                    label={brand}
+                    active={local.brands.includes(brand)}
+                    onClick={() => toggleChip(local.brands, brand, "brands")}
+                  />
                 ))}
               </div>
             </div>
           )}
 
-          {/* Weight */}
-          {availableOptions.weights.length > 0 && (
+          {/* Sistema operativo */}
+          {osOptions.length > 0 && (
             <div>
-              <h3 className="text-[17px] font-medium mb-2">Peso</h3>
-              <div className="space-y-0">
-                {availableOptions.weights.map((weight) => (
-                  <label
-                    key={weight}
-                    className="flex items-center gap-2 min-h-[44px] cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      className="size-4 rounded accent-primary"
-                      checked={localFilters.weights.includes(weight)}
-                      onChange={() => handleWeightToggle(weight)}
-                    />
-                    <span className="text-[17px]">{weight}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Usage profile */}
-          {availableOptions.usageProfiles.length > 0 && (
-            <div>
-              <h3 className="text-[17px] font-medium mb-2">Uso</h3>
-              <div className="space-y-0">
-                {availableOptions.usageProfiles.map((profile) => (
-                  <label
-                    key={profile}
-                    className="flex items-center gap-2 min-h-[44px] cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      className="size-4 rounded accent-primary"
-                      checked={localFilters.usageProfiles.includes(profile)}
-                      onChange={() => handleUsageProfileToggle(profile)}
-                    />
-                    <span className="text-[17px]">
-                      {USAGE_PROFILE_LABELS[profile] ?? profile}
-                    </span>
-                  </label>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* OS */}
-          {availableOptions.osOptions.length > 0 && (
-            <div>
-              <h3 className="text-[17px] font-medium mb-2">Sistema operativo</h3>
-              <div className="space-y-0">
-                {availableOptions.osOptions.map((os) => (
-                  <label
+              <SectionTitle>Sistema operativo</SectionTitle>
+              <div className="flex flex-wrap gap-2">
+                {osOptions.map((os) => (
+                  <Chip
                     key={os}
-                    className="flex items-center gap-2 min-h-[44px] cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      className="size-4 rounded accent-primary"
-                      checked={localFilters.os.includes(os)}
-                      onChange={() => handleOsToggle(os)}
-                    />
-                    <span className="text-[17px]">{os}</span>
-                  </label>
+                    label={os}
+                    active={local.os.includes(os)}
+                    onClick={() => toggleChip(local.os, os, "os")}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Pantalla */}
+          {screenSizes.length > 0 && (
+            <div>
+              <SectionTitle>Tamaño de pantalla</SectionTitle>
+              <div className="flex flex-wrap gap-2">
+                {screenSizes.map((size) => (
+                  <Chip
+                    key={size}
+                    label={size}
+                    active={local.screenSizes.includes(size)}
+                    onClick={() =>
+                      toggleChip(local.screenSizes, size, "screenSizes")
+                    }
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Almacenamiento */}
+          {storageOptions.length > 0 && (
+            <div>
+              <SectionTitle>Almacenamiento</SectionTitle>
+              <div className="flex flex-wrap gap-2">
+                {storageOptions.map((s) => (
+                  <Chip
+                    key={s}
+                    label={s}
+                    active={local.storage.includes(s)}
+                    onClick={() => toggleChip(local.storage, s, "storage")}
+                  />
                 ))}
               </div>
             </div>
@@ -270,21 +324,19 @@ export function FilterDrawer({
         </div>
 
         {/* Footer */}
-        <SheetFooter>
-          <Button
-            variant="default"
-            className="w-full h-11"
-            onClick={handleApply}
-          >
-            Aplicar filtros
+        <div className="px-5 py-4 border-t shrink-0 space-y-2">
+          <Button className="w-full h-11" onClick={handleApply}>
+            Aplicar{activeCount > 0 ? ` (${activeCount})` : ""}
           </Button>
-          <button
-            className="text-[12px] text-muted-foreground hover:text-foreground mt-2 mx-auto block"
-            onClick={handleClear}
-          >
-            Limpiar todo
-          </button>
-        </SheetFooter>
+          {activeCount > 0 && (
+            <button
+              className="text-[13px] text-muted-foreground hover:text-foreground w-full text-center block"
+              onClick={handleClear}
+            >
+              Limpiar todo
+            </button>
+          )}
+        </div>
       </SheetContent>
     </Sheet>
   );

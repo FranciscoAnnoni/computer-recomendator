@@ -2,19 +2,6 @@
 
 import { X } from "lucide-react";
 import type { CatalogFilters } from "@/components/catalog/catalog-client";
-import type { UsageProfile } from "@/types/laptop";
-
-// ---------- Usage profile display labels ----------
-
-const USAGE_PROFILE_LABELS: Record<UsageProfile, string> = {
-  productividad_estudio: "Productividad",
-  creacion_desarrollo: "Creacion",
-  gaming_rendimiento: "Gaming",
-  design: "Diseño",
-  programming: "Programacion",
-  study: "Estudio",
-  general: "General",
-};
 
 // ---------- Props ----------
 
@@ -26,14 +13,15 @@ interface ActiveFilterBarProps {
   onClearAll: () => void;
 }
 
-// ---------- Chip component ----------
+// ---------- Chip ----------
 
-interface ChipProps {
+function FilterChip({
+  label,
+  onRemove,
+}: {
   label: string;
   onRemove: () => void;
-}
-
-function FilterChip({ label, onRemove }: ChipProps) {
+}) {
   return (
     <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary text-secondary-foreground text-[12px] border border-border whitespace-nowrap">
       {label}
@@ -59,51 +47,46 @@ export function ActiveFilterBar({
 }: ActiveFilterBarProps) {
   const chips: { label: string; filterKey: string; value?: string }[] = [];
 
-  // Build chip list from active filters
+  if (filters.portable) {
+    chips.push({ label: "Portátil", filterKey: "portable" });
+  }
+
+  if (filters.canPlayGames) {
+    chips.push({ label: "Gaming", filterKey: "canPlayGames" });
+  }
+
   filters.brands.forEach((brand) => {
     chips.push({ label: brand, filterKey: "brands", value: brand });
-  });
-
-  if (filters.priceMin !== null) {
-    chips.push({ label: `Min: $${filters.priceMin}`, filterKey: "priceMin" });
-  }
-
-  if (filters.priceMax !== null) {
-    chips.push({ label: `Max: $${filters.priceMax}`, filterKey: "priceMax" });
-  }
-
-  filters.screenSizes.forEach((size) => {
-    chips.push({ label: size, filterKey: "screenSizes", value: size });
-  });
-
-  filters.weights.forEach((weight) => {
-    chips.push({ label: weight, filterKey: "weights", value: weight });
-  });
-
-  filters.usageProfiles.forEach((profile) => {
-    chips.push({
-      label: USAGE_PROFILE_LABELS[profile] ?? profile,
-      filterKey: "usageProfiles",
-      value: profile,
-    });
   });
 
   filters.os.forEach((os) => {
     chips.push({ label: os, filterKey: "os", value: os });
   });
 
+  filters.screenSizes.forEach((size) => {
+    chips.push({ label: size, filterKey: "screenSizes", value: size });
+  });
+
+  filters.storage.forEach((s) => {
+    chips.push({ label: s, filterKey: "storage", value: s });
+  });
+
+  if (filters.priceMin !== null) {
+    chips.push({ label: `Desde $${filters.priceMin}`, filterKey: "priceMin" });
+  }
+
+  if (filters.priceMax !== null) {
+    chips.push({ label: `Hasta $${filters.priceMax}`, filterKey: "priceMax" });
+  }
+
   if (profileFilter) {
-    chips.push({ label: "Perfil", filterKey: "profileFilter" });
+    chips.push({ label: "Mi perfil", filterKey: "profileFilter" });
   }
 
   if (searchText.trim()) {
-    chips.push({
-      label: `"${searchText}"`,
-      filterKey: "searchText",
-    });
+    chips.push({ label: `"${searchText}"`, filterKey: "searchText" });
   }
 
-  // Only render when there are active chips
   if (chips.length === 0) return null;
 
   return (
