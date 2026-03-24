@@ -11,6 +11,10 @@ export interface Laptop {
   ram: string;                     // e.g., "16GB"
   gpu: string;                     // e.g., "Integrated 10-core GPU"
   storage: string;                 // e.g., "512GB SSD"
+  os: string | null;               // e.g., "Windows 11", "macOS Sequoia"
+  screen_size: string | null;      // e.g., '14"'
+  weight: string | null;           // e.g., "1.4 kg"
+  battery: string | null;          // e.g., "Up to 18h"
 
   // Dummies mode fields
   simplified_tags: string[];       // e.g., ["Very Fast", "Supports Photoshop"]
@@ -19,8 +23,8 @@ export interface Laptop {
   usage_profiles: UsageProfile[];  // e.g., ["design", "programming"]
 
   // Influencer content
-  influencer_note: string;         // personal recommendation text
-  recommendation_score: number;    // 1-10 score
+  influencer_note: string | null;      // personal recommendation text
+  recommendation_score: number | null; // 1-10 score
 
   // Links & media
   affiliate_link: string;          // external purchase URL
