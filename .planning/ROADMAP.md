@@ -40,10 +40,10 @@ Plans:
 **Goal:** Full /catalog page with search, filters, single-column card list, full-screen detail overlay with specs and influencer notes, quiz profile integration, and "Comprar Ahora" affiliate links.
 
 **Requirements:** [RF2.1, RF2.2, RF2.3, RF4.1, RF4.2, RNF1.1, RNF1.2, RNF1.3, RNF2.1, RNF2.2]
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 
 Plans:
-- [ ] 03-01-PLAN.md — Extend Laptop type, create migration SQL, fetchAllLaptops, CatalogCard and CatalogSkeleton components
+- [x] 03-01-PLAN.md — Extend Laptop type, create migration SQL, fetchAllLaptops, CatalogCard and CatalogSkeleton components
 - [ ] 03-02-PLAN.md — Build CatalogClient page with search, filters, quiz profile section, pagination, and stagger animations
 - [ ] 03-03-PLAN.md — Build DetailOverlay with specs and influencer section, wire into CatalogClient, fix ResultLaptopCard link
 
