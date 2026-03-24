@@ -40,7 +40,7 @@ export function ResultLaptopCard({ laptop }: { laptop: Laptop }) {
       </CardContent>
       <CardFooter>
         <Link
-          href={`/catalog/${laptop.id}`}
+          href={`/catalog?laptop=${laptop.id}`}
           className="text-primary text-body hover:underline"
         >
           Ver mas

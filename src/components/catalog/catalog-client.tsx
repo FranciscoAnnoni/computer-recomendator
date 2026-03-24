@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { motion, type Variants } from "framer-motion";
+import { motion, AnimatePresence, type Variants } from "framer-motion";
+import { DetailOverlay } from "@/components/catalog/detail-overlay";
 import { Search, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CatalogCard } from "@/components/catalog/catalog-card";
@@ -337,9 +338,17 @@ export function CatalogClient() {
     router.push("/catalog", { scroll: false });
   }, [router]);
 
-  // suppress unused variable warning until Plan 03 wires the overlay
-  void activeLaptop;
-  void handleCloseOverlay;
+  // Body scroll lock when overlay is open
+  useEffect(() => {
+    if (activeLaptop) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [activeLaptop]);
 
   // ---------- Render ----------
 
@@ -457,8 +466,21 @@ export function CatalogClient() {
         availableOptions={availableOptions}
       />
 
-      {/* DetailOverlay placeholder — Plan 03 will add AnimatePresence here */}
-      {/* activeLaptop is computed and ready for Plan 03 */}
+      {/* Detail overlay — slides up with Framer Motion */}
+      <AnimatePresence>
+        {activeLaptop && (
+          <motion.div
+            key={activeLaptop.id}
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "100%" }}
+            transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
+            className="fixed inset-0 z-50 bg-background overflow-y-auto"
+          >
+            <DetailOverlay laptop={activeLaptop} onClose={handleCloseOverlay} />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </main>
   );
 }
