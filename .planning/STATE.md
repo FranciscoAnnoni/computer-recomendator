@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-02-PLAN.md
-last_updated: "2026-03-24T19:07:13.952Z"
+stopped_at: "Checkpoint 03-03: awaiting human-verify of catalog + detail overlay"
+last_updated: "2026-03-24T19:10:31.871Z"
 progress:
   total_phases: 5
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 11
-  completed_plans: 10
+  completed_plans: 11
 ---
 
 # State: Computer Recomendator
@@ -61,6 +61,7 @@ progress:
 - [Phase 03-02]: CatalogFilters and EMPTY_FILTERS exported from catalog-client.tsx for reuse in FilterDrawer and ActiveFilterBar without a separate types file
 - [Phase 03-02]: availableOptions derived via useMemo from full laptop dataset so filter options only show values that exist in data
 - [Phase 03-02]: handleCloseOverlay and activeLaptop computed in CatalogClient now, voided to suppress TS warnings until Plan 03 wires the DetailOverlay
+- [Phase 03-03]: buttonVariants CVA applied directly on anchor tag for Comprar Ahora — base-ui Button does not support asChild
 
 ## Performance Metrics
 
@@ -76,8 +77,9 @@ progress:
 | Phase 02-core-discovery-quiz P05 | 3min | 1 tasks | 3 files |
 | Phase 03-product-catalog-detail-view P01 | 2min | 3 tasks | 6 files |
 | Phase 03-product-catalog-detail-view P02 | 2min | 3 tasks | 4 files |
+| Phase 03-product-catalog-detail-view P03 | 2min | 2 tasks | 3 files |
 
 ## Session
 
-- **Last session:** 2026-03-24T19:07:13.949Z
-- **Stopped at:** Completed 03-02-PLAN.md
+- **Last session:** 2026-03-24T19:10:31.869Z
+- **Stopped at:** Checkpoint 03-03: awaiting human-verify of catalog + detail overlay
