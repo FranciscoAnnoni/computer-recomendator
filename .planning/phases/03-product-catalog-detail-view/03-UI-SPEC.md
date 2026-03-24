@@ -56,9 +56,8 @@ All sizes from globals.css @theme inline block. Source: existing tokens.
 | Body | 17px (1.0625rem) | 400 (regular) | 1.5 | Laptop description, influencer note text, filter labels |
 | Label / Small | 12px (0.75rem) | 400 (regular) | 1.4 | Tag pills, tech spec labels (CPU, RAM, storage, GPU, battery, OS, screen size, weight), price on cards, search placeholder, filter chip text |
 | Subheading | 28px (1.75rem) | 500 (medium) | 1.3 | Catalog page heading ("Laptops"), section titles ("Tu perfil", "Todos los laptops") |
-| Heading | 56px (3.5rem) | 900 (black) | 1.1 | Hero/display — not used in this phase; subheading covers section titles |
 
-Active roles for this phase: Body (17px/400), Label (12px/400), Subheading (28px/500).
+Active roles for this phase: Body (17px/400), Label (12px/400), Subheading (28px/500). Two weights only: 400 and 500.
 
 Laptop name in card: 17px body at weight 500 (semibold-light), line-height 1.4.
 Price in card: 12px label at weight 400.
@@ -117,6 +116,8 @@ Reused existing components:
 
 ### Catalog Page (`/catalog`)
 
+Primary focal point: the stacked CatalogCard product images drive the eye down the list; the search bar is the secondary anchor at the top of the content area.
+
 ```
 [ Navbar (frosted glass, existing) ]
 [ Container (existing) ]
@@ -164,7 +165,7 @@ Reused existing components:
 ```
 [ Overlay: fixed inset-0, bg-background, z-50, Framer Motion slide-up enter (y: 100%→0) ]
   ├── [ Header bar — sticky top-0, bg-background/80 backdrop-blur ]
-  │     ├── [ Back/Close button — top-left, 44px tap target, Lucide X icon ]
+  │     ├── [ Close button — top-left, 44px tap target, Lucide X icon only (intentional: icon-only, aria-label="Cerrar" is the sole text affordance) ]
   │     └── [ "Comprar Ahora" — top-right, primary, 44px height — links affiliate_link, target="_blank" ]
   │
   └── [ Scrollable content ]
@@ -280,6 +281,7 @@ Reused existing components:
 - Star badge: aria-label="Recomendado por experto" on the badge element.
 - "Comprar Ahora": rel="noopener noreferrer" + aria-label="Comprar {laptop name} (abre en nueva pestaña)".
 - Search input: associated `<label>` visually hidden ("Buscar laptops").
+- DetailOverlay close button: icon-only (Lucide X), no visible label. Must carry aria-label="Cerrar" as the sole text affordance. 44px × 44px tap target satisfies WCAG 2.5.5.
 
 ---
 
