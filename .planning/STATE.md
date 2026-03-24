@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-01-PLAN.md
-last_updated: "2026-03-24T19:02:22.913Z"
+stopped_at: Completed 03-02-PLAN.md
+last_updated: "2026-03-24T19:07:13.952Z"
 progress:
   total_phases: 5
   completed_phases: 2
   total_plans: 11
-  completed_plans: 9
+  completed_plans: 10
 ---
 
 # State: Computer Recomendator
@@ -58,6 +58,9 @@ progress:
 - [Phase 02-05]: ProfileAvatar renders initials fallback when imageUrl is null
 - [Phase 03]: influencer_note and recommendation_score changed to nullable (string|null, number|null) to match real DB state
 - [Phase 03]: CatalogCard uses MemoryStick lucide icon for RAM spec, Battery icon for battery spec
+- [Phase 03-02]: CatalogFilters and EMPTY_FILTERS exported from catalog-client.tsx for reuse in FilterDrawer and ActiveFilterBar without a separate types file
+- [Phase 03-02]: availableOptions derived via useMemo from full laptop dataset so filter options only show values that exist in data
+- [Phase 03-02]: handleCloseOverlay and activeLaptop computed in CatalogClient now, voided to suppress TS warnings until Plan 03 wires the DetailOverlay
 
 ## Performance Metrics
 
@@ -72,8 +75,9 @@ progress:
 | Phase 02-core-discovery-quiz P04 | 2min | 2 tasks | 4 files |
 | Phase 02-core-discovery-quiz P05 | 3min | 1 tasks | 3 files |
 | Phase 03-product-catalog-detail-view P01 | 2min | 3 tasks | 6 files |
+| Phase 03-product-catalog-detail-view P02 | 2min | 3 tasks | 4 files |
 
 ## Session
 
-- **Last session:** 2026-03-24T19:02:22.911Z
-- **Stopped at:** Completed 03-01-PLAN.md
+- **Last session:** 2026-03-24T19:07:13.949Z
+- **Stopped at:** Completed 03-02-PLAN.md
