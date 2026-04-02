@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ResultSkeleton } from "@/components/quiz/result-skeleton";
@@ -16,6 +17,7 @@ interface QuizResultProps {
 }
 
 export function QuizResult({ selections, onRetry }: QuizResultProps) {
+  const router = useRouter();
   const [profile, setProfile] = useState<ProfileResult | null>(null);
   const [laptops, setLaptops] = useState<Laptop[]>([]);
   const [loading, setLoading] = useState(true);
@@ -49,8 +51,9 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
           // ignore storage errors
         }
 
-        setProfile(profileResult);
-        setLaptops(laptopResults);
+        // Redirect to dedicated profile page
+        router.push("/profile");
+        return;
       } catch (err) {
         console.error(
           "[QuizResult] fetchProfile error for combination:",

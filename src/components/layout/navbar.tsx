@@ -15,6 +15,7 @@ import { Container } from "@/components/layout/container";
 import { ProfileAvatar } from "@/components/quiz/profile-avatar";
 import { ProfileSheet } from "@/components/quiz/profile-sheet";
 import { PROFILE_STORAGE_KEY, QUIZ_STORAGE_KEY } from "@/types/quiz";
+import { getProfileColor } from "@/lib/profile-color";
 
 const navLinks = [
   { href: "/catalog", label: "Catalog" },
@@ -28,6 +29,10 @@ export function Navbar() {
     profile_name: string;
     profile_description: string;
     profile_image_url: string | null;
+    workload: string;
+    lifestyle: string;
+    budget: string;
+    os_preference: string;
   } | null>(null);
   const [profileSheetOpen, setProfileSheetOpen] = useState(false);
   const router = useRouter();
@@ -78,7 +83,7 @@ export function Navbar() {
                   }
                 >
                   <ProfileAvatar
-                    imageUrl={completedProfile.profile_image_url}
+                    color={getProfileColor(completedProfile.workload, completedProfile.lifestyle, completedProfile.budget, completedProfile.os_preference)}
                     profileName={completedProfile.profile_name}
                   />
                 </SheetTrigger>
@@ -110,11 +115,11 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            {!completedProfile && (
-              <Button>
-                <Link href="/quiz">Find My Laptop &rarr;</Link>
-              </Button>
-            )}
+            <Button variant={completedProfile ? "outline" : "default"}>
+              <Link href={completedProfile ? "/profile" : "/quiz"}>
+                Find My Laptop &rarr;
+              </Link>
+            </Button>
             <ThemeToggle />
           </div>
 
@@ -144,15 +149,13 @@ export function Navbar() {
                       {link.label}
                     </Link>
                   ))}
-                  {!completedProfile && (
-                    <div className="mt-4">
-                      <Button className="w-full">
-                        <Link href="/quiz" onClick={() => setMobileOpen(false)}>
-                          Find My Laptop &rarr;
-                        </Link>
-                      </Button>
-                    </div>
-                  )}
+                  <div className="mt-4">
+                    <Button variant={completedProfile ? "outline" : "default"} className="w-full">
+                      <Link href={completedProfile ? "/profile" : "/quiz"} onClick={() => setMobileOpen(false)}>
+                        Find My Laptop &rarr;
+                      </Link>
+                    </Button>
+                  </div>
                 </nav>
               </SheetContent>
             </Sheet>
