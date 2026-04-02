@@ -17,8 +17,8 @@ import { ProfileSheet } from "@/components/quiz/profile-sheet";
 import { PROFILE_STORAGE_KEY, QUIZ_STORAGE_KEY } from "@/types/quiz";
 
 const navLinks = [
-  { href: "/catalog", label: "Catalog" },
-  { href: "/compare", label: "Compare" },
+  { href: "/catalog", label: "Catalogo" },
+  { href: "/compare", label: "Comparar" },
 ];
 
 export function Navbar() {
