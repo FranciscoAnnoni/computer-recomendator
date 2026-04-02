@@ -52,8 +52,25 @@ Plans:
 - [ ] Build the Comparison View with visual side-by-side spec charts/icons.
 - [ ] Optimize the comparison layout for mobile devices.
 
+**Goal:** Self-contained /compare page with slot-based laptop selection (2 on mobile, up to 3 on desktop), picker Sheet with search, bracket-style spec rows, and framer-motion transitions.
+
+**Requirements:** [RF3.1, RF3.2]
+**Plans:** 2 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Create CompareCard, EmptySlot, CompareSpecRow components and ComparatorClient orchestrator with /compare route
+- [ ] 04-02-PLAN.md — Wire LaptopPicker Sheet with search and duplicate prevention, update Navbar label, final verification
+
 ## Phase 5: Polish & Deployment
 - [ ] Add final animations and micro-interactions.
 - [ ] Conduct mobile-first responsive testing across devices.
 - [ ] Performance optimization (Image lazy loading, asset optimization).
 - [ ] Final deployment to Vercel/Netlify.
+
+## Phase 6: Iterative Improvements
+- [ ] User-driven feedback loop: go through each requested change one by one.
+- [ ] UI/UX refinements identified after seeing the app in action.
+- [ ] Data and content improvements (laptop data, copy, translations).
+- [ ] Bug fixes and edge cases surfaced during real usage.
+
+**Goal:** Systematic iteration on the live product based on user feedback. Each improvement is discussed, scoped, and executed one at a time — no big-bang rewrites.
