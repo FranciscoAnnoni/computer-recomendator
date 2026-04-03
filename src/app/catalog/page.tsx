@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { CatalogClient } from "@/components/catalog/catalog-client";
 import { CatalogSkeleton } from "@/components/catalog/catalog-skeleton";
+import { Container } from "@/components/layout/container";
 
 export const metadata: Metadata = {
   title: "Catalogo | Computer Recomendator",
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function CatalogPage() {
   return (
-    <Suspense fallback={<div className="px-4 sm:px-8 py-16"><CatalogSkeleton count={6} /></div>}>
+    <Suspense fallback={<Container className="py-16"><CatalogSkeleton count={6} /></Container>}>
       <CatalogClient />
     </Suspense>
   );
