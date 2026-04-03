@@ -1,5 +1,16 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { ComparatorClient } from "@/components/compare/comparator-client";
+
+export const metadata: Metadata = {
+  title: "Comparar | Computer Recomendator",
+  description: "Compara laptops lado a lado para encontrar tu mejor opcion.",
+  openGraph: {
+    title: "Comparar | Computer Recomendator",
+    description: "Compara laptops lado a lado para encontrar tu mejor opcion.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
+};
 
 export default function ComparePage() {
   return (

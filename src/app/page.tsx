@@ -1,5 +1,16 @@
+import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { HeroSection } from "@/components/home/hero-section";
+
+export const metadata: Metadata = {
+  title: "Computer Recomendator",
+  description: "Encuentra la laptop perfecta para tus necesidades con recomendaciones de expertos.",
+  openGraph: {
+    title: "Computer Recomendator",
+    description: "Encuentra la laptop perfecta para tus necesidades con recomendaciones de expertos.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
+};
 
 export default function Home() {
   return (
