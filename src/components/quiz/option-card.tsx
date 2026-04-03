@@ -1,5 +1,13 @@
+import Image from "next/image";
 import type { QuizOption } from "@/types/quiz";
 import { ILLUSTRATIONS } from "@/components/quiz/illustrations/index";
+
+// Illustration IDs that use static image assets instead of SVG components
+const IMAGE_ASSETS: Record<string, string> = {
+  productivity: "/illustrations/trabajar.png",
+  creation:     "/illustrations/crear.png",
+  gaming:       "/illustrations/gaming.png",
+};
 
 interface OptionCardProps {
   option: QuizOption;
@@ -11,6 +19,7 @@ interface OptionCardProps {
 
 export function OptionCard({ option, isCenter, isSelected, compact = false, onClick }: OptionCardProps) {
   const IllustrationComponent = ILLUSTRATIONS[option.illustrationId];
+  const imageAsset = IMAGE_ASSETS[option.illustrationId];
   const active = isCenter || isSelected;
 
   return (
@@ -32,26 +41,34 @@ export function OptionCard({ option, isCenter, isSelected, compact = false, onCl
     >
       {/* Illustration area — top 70% */}
       <div
-        className="flex-1 w-full flex items-center justify-center p-4"
-        style={{ background: "#111111" }}
+        className="flex-1 w-full relative overflow-hidden"
+        style={{ background: "#0d0d0d" }}
       >
-        <div
-          className="w-full h-full flex items-center justify-center rounded-xl"
-          style={{
-            border: "1px solid rgba(255,255,255,0.08)",
-            background: "#0d0d0d",
-          }}
-        >
-          {IllustrationComponent ? (
-            <IllustrationComponent
-              width={compact ? 100 : 150}
-              height={compact ? 100 : 150}
-              className={active ? "text-[#ffffff]" : "text-white/70"}
-            />
-          ) : (
-            <div className={`rounded-full bg-white/10 ${compact ? "w-20 h-20" : "w-32 h-32"}`} />
-          )}
-        </div>
+        {imageAsset ? (
+          <Image
+            src={imageAsset}
+            alt={option.label}
+            fill
+            sizes="(max-width: 640px) 200px, 260px"
+            className="object-cover transition-opacity duration-200"
+            style={{ opacity: active ? 1 : 0.55 }}
+          />
+        ) : IllustrationComponent ? (
+          <div className="w-full h-full flex items-center justify-center p-4">
+            <div
+              className="w-full h-full flex items-center justify-center rounded-xl"
+              style={{ border: "1px solid rgba(255,255,255,0.08)", background: "#0d0d0d" }}
+            >
+              <IllustrationComponent
+                width={compact ? 100 : 150}
+                height={compact ? 100 : 150}
+                className={active ? "text-[#ffffff]" : "text-white/70"}
+              />
+            </div>
+          </div>
+        ) : (
+          <div className={`rounded-full bg-white/10 ${compact ? "w-20 h-20" : "w-32 h-32"}`} />
+        )}
       </div>
 
       {/* Label area — bottom */}
