@@ -5,10 +5,11 @@ interface OptionCardProps {
   option: QuizOption;
   isCenter: boolean;
   isSelected: boolean;
+  compact?: boolean;
   onClick: () => void;
 }
 
-export function OptionCard({ option, isCenter, isSelected, onClick }: OptionCardProps) {
+export function OptionCard({ option, isCenter, isSelected, compact = false, onClick }: OptionCardProps) {
   const IllustrationComponent = ILLUSTRATIONS[option.illustrationId];
   const active = isCenter || isSelected;
 
@@ -18,18 +19,20 @@ export function OptionCard({ option, isCenter, isSelected, onClick }: OptionCard
       role="option"
       aria-pressed={isSelected}
       onClick={onClick}
-      className="w-[260px] h-[380px] shrink-0 rounded-2xl flex flex-col overflow-hidden cursor-pointer focus-visible:outline-none transition-all duration-200"
+      className={`shrink-0 rounded-2xl flex flex-col overflow-hidden cursor-pointer focus-visible:outline-none transition-all duration-200 ${
+        compact ? "w-[200px] h-[270px]" : "w-[260px] h-[380px]"
+      }`}
       style={{
         background: "#0d0d0d",
-        border: active ? "2px solid #00e5ff" : "1px solid rgba(255,255,255,0.1)",
+        border: active ? "2px solid #ffffff" : "1px solid rgba(255,255,255,0.1)",
         boxShadow: active
-          ? "0 0 32px rgba(0,229,255,0.25), inset 0 0 24px rgba(0,229,255,0.06)"
+          ? "0 0 28px rgba(255,255,255,0.18), inset 0 0 20px rgba(255,255,255,0.05)"
           : "none",
       }}
     >
       {/* Illustration area — top 70% */}
       <div
-        className="flex-1 w-full flex items-center justify-center p-5"
+        className="flex-1 w-full flex items-center justify-center p-4"
         style={{ background: "#111111" }}
       >
         <div
@@ -41,21 +44,21 @@ export function OptionCard({ option, isCenter, isSelected, onClick }: OptionCard
         >
           {IllustrationComponent ? (
             <IllustrationComponent
-              width={150}
-              height={150}
-              className={active ? "text-[#00e5ff]" : "text-white/70"}
+              width={compact ? 100 : 150}
+              height={compact ? 100 : 150}
+              className={active ? "text-[#ffffff]" : "text-white/70"}
             />
           ) : (
-            <div className="w-32 h-32 rounded-full bg-white/10" />
+            <div className={`rounded-full bg-white/10 ${compact ? "w-20 h-20" : "w-32 h-32"}`} />
           )}
         </div>
       </div>
 
       {/* Label area — bottom */}
-      <div className="w-full py-4 px-4 flex flex-col items-center gap-1 shrink-0">
+      <div className={`w-full flex flex-col items-center gap-1 shrink-0 ${compact ? "py-3 px-3" : "py-4 px-4"}`}>
         <span
-          className="font-bold text-lg uppercase tracking-widest"
-          style={{ color: active ? "#00e5ff" : "rgba(255,255,255,0.9)" }}
+          className={`font-bold uppercase tracking-widest ${compact ? "text-sm" : "text-lg"}`}
+          style={{ color: active ? "#ffffff" : "rgba(255,255,255,0.9)" }}
         >
           {option.label}
         </span>
