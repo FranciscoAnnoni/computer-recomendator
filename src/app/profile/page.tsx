@@ -61,7 +61,7 @@ export default function ProfilePage() {
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, ease: "easeOut" }}
+          transition={{ duration: 0.25, ease: "easeOut" }}
           className="flex flex-col items-center text-center mb-12"
         >
           {/* Avatar */}
@@ -96,7 +96,7 @@ export default function ProfilePage() {
                   key={laptop.id}
                   initial={{ opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.1 + i * 0.07, duration: 0.35, ease: "easeOut" }}
+                  transition={{ delay: 0.1 + i * 0.07, duration: 0.25, ease: "easeOut" }}
                 >
                   <ProfileLaptopCard laptop={laptop} />
                 </motion.div>

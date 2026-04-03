@@ -1,11 +1,12 @@
 "use client";
 
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { DetailOverlay } from "@/components/catalog/detail-overlay";
 import { Search, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Container } from "@/components/layout/container";
 import { CatalogCard } from "@/components/catalog/catalog-card";
 import { CatalogSkeleton } from "@/components/catalog/catalog-skeleton";
 import { FilterDrawer } from "@/components/catalog/filter-drawer";
@@ -91,7 +92,6 @@ function ErrorState({ message, onRetry }: { message: string; onRetry: () => void
 // ---------- Main component ----------
 
 export function CatalogClient() {
-  const searchParams = useSearchParams();
   const router = useRouter();
 
   const [laptops, setLaptops] = useState<Laptop[]>([]);
@@ -319,25 +319,21 @@ export function CatalogClient() {
     router.push("/quiz");
   }, [router]);
 
-  // ---------- Overlay navigation ----------
+  // ---------- Overlay navigation (local state — avoids Safari back-swipe double animation) ----------
 
-  const activeLaptopId = searchParams.get("laptop");
-
-  const activeLaptop = useMemo(
-    () => laptops.find((l) => l.id === activeLaptopId) ?? null,
-    [laptops, activeLaptopId]
-  );
+  const [activeLaptop, setActiveLaptop] = useState<Laptop | null>(null);
 
   const handleVerMas = useCallback(
     (id: string) => {
-      router.push(`/catalog?laptop=${id}`, { scroll: false });
+      const found = laptops.find((l) => l.id === id) ?? null;
+      setActiveLaptop(found);
     },
-    [router]
+    [laptops]
   );
 
   const handleCloseOverlay = useCallback(() => {
-    router.push("/catalog", { scroll: false });
-  }, [router]);
+    setActiveLaptop(null);
+  }, []);
 
   // Body scroll lock when overlay is open
   useEffect(() => {
@@ -354,7 +350,8 @@ export function CatalogClient() {
   // ---------- Render ----------
 
   return (
-    <main className="px-4 sm:px-8 py-16">
+    <main>
+    <Container className="py-16">
       {/* Section 1: Quiz Profile (conditional) */}
       {completedProfile && (
         <section className="mb-12">
@@ -478,13 +475,14 @@ export function CatalogClient() {
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             exit={{ y: "100%" }}
-            transition={{ duration: 0.3, ease: [0.32, 0.72, 0, 1] }}
-            className="fixed inset-0 z-50 bg-background overflow-y-auto"
+            transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] }}
+            className="fixed inset-0 z-50 bg-background/90 backdrop-blur-2xl"
           >
             <DetailOverlay laptop={activeLaptop} onClose={handleCloseOverlay} />
           </motion.div>
         )}
       </AnimatePresence>
+    </Container>
     </main>
   );
 }
