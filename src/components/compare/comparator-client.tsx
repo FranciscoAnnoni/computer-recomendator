@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { fetchAllLaptops } from "@/lib/catalog-data";
 import type { Laptop } from "@/types/laptop";
-import { cn } from "@/lib/utils";
 import { CompareCard } from "./compare-card";
 import { EmptySlot } from "./empty-slot";
 import { LaptopPicker } from "./laptop-picker";
@@ -13,17 +12,7 @@ export function ComparatorClient() {
   const [allLaptops, setAllLaptops] = useState<Laptop[]>([]);
   const [loading, setLoading] = useState(true);
   const [slots, setSlots] = useState<(Laptop | null)[]>([null, null]);
-  const [isDesktop, setIsDesktop] = useState(false);
   const [pickerSlotIndex, setPickerSlotIndex] = useState<number | null>(null);
-
-  // Detect desktop (sm breakpoint: 640px)
-  useEffect(() => {
-    const mq = window.matchMedia("(min-width: 640px)");
-    setIsDesktop(mq.matches);
-    const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
-    mq.addEventListener("change", handler);
-    return () => mq.removeEventListener("change", handler);
-  }, []);
 
   // Load laptops — both slots start empty, user chooses both manually
   useEffect(() => {
@@ -35,11 +24,6 @@ export function ComparatorClient() {
     load();
   }, []);
 
-  // Derived slot display — show 3rd slot on desktop when both slots are filled
-  const showThirdSlot = isDesktop && slots[0] !== null && slots[1] !== null;
-  const displaySlots: (Laptop | null)[] =
-    showThirdSlot && slots.length === 2 ? [...slots, null] : slots;
-
   // Compute disabled IDs to prevent duplicate selection
   const disabledIds = useMemo(
     () => slots.filter(Boolean).map((l) => l!.id),
@@ -50,10 +34,6 @@ export function ComparatorClient() {
     setSlots((prev) => {
       const next = [...prev];
       next[index] = null;
-      // Trim back to 2 slots if 3rd slot exists and first two aren't both filled
-      if (next.length === 3 && (next[0] === null || next[1] === null)) {
-        return [next[0], next[1]];
-      }
       return next;
     });
   }
@@ -79,7 +59,6 @@ export function ComparatorClient() {
         <div className="mb-8">
           <div className="h-9 w-44 bg-muted rounded-lg animate-pulse mb-3" />
           <div className="flex items-center gap-2">
-            <div className="h-7 w-10 bg-muted rounded-full animate-pulse" />
             <div className="h-7 w-10 bg-muted rounded-full animate-pulse" />
           </div>
         </div>
@@ -115,32 +94,22 @@ export function ComparatorClient() {
 
   return (
     <section className="px-4 sm:px-8 py-8 sm:py-16 max-w-5xl mx-auto">
-      {/* Header: Comparador title + slot count indicator */}
+      {/* Header: Comparador title + fixed [2] slot count indicator */}
       <div className="mb-8">
         <h1 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-3">
           Comparador
         </h1>
         <div className="flex items-center gap-2">
-          {[2, 3].map((n) => (
-            <span
-              key={n}
-              className={cn(
-                "px-3 py-1 font-mono text-[14px] border border-border rounded-full transition-colors",
-                displaySlots.length === n
-                  ? "bg-foreground text-background"
-                  : "text-muted-foreground"
-              )}
-            >
-              [{n}]
-            </span>
-          ))}
+          <span className="px-3 py-1 font-mono text-[14px] border border-border rounded-full bg-foreground text-background">
+            [2]
+          </span>
         </div>
       </div>
 
-      {/* Slot columns */}
+      {/* Slot columns — always exactly 2 */}
       <div className="flex gap-3 sm:gap-4 items-start">
         <AnimatePresence mode="popLayout">
-          {displaySlots.map((laptop, i) => (
+          {slots.map((laptop, i) => (
             <motion.div
               key={laptop?.id ?? `empty-${i}`}
               className="flex-1 min-w-0"
