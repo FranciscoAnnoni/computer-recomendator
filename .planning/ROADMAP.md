@@ -70,11 +70,11 @@ Plans:
 **Goal:** Polish the existing app with targeted animations (home hero fade-up, DetailOverlay duration fix), next/image migration for mobile performance, SEO metadata on all pages, and responsive validation across 5 breakpoints. Deployment deferred.
 
 **Requirements:** [D-01, D-02, D-03, D-04, D-05, D-06, D-07, D-08, D-09, D-10, D-11, D-12, D-13, D-14, D-15, D-16, D-17]
-**Plans:** 4 plans
+**Plans:** 2/4 plans executed
 
 Plans:
-- [ ] 05-01-PLAN.md — Migrate CatalogCard and CompareCard to next/image with remotePatterns config
-- [ ] 05-02-PLAN.md — Add home hero staggered fade-up animation and fix DetailOverlay duration to 0.25s
+- [x] 05-01-PLAN.md — Migrate CatalogCard and CompareCard to next/image with remotePatterns config
+- [x] 05-02-PLAN.md — Add home hero staggered fade-up animation and fix DetailOverlay duration to 0.25s
 - [ ] 05-03-PLAN.md — Add SEO metadata (title, description, OG tags) to all 5 public pages
 - [ ] 05-04-PLAN.md — Responsive validation checkpoint across 5 breakpoints with inline fixes
 

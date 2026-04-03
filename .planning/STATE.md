@@ -3,20 +3,20 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 5 context gathered
-last_updated: "2026-04-03T14:47:20.856Z"
+stopped_at: Completed 05-01-PLAN.md
+last_updated: "2026-04-03T15:18:06.562Z"
 progress:
   total_phases: 6
   completed_phases: 4
-  total_plans: 13
-  completed_plans: 13
+  total_plans: 17
+  completed_plans: 15
 ---
 
 # State: Computer Recomendator
 
 ## Project Overview
 
-- **Status:** Executing Phase 04
+- **Status:** Executing Phase 05
 - **Current Milestone:** Phase 1 (Foundation & Setup).
 - **Recent Progress:** Plan 01-01 complete — Next.js 16.2 scaffold with Tailwind v4, shadcn/ui, Apple design tokens, dark mode.
 
@@ -65,6 +65,9 @@ progress:
 - [Phase 04-01]: pickerSlotIndex and handleSelectLaptop stubbed in ComparatorClient for Plan 02 wiring
 - [Phase 04-02]: Both slots start null — no random pre-fill; user explicitly selects both laptops (post-checkpoint fix)
 - [Phase 04-02]: Loading skeleton matches CompareCard structure exactly for visual continuity during data fetch
+- [Phase 05-01]: Removed imgError useState from CatalogCard — next/image does not support onError; conditional on image_url is sufficient
+- [Phase 05-01]: CompareCard image parent div gains relative class for fill layout to work correctly
+- [Phase 05-01]: sizes prop tuned per component: CatalogCard pixel widths matching CSS breakpoints, CompareCard vw-based responsive sizes
 
 ## Performance Metrics
 
@@ -83,8 +86,9 @@ progress:
 | Phase 03-product-catalog-detail-view P03 | 2min | 2 tasks | 3 files |
 | Phase 04-comparison-tool P01 | 8min | 2 tasks | 5 files |
 | Phase 04-comparison-tool P02 | 20min | 3 tasks | 3 files |
+| Phase 05-polish-deployment P01 | 2min | 3 tasks | 3 files |
 
 ## Session
 
-- **Last session:** 2026-04-03T14:47:20.852Z
-- **Stopped at:** Phase 5 context gathered
+- **Last session:** 2026-04-03T15:18:06.560Z
+- **Stopped at:** Completed 05-01-PLAN.md
