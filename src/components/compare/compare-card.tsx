@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { X } from "lucide-react";
 import type { Laptop } from "@/types/laptop";
 import { CompareSpecRow } from "./compare-spec-row";
@@ -15,15 +16,16 @@ export function CompareCard({ laptop, onRemove }: { laptop: Laptop; onRemove: ()
       </button>
 
       {/* Image */}
-      <div className="aspect-square w-full bg-muted overflow-hidden">
-        <img
-          src={laptop.image_url}
-          alt={laptop.name}
-          className="w-full h-full object-cover"
-          onError={(e) => {
-            e.currentTarget.style.display = "none";
-          }}
-        />
+      <div className="relative aspect-square w-full bg-muted overflow-hidden">
+        {laptop.image_url && (
+          <Image
+            src={laptop.image_url}
+            alt={laptop.name}
+            fill
+            sizes="(max-width: 768px) 50vw, 300px"
+            className="object-cover"
+          />
+        )}
       </div>
 
       {/* Model name header */}
