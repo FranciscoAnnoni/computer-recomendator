@@ -55,11 +55,11 @@ Plans:
 **Goal:** Self-contained /compare page with slot-based laptop selection (2 on mobile, up to 3 on desktop), picker Sheet with search, bracket-style spec rows, and framer-motion transitions.
 
 **Requirements:** [RF3.1, RF3.2]
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 
 Plans:
 - [x] 04-01-PLAN.md — Create CompareCard, EmptySlot, CompareSpecRow components and ComparatorClient orchestrator with /compare route
-- [ ] 04-02-PLAN.md — Wire LaptopPicker Sheet with search and duplicate prevention, update Navbar label, final verification
+- [x] 04-02-PLAN.md — Wire LaptopPicker Sheet with search and duplicate prevention, update Navbar label, final verification
 
 ## Phase 5: Polish & Deployment
 - [ ] Add final animations and micro-interactions.

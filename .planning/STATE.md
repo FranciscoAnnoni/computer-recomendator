@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-01-PLAN.md
-last_updated: "2026-04-02T23:46:03.524Z"
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-04-03T09:00:55.454Z"
 progress:
   total_phases: 6
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 13
-  completed_plans: 12
+  completed_plans: 13
 ---
 
 # State: Computer Recomendator
@@ -63,6 +63,8 @@ progress:
 - [Phase 03-02]: handleCloseOverlay and activeLaptop computed in CatalogClient now, voided to suppress TS warnings until Plan 03 wires the DetailOverlay
 - [Phase 03-03]: buttonVariants CVA applied directly on anchor tag for Comprar Ahora — base-ui Button does not support asChild
 - [Phase 04-01]: pickerSlotIndex and handleSelectLaptop stubbed in ComparatorClient for Plan 02 wiring
+- [Phase 04-02]: Both slots start null — no random pre-fill; user explicitly selects both laptops (post-checkpoint fix)
+- [Phase 04-02]: Loading skeleton matches CompareCard structure exactly for visual continuity during data fetch
 
 ## Performance Metrics
 
@@ -80,8 +82,9 @@ progress:
 | Phase 03-product-catalog-detail-view P02 | 2min | 3 tasks | 4 files |
 | Phase 03-product-catalog-detail-view P03 | 2min | 2 tasks | 3 files |
 | Phase 04-comparison-tool P01 | 8min | 2 tasks | 5 files |
+| Phase 04-comparison-tool P02 | 20min | 3 tasks | 3 files |
 
 ## Session
 
-- **Last session:** 2026-04-02T23:46:03.521Z
-- **Stopped at:** Completed 04-01-PLAN.md
+- **Last session:** 2026-04-03T09:00:55.452Z
+- **Stopped at:** Completed 04-02-PLAN.md
