@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { fetchAllLaptops } from "@/lib/catalog-data";
 import type { Laptop } from "@/types/laptop";
 import { cn } from "@/lib/utils";
 import { CompareCard } from "./compare-card";
 import { EmptySlot } from "./empty-slot";
+import { LaptopPicker } from "./laptop-picker";
 
 export function ComparatorClient() {
   const [allLaptops, setAllLaptops] = useState<Laptop[]>([]);
@@ -24,15 +25,11 @@ export function ComparatorClient() {
     return () => mq.removeEventListener("change", handler);
   }, []);
 
-  // Load laptops and pre-fill slot 1 with a random laptop
+  // Load laptops — both slots start empty, user chooses both manually
   useEffect(() => {
     async function load() {
       const laptops = await fetchAllLaptops();
       setAllLaptops(laptops);
-      if (laptops.length > 0) {
-        const random = laptops[Math.floor(Math.random() * laptops.length)];
-        setSlots([random, null]);
-      }
       setLoading(false);
     }
     load();
@@ -42,6 +39,12 @@ export function ComparatorClient() {
   const showThirdSlot = isDesktop && slots[0] !== null && slots[1] !== null;
   const displaySlots: (Laptop | null)[] =
     showThirdSlot && slots.length === 2 ? [...slots, null] : slots;
+
+  // Compute disabled IDs to prevent duplicate selection
+  const disabledIds = useMemo(
+    () => slots.filter(Boolean).map((l) => l!.id),
+    [slots]
+  );
 
   function removeSlot(index: number) {
     setSlots((prev) => {
@@ -66,18 +69,47 @@ export function ComparatorClient() {
   }
 
   function openPicker(index: number) {
-    // Picker modal will be wired in Plan 02. For now, this sets the index.
     setPickerSlotIndex(index);
   }
 
-  // Suppress unused variable warning — handleSelectLaptop is used by Plan 02
-  void handleSelectLaptop;
-
   if (loading) {
     return (
-      <div className="px-4 sm:px-8 py-16 text-muted-foreground text-center">
-        Cargando comparador...
-      </div>
+      <section className="px-4 sm:px-8 py-8 sm:py-16 max-w-5xl mx-auto">
+        {/* Header skeleton */}
+        <div className="mb-8">
+          <div className="h-9 w-44 bg-muted rounded-lg animate-pulse mb-3" />
+          <div className="flex items-center gap-2">
+            <div className="h-7 w-10 bg-muted rounded-full animate-pulse" />
+            <div className="h-7 w-10 bg-muted rounded-full animate-pulse" />
+          </div>
+        </div>
+        {/* Two card skeletons side by side */}
+        <div className="flex gap-3 sm:gap-4 items-start">
+          {[0, 1].map((i) => (
+            <div
+              key={i}
+              className="flex-1 min-w-0 rounded-xl border border-border bg-card overflow-hidden animate-pulse"
+            >
+              {/* Image area */}
+              <div className="aspect-square w-full bg-muted" />
+              {/* Name row */}
+              <div className="px-3 py-2.5">
+                <div className="h-4 bg-muted rounded w-3/4" />
+              </div>
+              {/* 5 spec rows */}
+              {[0, 1, 2, 3, 4].map((j) => (
+                <div
+                  key={j}
+                  className="px-3 py-2 border-t border-border flex items-center gap-2"
+                >
+                  <div className="h-3 bg-muted rounded w-1/4" />
+                  <div className="h-3 bg-muted rounded w-1/2" />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </section>
     );
   }
 
@@ -126,6 +158,17 @@ export function ComparatorClient() {
           ))}
         </AnimatePresence>
       </div>
+
+      {/* Laptop picker sheet */}
+      <LaptopPicker
+        open={pickerSlotIndex !== null}
+        onOpenChange={(v) => {
+          if (!v) setPickerSlotIndex(null);
+        }}
+        laptops={allLaptops}
+        disabledIds={disabledIds}
+        onSelect={handleSelectLaptop}
+      />
     </section>
   );
 }
