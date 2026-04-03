@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 05-01-PLAN.md
-last_updated: "2026-04-03T15:18:06.562Z"
+stopped_at: Completed 05-03-PLAN.md
+last_updated: "2026-04-03T15:21:31.175Z"
 progress:
   total_phases: 6
   completed_phases: 4
   total_plans: 17
-  completed_plans: 15
+  completed_plans: 16
 ---
 
 # State: Computer Recomendator
@@ -68,6 +68,7 @@ progress:
 - [Phase 05-01]: Removed imgError useState from CatalogCard — next/image does not support onError; conditional on image_url is sufficient
 - [Phase 05-01]: CompareCard image parent div gains relative class for fill layout to work correctly
 - [Phase 05-01]: sizes prop tuned per component: CatalogCard pixel widths matching CSS breakpoints, CompareCard vw-based responsive sizes
+- [Phase 05-03]: Profile metadata served via route layout.tsx because page.tsx is use client — Next.js ignores metadata from Client Components
 
 ## Performance Metrics
 
@@ -87,8 +88,9 @@ progress:
 | Phase 04-comparison-tool P01 | 8min | 2 tasks | 5 files |
 | Phase 04-comparison-tool P02 | 20min | 3 tasks | 3 files |
 | Phase 05-polish-deployment P01 | 2min | 3 tasks | 3 files |
+| Phase 05-polish-deployment P03 | 5min | 2 tasks | 5 files |
 
 ## Session
 
-- **Last session:** 2026-04-03T15:18:06.560Z
-- **Stopped at:** Completed 05-01-PLAN.md
+- **Last session:** 2026-04-03T15:21:31.173Z
+- **Stopped at:** Completed 05-03-PLAN.md
