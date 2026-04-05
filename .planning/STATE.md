@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 06-01-PLAN.md — affiliate guide created
-last_updated: "2026-04-05T22:29:38.488Z"
+stopped_at: Completed 06-02-PLAN.md
+last_updated: "2026-04-05T22:32:26.127Z"
 progress:
   total_phases: 6
   completed_phases: 5
   total_plans: 20
-  completed_plans: 18
+  completed_plans: 19
 ---
 
 # State: Computer Recomendator
@@ -71,6 +71,8 @@ progress:
 - [Phase 05-03]: Profile metadata served via route layout.tsx because page.tsx is use client — Next.js ignores metadata from Client Components
 - [Phase 06-iterative-improvements]: Single affiliate_link field retained for MVP — no split ML/Amazon columns needed; most laptops are only on one platform
 - [Phase 06-iterative-improvements]: US Amazon Associates program recommended for Argentine market — amazon.com.ar does not exist; customers shop amazon.com with international shipping
+- [Phase 06]: Used MercadoLibre search URLs as affiliate link placeholders; MacBooks use Amazon search URLs
+- [Phase 06]: Image URLs use mlstatic.com placeholder paths — real image IDs require live scraping deferred to later plan
 
 ## Performance Metrics
 
@@ -92,8 +94,9 @@ progress:
 | Phase 05-polish-deployment P01 | 2min | 3 tasks | 3 files |
 | Phase 05-polish-deployment P03 | 5min | 2 tasks | 5 files |
 | Phase 06-iterative-improvements P01 | 1min | 1 tasks | 1 files |
+| Phase 06-iterative-improvements P02 | 8min | 2 tasks | 2 files |
 
 ## Session
 
-- **Last session:** 2026-04-05T22:29:38.486Z
-- **Stopped at:** Completed 06-01-PLAN.md — affiliate guide created
+- **Last session:** 2026-04-05T22:32:26.124Z
+- **Stopped at:** Completed 06-02-PLAN.md
