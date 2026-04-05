@@ -84,4 +84,11 @@ Plans:
 - [ ] Data and content improvements (laptop data, copy, translations).
 - [ ] Bug fixes and edge cases surfaced during real usage.
 
-**Goal:** Systematic iteration on the live product based on user feedback. Each improvement is discussed, scoped, and executed one at a time — no big-bang rewrites.
+**Goal:** Populate the database with real Argentine market laptop data, assign 5 laptops to each of the 81 quiz profiles, and create an affiliate program guide for MercadoLibre and Amazon Associates so every feature works end-to-end with real data.
+
+**Plans:** 3 plans
+
+Plans:
+- [ ] 06-01-PLAN.md — Create affiliate program registration and integration guide (MercadoLibre + Amazon)
+- [ ] 06-02-PLAN.md — Seed 22 real Argentine market laptops into Supabase with complete specs and image CDN config
+- [ ] 06-03-PLAN.md — Assign exactly 5 laptops to each of the 81 quiz profiles via SQL
