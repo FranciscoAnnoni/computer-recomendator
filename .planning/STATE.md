@@ -3,20 +3,20 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 6 context updated (discuss mode)
-last_updated: "2026-04-05T18:37:16.130Z"
+stopped_at: Completed 06-01-PLAN.md — affiliate guide created
+last_updated: "2026-04-05T22:29:38.488Z"
 progress:
   total_phases: 6
   completed_phases: 5
   total_plans: 20
-  completed_plans: 17
+  completed_plans: 18
 ---
 
 # State: Computer Recomendator
 
 ## Project Overview
 
-- **Status:** Executing Phase 05
+- **Status:** Executing Phase 06
 - **Current Milestone:** Phase 1 (Foundation & Setup).
 - **Recent Progress:** Plan 01-01 complete — Next.js 16.2 scaffold with Tailwind v4, shadcn/ui, Apple design tokens, dark mode.
 
@@ -69,6 +69,8 @@ progress:
 - [Phase 05-01]: CompareCard image parent div gains relative class for fill layout to work correctly
 - [Phase 05-01]: sizes prop tuned per component: CatalogCard pixel widths matching CSS breakpoints, CompareCard vw-based responsive sizes
 - [Phase 05-03]: Profile metadata served via route layout.tsx because page.tsx is use client — Next.js ignores metadata from Client Components
+- [Phase 06-iterative-improvements]: Single affiliate_link field retained for MVP — no split ML/Amazon columns needed; most laptops are only on one platform
+- [Phase 06-iterative-improvements]: US Amazon Associates program recommended for Argentine market — amazon.com.ar does not exist; customers shop amazon.com with international shipping
 
 ## Performance Metrics
 
@@ -89,8 +91,9 @@ progress:
 | Phase 04-comparison-tool P02 | 20min | 3 tasks | 3 files |
 | Phase 05-polish-deployment P01 | 2min | 3 tasks | 3 files |
 | Phase 05-polish-deployment P03 | 5min | 2 tasks | 5 files |
+| Phase 06-iterative-improvements P01 | 1min | 1 tasks | 1 files |
 
 ## Session
 
-- **Last session:** 2026-04-05T18:37:16.126Z
-- **Stopped at:** Phase 6 context updated (discuss mode)
+- **Last session:** 2026-04-05T22:29:38.486Z
+- **Stopped at:** Completed 06-01-PLAN.md — affiliate guide created
