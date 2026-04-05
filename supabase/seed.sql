@@ -573,3 +573,98 @@ INSERT INTO laptops (
 -- SELECT count(*) FROM laptops; -- should return 22
 -- SELECT p, count(*) FROM laptops, unnest(usage_profiles) AS p GROUP BY p;
 -- SELECT brand, count(*) FROM laptops GROUP BY brand ORDER BY count(*) DESC;
+
+-- ═══════════════════════════════════════════════════════════════
+-- PROFILE-TO-LAPTOP ASSIGNMENT
+-- Assigns exactly 5 laptops to each of the 81 profiles based on
+-- workload, budget tier, and OS preference matching.
+-- ═══════════════════════════════════════════════════════════════
+
+DO $$
+DECLARE
+  w workload_enum;
+  l lifestyle_enum;
+  b budget_enum;
+  o os_preference_enum;
+  price_min NUMERIC;
+  price_max NUMERIC;
+  selected_ids uuid[];
+BEGIN
+  FOR w IN SELECT unnest(enum_range(NULL::workload_enum)) LOOP
+    FOR l IN SELECT unnest(enum_range(NULL::lifestyle_enum)) LOOP
+      FOR b IN SELECT unnest(enum_range(NULL::budget_enum)) LOOP
+        FOR o IN SELECT unnest(enum_range(NULL::os_preference_enum)) LOOP
+
+          -- Set price range based on budget
+          CASE b
+            WHEN 'esencial' THEN price_min := 0; price_max := 550000;
+            WHEN 'equilibrado' THEN price_min := 280000; price_max := 950000;
+            WHEN 'premium' THEN price_min := 800000; price_max := 99999999;
+          END CASE;
+
+          -- Select 5 laptops: workload + budget + OS match
+          SELECT ARRAY(
+            SELECT id FROM laptops
+            WHERE w::text = ANY(usage_profiles)
+              AND price BETWEEN price_min AND price_max
+              AND (o = 'abierto' OR
+                   (o = 'windows' AND os = 'Windows 11') OR
+                   (o = 'macos' AND os = 'macOS Sequoia'))
+            ORDER BY recommendation_score DESC NULLS LAST
+            LIMIT 5
+          ) INTO selected_ids;
+
+          -- Fallback: if less than 5, relax budget constraint
+          IF array_length(selected_ids, 1) IS NULL OR array_length(selected_ids, 1) < 5 THEN
+            SELECT ARRAY(
+              SELECT id FROM laptops
+              WHERE w::text = ANY(usage_profiles)
+                AND (o = 'abierto' OR
+                     (o = 'windows' AND os = 'Windows 11') OR
+                     (o = 'macos' AND os = 'macOS Sequoia'))
+              ORDER BY recommendation_score DESC NULLS LAST
+              LIMIT 5
+            ) INTO selected_ids;
+          END IF;
+
+          -- Final fallback: relax OS too (for macos profiles where only 2 macs exist)
+          IF array_length(selected_ids, 1) IS NULL OR array_length(selected_ids, 1) < 5 THEN
+            SELECT ARRAY(
+              SELECT id FROM laptops
+              WHERE w::text = ANY(usage_profiles)
+              ORDER BY recommendation_score DESC NULLS LAST
+              LIMIT 5
+            ) INTO selected_ids;
+          END IF;
+
+          UPDATE profiles
+          SET laptop_ids = selected_ids
+          WHERE workload = w AND lifestyle = l AND budget = b AND os_preference = o;
+
+        END LOOP;
+      END LOOP;
+    END LOOP;
+  END LOOP;
+END $$;
+
+-- ═══════════════════════════════════════════════════════════════
+-- VERIFICATION QUERIES (run manually to confirm)
+-- ═══════════════════════════════════════════════════════════════
+
+-- 1. All 81 profiles should have exactly 5 laptops:
+-- SELECT workload, lifestyle, budget, os_preference,
+--        array_length(laptop_ids, 1) AS count
+-- FROM profiles
+-- WHERE array_length(laptop_ids, 1) IS DISTINCT FROM 5;
+-- Expected: 0 rows (all have 5)
+
+-- 2. Total profile count with assignments:
+-- SELECT count(*) FROM profiles WHERE array_length(laptop_ids, 1) = 5;
+-- Expected: 81
+
+-- 3. Laptop usage distribution:
+-- SELECT l.name, count(p.id) AS profile_references
+-- FROM profiles p, unnest(p.laptop_ids) AS lid
+-- JOIN laptops l ON l.id = lid
+-- GROUP BY l.name
+-- ORDER BY profile_references DESC;
