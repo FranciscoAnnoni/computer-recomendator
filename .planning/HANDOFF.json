@@ -1,59 +1,68 @@
 {
   "version": "1.0",
-  "timestamp": "2026-04-08T09:09:49.232Z",
+  "timestamp": "2026-04-08T10:20:21.491Z",
   "phase": "06",
   "phase_name": "iterative-improvements",
   "phase_dir": ".planning/phases/06-iterative-improvements",
   "plan": null,
   "task": null,
   "status": "paused",
-  "session_work": "Laptop catalog audit and cleanup — NOT a formal GSD phase, ad-hoc work requested by user",
+  "session_work": "ML store scraping — scraped 69 laptops from PC Center, TuNotebook, EXO, Apple (API fallback), Gfast brand search, and 5 specific product URLs",
   "completed_tasks": [
-    {"id": 1, "name": "ML API audit of all 138 laptops via /products/{id}/items + /users/{seller_id}", "status": "done"},
-    {"id": 2, "name": "Classified: 77 OK (Platinum/Gold), 53 MEDIO, 8 ELIMINAR, 1 SIN_STOCK", "status": "done"},
-    {"id": 3, "name": "For 48 REVISAR: searched all catalog sellers + alternative catalogs", "status": "done"},
-    {"id": 4, "name": "Applied changes to ml_data_active/*.json: 8 deleted, 15 links updated, 28 red-labeled, field availability_warning added", "status": "done"},
-    {"id": 5, "name": "DB migration applied: ALTER TABLE laptops ADD COLUMN availability_warning BOOLEAN DEFAULT FALSE", "status": "done"},
-    {"id": 6, "name": "Updated scripts/ml_import_db.py to include availability_warning field", "status": "done"},
-    {"id": 7, "name": "Created supabase/migrations/05_add_availability_warning.sql", "status": "done"},
-    {"id": 8, "name": "Supabase import: batch 0 only (12/130 rows loaded)", "status": "partial"}
+    {"id": 1, "name": "Verified DB state: 122 laptops loaded (all batches complete), 23 red-labeled, 81 profiles with 0 laptop_ids", "status": "done"},
+    {"id": 2, "name": "Fetch 5 specific product URLs (Lenovo IdeaPad Slim3 Ryzen7, HP 255 G10 x2, Gfast N-758R, N-536R)", "status": "done"},
+    {"id": 3, "name": "Scrape PC Center Computers tienda (29 laptops: Lenovo, HP, Gfast, Dell)", "status": "done"},
+    {"id": 4, "name": "Scrape TuNotebook TechStore tienda (27 laptops: HP, Asus, Acer, MSI, Dell, Lenovo)", "status": "done"},
+    {"id": 5, "name": "Scrape EXO tienda (5 EXO laptops)", "status": "done"},
+    {"id": 6, "name": "Apple MacBooks via products/search API fallback (3 MacBook Air M3)", "status": "done"},
+    {"id": 7, "name": "Gfast brand search via API (14 Gfast models)", "status": "done"},
+    {"id": 8, "name": "Deduplicate + filter $0 price and accessories → 69 clean laptops saved to /tmp/new_laptops_scraped.json", "status": "done"},
+    {"id": 9, "name": "Write reusable scraper: scripts/ml_scrape_new.py", "status": "done"}
   ],
   "remaining_tasks": [
-    {"id": 9, "name": "Complete Supabase import: run batches 1-6 (/tmp/batch_001.sql to /tmp/batch_006.sql)", "status": "not_started"},
-    {"id": 10, "name": "Frontend: add red badge UI for availability_warning=true laptops", "status": "not_started"},
-    {"id": 11, "name": "Profile-to-laptop assignment (5 laptops per profile, 81 profiles)", "status": "not_started"}
+    {"id": 10, "name": "User reviews /tmp/new_laptops_scraped.json (69 laptops) and approves import", "status": "awaiting_user"},
+    {"id": 11, "name": "Import approved laptops to Supabase via mcp__supabase__execute_sql (INSERT ON CONFLICT DO NOTHING)", "status": "not_started"},
+    {"id": 12, "name": "Fix seed.sql:303 'macOS Sequoia' → 'macOS' then run DO block for profile-to-laptop assignments (81 profiles)", "status": "not_started"},
+    {"id": 13, "name": "Frontend: add red badge for availability_warning=true laptops on CatalogCard", "status": "not_started"}
   ],
   "blockers": [
     {
-      "description": "Supabase anon key returns 401 on INSERT via REST API — need service role key or continue via MCP execute_sql",
+      "description": "Apple official store not scrapeable — listado.mercadolibre.com.ar redirects to account verification; tienda page uses JS rendering without catalog product IDs",
       "type": "technical",
-      "workaround": "Use mcp__supabase__execute_sql with project_id=orxstqqcsxatxaprqyvq to run batches 1-6 from /tmp/batch_001.sql to /tmp/batch_006.sql. Or get service role key."
+      "workaround": "Used products/search API fallback → 3 MacBook Air M3 from third-party resellers. DB already has 10 Apple laptops. Acceptable for MVP."
+    },
+    {
+      "description": "Pygcomexarg has no functional tienda page (bare storefront)",
+      "type": "technical",
+      "workaround": "Their Gfast products covered via PC Center store + Gfast brand search."
     }
   ],
   "human_actions_pending": [
     {
-      "action": "Complete Supabase import by running batches 1-6 via MCP or get service role key",
-      "context": "12/130 laptops loaded. Batch files at /tmp/batch_001.sql through /tmp/batch_006.sql",
+      "action": "Review /tmp/new_laptops_scraped.json and decide which laptops to import to DB",
+      "context": "69 laptops scraped. Preview: python3 -c \"import json; [print(l['brand'], int(l['price']/1000), 'k', l['name'][:55]) for l in json.load(open('/tmp/new_laptops_scraped.json'))['laptops_flat']]\"",
       "blocking": true
-    },
-    {
-      "action": "Review and validate the 28 red-labeled laptops — decide if any should be removed instead",
-      "context": "28 laptops have no Platinum/Gold seller on ML right now. Marked with availability_warning=TRUE.",
-      "blocking": false
     }
   ],
   "decisions": [
-    {"decision": "Use availability_warning BOOLEAN field instead of simplified_tags for red label", "rationale": "Cleaner, queryable, frontend can conditionally render badge"},
-    {"decision": "Keep red-labeled laptops in catalog (not delete)", "rationale": "User decision — mark with red label so visible in DB, may still have valid catalog link"},
-    {"decision": "Used /products/{id}/items ML API endpoint to check all active sellers per catalog product", "rationale": "Only working endpoint with client_credentials token for checking live availability"},
-    {"decision": "ml_data_active/*.json is source of truth, seed.sql is legacy and NOT updated this session", "rationale": "Import flow: JSON -> ml_import_db.py -> Supabase. seed.sql is unused."}
+    {"decision": "Use HTML scraping of www.mercadolibre.com.ar/tienda/{slug}?category_id=MLA1652", "rationale": "listado.mercadolibre.com.ar redirects to account verification; /sites/MLA/search blocked for client_credentials"},
+    {"decision": "Extract 7-9 digit MLA IDs from HTML as catalog product IDs → /products/{id} API", "rationale": "Only /products/{id} and /products/{id}/items work with client_credentials; /items/{id} blocked (403)"},
+    {"decision": "products/search API fallback for Apple (tienda returns 0 catalog IDs)", "rationale": "Apple tienda uses JS rendering, only 10-digit item IDs appear in HTML"},
+    {"decision": "Filter $0 price and accessory keywords post-scraping", "rationale": "Many catalog products have no active items → $0; accessories (bags, etc.) slip through laptop keyword filter"}
   ],
   "uncommitted_files": [
-    "ml_data_active/*.json (all updated with availability_warning + fixed affiliate links)",
-    "scripts/ml_import_db.py (added availability_warning to to_db_row)",
-    "supabase/migrations/05_add_availability_warning.sql (new file)",
-    "supabase/seed.sql (unchanged this session, old legacy data)"
+    "scripts/ml_scrape_new.py (new scraper — NOT yet committed)"
   ],
-  "next_action": "Run remaining Supabase import batches 1-6 via mcp__supabase__execute_sql (project_id=orxstqqcsxatxaprqyvq). Each batch file is at /tmp/batch_001.sql through /tmp/batch_006.sql. Then verify: SELECT COUNT(*), COUNT(*) FILTER (WHERE availability_warning=TRUE) FROM laptops; — expected: 130 total, 28 red.",
-  "context_notes": "This was ad-hoc work outside formal GSD phases. The /tmp batch files are ephemeral — if lost, regenerate with: python3 << script in session. The audit results are at /tmp/ml_audit_results.json and /tmp/ml_resolutions.json (also ephemeral). The permanent source of truth is ml_data_active/*.json which IS committed."
+  "ephemeral_files": [
+    "/tmp/new_laptops_scraped.json — 69 scraped laptops (EPHEMERAL: lost on reboot, regenerate with: python3 scripts/ml_scrape_new.py)"
+  ],
+  "next_action": "1. If /tmp/new_laptops_scraped.json missing: run python3 scripts/ml_scrape_new.py (~3 min). 2. User reviews JSON. 3. Import to Supabase. 4. Fix seed.sql line ~303: change 'macOS Sequoia' to 'macOS'. 5. Run DO block from seed.sql:269 via mcp__supabase__execute_sql to assign 5 laptops to each of 81 profiles.",
+  "context_notes": "DB state: 122 laptops (all batches from prev session complete — HANDOFF was stale), 23 red-labeled, 81 profiles with 0 laptop_ids. Profile DO block is the critical missing piece for recommendation engine to work. The OS mismatch bug ('macOS Sequoia' vs 'macOS') must be fixed before running it or macos profiles will use the global fallback instead of macOS-specific laptops.",
+  "db_state": {
+    "total_laptops": 122,
+    "red_labeled": 23,
+    "profiles_with_laptops": 0,
+    "total_profiles": 81,
+    "project_id": "orxstqqcsxatxaprqyvq"
+  }
 }
