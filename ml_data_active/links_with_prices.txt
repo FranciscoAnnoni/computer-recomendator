@@ -1,0 +1,366 @@
+# MercadoLibre Argentina — Laptops Activas con Precios
+# Generado: 2026-04-07T06:07:02.657565
+# Total: 70 laptops únicas (solo listados gold_pro/gold_special/gold_premium)
+
+
+# ══ Acer (12 laptops, 12 con precio) ══
+
+# Acer Predator Helio Neo 16s Core 9 Ultra 32gb Rtx 5070ti 1tb Negro
+# $5,899,997 ARS  |  gold_pro  |   (None)
+# CPU: 275HX  RAM: 32 GB  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA57393906
+
+# Notebook Acer Predator Core9 Ultra 185h Rtx4070 1tb 32gb 16 Color Gris
+# $4,428,390 ARS  |  gold_pro  |   (None)
+# CPU: Ultra 185H  RAM: 32 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA46210869
+
+# Acer Predator 16 Ci9-13900hx 1tb Ssd 16ddr5 Rtx4080 16' Color Negro
+# $4,200,000 ARS  |  gold_special  |   (None)
+# CPU: 13900HX  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA34015191
+
+# Acer Predator Phn16s Ultra 9 275hx 16gb 1tb Rtx 5060 240hz Negro
+# $3,749,999 ARS  |  gold_pro  |   (None)
+# CPU: i9-12975HX  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA66354589
+
+# Notebook Acer Nitro Mod. An515
+# $2,700,000 ARS  |  gold_special  |   (None)
+# CPU: RYZEN 5  RAM: 8 GB  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA40459992
+
+# Acer Nitro Avn15 I7-13620h 16gb Rtx 5050 1tb Ssd 165hz Negro
+# $2,669,999 ARS  |  gold_pro  |   (None)
+# CPU: 13620H  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA65954131
+
+# Portatil Gamer Acer Nitro V15 I5 13420h 16gb Rtx 5050 512gb Black
+# $2,464,599 ARS  |  gold_pro  |   (None)
+# CPU: 13420H  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA63163752
+
+# Laptop Acer Predator Triton 14: I7, 16gb, Rtx 4050, W11h Color Gris
+# $2,300,000 ARS  |  gold_pro  |   (None)
+# CPU: 13700H  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA37511623
+
+# Notebook Gamer Acer Nitro V15 Ryzen 5 8gb 512gb Ssd Rtx3050
+# $2,059,499 ARS  |  gold_pro  |   (None)
+# CPU: 7535HS  RAM: 8 GB  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA62000166
+
+# Notebook Acer Aspire I5 8gb 512gb 15.6 Diginet Color Gris
+# $1,099,000 ARS  |  gold_special  |   (None)
+# CPU: 1235U  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA51899187
+
+# Notebook Acer Aspire 3 15,6 Core I3 1005g1 4gb 1TB
+# $1,007,515 ARS  |  gold_pro  |   (None)
+# CPU: Intel  RAM: 4 GB  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA21924457
+
+# Notebook Acer Aspire 3 15.6 8g 512gb Color Gris
+# $800,000 ARS  |  gold_special  |   (None)
+# CPU: 5-7520U  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA45838283
+
+
+# ══ Asus (14 laptops, 14 con precio) ══
+
+# Notebook Asus Vivobook M1502ya-bq580 Ryzen 7 5825u 24gb De Ram Ddr4 51
+# $1,715,299 ARS  |  gold_pro  |   (None)
+# CPU: 5825U  RAM: 24 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA63642585
+
+# Notebook Asus Vivobook 14 Intel Core I3 1215u 16gb De Ram 512gb Ssd Fu
+# $1,076,286 ARS  |  gold_pro  |   (None)
+# CPU: 1215U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA40553594
+
+# Notebook ASUS Vivobook Go 15 N100 4GB 128GB
+# $505,469 ARS  |  gold_pro  |   (None)
+# CPU: N100  RAM: 4 GB  Storage: 128 GB
+https://www.mercadolibre.com.ar/p/MLA51871727
+
+# Notebook Asus Rog Strix G16 Ultra9 275hx 1tb 32gb Rtx5080 Eclipse Grey
+# $6,959,990 ARS  |  gold_pro  |   (None)
+# CPU: 275HX  RAM: 32 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA61843567
+
+# Asus Rog Strix G16 (2025) Color Negro
+# $6,000,000 ARS  |  gold_pro  |   (None)
+# CPU: 275HX  RAM: 32 GB  Storage: 32 GB
+https://www.mercadolibre.com.ar/p/MLA53468354
+
+# Notebook Asus Rog Strix Scar Corei9 16gb 512gb Rtx3060 Color Negro
+# $5,860,048 ARS  |  gold_special  |   (None)
+# CPU: Intel  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA21215113
+
+# Portátil para juegos Asus Rog Strix G16, Intel i9-13980HX, 32
+# $3,800,000 ARS  |  gold_special  |   (None)
+# CPU: 13980HX  RAM: 8 GB  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA50017199
+
+# Notebook Asus Zenbook 14 Oled Amd Ryzen 7 8840hs 16gb 1tb
+# $2,643,699 ARS  |  gold_pro  |   (None)
+# CPU: 8840HS  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA61813247
+
+# Notebook Asus Zenbook A14 Snapdragon X X1 26 100 16gb 512gb
+# $2,363,799 ARS  |  gold_pro  |   (None)
+# CPU: Snapdragon X X1 26 100  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA61323435
+
+# Notebook Asus Tuf Gaming A15 Fa506nf-hn003w Amd Ryzen 5
+# $2,100,000 ARS  |  gold_special  |   (None)
+# CPU: 7535HS  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA48880730
+
+# Notebook ASUS Vivobook 15 i5 8GB 512GB
+# $1,200,000 ARS  |  gold_special  |   (None)
+# CPU: Intel Core I5-1135G7  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA47436105
+
+# Notebook Asus VivoBook X712JA
+# $1,000,000 ARS  |  gold_pro  |   (None)
+# CPU: Ver descripción  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA23266849
+
+# Notebook Asus Vivobook Go 15 Amd R3-7320u Negro
+# $800,000 ARS  |  gold_special  |   (None)
+# CPU: 7320U  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA64553876
+
+# Notebook Asus Vivobook N4500/4/128
+# $525,000 ARS  |  gold_special  |   (None)
+# CPU: N4500  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA58301630
+
+
+# ══ HP (20 laptops, 20 con precio) ══
+
+# Notebook Hp 255 G10 Amd Ryzen 5 7520u, Ram 16gb, Ssd 512gb, Pantalla 1
+# $1,293,199 ARS  |  gold_pro  |   (None)
+# CPU: 7520U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA55559792
+
+# Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram 512gb Ssd 15.6 Full Hd 
+# $1,293,199 ARS  |  gold_pro  |   (None)
+# CPU: 7520U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA54622919
+
+# Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro 5650u 16 GB de RAM 256 GB
+# $497,680 ARS  |  gold_special  |   (None)
+# CPU: PRO 5650U  RAM: 16 GB  Storage: 256 GB
+https://www.mercadolibre.com.ar/p/MLA2020089210
+
+# Notebook HP 15-fc0251la AMD Ryzen 5 8GB RAM 512GB SSD 15,6" FHD Window
+# $1,072,499 ARS  |  gold_pro  |   (None)
+# CPU: 7520U  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA54637344
+
+# Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram Ddr4 512 Gb Ssd Pantall
+# $1,293,199 ARS  |  gold_pro  |   (None)
+# CPU: 7520U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA55829992
+
+# Notebook Hp Omen Core Ultra 9 275hx 32gb 1tb Rtx5080 240hz Color Negro
+# $7,685,066 ARS  |  gold_pro  |   (None)
+# CPU: 275HX  RAM: 32 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA52110942
+
+# Laptop Hp Pavilion 15.6 Táctil, Intel I3, 32gb Ram, 1.16tb
+# $4,155,998 ARS  |  gold_pro  |   (None)
+# CPU: 1215U  RAM: 0 MB  Storage: 0 MB
+https://www.mercadolibre.com.ar/p/MLA48719555
+
+# Notebook Hp Victus Ryzen 5-7535hs 32gb Ddr5 1tb 15-fb2063dx
+# $3,642,206 ARS  |  gold_pro  |   (None)
+# CPU: 7535HS  RAM: 32 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA62129550
+
+# Laptop Gaming Hp Victus 15.6 Ryzen 5 8gb 512gb Ssd
+# $3,414,998 ARS  |  gold_pro  |   (None)
+# CPU: 3.3 GHz ryzen_5  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA49873153
+
+# Hp Notebook 440 G10 Tarjeta De Video Discreta Rtx 2050 4gb Color Plate
+# $2,941,500 ARS  |  gold_pro  |   (None)
+# CPU: i5-1335U  RAM: 32 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA43664461
+
+# Notebook Hp Victus Ryzen 5-7535hs 16gb Ddr5 1tb 15-fb2063dx
+# $2,902,121 ARS  |  gold_pro  |   (None)
+# CPU: 7535HS  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA62129570
+
+# Notebook Hp Pavilion Gaming 15-ec1024la Amd Ryzen 7 8gb 512g
+# $2,500,000 ARS  |  gold_special  |   (None)
+# CPU: AMD  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA19930874
+
+# Hp Notebook 455g9 15 Ryzen 5 5625u 16g/512g Windows 11 Pro Plateado
+# $2,393,661 ARS  |  gold_special  |   (None)
+# CPU: 5625U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA51281228
+
+# Notebook Hp Pavilion 15-eg2515la Intel Core I7 8gb Ram 512gb
+# $2,198,999 ARS  |  gold_pro  |   (None)
+# CPU: Intel® Core™ i7-1255U  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA37635569
+
+# Hp Victus 16 Azul 15.6 I5-13420h 32gb 512ssd Rtx3050 144hz
+# $2,100,000 ARS  |  gold_special  |   (None)
+# CPU: i5-13420H  RAM: 32 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA36453479
+
+# Notebook HP dq2510la
+# $1,600,000 ARS  |  gold_special  |   (None)
+# CPU: Ver descripción  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA26393605
+
+# Notebook Hp Victus Gaming 15-fa0027la I5 8gb Ram 512gb Win11 Negro
+# $1,549,999 ARS  |  gold_special  |   (None)
+# CPU: i5-12450H  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA38502774
+
+# Notebook Hp Victus Victus 15-fa2013dx Plateado 15.6 Disco Ssd 512 Gb I
+# $1,495,000 ARS  |  gold_special  |   (None)
+# CPU: 13420H  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA63128585
+
+# Notebook HP 15-dq1071cl
+# $1,000,000 ARS  |  gold_special  |   (None)
+# CPU: Ver descripción  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA22187594
+
+# Notebook HP HP Laptop Laptop 15-ef1019la (310J3LA)
+# $600,000 ARS  |  gold_special  |   (None)
+# CPU: Ver descripción  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA22797996
+
+
+# ══ Lenovo (24 laptops, 24 con precio) ══
+
+# Notebook Lenovo Ideapad 1 14IJL7 Procesador Intel Celeron N4500 4gb Ra
+# $455,000 ARS  |  gold_pro  |   (None)
+# CPU: N4500  RAM: 4 GB  Storage: 128 GB
+https://www.mercadolibre.com.ar/p/MLA46083582
+
+# Notebook Lenovo Ideapad 1 15ijl7 Intel Celeron N4500 12 Gb Ddr4-sdram 
+# $781,099 ARS  |  gold_pro  |   (None)
+# CPU: N4500  RAM: 12 GB  Storage: 128 GB
+https://www.mercadolibre.com.ar/p/MLA41391097
+
+# Notebook Lenovo V15 Ryzen 5 7520U 16Gb Ssd 512Gb 15.6 Wind 11 Pro
+# $1,368,699 ARS  |  gold_pro  |   (None)
+# CPU: 7520U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA41325752
+
+# Laptop Lenovo Ideapad Ryzen 5 8gb 256gb Ssd Win 11 82VG00WXUS D.pro
+# $899,999 ARS  |  gold_pro  |   (None)
+# CPU: 7520U  RAM: 8 GB  Storage: 256 GB
+https://www.mercadolibre.com.ar/p/MLA62507275
+
+# Lenovo Ideapad Slim 5 16irl8 82xf0019us Ews
+# $4,274,998 ARS  |  gold_pro  |   (None)
+# CPU: i7-1355U  RAM: 16 GB  Storage: 0 MB
+https://www.mercadolibre.com.ar/p/MLA48661747
+
+# Lenovo Thinkpad T14 I5 512gb 16gb Win11 Pro
+# $3,774,953 ARS  |  gold_special  |   (None)
+# CPU: Intel  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA23152396
+
+# Notebook Lenovo Loq 15ahp10 Ryzen 7 250 32gb 512gb Rtx 5050 Luna Grey
+# $3,119,999 ARS  |  gold_pro  |   (None)
+# CPU: 250  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA63818454
+
+# Lenovo Loq 15iax9e I7-12650hx 12gb 1tb Rtx 4050 6gb
+# $2,660,289 ARS  |  gold_pro  |   (None)
+# CPU: i7-12650HX  RAM: 12 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA49998054
+
+# Notebook Lenovo Thinkpad L14 G4 I5 16g 512g W11p Negro
+# $2,400,676 ARS  |  gold_pro  |   (None)
+# CPU: 1335U  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA58525667
+
+# Lenovo Yoga 7i 16 I7 16gb 1tb Ssd
+# $2,299,999 ARS  |  gold_special  |   (None)
+# CPU: 256V  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA50394296
+
+# Notebook Lenovo Loq Core I5 12450hx 12gb Ssd 512gb Rtx3050 6gb Win11
+# $2,251,193 ARS  |  gold_pro  |   (None)
+# CPU: 12450HX  RAM: 12 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA63794781
+
+# Lenovo Yoga 7 16 Ryzen 7 350 16gb 1tb Ssd
+# $2,100,000 ARS  |  gold_special  |   (None)
+# CPU: AMD Ryzen AI 7 350  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA48914015
+
+# Lenovo Yoga 7i 2en1 I7 Ultra 155U 1tb Ssd 16gb Ddr5 Win11 Gris
+# $2,050,200 ARS  |  gold_pro  |   (None)
+# CPU: 155U  RAM: 16 GB  Storage: 1 TB
+https://www.mercadolibre.com.ar/p/MLA40194880
+
+# Notebook Lenovo Thinkpad E16 Gen2 R5 16gb 512gb Ssd
+# $1,899,000 ARS  |  gold_special  |   (None)
+# CPU: 7535HS  RAM: 16 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA46138939
+
+# Notebook Lenovo Yoga Slim Ryzen 7 8gb 14 512gb Ssd Win10h
+# $1,865,996 ARS  |  gold_pro  |   (None)
+# CPU: AMD  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA21253588
+
+# Ultrabook Lenovo ThinkPad T495 negro de 14 pulgadas
+# $1,802,844 ARS  |  gold_pro  |   (None)
+# CPU: 3500U  RAM: 8 GB  Storage: 256 GB
+https://www.mercadolibre.com.ar/p/MLA22873309
+
+# Notebook Lenovo Yoga 7i 82YL0006US 14" Intel 1335U 8GB de Ram
+# $1,430,000 ARS  |  gold_special  |   (None)
+# CPU: 1335U  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA27033386
+
+# Laptop Lenovo Loq 15 Gaming Ryzen 5 220 Rtx 5050 16gb Ram... Gris
+# $1,408,878 ARS  |  gold_special  |   (None)
+# CPU: Ryzen 5 220  RAM: 16 GB  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA65903162
+
+# Notebook Lenovo IdeaPad Gaming 3 15ARH05 15ARH05
+# $1,375,000 ARS  |  gold_pro  |   (None)
+# CPU: Ver descripción  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA24551277
+
+# Notebook Lenovo Thinkpad L15 Core I3 8gb Ssd 256gb 15.6
+# $1,305,000 ARS  |  gold_special  |   (None)
+# CPU: Intel  RAM: 8 GB  Storage: 256 GB
+https://www.mercadolibre.com.ar/p/MLA24038273
+
+# Laptop Lenovo Ideapad 5 I7 8gb 512gb W10
+# $1,300,000 ARS  |  gold_special  |   (None)
+# CPU: Intel  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA26423332
+
+# Laptop Lenovo Loq 15iax9e Gamer Intel Ci5 8gb 512gb W11h Color Luna Gr
+# $1,282,499 ARS  |  gold_special  |   (None)
+# CPU: 12450HX  RAM: 8 GB  Storage: 512 GB
+https://www.mercadolibre.com.ar/p/MLA45803156
+
+# Notebook Lenovo IdeaPad 3 14ITL6 14ITL6
+# $800,000 ARS  |  gold_special  |   (None)
+# CPU: Ver descripción  RAM: Ver descripción  Storage: Ver descripción
+https://www.mercadolibre.com.ar/p/MLA25250672
+
+# Notebook Lenovo IdeaPad 1 Plata 14" N4020 4GB 1366x768
+# $757,375 ARS  |  gold_pro  |   (None)
+# CPU: N4020  RAM: 4 GB  Storage: 64 GB
+https://www.mercadolibre.com.ar/p/MLA29023837
+

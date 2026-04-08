@@ -1,0 +1,96 @@
+{
+  "brand": "Huawei",
+  "generated_at": "2026-04-07T05:59:21.244670",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 2,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA38832469",
+      "item_id": "MLA2363168104",
+      "name": "Notebook Huawei Matebook D16 Core I5 16gb Ram 512gb Ssd 16'' Gris",
+      "brand": "Huawei",
+      "price": 2129999,
+      "original_price": 2944149,
+      "cpu": "12450H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.7 kg",
+      "color": "Gris",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "Marca: HUAWEI  \nModelo: Matebook D16  \n\nLa Huawei MateBook D16 es la combinación perfecta de potencia y portabilidad. Diseñada para aquellos que buscan un rendimiento superior en un diseño elegante y amplio, esta laptop es ideal tanto para profesionales como para estudiantes.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_894343-MLA99453322144_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_792254-MLA110061797659_042026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_830660-MLA109215600040_042026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_866220-MLA110062075555_042026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_800438-MLA109215827016_042026-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38832469",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA38832469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    },
+    {
+      "catalog_product_id": "MLA40588469",
+      "item_id": "MLA2363850410",
+      "name": "Notebook Huawei Matebook D14 Core I5 8gb Ram 512gb Ssd 14'' Plateado",
+      "brand": "Huawei",
+      "price": 1699999,
+      "original_price": 2623499,
+      "cpu": "3700U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Plateado",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "description": "Marca: HUAWEI  \nModelo: Matebook D14  \n\nLa notebook MateBook D14, diseñada para ofrecer un rendimiento superior y una experiencia visual inigualable, es perfecta para el trabajo, el entretenimiento y el estudio.  \n\nCARACTERÍSTICAS DESTACADAS  \n\n+ Pantalla Full View: Disfruta de una pantalla de 14 pulgadas con resolución FullHD de 1920 x 1200, con bordes ultradelgados brindando un 11.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_826275-MLA99964207577_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_628673-MLU78934017704_092024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_751585-MLU78934017722_092024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_851279-MLU79172562493_092024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_838275-MLU79172552805_092024-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA40588469",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA40588469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}

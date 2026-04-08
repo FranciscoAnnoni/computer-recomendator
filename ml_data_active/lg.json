@@ -1,0 +1,140 @@
+{
+  "brand": "LG",
+  "generated_at": "2026-04-07T05:59:21.246473",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 3,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA67308118",
+      "item_id": "MLA3128028852",
+      "name": "LG Gram 17 Laptop Táctil Profesional, Intel Core Ultra 9, Negro Obsidiana",
+      "brand": "LG",
+      "price": 10158000,
+      "original_price": null,
+      "cpu": "9 Series 2",
+      "ram": "0 MB",
+      "gpu": "Integrada",
+      "storage": "0 MB",
+      "os": "Windows 11",
+      "screen_size": "0 \"",
+      "weight": "1 kg",
+      "color": "Negro obsidiana",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "**TITULO:**\n\nLG gram - Laptop táctil profesional de 17 pulgadas, Intel Evo Edition con Core Ultra 9 Series 2, 32 GB de RAM, SSD de 4 TB, pantalla táctil WQXGA de 17 pulgadas, PC AI Copilot+, batería de hasta 23.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_692402-MLA108814890206_032026-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_630263-MLA109637097175_032026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_875878-MLA109635709299_032026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_923817-MLA108815538798_032026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_977234-MLA109636329657_032026-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA67308118",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA67308118?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    },
+    {
+      "catalog_product_id": "MLA39886928",
+      "item_id": "MLA3034411576",
+      "name": "LG Gram Touch I7-1360p 512gb Ssd 16gb Ddr5 Ips Fhd Win11 Color Negro",
+      "brand": "LG",
+      "price": 3231000,
+      "original_price": null,
+      "cpu": "i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.2 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 9,
+      "description": "TITULO:  \nLG gram - Portátil ligero de 15.6\", Intel Core i7 de 13a generación, Windows 11 Home, 16 GB de RAM, SSD de 512 GB, color negro  \n\nDETALLES:  \nProcesador Intel Core de 13a generación: alimentado por el procesador Intel de 13a generación y gráficos Intel Iris Xe, este LG gram está diseñado para mantener a los usuarios multitarea con facilidad.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_631374-MLU78479830680_082024-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_704793-MLU78712081313_082024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_983684-MLU78479763296_082024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_879715-MLU78712004593_082024-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39886928",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA39886928?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    },
+    {
+      "catalog_product_id": "MLA39932653",
+      "item_id": "MLA1501282477",
+      "name": "Notebook LG Gram 17 I7-1360p 1tb Ssd 16gb Ddr5 Ips Win11 Color Negro",
+      "brand": "LG",
+      "price": 3199997,
+      "original_price": null,
+      "cpu": "i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "1 TB",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "1.45 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 10,
+      "description": "Descubre el Ultrabook LG Gram 17, una potente herramienta diseñada para quienes buscan rendimiento y portabilidad. Equipado con un procesador Intel Core i7-1360P de 12 núcleos, este dispositivo garantiza un rendimiento excepcional en tareas exigentes. Su impresionante pantalla de 17\" con resolución de 2560 px x 1600 px ofrece imágenes nítidas y vibrantes, ideal para trabajar o disfrutar de contenido multimedia.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_930462-MLA96889122005_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_936525-MLU78494238112_082024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_696434-MLU78494238114_082024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_611395-MLU78726746481_082024-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39932653",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA39932653?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}

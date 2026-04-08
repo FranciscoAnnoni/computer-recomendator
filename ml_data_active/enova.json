@@ -1,0 +1,52 @@
+{
+  "brand": "Enova",
+  "generated_at": "2026-04-06T19:31:35.259561",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA23827239",
+      "item_id": "MLA1554259363",
+      "name": "Notebook Enova 14 Celeron N4020 Ram 4gb Ssd 128gb Gris",
+      "brand": "Enova",
+      "price": 396899,
+      "original_price": 459999,
+      "cpu": "N4020",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "128 GB",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "NOVOGAR",
+      "seller_power_status": "platinum",
+      "seller_level": "5_green",
+      "seller_transactions": 190799,
+      "highlight_rank": 4,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 6,
+      "description": "Producto: Notebook Enova Celeron N4020 4Gb Ssd 128Gb 14\" Win11\n\nEspecificaciones técnicas: \n\n- Marca : Enova\n- P/N : C141PP-A3S1-W11H\n- UPC / EAN : 798181992346\n- Procesador : Procesador Intel Celeron N4020 (caché de 4 M, hasta 2,80 GHz)\n- Memoria : 4 GB DDR4\n- Gráficos : Intel UHD Graphics 600\n- Almacenamiento : SSD 128 GB\n- Pantalla : 14\", HD (1366x768), 60hz\n- Distribución teclado : Español \n- Teclado Num. : No\n- Teclado retroiluminado : No\n- Sist.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_853703-MLA99991185023_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_874455-MLA99506931584_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_793957-MLA99990990619_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_679916-MLA99991010637_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_995950-MLA95500290786_102025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23827239",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA23827239?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}

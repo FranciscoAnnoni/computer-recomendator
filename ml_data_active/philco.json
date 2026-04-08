@@ -1,0 +1,52 @@
+{
+  "brand": "Philco",
+  "generated_at": "2026-04-06T19:31:35.267000",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA47437286",
+      "item_id": "MLA1462782165",
+      "name": "Notebook Philco N14P4020 14.1 Pulgadas Intel Celeron 4gb 128gb Ssd Windows 11",
+      "brand": "Philco",
+      "price": 371299,
+      "original_price": 479999,
+      "cpu": "N4020",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "128 GB",
+      "os": "Windows 11",
+      "screen_size": "14.1 \"",
+      "weight": "2.12 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "PILISAR 33709180849",
+      "seller_power_status": "platinum",
+      "seller_level": "5_green",
+      "seller_transactions": 707251,
+      "highlight_rank": 11,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 6,
+      "description": "¡La Notebook Philco 14.1 N14P4020 es justo lo que necesitás para llevar tu productividad al próximo nivel! Con un procesador Intel Celeron y 4GB de RAM, vas a poder navegar y trabajar sin trabas. Además, su disco SSD de 128GB te permite almacenar tus archivos importantes y acceder a ellos en un abrir y cerrar de ojos.\n\nEquipado con Windows 11 Home y conectividad Wi-Fi y Bluetooth, estarás siempre al día y conectado. Mirá pelis o trabajá en su pantalla de 14.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_910728-MLA99986778023_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_865818-MLA80066690026_102024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_693585-MLA80066799104_102024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_860678-MLA79816763500_102024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_648585-MLA80066888266_102024-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47437286",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47437286?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}

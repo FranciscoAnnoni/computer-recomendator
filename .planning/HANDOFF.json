@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-04-08T09:09:49.232Z",
+  "phase": "06",
+  "phase_name": "iterative-improvements",
+  "phase_dir": ".planning/phases/06-iterative-improvements",
+  "plan": null,
+  "task": null,
+  "status": "paused",
+  "session_work": "Laptop catalog audit and cleanup — NOT a formal GSD phase, ad-hoc work requested by user",
+  "completed_tasks": [
+    {"id": 1, "name": "ML API audit of all 138 laptops via /products/{id}/items + /users/{seller_id}", "status": "done"},
+    {"id": 2, "name": "Classified: 77 OK (Platinum/Gold), 53 MEDIO, 8 ELIMINAR, 1 SIN_STOCK", "status": "done"},
+    {"id": 3, "name": "For 48 REVISAR: searched all catalog sellers + alternative catalogs", "status": "done"},
+    {"id": 4, "name": "Applied changes to ml_data_active/*.json: 8 deleted, 15 links updated, 28 red-labeled, field availability_warning added", "status": "done"},
+    {"id": 5, "name": "DB migration applied: ALTER TABLE laptops ADD COLUMN availability_warning BOOLEAN DEFAULT FALSE", "status": "done"},
+    {"id": 6, "name": "Updated scripts/ml_import_db.py to include availability_warning field", "status": "done"},
+    {"id": 7, "name": "Created supabase/migrations/05_add_availability_warning.sql", "status": "done"},
+    {"id": 8, "name": "Supabase import: batch 0 only (12/130 rows loaded)", "status": "partial"}
+  ],
+  "remaining_tasks": [
+    {"id": 9, "name": "Complete Supabase import: run batches 1-6 (/tmp/batch_001.sql to /tmp/batch_006.sql)", "status": "not_started"},
+    {"id": 10, "name": "Frontend: add red badge UI for availability_warning=true laptops", "status": "not_started"},
+    {"id": 11, "name": "Profile-to-laptop assignment (5 laptops per profile, 81 profiles)", "status": "not_started"}
+  ],
+  "blockers": [
+    {
+      "description": "Supabase anon key returns 401 on INSERT via REST API — need service role key or continue via MCP execute_sql",
+      "type": "technical",
+      "workaround": "Use mcp__supabase__execute_sql with project_id=orxstqqcsxatxaprqyvq to run batches 1-6 from /tmp/batch_001.sql to /tmp/batch_006.sql. Or get service role key."
+    }
+  ],
+  "human_actions_pending": [
+    {
+      "action": "Complete Supabase import by running batches 1-6 via MCP or get service role key",
+      "context": "12/130 laptops loaded. Batch files at /tmp/batch_001.sql through /tmp/batch_006.sql",
+      "blocking": true
+    },
+    {
+      "action": "Review and validate the 28 red-labeled laptops — decide if any should be removed instead",
+      "context": "28 laptops have no Platinum/Gold seller on ML right now. Marked with availability_warning=TRUE.",
+      "blocking": false
+    }
+  ],
+  "decisions": [
+    {"decision": "Use availability_warning BOOLEAN field instead of simplified_tags for red label", "rationale": "Cleaner, queryable, frontend can conditionally render badge"},
+    {"decision": "Keep red-labeled laptops in catalog (not delete)", "rationale": "User decision — mark with red label so visible in DB, may still have valid catalog link"},
+    {"decision": "Used /products/{id}/items ML API endpoint to check all active sellers per catalog product", "rationale": "Only working endpoint with client_credentials token for checking live availability"},
+    {"decision": "ml_data_active/*.json is source of truth, seed.sql is legacy and NOT updated this session", "rationale": "Import flow: JSON -> ml_import_db.py -> Supabase. seed.sql is unused."}
+  ],
+  "uncommitted_files": [
+    "ml_data_active/*.json (all updated with availability_warning + fixed affiliate links)",
+    "scripts/ml_import_db.py (added availability_warning to to_db_row)",
+    "supabase/migrations/05_add_availability_warning.sql (new file)",
+    "supabase/seed.sql (unchanged this session, old legacy data)"
+  ],
+  "next_action": "Run remaining Supabase import batches 1-6 via mcp__supabase__execute_sql (project_id=orxstqqcsxatxaprqyvq). Each batch file is at /tmp/batch_001.sql through /tmp/batch_006.sql. Then verify: SELECT COUNT(*), COUNT(*) FILTER (WHERE availability_warning=TRUE) FROM laptops; — expected: 130 total, 28 red.",
+  "context_notes": "This was ad-hoc work outside formal GSD phases. The /tmp batch files are ephemeral — if lost, regenerate with: python3 << script in session. The audit results are at /tmp/ml_audit_results.json and /tmp/ml_resolutions.json (also ephemeral). The permanent source of truth is ml_data_active/*.json which IS committed."
+}

@@ -1,0 +1,52 @@
+{
+  "brand": "Gfast",
+  "generated_at": "2026-04-06T19:31:35.260112",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA66170245",
+      "item_id": "MLA3007741818",
+      "name": "Notebook Gfast N-536r AMD Ryzen 5 3500U 8GB RAM DDR4 SSD 480GB 15.6\" 1920x1080px Full HD IPS AMD Radeon Graphics Vega 8 ",
+      "brand": "Gfast",
+      "price": 849999,
+      "original_price": 1294999,
+      "cpu": "3500U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "480 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.5 kg",
+      "color": "Ocean blue",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "PCCENTERCOMPUTERS",
+      "seller_power_status": "platinum",
+      "seller_level": "5_green",
+      "seller_transactions": 67623,
+      "highlight_rank": 20,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 6,
+      "description": "La GFast N-536R eleva la vara del rendimiento equilibrado en un diseño delgado y portable. Gracias a su procesador de 4 núcleos reales, memoria RAM DDR4, almacenamiento SSD M.2 esta notebook ofrece la velocidad necesaria para quienes buscan un equipo ágil que no se detenga ante la multitarea exigente.\n\n¿Por qué elegir la GFast N-536R?\nLa combinación perfecta entre rendimiento, portabilidad y practicidad a un precio accesible.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_620406-MLA107393509050_032026-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_900227-MLA107390410792_032026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_752892-MLA107393389352_032026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_962801-MLA107393389358_032026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_678875-MLA108104723529_032026-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66170245",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA66170245?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "brand": "Gigabyte",
+  "generated_at": "2026-04-07T05:56:33.981208",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA26305490",
+      "item_id": "MLA2324565436",
+      "name": "Gigabyte - Aorus 15.6 Ips I7-12700h 16gb Rtx 3070 512gb Ssd Color Negro",
+      "brand": "Gigabyte",
+      "price": 2838148,
+      "original_price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "description": "El Gigabyte - Aorus 15.6 Ips I7-12700h 16gb Rtx 3070 512gb Ssd es el aliado perfecto para los amantes de los videojuegos y la tecnología de vanguardia. Con su diseño elegante en color negro y su pantalla de 15.6\" con resolución Full HD, podrás sumergirte en tus juegos favoritos con una calidad de imagen excepcional.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_706361-MLA99461587306_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_622565-MLA99461547926_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_987241-MLA94017737311_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_939255-MLA99461627168_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_740223-MLA94017737329_102025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26305490",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26305490?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}

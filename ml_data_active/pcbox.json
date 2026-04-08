@@ -1,0 +1,52 @@
+{
+  "brand": "Pcbox",
+  "generated_at": "2026-04-06T19:31:35.266653",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA65462335",
+      "item_id": "MLA2851795886",
+      "name": "Notebook Pcbox Fire Pcb-glw2 Intel Celeron N4020 4gb De Ram 128gb Emmc 14.1 (35.6 Cm) 1366x768px Intel Uhd Graphics 600 ",
+      "brand": "Pcbox",
+      "price": 319999,
+      "original_price": 369599,
+      "cpu": "N4020",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "128 GB",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.56 kg",
+      "color": "Iron gray",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "PCCENTERCOMPUTERS",
+      "seller_power_status": "platinum",
+      "seller_level": "5_green",
+      "seller_transactions": 67623,
+      "highlight_rank": 16,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 6,
+      "description": "Notebook PCBOX Fire 14.1 con Intel Celeron y Windows 11 Home, ideal para estudio, trabajo y uso diario.\n\n\nDiseñada para ofimática, navegación web, correo electrónico,  videollamadas, clases virtuales y plataformas online, ofrece un funcionamiento estable en un formato liviano y práctico.\n\n\nEquipada con procesador Intel Celeron N4020, y 4GB de memoria LPDDR4 y almacenamiento eMMC de 128GB que garantizan arranques rápidos y un uso ágil del sistema operativo Windows 11 Home.\n\n\nSu pantalla de 14.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_975466-MLA106934996057_022026-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_844273-MLA106303362822_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_693628-MLA106305018266_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_818443-MLA106304988468_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_671421-MLA109990606135_042026-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA65462335",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA65462335?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "",
+      "availability_warning": false
+    }
+  ]
+}
