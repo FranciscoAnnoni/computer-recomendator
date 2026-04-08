@@ -1,0 +1,912 @@
+{
+  "brand": "Razer",
+  "generated_at": "2026-04-06T09:06:39.825422",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 30,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA26187334",
+      "name": "Razer - Blade 15 Color Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_962668-MLU71100946358_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26187334",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28477771",
+      "name": "Razer Blade 15 Advanced Gaming Laptop 2020: Intel Core I7-10",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "3.583 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_764176-MLU73107368731_112023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28477771",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28362237",
+      "name": "Laptop Gamer Razer Blade 14'' R9 16gb Ddr5 1tb Rtx4060 Rgb",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_650380-MLU73784486264_012024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28362237",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21459339",
+      "name": "Notebook Razer Blade 17 165hz Qhd I7 Rtx 3060 16gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.75 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_875042-MLC53483625758_012023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21459339",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA34130986",
+      "name": "Razer Blade 16 I9 4070 32 GB 1 TB NVME Core Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "i9-13950HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_817122-MLA74774850632_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA34130986",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21459342",
+      "name": "Notebook Razer Blade 15 240hz Qhd I7 Rtx 3060 16gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.01 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_604516-MLC53483626528_012023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21459342",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24038193",
+      "name": "Notebook Gamer Razer Blade 15,6 I7 10th Gen 16gb 256 Gb Color Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_791562-MLU70063451582_062023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24038193",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA36633134",
+      "name": "Razer Blade 18 Gaming Notebook Black 32 GB 2 TB 240 Hz",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "i9-13950HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "18 \"",
+      "weight": "3.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_637645-MLU76027303022_052024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36633134",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21459344",
+      "name": "Notebook Razer Blade 14 165hz Ryzen 9 Rtx 3070 Ti 16gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.78 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_940316-MLC53483627267_012023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21459344",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21708751",
+      "name": "Notebook Razer Blade 17 240hz Qhd I7 Rtx 3070 Ti 16gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.75 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_649259-MLC53483626562_012023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21708751",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21459341",
+      "name": "Notebook Razer Blade 14 165hz Qhd Ryzen 9 Rtx 3080 16gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.78 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_963613-MLM51840140903_102022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21459341",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26379089",
+      "name": "Notebook Razer Blade 15 Qhd I7 1tb 32gb Bajo Pedido Netpc Color Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_952187-MLU71266366333_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26379089",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21459343",
+      "name": "Notebook Razer Blade 15 360hz Fhd I7 Rtx 3070 Ti 16gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.01 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_600267-MLC53483625793_012023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21459343",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24565087",
+      "name": "Razer Blade 15 Gaming Core I7 Gtx 1660 Ti 16gb Ram 256gb Ssd",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_806996-MLU70500831290_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24565087",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21459340",
+      "name": "Notebook Razer Blade 17 144hz 4k I9 Rtx 3080 Ti 32gb 1tb Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.75 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_990928-MLC53483626584_012023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21459340",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62512955",
+      "name": "Razer Blade 16 Ryzen Ai 9 365 Rtx 5070 1tb Ssd 32gb Oled Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "365",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.14 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Pantalla OLED",
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_974308-MLA99478537231_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62512955",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21327976",
+      "name": "Laptop Razer Blade Pro 17.3 Max Q 512gb I7 16gb Rtx 2080 240",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.749 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_626329-MLU78186579971_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21327976",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24113529",
+      "name": "Laptop Razer Blade Pro 17 512gb I7 16gb Nvidia Rtx 2080 Maxq Color Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.74 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_928341-MLU70103896333_062023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24113529",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62558690",
+      "name": "Razer Blade 14 Ryzen Ai 9 365 Rtx 5070 1tb Ssd 32gb Ddr5 Negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "365",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.84 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_984148-MLA99147722388_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62558690",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62094778",
+      "name": "Razer Blade 14 Ryzen Ai 9 365 Rtx 5070 1tb Ssd 32gb Oled Gris",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "365",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Pantalla OLED",
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_724229-MLA97673077186_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62094778",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20667364",
+      "name": "Laptop Razer Blade Pro 17.3 Max Q 1 Tb I7 16gb Rtx 2080 4k",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_953538-MLU77447237880_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20667364",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA35828390",
+      "name": "Laptop Razer Blade 16 para juegos, 16 pulgadas, I9, 32 GB, 2 TB, Rtx 4090 color negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "13950HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.45 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_665473-MLU75645340708_042024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA35828390",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA35996084",
+      "name": "Laptop Razer Blade 16 para juegos, 16 pulgadas, I9, 64 GB, 4 TB, Rtx 4090, 12 unidades, color negro",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "14900HX",
+      "ram": "64 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_849201-MLU75904896687_042024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA35996084",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46585398",
+      "name": "Razer Blade 16 (2024) Laptop Para Juegos: Nvidia Geforce Rtx 4090 - Intel Core I9-14900hx Cpu De 14ª Generación - Visual",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Pantalla OLED",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_906737-MLA82529372528_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46585398",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA15543665",
+      "name": "Notebook Razer Blade 15 Negro 15.6\" 1920 px x 1080 px Intel 9750H NVIDIA GeForce RTX 2060 16GB de Ram",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "9750H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://mla-s2-p.mlstatic.com/800020-MLA41282888054_032020-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA15543665",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46615034",
+      "name": "Computadora Portátil Razer Blade 14 Para Juegos: Amd Ryzen 9 6900hx - Nvidia Geforce Rtx 3070 Ti - 14 Qhd 165hz - 16gb D",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_618571-MLA82530277594_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46615034",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46576369",
+      "name": "Razer Blade 18 (2024) Laptop Para Juegos: Nvidia Geforce Rtx 4090 - Intel Core I9 14900hx Cpu De 14ª Generación - Visual",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_644541-MLA82815407173_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46576369",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46615548",
+      "name": "Razer Blade 16 (2024) Laptop Para Juegos: Nvidia Geforce Rtx 4090 - Intel Core I9-14900hx Cpu De 14ª Generación - Visual",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Pantalla OLED",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento",
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_933513-MLA82530278312_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46615548",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49758027",
+      "name": "Razer Blade 16 Gaming-laptop: Nvidia Geforce Rtx 4060 13ª Generación Intel 24-core I9 Hx Cpu 16 Qhd+ 240hz - 16gb-ram - ",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_812285-MLA84618318315_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49758027",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA34502242",
+      "name": "Razer Blade 17 Gaming Laptop: Nvidia Geforce Rtx 3070 Ti - 12th Gen Intel 14-core I9 Cpu - 17.3 Qhd 240hz - 16gb Ddr5 Ra",
+      "brand": "Razer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_834819-MLU77888762884_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA34502242",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}

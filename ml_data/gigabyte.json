@@ -1,0 +1,889 @@
+{
+  "brand": "Gigabyte",
+  "generated_at": "2026-04-06T09:06:39.809000",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 30,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA24076994",
+      "name": "Notebook Gigabyte AORUS XE4 XE4",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_849898-MLU71502686832_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24076994",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21253614",
+      "name": "Notebook Gigabyte Aorus I7 16gb 512gb Rtx3070 300hz 17,3",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.7 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_906237-MLA50744407831_072022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21253614",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48307301",
+      "name": "Gigabyte Aorus 17 17 I7 Rtx4070 16gb 1tb Ssd",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "155H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "2.81 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_650101-MLA83457831032_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48307301",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28030823",
+      "name": "Portátil Gigabyte Aorus 17 Xe4, i7-12700H, RTX3070Ti, 16 GB",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.7 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_736299-MLU72751581473_112023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28030823",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22250530",
+      "name": "Notebook Gigabyte Aorus I7 32gb 1tb Rtx3080 8gb 240hz 15,6",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_908891-MLA50742706803_072022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22250530",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22691926",
+      "name": "Notebook Gigabyte Aorus I7 32gb 512gb Rtx3080ti 300hz 17,3",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.6 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_892730-MLU54957963271_042023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22691926",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA41493350",
+      "name": "Portatil Laptop Gamer Gigabyte Aorus 15 9mf/15.6 Fhd, 144hz",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "1135G7",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_806558-MLA82481639665_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41493350",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA65586623",
+      "name": "Laptop Gigabyte Aorus Ci7 13700h Rtx4070 64gb 1tbssd 15.6' Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "13700H",
+      "ram": "64 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_619803-MLA107195217905_022026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA65586623",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26735328",
+      "name": "Notebook Gigabyte Aorus I7 12700 16gb 1tb Rtx3070ti Win11 Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_844587-MLU71430022390_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26735328",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29100672",
+      "name": "Laptop Gigabyte Aorus Ci7 13700h Rtx4070 16gb 1tbssd 17.3' Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "13700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_804172-MLU73532874647_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29100672",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29100848",
+      "name": "Laptop Gigabyte Aorus Ci7 13700h Rtx4070 16gb 1tbssd 15.6' Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "13700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_917556-MLU73441400372_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29100848",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29102810",
+      "name": "Notebook Gigabyte Aorus I7 12650h 16gb Ddr4 512g Rtx4050 Color Gris Oscuro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "i7-12650H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_721398-MLU73533814745_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29102810",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24555523",
+      "name": "Notebook Gigabyte Aorus 15 Xe4 I7 16gb Rtx 3070ti Rgb Qhd",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_896615-MLU70499173406_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24555523",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA67325052",
+      "name": "Portátil Gigabyte Aorus Elite 16 Bwh Core Ultra 9 Rtx 5070 gris",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Core Ultra 9",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "25601600 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_642048-MLA109640899263_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA67325052",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21262412",
+      "name": "Notebook Gigabyte Aorus Yd I7 11800h 15 Fhd Rtx3080 16gb W10",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_682326-MLA47311894890_082021-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21262412",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66987111",
+      "name": "Portátil Gigabyte Aorus Master 16 GB Core Ultra 9 Rtx 5080 negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Core Ultra 9",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "25601600 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_616430-MLA109222986049_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66987111",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28434513",
+      "name": "Notebook Gigabyte Aorus 15gxc 15.6 240hz I7 10ma 32gb 512gb Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_899799-MLU73079913351_112023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28434513",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20469702",
+      "name": "Laptop Gigabyte Aorus 17 17.3in Fhd Intel I7 12700h 1tb /vc",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_856660-MLM52223436031_102022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20469702",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25462663",
+      "name": "Laptop Gigabyte Aorus Se4 Rtx 3070 Intel Core I7 Ssd 512gb Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_640193-MLU70806057857_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25462663",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21265130",
+      "name": "Notebook Gigabyte Aorus 15p Yd I7 Rtx3080 8gb Ram 16gb 1tb F",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.2 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_931419-MLA48600599269_122021-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21265130",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA41510196",
+      "name": "Portátil Gigabyte Aorus-17 I5-12500h Rtx4070 8gb M.2 512gb Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "12500H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": "2.8 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_897454-MLA80122654240_112024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41510196",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA36211927",
+      "name": "Notebook Gigabyte Aorus Core I7 16gb Ssd 1tb Rtx 3070ti W11 Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_755080-MLU76014931775_042024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36211927",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA45502090",
+      "name": "Portatil Gamer Gigabyte Aorus 15x I9 13980hx 16g Rtx 4070 2k Color Black",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "13980HX",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.28 kg",
+      "color": "Black",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_639515-MLA81961491183_012025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA45502090",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA42136249",
+      "name": "Portátil Gigabyte Aorus 15 Xe4 I7 12700h 16gb 1TB Rtx 3070ti, color negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel Core i7 12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.39 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_687944-MLA80085267617_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA42136249",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26305490",
+      "name": "Gigabyte - Aorus 15.6 Ips I7-12700h 16gb Rtx 3070 512gb Ssd Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_706361-MLA99461587306_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26305490",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62642862",
+      "name": "Gigabyte Aorus Master Ultra 9 275hx Rtx 5090 2tb Ssd 32gb Azul Marea",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "275HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_923426-MLA99359007776_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62642862",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66987251",
+      "name": "Portátil Gigabyte Aorus Master Core Ultra 9 Rtx 5090 negro de 18 GHz",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Core Ultra 9",
+      "ram": "64 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "25601600 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_884550-MLA108425381038_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66987251",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25571435",
+      "name": "Notebook Gigabyte Aorus I7 12700h 16gb Ssd 512gb 15.6 Hd W11 Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_731224-MLU70783367968_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25571435",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27735526",
+      "name": "Gamer Gigabyte Aorus 15.6 144hz Fhd I5-13500h Rtx 4050 512gb Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "13500H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.27 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alta frecuencia",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_715841-MLU72262873897_102023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27735526",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25401579",
+      "name": "Gigabyte Aorus 5 I7 12ava 16gb 1tb Ssd 8gb Rtx3070 15.6 144 Color Negro",
+      "brand": "Gigabyte",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.18 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_790075-MLU70775898093_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25401579",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}

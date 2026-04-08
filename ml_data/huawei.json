@@ -1,0 +1,864 @@
+{
+  "brand": "Huawei",
+  "generated_at": "2026-04-06T09:06:39.813982",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 30,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA24553381",
+      "name": "Notebook Huawei MateBook X Pro 2021",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_720317-MLU78451794038_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24553381",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22262984",
+      "name": "Notebook Huawei Matebook D15 11th Gen Intel I7 16gb+512gb",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1165G7",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.56 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_953279-MLC54319488153_032023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22262984",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA53432914",
+      "name": "Notebook Huawei Matebook D14 S.gray Ryzen 5 512gb Color Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "3700U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_714703-MLA89086822988_082025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA53432914",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27715316",
+      "name": "Laptop Huawei Matebook D15 I7-1165g7 512ssd 16gb Ram Color Plata",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.62 kg",
+      "color": "Plata",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_823300-MLU72227096233_102023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27715316",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24064596",
+      "name": "Notebook Huawei Matebook D14 Ryzen 5 8gb 512gb Ssd Color Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "3500U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_907051-MLU70868558671_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24064596",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA19826253",
+      "name": "Laptop Huawei Matebook E I5 8gb+256gb Gris + Teclado Y Mouse",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "12.6 \"",
+      "weight": "709 g",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_726185-MLM49448180504_032022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA19826253",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21767125",
+      "name": "Laptop Huawei Matebook Series 14 Ryzen 7 8gb 512gb Gris Espacial",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "4600H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.49 kg",
+      "color": "Gris espacial",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_976191-MLM53733134503_022023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21767125",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA36412809",
+      "name": "Notebook Huawei Matebook D16 12th Gen Intel I5 8 + 512gb Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "12450H de 12ª generación",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.68 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_611336-MLU74727518668_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36412809",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21080431",
+      "name": "Laptop Huawei Matebook E I3 8gb Ram + 128gb Gris Con Teclado",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "i3-1110G4 de 11va generación",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "12.6 \"",
+      "weight": "709 g",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_876000-MLM49448226289_032022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21080431",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24547391",
+      "name": "Laptop Huawei Matebook D 14, 14 , Amd R5 8gb+512gb, Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "3500U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_766891-MLU70493962270_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24547391",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA18643730",
+      "name": "Laptop Huawei Matebook X Pro Intel Core I5 16gb+512gb Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "13.9 \"",
+      "weight": "1 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_602606-MLA46955388971_082021-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA18643730",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA38653183",
+      "name": "Laptop Huawei Matebook 14 Intel Ultra 5 16gb+1tb Ssd Verde",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Ultra 5",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.2 \"",
+      "weight": "1.31 kg",
+      "color": "Verde",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_769992-MLU77974350985_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38653183",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA41761699",
+      "name": "Laptop Huawei Matebook 14 Intel Ultra 7 16GB 1TB Ssd Verde",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Ultra 7",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.2 \"",
+      "weight": "1.31 kg",
+      "color": "Verde",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_615233-MLA79634999426_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41761699",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA19775867",
+      "name": "Laptop Huawei Matebook 16 Amd Ryzen 7 16gb + 512gb Ssd Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.99 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_716427-MLU73104220838_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA19775867",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA35967568",
+      "name": "Laptop Huawei Matebook D14 Intel I7, 16gb+1tb Win11 Home",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Intel® Core™ i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_846006-MLU75885898639_042024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA35967568",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22521907",
+      "name": "Notebook Huawei Matebook D14 11th Gen Intel I5 8gb + 512gb Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_956484-MLU74725824562_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22521907",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22262982",
+      "name": "Notebook Huawei Matebook E 11th Gen Intel I7 16gb+512gb",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1110G4",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "12.6 \"",
+      "weight": "709 g",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_791995-MLC54320553762_032023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22262982",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27811578",
+      "name": "Laptop Huawei Matebook 14s Core I7-11va 512gb Ssd16gb Qwertz Color Verde",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "i7-11370H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.2 \"",
+      "weight": "1.43 kg",
+      "color": "Verde",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_685150-MLU72301553634_102023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27811578",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66714594",
+      "name": "Laptop Huawei Matebook D 16 Intel 13th Core I5 16gb + 512gb Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "13420H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.68 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_719558-MLA108048345012_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66714594",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20652475",
+      "name": "Laptop Huawei Matebook B3-510 15.6 Core I3 10110u 256gb 8gb",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_627390-MLM51541816730_092022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20652475",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21816449",
+      "name": "Notebook Huawei Matebook D14 I5 8gb Intel Core 11va 512ssd Space gray",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Space gray",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_646510-MLA94292036419_102025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21816449",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24541041",
+      "name": "Laptop Huawei Matebook D 14 Intel I5 11th Gen 8gb + 512gb",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "i5-1135G7 de 11va generación",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_827538-MLU74862303195_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24541041",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22341248",
+      "name": "Huawei Matebook 13 11th Gen Intel I5 8+512gb Color Space gray",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "13 \"",
+      "weight": "1.3 kg",
+      "color": "Space gray",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_859769-MLC54319484935_032023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22341248",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22242779",
+      "name": "Notebook Huawei Matebook D14 I5 11.5va Gen 8gb + 512ssd Color Gris espacial",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1155G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.38 kg",
+      "color": "Gris espacial",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_686275-MLM54242578148_032023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22242779",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA47423337",
+      "name": "Laptop Huawei Matebook D 16 12th Core I5 16gb 1tb Ssd",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "12450H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.68 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_901152-MLA83335706709_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47423337",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA44363648",
+      "name": "Laptop Huawei MateBook D16 i5 12th 8 GB 512 GB Win11 + Mouse",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "12450H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.68 kg",
+      "color": "Plata",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_872439-MLA81326278103_122024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA44363648",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21388477",
+      "name": "Laptop Huawei Matebook 14s Intel Core I7 512gb Ssd 16gb Ram",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "i7-11370H de 11va generación",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.2 \"",
+      "weight": "1.43 kg",
+      "color": "Verde",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_911586-MLM52301483683_112022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21388477",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA38832469",
+      "name": "Notebook Huawei Matebook D16 Core I5 16gb Ram 512gb Ssd 16'' Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "12450H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.7 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_894343-MLA99453322144_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38832469",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA41750853",
+      "name": "Laptop Huawei Matebook D 14 Ci3 12va Gen 8+512gb Ssd Gris",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "1215U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "178 g",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_729890-MLA79634027518_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41750853",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA30955032",
+      "name": "Laptop Huawei Matebook D16 I5 12a 8gb 512gb Ssd Windows 11",
+      "brand": "Huawei",
+      "price": null,
+      "cpu": "12450H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.68 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_924199-MLU77293137610_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA30955032",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}

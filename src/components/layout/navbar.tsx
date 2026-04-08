@@ -18,8 +18,8 @@ import { PROFILE_STORAGE_KEY, QUIZ_STORAGE_KEY } from "@/types/quiz";
 import { getProfileColor } from "@/lib/profile-color";
 
 const navLinks = [
-  { href: "/catalog", label: "Catalog" },
-  { href: "/compare", label: "Compare" },
+  { href: "/catalog", label: "Catalogo" },
+  { href: "/compare", label: "Comparar" },
 ];
 
 export function Navbar() {
@@ -49,12 +49,19 @@ export function Navbar() {
     const saved = localStorage.getItem(PROFILE_STORAGE_KEY);
     if (saved) {
       try {
-        const parsed = JSON.parse(saved);
-        setCompletedProfile(parsed);
+        setCompletedProfile(JSON.parse(saved));
       } catch {
         // Corrupted data — ignore
       }
     }
+
+    // Listen for same-tab profile saves (quiz completion)
+    const handleProfileUpdated = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (detail) setCompletedProfile(detail);
+    };
+    window.addEventListener("profileUpdated", handleProfileUpdated);
+    return () => window.removeEventListener("profileUpdated", handleProfileUpdated);
   }, []);
 
   const handleRehacer = () => {
@@ -87,7 +94,7 @@ export function Navbar() {
                     profileName={completedProfile.profile_name}
                   />
                 </SheetTrigger>
-                <SheetContent side="left">
+                <SheetContent side="left" className="pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
                   <ProfileSheet
                     profileName={completedProfile.profile_name}
                     profileDescription={completedProfile.profile_description}
@@ -137,8 +144,8 @@ export function Navbar() {
               >
                 <Menu className="size-5" />
               </SheetTrigger>
-              <SheetContent side="right" className="w-72 px-6 pt-16">
-                <nav className="flex flex-col gap-2">
+              <SheetContent side="right" className="pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+                <nav className="flex flex-col gap-2 px-5 pt-14">
                   {navLinks.map((link) => (
                     <Link
                       key={link.href}

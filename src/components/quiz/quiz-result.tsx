@@ -1,15 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ResultSkeleton } from "@/components/quiz/result-skeleton";
-import { ResultLaptopCard } from "@/components/quiz/result-laptop-card";
+import { QuizCelebration } from "@/components/quiz/quiz-celebration";
 import { fetchProfile, fetchLaptopsByIds } from "@/lib/quiz-data";
 import { PROFILE_STORAGE_KEY } from "@/types/quiz";
-import type { Workload, Lifestyle, Budget, OsPreference, ProfileResult } from "@/types/quiz";
-import type { Laptop } from "@/types/laptop";
+import type { Workload, Lifestyle, Budget, OsPreference } from "@/types/quiz";
 
 interface QuizResultProps {
   selections: [string | null, string | null, string | null, string | null];
@@ -18,14 +15,15 @@ interface QuizResultProps {
 
 export function QuizResult({ selections, onRetry }: QuizResultProps) {
   const router = useRouter();
-  const [profile, setProfile] = useState<ProfileResult | null>(null);
-  const [laptops, setLaptops] = useState<Laptop[]>([]);
-  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [backendComplete, setBackendComplete] = useState(false);
+
+  const handleNavigate = useCallback(() => {
+    router.push("/profile");
+  }, [router]);
 
   useEffect(() => {
     async function load() {
-      setLoading(true);
       setError(null);
 
       const [workload, lifestyle, budget, osPreference] = selections;
@@ -39,21 +37,19 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
         );
 
         const laptopResults = await fetchLaptopsByIds(profileResult.laptop_ids);
+        const saved = { ...profileResult, laptops: laptopResults };
 
         // Write completed profile + laptops to localStorage
         // QuizResult is the sole owner of this write
         try {
-          localStorage.setItem(
-            PROFILE_STORAGE_KEY,
-            JSON.stringify({ ...profileResult, laptops: laptopResults })
-          );
+          localStorage.setItem(PROFILE_STORAGE_KEY, JSON.stringify(saved));
+          // Notify navbar (and any other listeners) that profile is now ready
+          window.dispatchEvent(new CustomEvent("profileUpdated", { detail: saved }));
         } catch {
           // ignore storage errors
         }
 
-        // Redirect to dedicated profile page
-        router.push("/profile");
-        return;
+        setBackendComplete(true);
       } catch (err) {
         console.error(
           "[QuizResult] fetchProfile error for combination:",
@@ -61,17 +57,11 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
           err
         );
         setError("error");
-      } finally {
-        setLoading(false);
       }
     }
 
     load();
   }, [selections]);
-
-  if (loading) {
-    return <ResultSkeleton />;
-  }
 
   if (error) {
     return (
@@ -89,34 +79,13 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
     );
   }
 
-  if (!profile || laptops.length === 0) {
-    return (
-      <p className="text-body text-muted-foreground text-center py-12">
-        Aun no hay laptops para este perfil. Vuelve pronto.
-      </p>
-    );
-  }
-
+  // Show celebration overlay while fetching and after backend completes.
+  // The overlay handles navigation to /profile once it finishes.
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.4, ease: "easeOut" }}
-    >
-      <h2 className="text-subhead font-medium text-foreground">
-        {profile.profile_name}
-      </h2>
-      <p className="text-body text-muted-foreground mt-1">
-        {profile.profile_description}
-      </p>
-      <h3 className="text-body font-medium text-foreground mt-8">
-        Tus mejores opciones
-      </h3>
-      <div className="flex flex-col gap-4 mt-4">
-        {laptops.map((laptop) => (
-          <ResultLaptopCard key={laptop.id} laptop={laptop} />
-        ))}
-      </div>
-    </motion.div>
+    <QuizCelebration
+      show={true}
+      backendComplete={backendComplete}
+      onDone={handleNavigate}
+    />
   );
 }

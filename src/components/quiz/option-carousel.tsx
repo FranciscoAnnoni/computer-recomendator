@@ -10,9 +10,14 @@ interface OptionCarouselProps {
   options: QuizOption[];
   selectedValue: string | null;
   onSelect: (value: string) => void;
+  onNext: () => void;
 }
 
-export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarouselProps) {
+function vibrate() {
+  try { navigator.vibrate?.(8); } catch { /* ignore */ }
+}
+
+export function OptionCarousel({ options, selectedValue, onSelect, onNext }: OptionCarouselProps) {
   const INITIAL_CENTER = 1; // middle card (index 1 of 3)
 
   const derivedCenter = selectedValue
@@ -48,8 +53,18 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
 
   const navigate = (newIndex: number) => {
     if (newIndex < 0 || newIndex >= options.length) return;
+    vibrate();
     setCenterIndex(newIndex);
     onSelect(options[newIndex].value);
+  };
+
+  const handleCardClick = (index: number) => {
+    if (index === centerIndex) {
+      // Already selected — tap again to advance
+      onNext();
+    } else {
+      navigate(index);
+    }
   };
 
   const handleArrowLeft = () => navigate(centerIndex - 1);
@@ -66,10 +81,10 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
   // ── MOBILE: deck / stacked card layout ──────────────────────────────────────
   if (isMobile) {
     return (
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-3">
         {/* Deck container — drag to swipe on mobile */}
         <motion.div
-          className="relative w-[260px] h-[400px] mx-auto cursor-grab active:cursor-grabbing"
+          className="relative w-[200px] h-[290px] mx-auto cursor-grab active:cursor-grabbing"
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
           dragElastic={0.2}
@@ -84,13 +99,13 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
               <motion.div
                 key={option.value}
                 className="absolute top-0"
-                style={{ left: "50%", marginLeft: "-130px" }}
+                style={{ left: "50%", marginLeft: "-100px" }}
                 animate={{
-                  x: offset === 0 ? 0 : offset < 0 ? -65 : 65,
-                  scale: isCenter ? 1 : 0.86,
-                  opacity: Math.abs(offset) > 1 ? 0 : isCenter ? 1 : 0.5,
+                  x: offset === 0 ? 0 : offset < 0 ? -52 : 52,
+                  scale: isCenter ? 1 : 0.88,
+                  opacity: Math.abs(offset) > 1 ? 0 : isCenter ? 1 : 0.65,
                   zIndex: isCenter ? 30 : 20,
-                  rotate: isCenter ? 0 : offset < 0 ? -4 : 4,
+                  rotate: isCenter ? 0 : offset < 0 ? -5 : 5,
                 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
                 onClick={() => !isCenter && navigate(index)}
@@ -99,10 +114,8 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
                   option={option}
                   isCenter={isCenter}
                   isSelected={isSelected}
-                  onClick={() => {
-                    setCenterIndex(index);
-                    onSelect(option.value);
-                  }}
+                  compact
+                  onClick={() => handleCardClick(index)}
                 />
               </motion.div>
             );
@@ -180,10 +193,7 @@ export function OptionCarousel({ options, selectedValue, onSelect }: OptionCarou
                 option={option}
                 isCenter={isCenter}
                 isSelected={isSelected}
-                onClick={() => {
-                  setCenterIndex(index);
-                  onSelect(option.value);
-                }}
+                onClick={() => handleCardClick(index)}
               />
             </motion.div>
           );

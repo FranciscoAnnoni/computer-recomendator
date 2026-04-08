@@ -1,0 +1,130 @@
+# MercadoLibre Argentina — Laptops con Precios
+# Generado: 2026-04-07T05:54:58.827753
+# Total: 30 laptops únicas
+# Workflow: visitar permalink → generar link de referido → pegar en affiliate_link del JSON
+
+
+# ══════════════════════════════════════════════════════
+# Toshiba  (30 laptops, 0 con precio)
+# ══════════════════════════════════════════════════════
+
+# Notebook Toshiba Dynabook Hogar
+# precio no disponible  |  Ver descripción  |  Ver descripción
+https://www.mercadolibre.com.ar/p/MLA24839356
+
+# Notebook Toshiba Dynabook
+# precio no disponible  |  Intel  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA20600118
+
+# Notebook Toshiba DYNABOOK PT5B1U-0RC01L
+# precio no disponible  |  Ver descripción  |  Ver descripción
+https://www.mercadolibre.com.ar/p/MLA22196509
+
+# Notebook Toshiba DYNABOOK Tecra A50-F
+# precio no disponible  |  Ver descripción  |  Ver descripción
+https://www.mercadolibre.com.ar/p/MLA22894916
+
+# Notebook Toshiba DYNABOOK Satellite Pro C50-H15100
+# precio no disponible  |  Ver descripción  |  Ver descripción
+https://www.mercadolibre.com.ar/p/MLA20858430
+
+# Notebook Toshiba Dynabook Tecra A50-f 4205u 4gb 128gb 15.6
+# precio no disponible  |  Intel  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA21987200
+
+# Toshiba Dynabook Tecra A40/ 5205u/ 4gb Ram/ 128gb Ssd/ Win10
+# precio no disponible  |  5205U  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA23677789
+
+# Laptop Toshiba Dynabook 13.3 Celeron 128gb Ssd 4gb Ram W10p
+# precio no disponible  |  Intel  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA19842766
+
+# Notebook Toshiba Dynabook A40-g1420 I5-10210u 8gb 256gb 14 -
+# precio no disponible  |  10210U  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA21253707
+
+# Laptop Toshiba Dynabook Satellite Pro Core I3 4gb 128 Sdd
+# precio no disponible  |  1005G1  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA19915029
+
+# Notebook Toshiba Dynabook Tecra A40-g1400ed 4gb Ram 128gb Ssd Intel Ce
+# precio no disponible  |  5205U  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA19693870
+
+# Laptop Dynabook-toshiba Pmz20u-0uk00c - 14 Pulgadas, /vc
+# precio no disponible  |  i7-10510U  |  16 GB
+https://www.mercadolibre.com.ar/p/MLA26792556
+
+# 2023 Toshiba Dynabook Portege X40l-k 14 Wuxga 400nits Business Laptop,
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA51968076
+
+# Portatil Dynabook Toshiba Satellitel50 I7 16 Ssd512 Ram16gb Color Negr
+# precio no disponible  |  Intel  |  16 GB
+https://www.mercadolibre.com.ar/p/MLA25537511
+
+# Portatil Dynabook Toshiba Satellite Pro C40h I5 16g 512 W10p
+# precio no disponible  |  Intel  |  16 GB
+https://www.mercadolibre.com.ar/p/MLA22911188
+
+# Notebook Dynabook By Toshiba Tecra A50-f 4gb 128gb Ssd 15,6
+# precio no disponible  |  Intel  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA22913155
+
+# Laptop Dynabook Toshiba Intel I5 8gb 256gb Ssd Windows 1 Color Azul
+# precio no disponible  |  I5-8250U  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA48962078
+
+# Laptop Toshiba Tecra Dynabook A40-j 14 Pulgadas Intel C /vc
+# precio no disponible  |  i7-1165G7  |  16 GB
+https://www.mercadolibre.com.ar/p/MLA21910669
+
+# Laptop Dynabook Toshiba X20-w 12.5 Full Hd 16gb 512gb Ss /vc Color Azu
+# precio no disponible  |  PRT22U-0QT02L  |  16 GB
+https://www.mercadolibre.com.ar/p/MLA36095837
+
+# Dynabook Toshiba Satellite Pro L50-g Computadora De Negocios, Portátil
+# precio no disponible  |  Intel  |  Ver descripción
+https://www.mercadolibre.com.ar/p/MLA46599193
+
+# Laptop Dynabook Core I3 10110u Ram 8gb Ssd 256gb 14 Color Negro
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA26187340
+
+# Laptop Dynabook Tecra A40-g, I3-10110u, Ram 8gb, Ssd 256gb Color Negro
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA24609657
+
+# Portatil Toshiba Portege X30l-g Ci7 Ram16/rom256 Win10pro
+# precio no disponible  |  Intel  |  Ver descripción
+https://www.mercadolibre.com.ar/p/MLA23676405
+
+# Notebook Toshiba Kirabook 15.6 Core I7 32gb 512gb Win11 Pro - Gris
+# precio no disponible  |  12700H  |  32 GB
+https://www.mercadolibre.com.ar/p/MLA61769690
+
+# Notebook Toshiba S55-c5138 I7-6500u 1tb 8gb 15.6'' Win 10
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA26761153
+
+# Notebook Toshiba I3 8130u 256gb Ssd 8gb Pro R50 Freedos 15.6
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA20020209
+
+# Notebook Toshiba L55w-c5357 2-in-1 1tb 8gb 15.6'' Full Hd
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA25077757
+
+# Portátil Toshiba Tecra A40-g Celeron 4gb 128gb Ssd Win 10pro
+# precio no disponible  |  Intel  |  4 GB
+https://www.mercadolibre.com.ar/p/MLA19845870
+
+# Laptop Toshiba I5 7200u 8gb Ram 1 Tb Dd Win 10 Pro
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA19861724
+
+# Notebook Toshiba L55w-c5358 2 In 1 I7 1tb 8gb 15.6'' Win 10
+# precio no disponible  |  Intel  |  8 GB
+https://www.mercadolibre.com.ar/p/MLA20021029
+

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { fetchAllLaptops } from "@/lib/catalog-data";
 import type { Laptop } from "@/types/laptop";
@@ -9,19 +10,32 @@ import { EmptySlot } from "./empty-slot";
 import { LaptopPicker } from "./laptop-picker";
 
 export function ComparatorClient() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const [allLaptops, setAllLaptops] = useState<Laptop[]>([]);
   const [loading, setLoading] = useState(true);
   const [slots, setSlots] = useState<(Laptop | null)[]>([null, null]);
   const [pickerSlotIndex, setPickerSlotIndex] = useState<number | null>(null);
 
-  // Load laptops — both slots start empty, user chooses both manually
+  // Load laptops — pre-populate slot 0 if ?laptop={id} is in the URL
   useEffect(() => {
     async function load() {
       const laptops = await fetchAllLaptops();
       setAllLaptops(laptops);
       setLoading(false);
+
+      const preloadId = searchParams.get("laptop");
+      if (preloadId) {
+        const found = laptops.find((l) => l.id === preloadId);
+        if (found) {
+          setSlots([found, null]);
+        }
+        // Remove the query param without re-triggering navigation
+        router.replace("/compare", { scroll: false });
+      }
     }
     load();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Compute disabled IDs to prevent duplicate selection

@@ -1,0 +1,513 @@
+{
+  "brand": "Positivo",
+  "generated_at": "2026-04-06T09:06:39.824798",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 18,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA36224083",
+      "name": "Notebook Positivo Master Positivo Master N1250 Gris oscuro 14\" Intel N5030 4GB de Ram",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "N5030",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.3 kg",
+      "color": "Gris oscuro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_994995-MLA80228414995_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36224083",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA36675677",
+      "name": "Notebook Positivo Motion C4128G 4GB RAM color gris",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Celeron N4020",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.76 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_899999-MLA80329426168_112024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36675677",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28487647",
+      "name": "Notebook Positivo Intel Core I5 4gb 500gb Wifi - Color Negro",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_857690-MLU73027685978_112023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28487647",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28605616",
+      "name": "Notebook Vision I15 8gb 15.6 I3 Ddr4 256gb Positivo",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "1115G4",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.78 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_689733-MLU74182556667_012024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28605616",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23987425",
+      "name": "Notebook Motion C4128g-14 4gb 128gb W11 Cinza Positivo",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.1 \"",
+      "weight": "1.7 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_603391-MLU69980502423_062023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23987425",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21498756",
+      "name": "Notebook Positivo Master N40i Core I5 6200u 8 GB 1 TB",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "1.66 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_657064-MLA71478238408_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21498756",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23451697",
+      "name": "Notebook Positivo 4gb Ram 128gb 14pol Win10 E Office Dourado",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.3 kg",
+      "color": "Dorado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_946200-MLU69607880090_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23451697",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24743047",
+      "name": "Notebook Positivo N1240 Celeron 4gb Ssd 128 Gb- Color gris oscuro",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.4 kg",
+      "color": "Gris oscuro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_699009-MLU77281635520_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24743047",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26631743",
+      "name": "Notebook Positivo Master N6140 Blackstone Intel Core I5 8gb Color Negro",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.6 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_901721-MLU71314726508_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26631743",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA15568573",
+      "name": "Notebook Positivo I581TA-15 Plata 15.6\" Intel 6200U 8GB de Ram",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "6200U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Plata",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://mla-s1-p.mlstatic.com/886736-MLA44987836503_022021-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA15568573",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24579074",
+      "name": "Notebook Positivo Motion C432a 4 GB Tela14 HD Windows 10 Home",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "2 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_688146-MLU70505575490_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24579074",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA19529480",
+      "name": "Notebook Positivo Stilo XC5634 Rojo 14\" Intel N3710 4GB de Ram",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "N3710",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.68 kg",
+      "color": "Rojo",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_958737-MLA51107018257_082022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA19529480",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22740789",
+      "name": "Notebook Positivo Sim+ Amd Dual Core 4gb Hd 320gb Mostruario",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_921371-MLU54959775001_042023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22740789",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA43275395",
+      "name": "Notebook Laptop Positivo Mobo S7 Ideal para Estudios Escolares Color Blanco",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "1 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "7 \"",
+      "weight": "1.2 kg",
+      "color": "Blanco",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_762378-MLA82429964085_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA43275395",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23861002",
+      "name": "Notebook Positivo Premium L6060 I3 4gb Ram 500gb Mostruario Color Negro",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "1.9 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_624188-MLU69866329199_062023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23861002",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21835724",
+      "name": "Notebook Positivo Motion C4128ci Celeron de doble núcleo, SSD 128 g",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.4 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_678770-MLU79302810461_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21835724",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39094986",
+      "name": "Notebook Positivo N6140 Core I7 7ª Generación 8gb M2 240gb 14",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Core i7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Marrón",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_719988-MLU78217461353_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39094986",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24164430",
+      "name": "Notebook Positivo Intel c/Toque 4gb Ssd 32gb 11.6 Mostruario",
+      "brand": "Positivo",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "11 \"",
+      "weight": "1.4 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_769130-MLU70175278479_062023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24164430",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}

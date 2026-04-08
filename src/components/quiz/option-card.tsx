@@ -2,11 +2,20 @@ import Image from "next/image";
 import type { QuizOption } from "@/types/quiz";
 import { ILLUSTRATIONS } from "@/components/quiz/illustrations/index";
 
-// Illustration IDs that use static image assets instead of SVG components
+// Static image assets for all quiz card illustrations
 const IMAGE_ASSETS: Record<string, string> = {
   productivity: "/illustrations/trabajar.png",
   creation:     "/illustrations/crear.png",
   gaming:       "/illustrations/gaming.png",
+  portability:  "/illustrations/nomada.png",
+  ecosystem:    "/illustrations/mixto.png",
+  power:        "/illustrations/escritorio.png",
+  essential:    "/illustrations/esencial.png",
+  balanced:     "/illustrations/intelignete.png",
+  premium:      "/illustrations/premium.png",
+  windows:      "/illustrations/windows.png",
+  macos:        "/illustrations/apple.png",
+  flexible:     "/illustrations/abierto.png",
 };
 
 interface OptionCardProps {
@@ -50,7 +59,7 @@ export function OptionCard({ option, isCenter, isSelected, compact = false, onCl
             alt={option.label}
             fill
             sizes="(max-width: 640px) 200px, 260px"
-            className="object-cover transition-opacity duration-200"
+            className="object-contain transition-opacity duration-200"
             style={{ opacity: active ? 1 : 0.55 }}
           />
         ) : IllustrationComponent ? (

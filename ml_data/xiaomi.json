@@ -1,0 +1,120 @@
+{
+  "brand": "Xiaomi",
+  "generated_at": "2026-04-06T09:06:39.828021",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 4,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA25548828",
+      "name": "Notebook Gaming Xiaomi 15,6'' I5 8gb 512gb W10 Latentación Color Gris (deep Space Gray)",
+      "brand": "Xiaomi",
+      "price": null,
+      "cpu": "9300H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "2.6 kg",
+      "color": "GRIS (DEEP SPACE GRAY)",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_888870-MLU70779056854_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25548828",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29278109",
+      "name": "Notebook Gamer Xiaomi Core I5 4.1ghz 8gb 512g 15.6 Gtx1660ti Color Gris Oscuro Talle 15,6",
+      "brand": "Xiaomi",
+      "price": null,
+      "cpu": "INTEL CORE I5 9300H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.6 kg",
+      "color": "Gris oscuro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_982830-MLU73614656539_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29278109",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA50573463",
+      "name": "Notebook Xiaomi Redmibook 14' Intel Core i5 16 GB RAM 2025 Color Gris 2800 px x 2080 px",
+      "brand": "Xiaomi",
+      "price": null,
+      "cpu": "Core 5 220H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_861091-MLA85314223281_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA50573463",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20284834",
+      "name": "Ordenador portátil Xiaomi Redmibook i3-8145U de 14 pulgadas, DDR4 de 4 g, SSD de 256 g",
+      "brand": "Xiaomi",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.5 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_816878-MLB41825783672_052020-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20284834",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}

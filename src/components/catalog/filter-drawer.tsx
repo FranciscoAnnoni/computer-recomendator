@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   Sheet,
   SheetContent,
@@ -123,6 +123,41 @@ export function FilterDrawer({
 }: FilterDrawerProps) {
   const side = useSheetSide();
   const [local, setLocal] = useState<CatalogFilters>(filters);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const [dragY, setDragY] = useState(0);
+  const [isDragging, setIsDragging] = useState(false);
+
+  // Reset drag when drawer closes
+  useEffect(() => {
+    if (!open) { setDragY(0); setIsDragging(false); }
+  }, [open]);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (side !== "bottom") return;
+    const scrollTop = scrollRef.current?.scrollTop ?? 0;
+    if (scrollTop > 2) return; // only when at very top
+    touchStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    setIsDragging(true);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!touchStart.current || side !== "bottom") return;
+    const dy = e.touches[0].clientY - touchStart.current.y;
+    setDragY(dy > 0 ? dy : 0);
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    setIsDragging(false);
+    if (!touchStart.current || side !== "bottom") return;
+    const dy = e.changedTouches[0].clientY - touchStart.current.y;
+    touchStart.current = null;
+    if (dy > 180) {
+      onOpenChange(false);
+    } else {
+      setDragY(0);
+    }
+  };
 
   // Sync local state when drawer opens
   useEffect(() => {
@@ -178,6 +213,13 @@ export function FilterDrawer({
           "flex flex-col p-0",
           side === "left" ? "w-80 sm:max-w-80" : "max-h-[88vh]"
         )}
+        style={side === "bottom" ? {
+          transform: `translateY(${dragY}px)`,
+          transition: isDragging ? "none" : "transform 0.35s cubic-bezier(0.32, 0.72, 0, 1)",
+        } : undefined}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
       >
         {/* Header */}
         <SheetHeader className="px-5 pt-5 pb-3 border-b shrink-0">
@@ -192,7 +234,7 @@ export function FilterDrawer({
         </SheetHeader>
 
         {/* Scrollable body */}
-        <div className="flex-1 overflow-y-auto px-5 py-4 space-y-6">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto px-5 py-4 space-y-6">
 
           {/* Precio */}
           <div>

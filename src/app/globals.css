@@ -147,3 +147,66 @@
     @apply font-sans;
   }
 }
+
+/* Quiz celebration overlay animations */
+@keyframes confetti-fall {
+  from {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sparkle-anim {
+  0%, 100% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce-icon {
+  0%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-12px); }
+  60% { transform: translateY(-6px); }
+}
+
+.animate-confetti-fall {
+  animation: confetti-fall linear infinite;
+}
+
+.animate-sparkle-anim {
+  animation: sparkle-anim 2s infinite;
+}
+
+/* Side sheet: gradient border that fades at top and bottom */
+.sheet-fade-glow {
+  position: relative;
+}
+.sheet-fade-glow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.16) 28%,
+    rgba(255, 255, 255, 0.16) 72%,
+    transparent 100%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 0;
+}

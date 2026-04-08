@@ -1,0 +1,4073 @@
+{
+  "brand": "Acer",
+  "generated_at": "2026-04-06T09:06:39.792842",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 141,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA20546297",
+      "name": "Gamer Acer Predator Helios",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_647304-MPE49801062916_042022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20546297",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22256745",
+      "name": "Notebook Acer Predator Helios 300 i7-10750H",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_733873-MLU78820657177_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22256745",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48931163",
+      "name": "Notebook Acer Predator Triton 500se I7 3060",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel Core i7-11800H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.4 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_724452-MLA83740900418_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48931163",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27533508",
+      "name": "Ordenador Portatil Para Juegos Acer Predator Helios 300, Pa",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_705687-MLU72081278514_102023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27533508",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48675401",
+      "name": "Laptop Acer Predator Triton 300 15.6 Fhd I7 64gb 2tb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "11800H",
+      "ram": "0 MB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "0 \"",
+      "weight": "0 g",
+      "color": "ABYSS NEGRO",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_953755-MLA83566078214_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48675401",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA45123676",
+      "name": "Laptop Gamer Acer Predator Rtx 3060 I7 16gb 512gb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_917254-MLA81633979361_122024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA45123676",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22931027",
+      "name": "Notebook Acer Predator Helios I7 10ma 16gb Ssd Rtx2060 144hz",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.2 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_768406-MLU69634719196_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22931027",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22988361",
+      "name": "Laptop Acer Predator Helios 300 15.6 I7 16gb 256gb Gtx1660ti",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_721187-MLU69496580411_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22988361",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23134915",
+      "name": "Acer Predator Helios 300 I7 12700h 16gb 512ssd Rtx3060 165hz",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_778401-MLU69642150803_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23134915",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22191951",
+      "name": "Notebook Acer Predator 15.6 I7 8750h 8va Gtx1060 144hz Ssd 2",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_745987-MLA100007264803_122025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22191951",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49758110",
+      "name": "Acer Predator Helios 300 15.6 I7 Rtx3070 16gb 1tb Ssd Black",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.6 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_901779-MLA84618272329_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49758110",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21471809",
+      "name": "Acer Predator Helios 300 I7-12700h 15.6 Rtx 3070ti 16gb 1tb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_633262-MLM52110583909_102022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21471809",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26541079",
+      "name": "Portátil Gamer Acer Predator Ci7 16gb 512gb Ssd Fhd Rtx3070",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "5 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_841121-MLU71250398636_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26541079",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA57333841",
+      "name": "Ultrabook Acer Predator Core Ultra 9 Rtx4070 1tb 16gb 14puLG Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "ULTRA 9 185H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.5 \"",
+      "weight": "1.7 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Gaming",
+        "Ultradelgado"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_861947-MLA93035522303_092025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA57333841",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA32396796",
+      "name": "Laptop Gamer Acer Predator Triton 900 Pt917-71-9980 Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i9-9980HK",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17.3 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_847804-MLU74322768678_022024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA32396796",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21233200",
+      "name": "Notebook Acer Predator I7 Gtx1660 Ssd 256gb + 1tb 12gb Ctas",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "12 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.6 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_927238-MLA32708024424_102019-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21233200",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA59126336",
+      "name": "Notebook Acer Predator Helios Ultra 7 16gb 1tb Rtx4070 Dimm Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "155H 16 CORES",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.5 \"",
+      "weight": "1.8 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_990799-MLA93883332932_102025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA59126336",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21233112",
+      "name": "Notebook Acer Predator Triton500 Gamer 15,6 Fhd W10 I7-8750h",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "8750H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_731865-MLA31646724594_072019-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21233112",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22518000",
+      "name": "Notebook Acer Predator I7 10ma 16gb Ssd Rtx2070 15,6 240hz",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.8 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_733565-MLA44573598492_012021-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22518000",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA34015191",
+      "name": "Acer Predator 16 Ci9-13900hx 1tb Ssd 16ddr5 Rtx4080 16' Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13900HX",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_848451-MLA100060709415_122025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA34015191",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA19600993",
+      "name": "Notebook Acer Predator I7-11375h 16gb 512gb Ssd Rtx 3050ti Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "11375h",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_856815-MLA51839224415_102022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA19600993",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA57097938",
+      "name": "Laptop Acer Predator Triton 500 Rtx2070 Core I7 32gb 1tb Ssd Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i7-10875H de décima generación",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_759815-MLA92564475242_092025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA57097938",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46180713",
+      "name": "Portátil Acer Predator Helios Core I9 96gb 1tb Rtx 4090 16gb Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Core™ Ultra 9 275HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_628853-MLA82257923152_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46180713",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA37539099",
+      "name": "Portátil Acer Predator Helios Ph315-55-79kw Ci7/16gb/512gb Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_823307-MLU76673392954_062024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA37539099",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA35954911",
+      "name": "Portátil Acer Predator 16 Intel Core I7 13700hx 32gb 2tb Color Black",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13700HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.6 kg",
+      "color": "Black",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_685642-MLU75870204559_042024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA35954911",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA37511623",
+      "name": "Laptop Acer Predator Triton 14: I7, 16gb, Rtx 4050, W11h Color Gris",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_848221-MLU76865329457_062024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA37511623",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66354589",
+      "name": "Acer Predator Phn16s Ultra 9 275hx 16gb 1tb Rtx 5060 240hz Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i9-12975HX",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Alta frecuencia",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_847190-MLA108326950297_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66354589",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29100303",
+      "name": "Acer Predator Helios Ci7-13700hx 512gb Ssd 16ddr5 Rtx4050 16 Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13700HX",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_869162-MLU73532733383_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29100303",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26423161",
+      "name": "Acer Predator Helios Ci7-12700h 1tb Ssd 16ddr5 Rtx3060 15.6' Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_602915-MLU71227995364_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26423161",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25936647",
+      "name": "Laptop Para Juegos Acer Predator Helios 300, Intel Core I7-9",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.4 kg",
+      "color": "Black",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_819771-MLU70998010608_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25936647",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA37101769",
+      "name": "Portátil Para Juegos Acer Nitro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_643630-MLA82474753777_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA37101769",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24508197",
+      "name": "Notebook Acer Nitro 5 AN15-43",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_983325-MLU71501745586_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24508197",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA40459992",
+      "name": "Notebook Acer Nitro Mod. An515",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "RYZEN 5",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_713340-MLU78838664796_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA40459992",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20908406",
+      "name": "Notebook Acer Nitro 5 Ci7 An515-55-777v",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_705595-MLA80085664604_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20908406",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA53662225",
+      "name": "Laptop Acer Nitro V15 Rtx 4060 16 GB Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13420H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.11 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_661765-MLA89744441979_082025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA53662225",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29693797",
+      "name": "Notebook Acer Nitro 16 AN16-51-7515 Obsidian black Intel",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Obsidian black",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_988196-MLU78057276943_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29693797",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22825200",
+      "name": "Computador Portatil Gamer Acer Nitro Ci5 1tb 8gb Gtx4gb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_958815-MLU69157924209_042023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22825200",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48545000",
+      "name": "Laptop Para Videojuegos Acer Nitro V, Intel Core I9-13900h",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "No aplica",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_776710-MLA83814288545_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48545000",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA50751971",
+      "name": "Ordenador portátil Acer Nitro V15 de 32 GB de RAM",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "10750H",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "1 \"",
+      "weight": null,
+      "color": "No Aplicao",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_866869-MLA85162128832_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA50751971",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21084883",
+      "name": "Computador Portatil Acer Nitro An515-57 Ci5 11400h - 15,6 Fh",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_771778-MCO52368778463_112022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21084883",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28960511",
+      "name": "Laptop Gamer Acer Nitro 7 An715-51-73s3 Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i7 9750H",
+      "ram": "12 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "3.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_932961-MLA80666142281_112024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28960511",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA61090005",
+      "name": "Laptop Acer Nitro 16 An16-51-54nq/i5/8gb/512gb/rtx4050",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13500H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_646709-MLA96191195655_102025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA61090005",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA65159334",
+      "name": "Acer Nitro V16 16s 180hz I7 32gb Rtx 5060 8gb ! Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "240H 10-Core",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.2 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_799952-MLA105707720548_012026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA65159334",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA57598877",
+      "name": "Notebook Acer Nitro 5 I5-10300h Gtx1650-4g 15.6 Win10 Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "5600H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.9 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_964559-MLA93240145517_092025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA57598877",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA36578966",
+      "name": "Portátil Acer Nitro An515-58-51s2 Ci5 8gb 512ssd Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12500H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.6 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_922343-MLU78690796679_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36578966",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25571427",
+      "name": "Notebook Acer Nitro 5 I5 7300h 12gb 1tb Gtx1050 Fullhd Win10",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "12 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_954586-MLU73785634428_012024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25571427",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA41978611",
+      "name": "Ordenador portátil Acer Nitro 5 AN515-44-R629, R7, 8 GB",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "4800H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_914000-MLA82197050608_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41978611",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA45706641",
+      "name": "Portátil Gamer Acer Nitro I5 13420h Ram24gb Ssd512gb Rtx3050 Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13420H",
+      "ram": "24 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_691485-MLA81843552868_012025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA45706641",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49875950",
+      "name": "Acer Nitro V 15 Gaming Laptop, Microsoft Office De Por Vi",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "1 \"",
+      "weight": null,
+      "color": "No aplica",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_761414-MLA84651253531_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49875950",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA37847114",
+      "name": "Laptop Gamer Acer Nitro 15.6 Rtx3050 Ryzen 5 8gb 512gb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "6600H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_869661-MLU77179123077_062024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA37847114",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA53461256",
+      "name": "Intel Portátil Gamer Acer Nitro I5 13420h Ram16gb Ssd512gb Rtx3050 Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13420H",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_951857-MLA89485940493_082025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA53461256",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23086407",
+      "name": "Acer Nitro Intel Core I7 Ssd 1tb Ram 24gb Rtx 3050ti",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "24 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_747089-MLU69496577691_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23086407",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22187528",
+      "name": "Acer Nitro 5, Core I5, Nvidia Geforce Gtx 1650, 8gb Ram",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_651082-MLM52435387632_112022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22187528",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29138392",
+      "name": "Portátil Acer Nitro 5 An515-58-574w Ci5 8gb Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12450H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.7 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_743484-MLU73557331565_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29138392",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23136077",
+      "name": "Laptop Gamer Acer Nitro 5 15.6puLG Ryzen 5 - 16gb - 512 /vc",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "4600H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.3 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_846386-MLU69445116513_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23136077",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA40611245",
+      "name": "Acer Nitro 5 An515-58-57y8: Portátil Gaming 15.6'' Fhd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12500H",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_835644-MLU78938753422_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA40611245",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46474500",
+      "name": "Notebook Acer Nitro 5 i5 RTX 3050 15 6 144Hz Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "12450H",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Alta frecuencia",
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_661537-MLA82737588709_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46474500",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62000166",
+      "name": "Notebook Gamer Acer Nitro V15 Ryzen 5 8gb 512gb Ssd Rtx3050",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7535HS",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_736696-MLA97858247275_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62000166",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA41988683",
+      "name": "Portátil Acer Nitro 5 AN515-58-58w3, I5, Rtx 3050 Showcase",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "8250U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "GPU dedicada",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_643109-MLA79990142773_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41988683",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21210196",
+      "name": "Notebook Gamer Acer Nitro I5 16gb 256gb + 1tb Gtx 1650 W11 C",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.3 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_689307-MLA49091462879_022022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21210196",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA61432672",
+      "name": "Netbook Acer Aspire One negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "N450",
+      "ram": "2 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "12 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_940842-MLA96300160882_102025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA61432672",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25053342",
+      "name": "Acer Aspire A515-51-74ZA Ordenador portátil",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_671775-MLU77446672744_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25053342",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25171079",
+      "name": "Notebook Acer Aspire 5 A515-45-ROZM",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_941594-MLU71549356595_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25171079",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24563935",
+      "name": "Notebook Acer Aspire 5 A515-46-R3CZ",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_937386-MLU71828812455_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24563935",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24558235",
+      "name": "Notebook Acer Aspire CB315-3H-C2C3 CB315-3H-C2C3",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_749301-MLU71854141561_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24558235",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA45838283",
+      "name": "Notebook Acer Aspire 3 15.6 8g 512gb Color Gris",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "5-7520U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.36 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_748663-MLA99503273458_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA45838283",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23264074",
+      "name": "Laptop Acer Aspire 3 Core I3-8310u 1tb Nuevas",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Rojo",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_649310-MLU69393414436_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23264074",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27079024",
+      "name": "2021 La Computadora Portatil Acer Aspire 5 15.6 Fhd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_952675-MLA99509375112_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27079024",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29438065",
+      "name": "Notebook Acer Aspire I7 4gb 1tb 14 Win 10",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7200U",
+      "ram": "6 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_640485-MLA79230205314_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29438065",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66793594",
+      "name": "Ordenador Portátil Acer Aspire 2023, 15,6 Pulgadas Con Panta",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7320U",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_617874-MLA108951661123_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66793594",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22191952",
+      "name": "Notebook Acer Aspire 4gb 14 Disco Sólido Wifi Hdmi",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "N3350",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.9 kg",
+      "color": "Rojo",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_704194-MLA43422072051_092020-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22191952",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66730745",
+      "name": "Ordenador Portátil Acer Aspire Premium Slim 15,6 Pulgadas Ry",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7330U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Ultradelgado"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_874603-MLA108087232624_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66730745",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA51899187",
+      "name": "Notebook Acer Aspire I5 8gb 512gb 15.6 Diginet Color Gris",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1235U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_893735-MLA99501559540_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA51899187",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA59319588",
+      "name": "Notebook Acer Aspire Acer Aspire 5 A515-58p-74cz Plateado 15.6 1920 Px X 1080 Px Disco Ssd 512 Gb Intel I7-1355u 8gb De ",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i7-1355U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.8 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_619910-MLA94549680575_102025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA59319588",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27728327",
+      "name": "Laptop Acer Aspire 5 I5 11va Gen 8gb 512gb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel Core I5-1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.45 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_954752-MLU72197395142_102023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27728327",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24545486",
+      "name": "Notebook Acer Aspire 15.6 I5 7200u 4gb 16gb Windows 12ct",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_809732-MLU70493968512_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24545486",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21233296",
+      "name": "Notebook Acer Aspire 5 I7 11va 12gb 512gb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "12 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.7 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_870577-MLA50334333231_062022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21233296",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49271431",
+      "name": "Notebook Acer Aspire 3 I3 8gb 256gb - Incluye Licencia W11pro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "A4",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_970020-MLA84236710236_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49271431",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23121758",
+      "name": "Notebook Acer Aspire Intel Core I5-1035g1 12gb Ram 256gb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1035G1",
+      "ram": "12 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_632255-MLU69645900931_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23121758",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA52954579",
+      "name": "NOTEBOOK Acer Aspire Lite Core i7 1255U 16Gb Ssd 512Gb 15.6\"",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1255U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_601986-MLA99906884123_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA52954579",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20469910",
+      "name": "Portátil Acer Aspire A515-56-530b - Intel Core I5-1135g /v",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i5-1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_849566-MLM50954814560_082022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20469910",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20018952",
+      "name": "Notebook Acer Aspire 3 15.6 Celeron N3350 4gb 500g W10",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_649593-MLA80361229075_102024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20018952",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA63946025",
+      "name": "Portátil Acer Aspire 5 Intel Core i5 16gb 256gb Win11 negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "8265U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.9 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_740651-MLA103469969842_012026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA63946025",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA52058909",
+      "name": "Laptop Acer Aspire 15.6 Fhd Ryzen 5-7520u 8gb 512gb Azul",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7520U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.78 kg",
+      "color": "Azul",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_710164-MLA87298440345_072025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA52058909",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62953371",
+      "name": "Laptop Acer Aspire Go: I7, 16gb, Ssd 512gb, 15.6 , W11h Gris",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13620H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_722668-MLA100187790086_122025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62953371",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA35165722",
+      "name": "Laptop Acer Aspire 5 A514 I7 8gb 1tb 128ssd Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "17 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_981317-MLU75331840208_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA35165722",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20469875",
+      "name": "Computadora Portátil Para Diseño Acer Aspire 3 A315-56 /v",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.9 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_820158-MLM49910708756_052022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20469875",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21924456",
+      "name": "Notebook Acer Aspire 3 Amd Athlon 3050 4gb 64gb 14 W10h",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_621704-MLA49532275003_032022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21924456",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA62803750",
+      "name": "Notebook Acer Aspire 14 Ultra 7 32gb 1tb Tactil Wuxga",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7 258V",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_672633-MLA100265478159_122025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62803750",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA50015079",
+      "name": "Notebook Acer Aspire 3 Ryzen 5 7430u 32gb 512gb Sdd Freedos",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "5-7430u",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.78 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_950773-MLA84718358049_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA50015079",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA60287911",
+      "name": "Notebook Acer Swift 3 Gris 15.3 Intel 1334u",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1334U",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.3 \"",
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_778927-MLA95431051921_102025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA60287911",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23066744",
+      "name": "Notebook Acer Swift 4gb Ram 64gb Intel Celeron Webcam",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "N5000",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.3 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_872521-MLU69646207737_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23066744",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48500807",
+      "name": "Acer Swift Ai 14.5 Snapdragon X-elite 16gb 1tb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Snapdragon X Elite X1E-78-100",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.5 \"",
+      "weight": "1.45 kg",
+      "color": "Iron",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_623594-MLA83508639180_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48500807",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA50239891",
+      "name": "Acer Swift 14 Ai 14 Core I7 32gb 1tb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "258V",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.34 kg",
+      "color": "Steam Blue",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_985564-MLA84742723348_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA50239891",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA34502759",
+      "name": "Acer Swift 3, Sf314-42-r6t7, 14 , Ryzen 5 4500u",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_940255-MLU75241285721_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA34502759",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48281346",
+      "name": "Acer Swift 14.5 Ai Snapdragonx Elite 16gb 1tb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "X1E-78-100",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.5 \"",
+      "weight": "1.45 kg",
+      "color": "Steel gray",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_707434-MLA99938844037_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48281346",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21417800",
+      "name": "Laptop Thin & Light Acer Swift 3 Core I5/8gb/512gb/aluminio",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "1.7 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_897045-MLM74181754189_012024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21417800",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22906033",
+      "name": "Notebook Acer Swift 3 14 I3 8gb Ram 256ssd W10h Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1165G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_912284-MLA110059226947_042026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22906033",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22191972",
+      "name": "Notebook Acer Swift 5 Intel I5 8gb Ssd512 Windows 10",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1 kg",
+      "color": "Azul",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_785254-MLA48764069781_012022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22191972",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28941152",
+      "name": "Laptop Acer Swift 5, Ultrabook, Ligera. Rápida. Touch : Color Charcoal Blue",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "970 g",
+      "color": "Charcoal blue",
+      "battery": null,
+      "simplified_tags": [
+        "Ultradelgado"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_729719-MLU73333600424_122023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28941152",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66832211",
+      "name": "Ordenador Portátil Acer Swift 16 Ai 16 3000 Oled Touch 16 Gb",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "256V",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Pantalla OLED",
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_856764-MLA108246586494_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66832211",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA32050482",
+      "name": "Portátil Acer Swift 14 Intel Core I7 13700h 16gb 1tb Color Green",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "13700H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "1.2 kg",
+      "color": "Green",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_971036-MLU74274139012_022024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA32050482",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20652404",
+      "name": "Laptop Acer Swift 5 Sf51455t52cf 14 Full Hd Intel Core I /v",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i5-1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.5 kg",
+      "color": "Dorado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_718160-MLM48271513671_112021-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20652404",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA19836701",
+      "name": "Notebook Acer Swift 3 14 I5 8gb Ram 512ssd W10h Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_833100-MLA51095381750_082022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA19836701",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48408499",
+      "name": "Acer Swift Go 14 Ai 14.5 Snapdragon X Plus 16gb 1tb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "X1P-42-100",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14.5 \"",
+      "weight": "1.34 kg",
+      "color": "Steel gray",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_760325-MLA83479960840_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48408499",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24974678",
+      "name": "Notebook Acer Swift 3 I3-7100u 4 Gb Ddr4 128 14´ W10",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": "1.5 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_903916-MLU74871752406_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24974678",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA20908185",
+      "name": "Notebook Acer Swift 3 Fhd Ips Intel Ci31115g4 8gb 256ssd 14 Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_851428-MLA51095710069_082022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA20908185",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26196573",
+      "name": "Notebook Acer Swift 3 Intel Core I5 512gb Ssd 8gb Ram Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.25 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_882930-MLU71107726316_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26196573",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29775473",
+      "name": "Laptop Acer Swift 3 Sf3135356wp 13.5 Full Hd Intel Core /vc Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i5-1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "13.5 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_905550-MLU74055826670_012024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29775473",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39934347",
+      "name": "Notebook Acer Swift 3 I7-1260p 512gb Ssd 16gb Qhd Win11 Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i7-1260P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.25 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_643708-MLU78727884897_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39934347",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23216884",
+      "name": "Laptop Acer Swift 3 14.0 Fhd Intel I5-1135g7 8gb 512gb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_772024-MLU69652599370_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23216884",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21343910",
+      "name": "Notebook Acer Swift 3 Sf314-511-504n/i5 8gb Ram 256 Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_832458-MLC49729049068_042022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21343910",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24565080",
+      "name": "Acer Swift 3 Laptop 14' Fhd Amd Ryzen7 5700u 8gb 512gb W10h",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "AMD",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.8 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_830919-MLA99506245880_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24565080",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA61641063",
+      "name": "Notebook Acer Swift 14 Intel Core I5 16gb Ram 512gb Ssd Windows 11",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "125H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_620074-MLA99930106887_112025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA61641063",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48070135",
+      "name": "Acer Swift 14 Ai 14 Ryzen 9 365 16gb 1tb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "AMD Ryzen AI 9 365",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.32 kg",
+      "color": "Pure silver",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_707060-MLA83735141099_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48070135",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27728509",
+      "name": "Ultrabook Acer Swift Go I7 13va 16gb Ssd 14puLG Touch 1,2kg Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1355U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Ultradelgado"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_889085-MLU72197557414_102023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27728509",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA23298796",
+      "name": "Portátil Acer Swift 3 13,5 Intel Core I5 8gb Ram 512gb Ssd",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "13.5 \"",
+      "weight": "1.19 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_986678-MLU69417208040_052023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23298796",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26405930",
+      "name": "Laptop Acer Swift 5 Intel Evo Thin & Light, 14 Fullhd Touch Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_920742-MLU71226601892_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26405930",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25548844",
+      "name": "Acer Swift X 14 I7 12va 512gb 16gb Rtx3050 Bajo Pedido Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_779082-MLU70779056946_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25548844",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24545570",
+      "name": "Notebook Acer Swift 3 Core I5 1135g7 8gb 256gb Windows 10 Color Plateado",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_824248-MLU70493809508_072023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24545570",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46576186",
+      "name": "Acer Extensa Ex215-55-52ut",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_799760-MLA82815367409_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46576186",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA46597841",
+      "name": "Acer Extensa Ex215-33-33bm Pure Silver Core I3-n305, 8 Gb Ram, 256 Gb Ssd, De",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_645181-MLA82815997435_032025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA46597841",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA29342407",
+      "name": "Notebook Acer Extensa 15, Amd Ryzen 5 7520u 8gb Ram 512gb Ssd, Amd Radeon Graphics, Fhd 15.6 Linux",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7520U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.77 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_988386-MLU74159336859_012024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29342407",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA33896890",
+      "name": "Notebook Acer Core I5 7200u Acer Trueharmony",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "7200U",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_903868-MLU74489039286_022024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA33896890",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA56537341",
+      "name": "Notebook Acer",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_980407-MLA92273087784_092025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA56537341",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA38252408",
+      "name": "Laptop Acer A315-510p-38r3",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i3-N305",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_656060-MLU77460407618_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38252408",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39987116",
+      "name": "Notebook Acer A315 Ci5",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "1235U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_664107-MLU78797246455_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39987116",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA38501947",
+      "name": "Laptops Acer A515-57-59u9",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i5-1235U",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_618895-MLU77621901586_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38501947",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24589722",
+      "name": "Notebook Acer A115-32-C28P",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_749172-MLU71501747428_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24589722",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA38464123",
+      "name": "Laptop Acer Tmp215-54-520f",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i5-1235U",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_797498-MLU77591420270_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38464123",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA43202724",
+      "name": "Notebook Acer Mod. A515-5457fh",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Core i5-1135G7",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_955399-MLA80428493704_112024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA43202724",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA27078996",
+      "name": "Notebook Acer Chromebook Flagship Chromebook",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_999823-MLU77791279799_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27078996",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA38502613",
+      "name": "Laptops Acer A515-57-34ba",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "i3-1215U",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_795232-MLU77841129699_072024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA38502613",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22130247",
+      "name": "Laptop Acer Premium NX.A88AL.003",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_728274-MLU71505012232_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22130247",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA45356670",
+      "name": "Notebook Acer Aspire 15.6 Full Hd R7-5700u 16gb 512ssd Windows 11 Pro Acer-al15-41",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "5700U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.6 kg",
+      "color": "Plateado",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_689758-MLA81834086717_012025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA45356670",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24597290",
+      "name": "Notebook Acer Premium A515-43-R1NU",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_736505-MLU71548503631_092023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24597290",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA25548670",
+      "name": "Notebook Acer Mod. A315-57g-79y2",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_649688-MLU70810715705_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25548670",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48855468",
+      "name": "Ordenador portátil Acer - Intel Celeron",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "A4",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.72 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_852585-MLA83608483962_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48855468",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA24030309",
+      "name": "Acer Laptop Travelmate P4 Color Negro",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.8 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_788961-MLU70061114414_062023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA24030309",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA36239875",
+      "name": "Acer C720 Chromebook (11.6-pulgadas, 4gb)",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "4 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_830423-MLA79451907885_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA36239875",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA51969686",
+      "name": "Acer 11.6 9120c 4g 32gb Cromo",
+      "brand": "Acer",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_760531-MLA86829855206_072025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA51969686",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}

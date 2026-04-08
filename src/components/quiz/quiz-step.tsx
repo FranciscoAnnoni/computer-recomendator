@@ -25,10 +25,10 @@ export function QuizStep({
   const isLastStep = stepIndex === QUIZ_STEPS.length - 1;
 
   return (
-    <div className="flex flex-col gap-6 w-full">
+    <div className="flex flex-col gap-4 md:gap-6 w-full">
       {/* Step heading + subheading */}
       <div className="text-center">
-        <h2 className="text-subhead font-medium text-foreground">
+        <h2 className="text-lg md:text-subhead font-medium text-foreground">
           {stepData.heading}
         </h2>
         <p className="text-small text-muted-foreground mt-1">
@@ -44,6 +44,7 @@ export function QuizStep({
         options={stepData.options}
         selectedValue={currentSelection}
         onSelect={onSelect}
+        onNext={onNext}
       />
 
       {/* Bottom action row: [Anterior] [Siguiente / Ver mis recomendaciones] */}
@@ -53,7 +54,7 @@ export function QuizStep({
             type="button"
             aria-label="Volver al paso anterior"
             onClick={onBack}
-            className="h-11 px-5 rounded-lg border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors text-sm font-medium focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none shrink-0"
+            className="flex-1 h-11 px-5 rounded-lg border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors text-sm font-medium focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
           >
             Anterior
           </button>

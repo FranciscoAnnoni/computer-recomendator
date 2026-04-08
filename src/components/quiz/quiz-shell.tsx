@@ -6,9 +6,19 @@ import { QUIZ_STEPS, QUIZ_STORAGE_KEY, PROFILE_STORAGE_KEY } from "@/types/quiz"
 import { QuizStep } from "@/components/quiz/quiz-step";
 import { QuizResult } from "@/components/quiz/quiz-result";
 
+// Lock body scroll while quiz is mounted (prevents page scroll on mobile)
+function useScrollLock() {
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+}
+
 type Selections = [string | null, string | null, string | null, string | null];
 
 export function QuizShell() {
+  useScrollLock();
   const [currentStep, setCurrentStep] = useState(0);
   const [selections, setSelections] = useState<Selections>([null, null, null, null]);
   const [direction, setDirection] = useState<1 | -1>(1);

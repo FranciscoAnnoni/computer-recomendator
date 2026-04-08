@@ -29,6 +29,8 @@ export interface Laptop {
   // Links & media
   affiliate_link: string;          // external purchase URL
   image_url: string;               // product image URL
+  gallery_images: string[] | null; // up to 4 extra gallery images
+  description: string | null;      // product description paragraph
 
   // Timestamps
   created_at: string;              // ISO timestamp

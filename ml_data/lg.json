@@ -1,0 +1,880 @@
+{
+  "brand": "LG",
+  "generated_at": "2026-04-06T09:06:39.814908",
+  "source": "MercadoLibre Argentina — listings sorted by sold_quantity_desc",
+  "total": 30,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA35117240",
+      "name": "LG Gram 16z90q-r.aas8u1 16 16gb 1tb",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_621108-MLU75477240515_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA35117240",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49942198",
+      "name": "LG Gram 15 I5 8gb 512gb Ssd",
+      "brand": "LG",
+      "price": null,
+      "cpu": "1334U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.65 kg",
+      "color": "Titan Silver",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_847694-MLA84358212710_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49942198",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48860389",
+      "name": "LG Gram 17 Evo I7-1360p 16gb 1tb Ssd Black",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "1.35 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_791692-MLA83901879885_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48860389",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49882457",
+      "name": "Laptop LG Gram 15.6 I7 16gb 512gb Windows 11 Gris",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i7-1260P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.15 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_788897-MLA84651832265_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49882457",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48864373",
+      "name": "LG Gram 14 Portátil Ligero I5 8gb 512gb Windows 11",
+      "brand": "LG",
+      "price": null,
+      "cpu": "4.6 GHz apple_ci5",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.71 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_970439-MLA83609217342_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48864373",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26678455",
+      "name": "Laptop LG Gram 14 Panel Ips Core I5 14z90p-g.aj53b4 Silver",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "11.89 \"",
+      "weight": "999 g",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_661891-MLU71357737984_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26678455",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48861273",
+      "name": "LG Gram 14 Portátil Ligero I5 16gb 256gb Ssd Windows 11",
+      "brand": "LG",
+      "price": null,
+      "cpu": "1.9 GHz apple_ci5",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.77 kg",
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_989883-MLA83608969436_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48861273",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA21530466",
+      "name": "Laptop LG Gram 14 Ci5 11th 8gb 256gb Ssd 14z90p-n",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "990 g",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_702914-MPE49445823283_032022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA21530466",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22257469",
+      "name": "Laptop LG Gram 14 Ci5 11th 8gb 256gb Ssd 14z90p-s",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "990 g",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_703720-MPE49252895482_032022-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22257469",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49949442",
+      "name": "LG Gram Superslim 15.6 Evo Core I7 16gb 512gb Ssd",
+      "brand": "LG",
+      "price": null,
+      "cpu": "155H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "990 g",
+      "color": "Neptuno azul",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Ultradelgado"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_724548-MLA84656300239_052025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49949442",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA45608992",
+      "name": "Portátil LG Gram, 1350 g, Intel Core i7-1165G7, 16 GB LPDDR4X",
+      "brand": "LG",
+      "price": null,
+      "cpu": "1065G7",
+      "ram": "Ver descripción",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_899033-MLA82040877357_012025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA45608992",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA67308118",
+      "name": "LG Gram 17 Laptop Táctil Profesional, Intel Core Ultra 9, Negro Obsidiana",
+      "brand": "LG",
+      "price": null,
+      "cpu": "9 Series 2",
+      "ram": "0 MB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "0 \"",
+      "weight": "1 kg",
+      "color": "Negro obsidiana",
+      "battery": null,
+      "simplified_tags": [
+        "Uso general"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_692402-MLA108814890206_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA67308118",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA65085912",
+      "name": "Laptop LG Gram Ai Ultra 7-258v 32gb Ram 1tb Ssd Táctil Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Ultra 7-258V",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "0 g",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_697088-MLA106182782147_012026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA65085912",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26379060",
+      "name": "Notebook LG Gram 14 Fhd I7 12va 512gb 16gb Bajo Pedido Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_823228-MLA80530327594_112024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26379060",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA34572749",
+      "name": "LG Gram 16z90q-k.aas8u1 16 16gb 1tb Ssd Core I7-1260p 2ghz Win10h",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Ver descripción",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": null,
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_866055-MLU75116898754_032024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA34572749",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA49835927",
+      "name": "LG Gram Superslim I7 Ultra 7 155h 2tb Ssd 32gb Ddr5 Oled Azul",
+      "brand": "LG",
+      "price": null,
+      "cpu": "155H",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "Pantalla OLED",
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_834164-MLA91890371565_092025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49835927",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA48107869",
+      "name": "LG Gram 17 Ultra 7 Series Touch 32gb 1tb Ssd Black",
+      "brand": "LG",
+      "price": null,
+      "cpu": "258V",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "1.46 kg",
+      "color": "Obsidian black",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_776040-MLA83445235664_042025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48107869",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39893161",
+      "name": "LG Gram 2en1 I5-1340p 512gb Ssd 16gb Ddr5 Ips Win11 Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i5-1340P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.25 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_686580-MLA79472993173_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39893161",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA66399659",
+      "name": "Laptop LG Gram 16 Intel Ultra 9 32gb 2tb Ssd Windows 11",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Series 185H",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_601694-MLA108432661315_032026-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA66399659",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA28108186",
+      "name": "Portátil LG Gram 16 Wqxga I7 256 GB 16 GB Win11 Home Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_635193-MLU72862466051_112023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28108186",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39926986",
+      "name": "Notebook LG Gram I5-1340p 256gb Ssd 8gb Ddr5 Ips Win11 Pro Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i5-1340P",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.14 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_739339-MLU78722788117_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39926986",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA40509864",
+      "name": "Notebook LG Gram I5-1350p 256gb Ssd 16gb Ddr5 Fhd Win11 Pro Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i5-1350P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "15 \"",
+      "weight": "1.14 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_979321-MLU78871395774_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA40509864",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39924709",
+      "name": "Notebook LG Gram I7-1360p 512gb Ssd 16gb Ddr5 Ips Fhd Win11 Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_773441-MLU78720648829_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39924709",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA26185124",
+      "name": "Notebook LG Gram 17 I7 11va 512gb 16gb Win 11 Bajo Pedido Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "1.35 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_700926-MLU71138149919_082023-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA26185124",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA22345807",
+      "name": "Ordenador portátil LG Gram, 14 pulgadas, I5, 8 GB de RAM, 256 SSD",
+      "brand": "LG",
+      "price": null,
+      "cpu": "8250U",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "995 g",
+      "color": "Titanio",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_896042-MLU78963276435_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22345807",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA42439583",
+      "name": "Notebook LG Gram I5-1340p 256gb Ssd 8gb Ddr5 Ips Win11 Pro Color Gris",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i5-1340P",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.2 kg",
+      "color": "Gris",
+      "battery": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_865538-MLA82195374604_022025-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA42439583",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39877560",
+      "name": "Notebook LG Gram 16 I7-1360p 512gb Ssd 16gb Ddr5 Ips Win11 Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.2 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_695607-MLU78707289249_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39877560",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA40218041",
+      "name": "Notebooks LG Gram 2en1 I7-1360p 1tb Ssd 16gb Ddr5 Ips Win11 Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "i7-1360P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.25 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_979817-MLU78686096010_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA40218041",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA40210085",
+      "name": "LG Gram 17 I5 Ultra 125h 512gb Ssd 16gb Ddr5 Ips Win11 Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "5",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "17 \"",
+      "weight": "1.34 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_663530-MLU78915899663_092024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA40210085",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    },
+    {
+      "catalog_product_id": "MLA39895401",
+      "name": "LG Gram 2en1 I7 Ultra 155h 512gb Ssd 16gb Ddr5 Ips Win11 Color Negro",
+      "brand": "LG",
+      "price": null,
+      "cpu": "155H",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "Ver descripción",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.4 kg",
+      "color": "Negro",
+      "battery": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_874214-MLU78713744823_082024-F.jpg",
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA39895401",
+      "affiliate_link": "",
+      "influencer_note": "",
+      "description": "",
+      "gallery_images": []
+    }
+  ]
+}
