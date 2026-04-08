@@ -47,6 +47,11 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
             ★
           </span>
         )}
+        {laptop.availability_warning && (
+          <span className="absolute bottom-2 left-2 bg-red-500 text-white text-[9px] sm:text-[10px] font-semibold px-1.5 py-0.5 rounded-md leading-none select-none">
+            Stock limitado
+          </span>
+        )}
       </div>
 
       {/* ── 2. Name + subtitle + specs ─────────── */}
@@ -65,7 +70,8 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
         <div className="flex items-center gap-2 mt-1.5 overflow-hidden">
           <span className="flex items-center gap-1 shrink-0 text-[10px] sm:text-[13px] text-foreground/80">
             <Cpu className="size-3 sm:size-4 text-muted-foreground shrink-0" />
-            <span className="sm:inline hidden">CPU: </span>{laptop.cpu}
+            <span className="sm:inline hidden">CPU: </span>
+            <span className="max-w-[55px] sm:max-w-none truncate">{laptop.cpu}</span>
           </span>
           <span className="text-muted-foreground/30 shrink-0 text-[10px] sm:text-[13px]">|</span>
           <span className="flex items-center gap-1 shrink-0 text-[10px] sm:text-[13px] text-foreground/80">

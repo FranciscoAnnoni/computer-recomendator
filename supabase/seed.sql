@@ -1,578 +1,264 @@
--- Phase 6: Laptop catalog seed data
--- Source: MercadoLibre Argentina / Amazon.com listings, April 2026
--- Prices in ARS (approximate, subject to inflation)
--- Run via Supabase SQL Editor or `supabase db reset`
--- IMPORTANT: Run schema.sql and all migrations first
+-- Laptop catalog seed data — 100 modelos del mercado argentino
+-- Source: MercadoLibre Argentina / Amazon.com, Abril 2026
+-- Precios en ARS (aproximados, ajustar según inflación)
+-- IMPORTANTE: Ejecutar schema.sql y todas las migrations primero
+-- Para regenerar desde ML en tiempo real: node scripts/ml-fetch-laptops.js --out supabase/seed.sql
 
--- Clear existing test data (if any)
 DELETE FROM laptops;
 
--- ============================================================
--- PRODUCTIVIDAD_ESTUDIO segment (8 laptops)
--- ============================================================
+-- ═══════════════════════════════════════════════════════════════
+-- PRODUCTIVIDAD_ESTUDIO — ESENCIAL (15 laptops, ARS 130k–260k)
+-- Perfil: estudiante universitario de primer año, tareas básicas
+-- ═══════════════════════════════════════════════════════════════
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo IdeaPad 1 15IGL7',
-  'Lenovo',
-  180000,
-  'Intel Celeron N4500',
-  '8GB DDR4',
-  'Intel UHD',
-  '256GB eMMC',
-  'Windows 11',
-  '15.6"',
-  '1.7 kg',
-  'Up to 6h',
-  ARRAY['Basica y confiable', 'Liviana', 'Ideal para Word y Google Docs'],
-  ARRAY['productividad_estudio'],
-  'Para empezar la facu sin gastar de mas. No es la mas rapida pero cumple para apuntes y navegacion.',
-  6,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+1+15IGL7',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-lenovo-ideapad1.jpg',
-  'Notebook basica y confiable para tareas universitarias esenciales. Perfecta para tomar apuntes, navegar y usar Office.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Exo Smart T38', 'Exo', 155000, 'Intel Celeron N4020', '4GB DDR4', 'Intel UHD 600', '128GB eMMC', 'Windows 11', '14.1"', '1.5 kg', 'Hasta 6h', ARRAY['Mas vendida de Argentina', 'Liviana', 'Ideal para Word y YouTube'], ARRAY['productividad_estudio'], 'La laptop MAS VENDIDA de MercadoLibre Argentina. +10.000 unidades vendidas. No es rapida pero para apuntes y Google Docs sobra.', 6, 'https://www.mercadolibre.com.ar/s?q=Exo+Smart+T38', 'https://http2.mlstatic.com/D_NQ_NP_exo-smart-t38.jpg', 'La notebook mas vendida de Argentina. Liviana, simple y economica para empezar la facu sin gastar de mas.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo IdeaPad 15AMN8',
-  'Lenovo',
-  280000,
-  'AMD Ryzen 5 7520U',
-  '16GB DDR5',
-  'AMD Radeon 610M',
-  '512GB SSD NVMe',
-  'Windows 11',
-  '15.6" FHD',
-  '1.6 kg',
-  'Up to 8h',
-  ARRAY['Rendimiento balanceado', 'Buena bateria', 'Ideal para estudio'],
-  ARRAY['productividad_estudio'],
-  'La mejor relacion calidad-precio para estudiantes. 16GB de RAM y Ryzen 5 son mas que suficiente.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+15AMN8',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-lenovo-ideapad15amn8.jpg',
-  'Excelente relacion calidad-precio con Ryzen 5 y 16GB de RAM DDR5. Ideal para estudiantes que quieren rendimiento sin pagar de mas.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Exo Smart R8', 'Exo', 148000, 'Intel Celeron N4020', '4GB DDR4', 'Intel UHD 600', '128GB eMMC', 'Windows 11', '14.1"', '1.5 kg', 'Hasta 5h', ARRAY['La mas barata confiable', 'Liviana', 'Para tareas basicas'], ARRAY['productividad_estudio'], 'Hermana menor de la T38. Igual de popular en ML. Perfecta si el presupuesto es lo primero.', 6, 'https://www.mercadolibre.com.ar/s?q=Exo+Smart+R8', 'https://http2.mlstatic.com/D_NQ_NP_exo-smart-r8.jpg', 'Notebook economica argentina. Basica pero cumple para estudio y tareas universitarias esenciales.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'HP Pavilion 15',
-  'HP',
-  320000,
-  'Intel Core i5-1235U',
-  '8GB DDR4',
-  'Intel Iris Xe',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" FHD',
-  '1.75 kg',
-  'Up to 7h',
-  ARRAY['Marca de confianza', 'Intel de ultima gen', 'Pantalla Full HD'],
-  ARRAY['productividad_estudio'],
-  'HP nunca falla. Procesador Intel de 12va generacion y 512GB de SSD. Solida para oficina y estudio.',
-  7,
-  'https://www.mercadolibre.com.ar/s?q=HP+Pavilion+15+i5',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-hp-pavilion15.jpg',
-  'Notebook confiable de HP con Intel Core i5 de 12va generacion y pantalla Full HD. Solida para el dia a dia universitario.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('BGH Notebook 14', 'BGH', 145000, 'Intel Celeron N4020', '4GB DDR4', 'Intel UHD 600', '128GB eMMC', 'Windows 11', '14"', '1.6 kg', 'Hasta 5h', ARRAY['Marca nacional', 'Super accesible', 'Para empezar'], ARRAY['productividad_estudio'], 'Marca argentina, fabricacion nacional. La mas barata del listado. Para tareas absolutamente basicas.', 5, 'https://www.mercadolibre.com.ar/s?q=BGH+Notebook+14', 'https://http2.mlstatic.com/D_NQ_NP_bgh-notebook-14.jpg', 'Notebook de fabricacion nacional. La opcion mas economica para estudiantes con presupuesto muy ajustado.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Acer Aspire A315-42',
-  'Acer',
-  350000,
-  'AMD Ryzen 7 7730U',
-  '16GB DDR5',
-  'AMD Radeon',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" FHD',
-  '1.9 kg',
-  'Up to 8h',
-  ARRAY['Potencia profesional', 'Ryzen 7', 'Multitarea sin limites'],
-  ARRAY['productividad_estudio'],
-  'Ryzen 7 para los que necesitan mas potencia en productividad. Excel pesado, muchas pestanas, lo que sea.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=Acer+Aspire+A315+Ryzen+7',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-acer-aspire-a315.jpg',
-  'Potencia de Ryzen 7 para los que manejan muchas tareas a la vez. Perfecta para investigacion, presentaciones y multitarea intensa.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad 1 14IGL7', 'Lenovo', 170000, 'Intel Celeron N4500', '4GB DDR4', 'Intel UHD', '128GB eMMC', 'Windows 11', '14"', '1.44 kg', 'Hasta 7h', ARRAY['Livianisima', 'Bateria todo el dia', 'Marca de confianza'], ARRAY['productividad_estudio'], 'La IdeaPad 1 de 14 pulgadas es ideal para moverse entre clases. Pesa 1.4 kg y dura el dia. Para apuntes, clave.', 6, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+1+14IGL7', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-ideapad1-14.jpg', 'Notebook ultraliviana de Lenovo. Perfecta para llevar a clase todos los dias sin cansar el hombro.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'MacBook Air M2 13"',
-  'Apple',
-  850000,
-  'Apple M2',
-  '8GB Unified',
-  '8-core GPU',
-  '256GB SSD',
-  'macOS Sequoia',
-  '13.6"',
-  '1.24 kg',
-  'Up to 18h',
-  ARRAY['Ultra liviana', 'Bateria todo el dia', 'Silenciosa sin ventilador'],
-  ARRAY['productividad_estudio', 'creacion_desarrollo'],
-  'Si te alcanza el presupuesto, es imbatible. 18 horas de bateria y pesa poco mas de 1 kilo.',
-  9,
-  'https://www.amazon.com/s?k=MacBook+Air+M2+13',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-macbook-air-m2.jpg',
-  'La notebook mas popular de Apple con chip M2, bateria de hasta 18 horas y solo 1.24 kg. Perfecta para llevar a todos lados.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad 1 15IGL7', 'Lenovo', 185000, 'Intel Celeron N4500', '8GB DDR4', 'Intel UHD', '256GB eMMC', 'Windows 11', '15.6"', '1.7 kg', 'Hasta 6h', ARRAY['Pantalla grande', '8GB de RAM', 'Marca de confianza'], ARRAY['productividad_estudio'], 'La version de 15 pulgadas con 8GB de RAM. Pantalla mas grande para ver bien las clases online.', 6, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+1+15IGL7', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-ideapad1-15.jpg', 'Notebook basica Lenovo con pantalla 15.6 pulgadas y 8GB RAM. Ideal para clases online y trabajo universitario.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'MacBook Air M3 15"',
-  'Apple',
-  1100000,
-  'Apple M3',
-  '8GB Unified',
-  '10-core GPU',
-  '256GB SSD',
-  'macOS Sequoia',
-  '15.3"',
-  '1.51 kg',
-  'Up to 18h',
-  ARRAY['Pantalla grande', 'Chip de ultima gen', 'Productividad premium'],
-  ARRAY['productividad_estudio', 'creacion_desarrollo'],
-  'La mejor MacBook Air que existe. Pantalla de 15 pulgadas y el chip M3 vuela.',
-  10,
-  'https://www.amazon.com/s?k=MacBook+Air+M3+15',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-macbook-air-m3-15.jpg',
-  'La MacBook Air mas grande con chip M3 y pantalla de 15.3 pulgadas. Bateria de todo el dia y rendimiento excepcional para cualquier tarea.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook Go 15 E1504FA', 'Asus', 210000, 'AMD Ryzen 3 7320U', '8GB DDR5', 'AMD Radeon 610M', '256GB SSD', 'Windows 11', '15.6"', '1.63 kg', 'Hasta 7h', ARRAY['Ryzen moderno', 'SSD real', 'Precio justo'], ARRAY['productividad_estudio'], 'Acá ya tenes un Ryzen 3 de ultima generación y SSD real. Notás la diferencia con el eMMC desde el primer arranque.', 7, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+Go+15+E1504FA', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook-go-e1504.jpg', 'Notebook Asus con procesador AMD moderno y SSD. Notable mejora de velocidad frente a opciones con eMMC.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo ThinkPad E14 Gen 5',
-  'Lenovo',
-  400000,
-  'Intel Core i5-1340P',
-  '16GB DDR5',
-  'Intel Iris Xe',
-  '512GB SSD',
-  'Windows 11',
-  '14" FHD',
-  '1.59 kg',
-  'Up to 10h',
-  ARRAY['Teclado legendario', 'Ultraportatil', 'Construccion robusta'],
-  ARRAY['productividad_estudio'],
-  'El teclado de las ThinkPad es famoso por algo. Si escribis mucho, esta es tu maquina.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkPad+E14+Gen+5',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-thinkpad-e14.jpg',
-  'La ThinkPad E14 con Intel i5 de 13va generacion y teclado de clase empresarial. Ideal para quien escribe mucho y necesita bateria duradera.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP 14s-dq5000la', 'HP', 200000, 'Intel Core i3-1215U', '8GB DDR4', 'Intel UHD', '256GB SSD', 'Windows 11', '14"', '1.46 kg', 'Hasta 8h', ARRAY['Intel i3 moderno', 'HP confiable', 'Bateria excelente'], ARRAY['productividad_estudio'], 'HP 14 pulgadas con i3 de 12va generacion. La bateria de 8 horas es su mayor virtud. Liviana y confiable.', 7, 'https://www.mercadolibre.com.ar/s?q=HP+14s-dq5+i3', 'https://http2.mlstatic.com/D_NQ_NP_hp-14s-dq5.jpg', 'Notebook HP compacta con Intel i3 y excelente bateria. Perfecta para un dia completo en la facultad.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Samsung Galaxy Book3',
-  'Samsung',
-  250000,
-  'Intel Core i3-1315U',
-  '8GB DDR4',
-  'Intel UHD',
-  '256GB SSD',
-  'Windows 11',
-  '15.6" FHD',
-  '1.58 kg',
-  'Up to 8h',
-  ARRAY['Pantalla Full HD', 'Diseno elegante', 'Buena para empezar'],
-  ARRAY['productividad_estudio'],
-  'Bonita, liviana y con pantalla Full HD. Samsung hace notebooks lindas y esta no decepciona.',
-  7,
-  'https://www.mercadolibre.com.ar/s?q=Samsung+Galaxy+Book3',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-samsung-galaxybook3.jpg',
-  'Notebook elegante de Samsung con pantalla Full HD y diseno premium. Liviana y bonita, perfecta para el dia a dia universitario.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Aspire 3 A315-24P', 'Acer', 215000, 'AMD Ryzen 3 7320U', '8GB LPDDR5', 'AMD Radeon 610M', '256GB SSD', 'Windows 11', '15.6"', '1.78 kg', 'Hasta 7h', ARRAY['Ryzen moderno', 'Pantalla Full HD', 'Gran relacion precio'], ARRAY['productividad_estudio'], 'Acer Aspire con Ryzen 3 de ultima generacion. Pantalla Full HD y SSD real. Muy buena propuesta para el precio.', 7, 'https://www.mercadolibre.com.ar/s?q=Acer+Aspire+3+A315-24P', 'https://http2.mlstatic.com/D_NQ_NP_acer-aspire3-a315-24p.jpg', 'Notebook Acer con Ryzen 3 moderno y pantalla Full HD. Buena relacion calidad-precio para el estudio universitario.');
 
--- ============================================================
--- CREACION_DESARROLLO segment (7 laptops)
--- ============================================================
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell Inspiron 15 3511', 'Dell', 225000, 'Intel Core i3-1115G4', '8GB DDR4', 'Intel UHD', '256GB SSD', 'Windows 11', '15.6"', '1.9 kg', 'Hasta 6h', ARRAY['Marca premium accesible', 'Pantalla grande', 'SSD incluido'], ARRAY['productividad_estudio'], 'Dell Inspiron: la marca premium a precio accesible. Solida construccion y 256GB SSD. Buena para quien quiere calidad sin pagar de mas.', 7, 'https://www.mercadolibre.com.ar/s?q=Dell+Inspiron+15+3511', 'https://http2.mlstatic.com/D_NQ_NP_dell-inspiron-15-3511.jpg', 'Notebook Dell con buena construccion y SSD. Marca confiable para estudiantes que quieren calidad duradera.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Asus VivoBook Pro 16 OLED',
-  'Asus',
-  950000,
-  'AMD Ryzen 9 7945HX',
-  '16GB DDR5',
-  'NVIDIA RTX 4060',
-  '512GB SSD',
-  'Windows 11',
-  '16" OLED',
-  '1.9 kg',
-  'Up to 6h',
-  ARRAY['Pantalla OLED increible', 'RTX 4060', 'Ideal para diseno'],
-  ARRAY['creacion_desarrollo'],
-  'La pantalla OLED cambia todo. Colores reales para diseno, video y fotografia. La RTX 4060 es un plus enorme.',
-  9,
-  'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+Pro+16+OLED',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-asus-vivobook-pro16.jpg',
-  'Pantalla OLED de 16 pulgadas con colores perfectos para diseno grafico y edicion de fotos. RTX 4060 para renderizado rapido.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Samsung Galaxy Book3 i3', 'Samsung', 250000, 'Intel Core i3-1315U', '8GB DDR4', 'Intel UHD', '256GB SSD', 'Windows 11', '15.6"', '1.58 kg', 'Hasta 8h', ARRAY['Diseno premium', 'Pantalla Full HD brillante', 'Liviana'], ARRAY['productividad_estudio'], 'Samsung hace laptops lindas y esta no es la excepcion. Pantalla brillante, delgada y con buena bateria.', 7, 'https://www.mercadolibre.com.ar/s?q=Samsung+Galaxy+Book3+i3', 'https://http2.mlstatic.com/D_NQ_NP_samsung-galaxy-book3.jpg', 'Notebook Samsung con diseno elegante y pantalla luminosa. La opcion mas linda en su rango de precio.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo Yoga Pro 7i',
-  'Lenovo',
-  680000,
-  'Intel Core Ultra 5',
-  '16GB LPDDR5',
-  'Intel Arc',
-  '512GB SSD',
-  'Windows 11',
-  '14"',
-  '1.4 kg',
-  'Up to 10h',
-  ARRAY['Ultraliviana 2-en-1', 'Pantalla tactil', 'Ideal para creativos moviles'],
-  ARRAY['creacion_desarrollo'],
-  'Para los creativos que se mueven mucho. 1.4 kg, pantalla tactil y buena GPU integrada.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+Yoga+Pro+7i',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-lenovo-yoga-pro7i.jpg',
-  'Ultrabook 2-en-1 con pantalla tactil y Intel Core Ultra. Liviana y versatil para creativos que trabajan en movimiento.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo V15 G3 IAP', 'Lenovo', 230000, 'Intel Core i3-1215U', '8GB DDR4', 'Intel UHD', '256GB SSD', 'Windows 11', '15.6"', '1.65 kg', 'Hasta 7h', ARRAY['Construccion solida', 'Marca de confianza', 'SSD rapido'], ARRAY['productividad_estudio'], 'La linea V de Lenovo esta orientada a negocios y estudio. Construccion robusta que aguanta el traqueteo diario del mochilero universitario.', 7, 'https://www.mercadolibre.com.ar/s?q=Lenovo+V15+G3+IAP', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-v15-g3.jpg', 'Notebook Lenovo con construccion robusta para uso diario intenso. Ideal para estudiantes que la usan mucho.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'HP Envy x360 15',
-  'HP',
-  760000,
-  'AMD Ryzen 7 8840U',
-  '16GB DDR5',
-  'AMD Radeon 780M',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" OLED',
-  '1.9 kg',
-  'Up to 7h',
-  ARRAY['Pantalla OLED', 'Convertible 360', 'Potencia creativa'],
-  ARRAY['creacion_desarrollo'],
-  'Convertible con pantalla OLED. Dibuja con el stylus, edita video, hace de todo.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=HP+Envy+x360+15+Ryzen+7',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-hp-envy-x360-15.jpg',
-  'Convertible 360 grados con pantalla OLED y Ryzen 7. Perfecta para ilustradores y editores de contenido en movimiento.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP 255 G8 AMD', 'HP', 195000, 'AMD Ryzen 3 3250U', '8GB DDR4', 'AMD Radeon Vega 3', '256GB SSD', 'Windows 11', '15.6"', '1.74 kg', 'Hasta 7h', ARRAY['HP economica', 'AMD eficiente', 'SSD incluido'], ARRAY['productividad_estudio'], 'HP 255 con Ryzen 3. La serie 255 de HP es para negocios y estudio: sin lujos pero con todo lo necesario.', 6, 'https://www.mercadolibre.com.ar/s?q=HP+255+G8+Ryzen+3', 'https://http2.mlstatic.com/D_NQ_NP_hp-255-g8.jpg', 'Notebook HP con AMD Ryzen 3. Solida y sin complicaciones para todas las tareas universitarias cotidianas.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Dell XPS 15 9530',
-  'Dell',
-  1400000,
-  'Intel Core i7-13700H',
-  '16GB DDR5',
-  'NVIDIA RTX 4060',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" OLED 3.5K',
-  '1.86 kg',
-  'Up to 8h',
-  ARRAY['Pantalla 3.5K OLED', 'Construccion premium', 'La mejor de Dell'],
-  ARRAY['creacion_desarrollo'],
-  'La XPS es la laptop premium de Dell. Pantalla OLED 3.5K que deja a todos con la boca abierta.',
-  9,
-  'https://www.mercadolibre.com.ar/s?q=Dell+XPS+15+9530',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-dell-xps15-9530.jpg',
-  'La notebook premium de Dell con pantalla OLED 3.5K de 15.6 pulgadas. RTX 4060 para profesionales de diseno y video.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook 15 X1504ZA', 'Asus', 235000, 'Intel Core i3-1215U', '8GB DDR4', 'Intel UHD', '256GB SSD', 'Windows 11', '15.6"', '1.73 kg', 'Hasta 7h', ARRAY['Pantalla antirreflejo', 'Teclado comodo', 'Buena para clases'], ARRAY['productividad_estudio'], 'Asus VivoBook: la serie mas popular de la marca. Pantalla antirreflejo muy agradecida en ambientes con luz.', 7, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+15+X1504ZA', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook15-x1504.jpg', 'Notebook Asus VivoBook con pantalla antirreflejo. Muy comoda para trabajar horas en ambientes iluminados.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'MacBook Pro M3 14"',
-  'Apple',
-  1900000,
-  'Apple M3 Pro',
-  '18GB Unified',
-  '18-core GPU',
-  '512GB SSD',
-  'macOS Sequoia',
-  '14.2" Liquid Retina XDR',
-  '1.61 kg',
-  'Up to 17h',
-  ARRAY['Potencia profesional', 'Pantalla XDR', 'El sueno del creativo'],
-  ARRAY['creacion_desarrollo'],
-  'El rey de la creacion de contenido. Video 4K, desarrollo, diseno — lo que le tires lo maneja.',
-  10,
-  'https://www.amazon.com/s?k=MacBook+Pro+M3+14',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-macbook-pro-m3-14.jpg',
-  'La MacBook Pro con chip M3 Pro y pantalla Liquid Retina XDR de 14.2 pulgadas. El estandar de la industria para creadores de contenido profesional.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Aspire 3 A315-58', 'Acer', 210000, 'Intel Core i3-1115G4', '8GB DDR4', 'Intel UHD', '256GB SSD', 'Windows 11', '15.6"', '1.9 kg', 'Hasta 6h', ARRAY['Clasica confiable', 'SSD incluido', 'Pantalla FHD'], ARRAY['productividad_estudio'], 'El Aspire 3 es el clasico de Acer. Millones vendidos en todo el mundo. Funciona, punto.', 6, 'https://www.mercadolibre.com.ar/s?q=Acer+Aspire+3+A315-58', 'https://http2.mlstatic.com/D_NQ_NP_acer-aspire3-a315-58.jpg', 'El clasico Acer Aspire 3. Confiable, probado y disponible. Ideal para quien no quiere sorpresas.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Asus ZenBook 14 OLED',
-  'Asus',
-  480000,
-  'Intel Core i5-1340P',
-  '16GB LPDDR5',
-  'Intel Iris Xe',
-  '512GB SSD',
-  'Windows 11',
-  '14" OLED',
-  '1.39 kg',
-  'Up to 9h',
-  ARRAY['OLED accesible', 'Compacta y potente', 'Para programadores'],
-  ARRAY['creacion_desarrollo'],
-  'OLED a buen precio. Ideal para devs que quieren buena pantalla sin vender un rinon.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=Asus+ZenBook+14+OLED',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-asus-zenbook14-oled.jpg',
-  'ZenBook ultra compacta con pantalla OLED de 14 pulgadas. Perfecta para programadores que pasan horas frente a la pantalla.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Positivo Motion C4500DI', 'Positivo', 138000, 'Intel Celeron N3350', '4GB DDR4', 'Intel HD 500', '64GB eMMC', 'Windows 11', '14"', '1.6 kg', 'Hasta 5h', ARRAY['La mas barata del mercado', 'Para tareas muy basicas'], ARRAY['productividad_estudio'], 'La mas barata del listado. Solo para tareas muy basicas: Word, PDFs y Youtube. 64GB de almacenamiento es muy poco.', 4, 'https://www.mercadolibre.com.ar/s?q=Positivo+Motion+C4500', 'https://http2.mlstatic.com/D_NQ_NP_positivo-motion.jpg', 'Notebook de entrada absoluta. Solo recomendada para tareas minimas y usuarios con presupuesto muy limitado.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo IdeaPad Creator 5',
-  'Lenovo',
-  520000,
-  'AMD Ryzen 5 7535HS',
-  '16GB DDR5',
-  'NVIDIA RTX 3050',
-  '512GB SSD',
-  'Windows 11',
-  '16" FHD',
-  '2.0 kg',
-  'Up to 7h',
-  ARRAY['GPU dedicada accesible', 'Pantalla grande', 'Primer paso creativo'],
-  ARRAY['creacion_desarrollo'],
-  'RTX 3050 a buen precio. No es la mas potente pero alcanza para edicion basica y 3D liviano.',
-  7,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+Creator+5',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-lenovo-creator5.jpg',
-  'Notebook creativa con Ryzen 5 y RTX 3050 a precio accesible. Ideal para estudiantes de diseno que dan sus primeros pasos en edicion.'
-);
+-- ═══════════════════════════════════════════════════════════════
+-- PRODUCTIVIDAD_ESTUDIO — EQUILIBRADO (15 laptops, ARS 280k–550k)
+-- Perfil: estudiante con trabajo part-time o profesional joven
+-- ═══════════════════════════════════════════════════════════════
 
--- ============================================================
--- GAMING_RENDIMIENTO segment (7 laptops)
--- ============================================================
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad 15AMN8', 'Lenovo', 280000, 'AMD Ryzen 5 7520U', '16GB DDR5', 'AMD Radeon 610M', '512GB SSD NVMe', 'Windows 11', '15.6"', '1.6 kg', 'Hasta 8h', ARRAY['Ryzen 5 de ultima gen', '16GB DDR5', 'Gran relacion precio'], ARRAY['productividad_estudio'], 'La mejor relacion calidad-precio para estudiantes. 16GB de RAM DDR5 y Ryzen 5 son mas que suficientes para cualquier carrera.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+15AMN8', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-ideapad-15amn8.jpg', 'Notebook Lenovo con Ryzen 5 moderno y 16GB RAM. La mas recomendada en su rango de precio para estudiantes.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo IdeaPad Gaming 3 Gen 7',
-  'Lenovo',
-  500000,
-  'AMD Ryzen 5 6600H',
-  '16GB DDR5',
-  'NVIDIA RTX 3050',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" FHD 120Hz',
-  '2.2 kg',
-  'Up to 5h',
-  ARRAY['Gaming accesible', 'Pantalla 120Hz', 'Buen primer paso gamer'],
-  ARRAY['gaming_rendimiento'],
-  'La puerta de entrada al gaming. RTX 3050 mueve los juegos populares a seteos medios sin problema.',
-  7,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+Gaming+3+Gen+7',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-lenovo-gaming3.jpg',
-  'La notebook gaming de entrada mas recomendada de Lenovo. RTX 3050 y pantalla 120Hz para Fortnite, Minecraft y CS2 sin problemas.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP 255 G10 Ryzen 5', 'HP', 340000, 'AMD Ryzen 5 7530U', '16GB DDR4', 'AMD Radeon', '512GB SSD', 'Windows 11', '15.6"', '1.74 kg', 'Hasta 8h', ARRAY['HP profesional', 'Ryzen 5 potente', '16GB RAM'], ARRAY['productividad_estudio'], 'HP 255 G10: la notebook para el que quiere HP sin pagar el precio del Pavilion. Solida y con buenas specs.', 8, 'https://www.mercadolibre.com.ar/s?q=HP+255+G10+Ryzen+5+16GB', 'https://http2.mlstatic.com/D_NQ_NP_hp-255-g10.jpg', 'Notebook HP profesional con Ryzen 5 y 16GB RAM. Ideal para universitarios que necesitan un equipo confiable y potente.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Acer Nitro 5 AN515',
-  'Acer',
-  650000,
-  'AMD Ryzen 5 7535HS',
-  '16GB DDR5',
-  'NVIDIA RTX 4050',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" FHD 144Hz',
-  '2.5 kg',
-  'Up to 5h',
-  ARRAY['RTX 4050', 'Pantalla 144Hz', 'Gaming serio'],
-  ARRAY['gaming_rendimiento'],
-  'RTX 4050 y 144Hz. Aca ya jugamos en serio. Fortnite, Valorant, todo al maximo.',
-  8,
-  'https://www.mercadolibre.com.ar/s?q=Acer+Nitro+5+AN515+RTX+4050',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-acer-nitro5.jpg',
-  'Acer Nitro 5 con RTX 4050 y pantalla 144Hz. El salto de calidad que los gamers serios necesitan para jugar en alto rendimiento.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Pavilion 15-fc0251la', 'HP', 320000, 'AMD Ryzen 5 7530U', '8GB DDR4', 'AMD Radeon', '512GB SSD', 'Windows 11', '15.6"', '1.75 kg', 'Hasta 7h', ARRAY['Marca de confianza', 'Pantalla Full HD', 'SSD grande'], ARRAY['productividad_estudio'], 'HP Pavilion: cuando queres una HP de verdad sin llegar al presupuesto del EliteBook. Confiable y bien equipada.', 7, 'https://www.mercadolibre.com.ar/s?q=HP+Pavilion+15-fc+Ryzen+5', 'https://http2.mlstatic.com/D_NQ_NP_hp-pavilion-15.jpg', 'Notebook HP Pavilion con Ryzen 5. Un clasico del mercado argentino, disponible en toda la cadena retail.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'HP Victus 16',
-  'HP',
-  550000,
-  'Intel Core i7-12650H',
-  '16GB DDR4',
-  'NVIDIA RTX 3050 Ti',
-  '512GB SSD',
-  'Windows 11',
-  '16.1" FHD 144Hz',
-  '2.37 kg',
-  'Up to 5h',
-  ARRAY['Pantalla grande gamer', 'Intel i7', 'Buena relacion precio'],
-  ARRAY['gaming_rendimiento'],
-  'HP Victus: pantalla de 16 pulgadas, 144Hz y RTX 3050 Ti. Solida para gaming casual y competitivo.',
-  7,
-  'https://www.mercadolibre.com.ar/s?q=HP+Victus+16+i7+RTX',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-hp-victus16.jpg',
-  'HP Victus con pantalla de 16 pulgadas a 144Hz e Intel Core i7. Una gaming notebook grande y potente a precio razonable.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Aspire A315-42 Ryzen 7', 'Acer', 350000, 'AMD Ryzen 7 7730U', '16GB DDR5', 'AMD Radeon', '512GB SSD', 'Windows 11', '15.6"', '1.9 kg', 'Hasta 8h', ARRAY['Ryzen 7 potente', '16GB RAM', 'Multitarea sin limites'], ARRAY['productividad_estudio'], 'Ryzen 7 para los que necesitan mas potencia en productividad. Excel pesado, muchas pestanas abiertas, todo flye.', 8, 'https://www.mercadolibre.com.ar/s?q=Acer+Aspire+A315+Ryzen+7', 'https://http2.mlstatic.com/D_NQ_NP_acer-aspire-ryzen7.jpg', 'Notebook Acer con Ryzen 7 y 16GB RAM. Para el estudiante exigente que trabaja con multiples aplicaciones simultaneas.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Asus TUF Gaming A15 2024',
-  'Asus',
-  850000,
-  'AMD Ryzen 7 7745HX',
-  '16GB DDR5',
-  'NVIDIA RTX 4060',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" FHD 144Hz',
-  '2.2 kg',
-  'Up to 6h',
-  ARRAY['RTX 4060 gamer', 'Construccion militar', 'Para jugar en serio'],
-  ARRAY['gaming_rendimiento'],
-  'TUF es sinonimo de durabilidad. RTX 4060 para gaming AAA sin problemas. De las mejores en su rango.',
-  9,
-  'https://www.mercadolibre.com.ar/s?q=Asus+TUF+Gaming+A15+2024',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-asus-tuf-a15.jpg',
-  'Asus TUF Gaming con certificacion militar y RTX 4060. Resistente, potente y capaz de correr cualquier juego AAA sin problemas.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad Slim 3 15ABR8', 'Lenovo', 295000, 'AMD Ryzen 5 7530U', '8GB DDR4', 'AMD Radeon', '512GB SSD', 'Windows 11', '15.6"', '1.56 kg', 'Hasta 7h', ARRAY['Liviana y delgada', 'Ryzen moderno', 'SSD rapido'], ARRAY['productividad_estudio'], 'La Slim 3 de Lenovo: delgada, liviana y rapida. El diseño recuerda a laptops mas caras. Muy buena opcion.', 7, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+Slim+3+15ABR8', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-slim3-15abr8.jpg', 'Notebook Lenovo Slim con diseño delgado y Ryzen 5. Liviana para cargar todos los dias.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Asus ROG Strix G15',
-  'Asus',
-  1200000,
-  'AMD Ryzen 9 6900HX',
-  '32GB DDR5',
-  'NVIDIA RTX 3070 Ti',
-  '1TB SSD',
-  'Windows 11',
-  '15.6" QHD 240Hz',
-  '2.3 kg',
-  'Up to 5h',
-  ARRAY['32GB RAM', 'Pantalla QHD 240Hz', 'Gaming premium'],
-  ARRAY['gaming_rendimiento'],
-  '32GB de RAM, QHD a 240Hz y RTX 3070 Ti. Para los que quieren lo mejor sin llegar al tope de precio.',
-  9,
-  'https://www.mercadolibre.com.ar/s?q=Asus+ROG+Strix+G15+RTX+3070',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-asus-rog-strix-g15.jpg',
-  'ROG Strix con Ryzen 9, 32GB de RAM y pantalla QHD a 240Hz. Para gamers que exigen la mejor experiencia visual posible.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook 16 M1605YA', 'Asus', 380000, 'AMD Ryzen 7 7730U', '16GB DDR4', 'AMD Radeon', '512GB SSD', 'Windows 11', '16"', '1.88 kg', 'Hasta 8h', ARRAY['Pantalla grande 16 pulgadas', 'Ryzen 7', 'Ideal para leer codigo'], ARRAY['productividad_estudio'], 'Pantalla de 16 pulgadas que cambia la experiencia. Para estudiantes de ciencias o quien lee mucho texto.', 8, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+16+M1605YA', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook16-m1605.jpg', 'Notebook Asus 16 pulgadas con Ryzen 7. La pantalla grande es perfecta para leer PDFs largos y trabajar en hojas de calculo.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'Lenovo Legion 5 Pro',
-  'Lenovo',
-  1450000,
-  'AMD Ryzen 7 7745HX',
-  '16GB DDR5',
-  'NVIDIA RTX 4070',
-  '512GB SSD',
-  'Windows 11',
-  '16" WQXGA 165Hz',
-  '2.49 kg',
-  'Up to 5h',
-  ARRAY['RTX 4070', 'Pantalla WQXGA', 'La bestia gamer'],
-  ARRAY['gaming_rendimiento'],
-  'La Legion 5 Pro es la notebook gamer mas popular por algo. RTX 4070 y pantalla WQXGA de 165Hz. Un monstruo.',
-  10,
-  'https://www.mercadolibre.com.ar/s?q=Lenovo+Legion+5+Pro+RTX+4070',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-lenovo-legion5pro.jpg',
-  'La Legion 5 Pro es el estandar de las gaming notebooks. RTX 4070 y pantalla WQXGA de 165Hz para gaming competitivo de elite.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell Inspiron 15 3520', 'Dell', 350000, 'Intel Core i5-1235U', '8GB DDR4', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '15.6"', '1.71 kg', 'Hasta 7h', ARRAY['Dell premium accesible', 'Intel Iris Xe', 'SSD 512GB'], ARRAY['productividad_estudio'], 'Dell Inspiron 15: la notebook premium a precio justo. Construccion solida y el nuevo Intel Iris Xe se nota.', 7, 'https://www.mercadolibre.com.ar/s?q=Dell+Inspiron+15+3520+i5', 'https://http2.mlstatic.com/D_NQ_NP_dell-inspiron15-3520.jpg', 'Notebook Dell con Intel i5 y GPU Iris Xe mejorada. Construccion premium y buen rendimiento para el precio.');
 
-INSERT INTO laptops (
-  name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery,
-  simplified_tags, usage_profiles, influencer_note, recommendation_score,
-  affiliate_link, image_url, description
-) VALUES (
-  'MSI Katana 15',
-  'MSI',
-  580000,
-  'Intel Core i5-12450H',
-  '16GB DDR5',
-  'NVIDIA RTX 4050',
-  '512GB SSD',
-  'Windows 11',
-  '15.6" FHD 144Hz',
-  '2.25 kg',
-  'Up to 5h',
-  ARRAY['RTX 4050 accesible', 'Diseno gamer sutil', 'Buen rendimiento'],
-  ARRAY['gaming_rendimiento'],
-  'MSI Katana a buen precio con RTX 4050. Diseño mas sutil que otras gaming, la podes llevar a la facu.',
-  7,
-  'https://www.mercadolibre.com.ar/s?q=MSI+Katana+15+RTX+4050',
-  'https://http2.mlstatic.com/D_NQ_NP_placeholder-msi-katana15.jpg',
-  'MSI Katana con RTX 4050 y diseno mas discreto que otras gaming. Ideal para el gamer universitario que tambien la lleva a clases.'
-);
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo ThinkPad E14 Gen 5', 'Lenovo', 400000, 'Intel Core i5-1340P', '16GB DDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.59 kg', 'Hasta 10h', ARRAY['Teclado legendario ThinkPad', 'Bateria 10 horas', 'Empresarial'], ARRAY['productividad_estudio'], 'El teclado de las ThinkPad es famoso por algo. Si escribis mucho, esta es tu maquina. 10 horas de bateria, en serio.', 9, 'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkPad+E14+Gen+5', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-thinkpad-e14-g5.jpg', 'Notebook empresarial Lenovo con el mejor teclado del mercado y bateria excepcional. Para estudiantes que escriben mucho.');
 
--- Verification: run these to confirm seed data
--- SELECT count(*) FROM laptops; -- should return 22
--- SELECT p, count(*) FROM laptops, unnest(usage_profiles) AS p GROUP BY p;
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP 255R G10 Ryzen 7', 'HP', 420000, 'AMD Ryzen 7 7735U', '16GB DDR4', 'AMD Radeon', '512GB SSD', 'Windows 11', '15.6"', '1.74 kg', 'Hasta 9h', ARRAY['Ryzen 7 de alta gama', '16GB RAM', 'HP potente'], ARRAY['productividad_estudio'], 'El HP 255 con Ryzen 7 es el punto maximo de la linea 255. Potencia seria para tareas exigentes.', 8, 'https://www.mercadolibre.com.ar/s?q=HP+255R+G10+Ryzen+7', 'https://http2.mlstatic.com/D_NQ_NP_hp-255r-g10.jpg', 'Notebook HP con Ryzen 7 y 16GB RAM. El tope de la gama profesional HP para universitarios y profesionales.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad Flex 5 14ABR8', 'Lenovo', 370000, 'AMD Ryzen 5 7530U', '16GB DDR4', 'AMD Radeon', '512GB SSD', 'Windows 11', '14"', '1.5 kg', 'Hasta 8h', ARRAY['Convertible 2-en-1', 'Pantalla tactil', 'Liviana'], ARRAY['productividad_estudio'], 'Convertible 2-en-1: laptop y tablet en uno. Pantalla tactil que se dobla 360 grados. Ideal para tomar notas a mano.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+Flex+5+14', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-flex5-14.jpg', 'Notebook convertible con pantalla tactil y bisagra 360. Perfecta para tomar apuntes a mano y usar como tablet.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook S14 S1404FA', 'Asus', 360000, 'AMD Ryzen 5 7535U', '16GB DDR4', 'AMD Radeon 660M', '512GB SSD', 'Windows 11', '14"', '1.38 kg', 'Hasta 9h', ARRAY['Ultraliviana 1.38kg', 'Ryzen 5 rapido', 'Diseno fino'], ARRAY['productividad_estudio'], 'La VivoBook S es la linea premium de VivoBook. 1.38 kg y 14 pulgadas: la ideal para mochileros universitarios.', 8, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+S14+S1404', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook-s14.jpg', 'Notebook Asus delgada y liviana con Ryzen 5. Excelente para llevar siempre encima y trabajar todo el dia.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Samsung Galaxy Book3 i5', 'Samsung', 400000, 'Intel Core i5-1340P', '8GB DDR4', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '15.6"', '1.58 kg', 'Hasta 8h', ARRAY['Diseno premium Samsung', 'Pantalla brillante', 'i5 moderno'], ARRAY['productividad_estudio'], 'Samsung Book3 con i5: diseño premium, pantalla luminosa y el ecosistema Samsung integrado. Hermosa laptop.', 8, 'https://www.mercadolibre.com.ar/s?q=Samsung+Galaxy+Book3+i5', 'https://http2.mlstatic.com/D_NQ_NP_samsung-book3-i5.jpg', 'Notebook Samsung con diseño premium y pantalla brillante. La laptop mas linda de su categoria.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell Vostro 3520', 'Dell', 380000, 'Intel Core i5-1235U', '16GB DDR4', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '15.6"', '1.8 kg', 'Hasta 7h', ARRAY['Dell empresarial', '16GB RAM', 'SSD 512GB'], ARRAY['productividad_estudio'], 'Dell Vostro: la linea empresarial de Dell para pequenas empresas y estudiantes avanzados. Mas robusta que la Inspiron.', 8, 'https://www.mercadolibre.com.ar/s?q=Dell+Vostro+3520+i5', 'https://http2.mlstatic.com/D_NQ_NP_dell-vostro-3520.jpg', 'Notebook Dell empresarial con 16GB RAM. Construccion mas robusta que la Inspiron, ideal para uso profesional intensivo.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo ThinkBook 14 Gen 5', 'Lenovo', 420000, 'Intel Core i5-1335U', '16GB DDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.46 kg', 'Hasta 10h', ARRAY['Empresarial moderna', 'Diseño minimalista', 'Bateria excelente'], ARRAY['productividad_estudio'], 'ThinkBook: lo mejor de ThinkPad con un diseño mas moderno. Para estudiantes de negocios o que tienen practicas profesionales.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkBook+14+Gen+5', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-thinkbook14-g5.jpg', 'Notebook empresarial Lenovo con diseño moderno y bateria excepcional. Para estudiantes con perfil profesional.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Laptop 15-dy5000', 'HP', 315000, 'Intel Core i5-1235U', '8GB DDR4', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '15.6"', '1.75 kg', 'Hasta 7h', ARRAY['HP con i5', 'Buena GPU integrada', 'Precio justo'], ARRAY['productividad_estudio'], 'HP con Intel i5 de 12va generacion y la GPU integrada Iris Xe que sorprende. Para trabajo universitario sin limitaciones.', 7, 'https://www.mercadolibre.com.ar/s?q=HP+Laptop+15+i5+1235U', 'https://http2.mlstatic.com/D_NQ_NP_hp-laptop15-i5.jpg', 'Notebook HP con procesador Intel i5 y grafica Iris Xe. Equilibrio perfecto entre precio y rendimiento.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- PRODUCTIVIDAD_ESTUDIO — PREMIUM (10 laptops, ARS 700k–1.2M)
+-- Perfil: profesional, emprendedor, o quien quiere lo mejor
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MacBook Air M2 13"', 'Apple', 850000, 'Apple M2', '8GB Unified', '8-core GPU', '256GB SSD', 'macOS Sequoia', '13.6"', '1.24 kg', 'Hasta 18h', ARRAY['Ultra liviana', 'Bateria 18 horas', 'Silenciosa sin ventilador'], ARRAY['productividad_estudio', 'creacion_desarrollo'], 'Si te alcanza el presupuesto, es imbatible. 18 horas de bateria reales y pesa poco mas de 1 kilo. Sin ventilador: silenciosa siempre.', 9, 'https://www.amazon.com/s?k=MacBook+Air+M2+13', 'https://http2.mlstatic.com/D_NQ_NP_macbook-air-m2-13.jpg', 'MacBook Air con chip M2. La laptop mas popular de Apple: liviana, silenciosa y con bateria para dos dias.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MacBook Air M3 13"', 'Apple', 980000, 'Apple M3', '8GB Unified', '10-core GPU', '256GB SSD', 'macOS Sequoia', '13.6"', '1.24 kg', 'Hasta 18h', ARRAY['Chip M3 de ultima gen', 'Wi-Fi 6E', 'La mejor Air actual'], ARRAY['productividad_estudio', 'creacion_desarrollo'], 'El M3 mejora el M2 en GPU y velocidad de memoria. Wi-Fi 6E incluido. Si vas a comprar una Air, esta es la que hay que pedir.', 9, 'https://www.amazon.com/s?k=MacBook+Air+M3+13', 'https://http2.mlstatic.com/D_NQ_NP_macbook-air-m3-13.jpg', 'MacBook Air con chip M3. Mas rapida que la M2 con mejor GPU integrada y Wi-Fi 6E. La eleccion inteligente en 2026.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MacBook Air M3 15"', 'Apple', 1100000, 'Apple M3', '8GB Unified', '10-core GPU', '256GB SSD', 'macOS Sequoia', '15.3"', '1.51 kg', 'Hasta 18h', ARRAY['Pantalla grande premium', 'M3 potente', 'Productividad maxima'], ARRAY['productividad_estudio', 'creacion_desarrollo'], 'La mejor MacBook Air que existe. Pantalla de 15 pulgadas, chip M3 y 18 horas de bateria. Un lujo justificado.', 10, 'https://www.amazon.com/s?k=MacBook+Air+M3+15', 'https://http2.mlstatic.com/D_NQ_NP_macbook-air-m3-15.jpg', 'MacBook Air 15 con chip M3. La pantalla grande con la eficiencia legendaria del chip Apple. Sin igual en su clase.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo ThinkPad T14s Gen 4', 'Lenovo', 780000, 'AMD Ryzen 7 PRO 7840U', '16GB LPDDR5', 'AMD Radeon 780M', '512GB SSD', 'Windows 11 Pro', '14"', '1.22 kg', 'Hasta 12h', ARRAY['Empresarial de alto nivel', '12 horas de bateria', 'Ultraliviana 1.2kg'], ARRAY['productividad_estudio'], 'La ThinkPad T14s con Ryzen PRO: la laptop empresarial mas liviana de la linea T. 1.22 kg y 12 horas de autonomia.', 9, 'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkPad+T14s+Gen+4', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-thinkpad-t14s-g4.jpg', 'Notebook empresarial ThinkPad ultra liviana. El maximo nivel de productividad movil para profesionales exigentes.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell Latitude 5540', 'Dell', 750000, 'Intel Core i5-1345U', '16GB DDR4', 'Intel Iris Xe', '512GB SSD', 'Windows 11 Pro', '15.6"', '1.79 kg', 'Hasta 11h', ARRAY['Dell empresarial top', 'Construccion premium', '11 horas bateria'], ARRAY['productividad_estudio'], 'El Latitude es la laptop empresarial premium de Dell. Construccion impecable, soporte corporativo y 11 horas reales de bateria.', 8, 'https://www.mercadolibre.com.ar/s?q=Dell+Latitude+5540', 'https://http2.mlstatic.com/D_NQ_NP_dell-latitude-5540.jpg', 'Notebook Dell Latitude empresarial con construccion premium. Para profesionales que no aceptan compromisos en calidad.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP EliteBook 840 G9', 'HP', 720000, 'Intel Core i5-1235U', '16GB DDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11 Pro', '14"', '1.35 kg', 'Hasta 12h', ARRAY['HP premium', 'Seguridad empresarial', 'Pantalla anti-espias'], ARRAY['productividad_estudio'], 'HP EliteBook: la laptop mas segura del mercado. Pantalla anti-espias integrada, lector de huellas y 12 horas de bateria.', 8, 'https://www.mercadolibre.com.ar/s?q=HP+EliteBook+840+G9', 'https://http2.mlstatic.com/D_NQ_NP_hp-elitebook-840-g9.jpg', 'Notebook HP EliteBook con maxima seguridad empresarial. Pantalla privacidad integrada y construccion militar-grade.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo Yoga 9i Gen 8', 'Lenovo', 900000, 'Intel Core i7-1360P', '16GB LPDDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.36 kg', 'Hasta 15h', ARRAY['Convertible premium', 'i7 potente', 'Diseno de lujo'], ARRAY['productividad_estudio', 'creacion_desarrollo'], 'El Yoga 9i es la convertible premium de Lenovo. Bisagra giratoria, pantalla tactil y acabados de primer nivel.', 9, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Yoga+9i+Gen+8', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-yoga-9i-g8.jpg', 'Notebook convertible premium Lenovo con i7 y bisagra 360. La opcion mas elegante del mercado para profesionales creativos.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Samsung Galaxy Book3 Pro', 'Samsung', 1050000, 'Intel Core i7-1360P', '16GB LPDDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.17 kg', 'Hasta 22h', ARRAY['Pantalla AMOLED increible', '22 horas de bateria', 'La mas liviana'], ARRAY['productividad_estudio', 'creacion_desarrollo'], 'La Galaxy Book3 Pro tiene pantalla AMOLED de 120Hz y 22 horas de bateria. 1.17 kg: la laptop Windows mas liviana del mercado.', 9, 'https://www.mercadolibre.com.ar/s?q=Samsung+Galaxy+Book3+Pro', 'https://http2.mlstatic.com/D_NQ_NP_samsung-book3-pro.jpg', 'Notebook Samsung con pantalla AMOLED 120Hz y bateria record de 22 horas. La mas liviana y con mejor pantalla en Windows.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Spectre x360 14 (Ultra 5)', 'HP', 980000, 'Intel Core Ultra 5 125H', '16GB LPDDR5', 'Intel Arc', '512GB SSD', 'Windows 11', '14"', '1.42 kg', 'Hasta 17h', ARRAY['Diseno icónico HP', 'Intel Arc GPU', 'OLED 2.8K'], ARRAY['productividad_estudio', 'creacion_desarrollo'], 'El Spectre x360 es la joya de HP. Diseño icónico, pantalla OLED 2.8K y el nuevo Intel Arc para GPU. De lo mejor del mercado.', 9, 'https://www.mercadolibre.com.ar/s?q=HP+Spectre+x360+14+Ultra+5', 'https://http2.mlstatic.com/D_NQ_NP_hp-spectre-x360-14.jpg', 'Notebook premium HP con pantalla OLED 2.8K y diseno convertible. La laptop mas elegante del mercado Windows.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo ThinkPad X1 Carbon Gen 11', 'Lenovo', 1200000, 'Intel Core i5-1335U', '16GB LPDDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11 Pro', '14"', '1.12 kg', 'Hasta 15h', ARRAY['La mas liviana de ThinkPad', '1.12 kg record', 'Construccion de carbono'], ARRAY['productividad_estudio'], 'El X1 Carbon: la ThinkPad mas liviana del mundo. 1.12 kg de chasis de carbono. Para el profesional que viaja mucho.', 9, 'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkPad+X1+Carbon+Gen+11', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-x1-carbon-g11.jpg', 'La notebook empresarial mas liviana: ThinkPad X1 Carbon. Chasis de fibra de carbono y prestaciones top para ejecutivos.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- CREACION_DESARROLLO — ESENCIAL (10 laptops, ARS 380k–620k)
+-- Perfil: diseñador, dev o youtuber que empieza sin mucho presupuesto
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ZenBook 14 OLED', 'Asus', 480000, 'Intel Core i5-1340P', '16GB LPDDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.39 kg', 'Hasta 9h', ARRAY['OLED accesible', 'Compacta y potente', 'Para programadores'], ARRAY['creacion_desarrollo'], 'OLED a buen precio. La pantalla cambia todo para diseño y codigo. Ideal para devs que quieren buena pantalla sin vender un rinon.', 8, 'https://www.mercadolibre.com.ar/s?q=Asus+ZenBook+14+OLED', 'https://http2.mlstatic.com/D_NQ_NP_asus-zenbook14-oled.jpg', 'Notebook Asus con pantalla OLED accesible. La diferencia de color y contraste se nota desde el primer momento.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad Creator 5 16', 'Lenovo', 520000, 'AMD Ryzen 5 7535HS', '16GB DDR5', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '16"', '2.0 kg', 'Hasta 7h', ARRAY['GPU dedicada accesible', 'Pantalla grande', 'Primer paso creativo'], ARRAY['creacion_desarrollo'], 'RTX 3050 a buen precio. No es la mas potente pero alcanza para edicion basica, Premiere ligero y 3D liviano.', 7, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Creator+5+RTX+3050', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-creator5-rtx3050.jpg', 'Notebook para creadores con RTX 3050. El primer paso para diseñadores y editores de video sin experiencia previa.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Victus 15 RTX 2050', 'HP', 450000, 'Intel Core i5-12450H', '8GB DDR4', 'NVIDIA RTX 2050', '512GB SSD', 'Windows 11', '15.6"', '2.04 kg', 'Hasta 6h', ARRAY['GPU dedicada', 'HP confiable', 'Doble uso estudio+creacion'], ARRAY['creacion_desarrollo'], 'El Victus 15 con RTX 2050 es el punto de entrada a las GPU dedicadas de NVIDIA. Edicion de fotos y video liviano sin problemas.', 7, 'https://www.mercadolibre.com.ar/s?q=HP+Victus+15+RTX+2050', 'https://http2.mlstatic.com/D_NQ_NP_hp-victus15-rtx2050.jpg', 'Notebook HP con GPU NVIDIA dedicada entry-level. Para quienes necesitan aceleracion de GPU sin presupuesto gaming.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook Pro 15 OLED', 'Asus', 560000, 'AMD Ryzen 5 6600H', '16GB DDR5', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '15.6"', '1.8 kg', 'Hasta 6h', ARRAY['OLED + RTX 3050', 'Pantalla profesional', 'Gran combo creativo'], ARRAY['creacion_desarrollo'], 'OLED + RTX 3050: una combinacion que pocas laptops ofrecen a este precio. La pantalla para diseño, la GPU para render.', 8, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+Pro+15+OLED+RTX+3050', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook-pro15-oled.jpg', 'Notebook Asus con pantalla OLED y GPU dedicada. El combo perfecto para diseñadores que necesitan color preciso y potencia GPU.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo Yoga Slim 7 Pro', 'Lenovo', 580000, 'AMD Ryzen 5 6600HS', '16GB DDR5', 'AMD Radeon RX 6500M', '512GB SSD', 'Windows 11', '14.5"', '1.4 kg', 'Hasta 10h', ARRAY['Liviana creativa', 'GPU discreta', 'Diseno premium'], ARRAY['creacion_desarrollo'], 'Yoga Slim 7 Pro: delgada, liviana y con GPU discreta. Para creativos que no quieren sacrificar portabilidad por rendimiento.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Yoga+Slim+7+Pro', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-yoga-slim7-pro.jpg', 'Notebook creativa Lenovo ultra delgada con GPU AMD discreta. El mejor balance entre portabilidad y rendimiento creativo.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Aspire 5 A515-57G', 'Acer', 450000, 'Intel Core i5-1235U', '8GB DDR4', 'NVIDIA RTX 2050', '512GB SSD', 'Windows 11', '15.6"', '1.82 kg', 'Hasta 7h', ARRAY['GPU dedicada Acer', 'Buena pantalla FHD', 'Precio competitivo'], ARRAY['creacion_desarrollo'], 'Acer Aspire 5 con RTX 2050. Acer compite fuerte en precio. Para diseño basico y programacion con preview en GPU.', 7, 'https://www.mercadolibre.com.ar/s?q=Acer+Aspire+5+A515+RTX+2050', 'https://http2.mlstatic.com/D_NQ_NP_acer-aspire5-rtx2050.jpg', 'Notebook Acer con GPU NVIDIA dedicada a buen precio. Para diseñadores y desarrolladores que empiezan su camino creativo.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell Inspiron 14 Plus 7420', 'Dell', 540000, 'Intel Core i7-1260P', '16GB DDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.54 kg', 'Hasta 9h', ARRAY['Dell premium', 'i7 potente', 'Pantalla 2.2K'], ARRAY['creacion_desarrollo'], 'Dell Inspiron Plus: un salto de calidad sobre la Inspiron estandar. Pantalla 2.2K y i7 de 12va gen. Para devs que exigen calidad.', 8, 'https://www.mercadolibre.com.ar/s?q=Dell+Inspiron+14+Plus+i7', 'https://http2.mlstatic.com/D_NQ_NP_dell-inspiron14-plus.jpg', 'Notebook Dell premium con pantalla 2.2K y procesador i7. El nivel siguiente para desarrolladores que quieren mas calidad de pantalla.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Pavilion Plus 14-eh1', 'HP', 520000, 'Intel Core i7-1355U', '16GB DDR5', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.43 kg', 'Hasta 9h', ARRAY['Pantalla 2.8K OLED', 'i7 rapido', 'HP premium compacta'], ARRAY['creacion_desarrollo'], 'HP Pavilion Plus con pantalla OLED 2.8K a buen precio. El color de la pantalla es ideal para diseño fotografico.', 8, 'https://www.mercadolibre.com.ar/s?q=HP+Pavilion+Plus+14+OLED', 'https://http2.mlstatic.com/D_NQ_NP_hp-pavilion-plus-14.jpg', 'Notebook HP con pantalla OLED 2.8K accesible. La mejor pantalla para diseño fotografico en su rango de precio.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad 5 Pro 14ARH7', 'Lenovo', 490000, 'AMD Ryzen 5 6600HS', '16GB DDR5', 'AMD Radeon RX 6500M', '512GB SSD', 'Windows 11', '14"', '1.5 kg', 'Hasta 9h', ARRAY['GPU AMD discreta', 'Pantalla 2K', 'Compacta potente'], ARRAY['creacion_desarrollo'], 'IdeaPad 5 Pro: GPU AMD discreta, pantalla 2K a 120Hz. Para devs y diseñadores que quieren rendimiento sin exceso de peso.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+5+Pro+14+Ryzen+5', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-ideapad5-pro-14.jpg', 'Notebook Lenovo con GPU dedicada AMD y pantalla 2K 120Hz. Para creativos que valoran calidad de imagen y portabilidad.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook 14 X1405ZA', 'Asus', 400000, 'Intel Core i5-12500H', '16GB DDR4', 'Intel Iris Xe', '512GB SSD', 'Windows 11', '14"', '1.5 kg', 'Hasta 9h', ARRAY['i5 de escritorio en laptop', 'Buena para codigo', 'Precio justo'], ARRAY['creacion_desarrollo'], 'El i5-12500H es un chip de escritorio en cuerpo de laptop. Para programadores que compilan o ejecutan VMs: potencia real.', 7, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+14+i5-12500H', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook14-i5h.jpg', 'Notebook Asus con procesador Intel H (alto rendimiento) en formato compacto 14 pulgadas. Para programadores exigentes.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- CREACION_DESARROLLO — EQUILIBRADO (12 laptops, ARS 620k–1.1M)
+-- Perfil: diseñador UX/UI, editor de video, full-stack developer
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus VivoBook Pro 16 OLED', 'Asus', 950000, 'AMD Ryzen 9 7945HX', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '16"', '1.9 kg', 'Hasta 6h', ARRAY['Pantalla OLED increible', 'RTX 4060', 'Ryzen 9 tope'], ARRAY['creacion_desarrollo'], 'La pantalla OLED cambia todo para diseño y video. Colores reales. La RTX 4060 acelera Premiere, DaVinci y After Effects.', 9, 'https://www.mercadolibre.com.ar/s?q=Asus+VivoBook+Pro+16+OLED+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_asus-vivobook-pro16-oled.jpg', 'Notebook creativa con pantalla OLED profesional y RTX 4060. La herramienta definitiva para creadores de contenido serios.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo Yoga Pro 7i Gen 8', 'Lenovo', 680000, 'Intel Core Ultra 5 125H', '16GB LPDDR5', 'Intel Arc', '512GB SSD', 'Windows 11', '14.5"', '1.4 kg', 'Hasta 10h', ARRAY['Ultraliviana creativa', 'Intel Arc GPU', 'Pantalla 3K'], ARRAY['creacion_desarrollo'], 'Yoga Pro 7i: 1.4 kg con pantalla 3K y Intel Arc. Para creativos que se mueven mucho. Liviana como pocas con buena GPU.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Yoga+Pro+7i+Gen+8', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-yoga-pro7i-g8.jpg', 'Notebook creativa ultra liviana con pantalla 3K y GPU Intel Arc. Para diseñadores nomadas que no sacrifican calidad.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Envy x360 15 OLED', 'HP', 760000, 'AMD Ryzen 7 8840U', '16GB DDR5', 'AMD Radeon 780M', '512GB SSD', 'Windows 11', '15.6"', '1.9 kg', 'Hasta 7h', ARRAY['OLED convertible', 'Pantalla tactil', 'Potencia creativa'], ARRAY['creacion_desarrollo'], 'Convertible con pantalla OLED. Dibuja con el stylus, edita video, hace de todo. La HP mas versatil para creativos.', 8, 'https://www.mercadolibre.com.ar/s?q=HP+Envy+x360+15+OLED', 'https://http2.mlstatic.com/D_NQ_NP_hp-envy-x360-15-oled.jpg', 'Notebook convertible HP con pantalla OLED tactil. Para diseñadores que quieren experiencia tablet y laptop en un solo equipo.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ZenBook Pro 14 OLED', 'Asus', 820000, 'Intel Core i5-13500H', '16GB DDR5', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '14.5"', '1.67 kg', 'Hasta 8h', ARRAY['OLED + RTX en 14 pulgadas', 'Compacta potente', 'Para diseñadores'], ARRAY['creacion_desarrollo'], 'El ZenBook Pro: OLED y RTX 3050 en un cuerpo de 14 pulgadas y 1.67 kg. El combo imposible que Asus logro hacer realidad.', 9, 'https://www.mercadolibre.com.ar/s?q=Asus+ZenBook+Pro+14+OLED', 'https://http2.mlstatic.com/D_NQ_NP_asus-zenbook-pro14-oled.jpg', 'Notebook Asus con pantalla OLED y GPU dedicada en formato compacto. Para diseñadores que priorizan calidad de imagen.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MSI Prestige 15 A13UC', 'MSI', 900000, 'Intel Core i7-13700H', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '15.6"', '1.7 kg', 'Hasta 7h', ARRAY['RTX 4060 creativo', 'Diseno minimalista MSI', 'Para profesionales'], ARRAY['creacion_desarrollo'], 'MSI Prestige: la linea para creativos de MSI, no para gamers. Diseno elegante, RTX 4060 y carga en 30 minutos al 50%.', 9, 'https://www.mercadolibre.com.ar/s?q=MSI+Prestige+15+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_msi-prestige15-rtx4060.jpg', 'Notebook MSI para creativos con RTX 4060. Diseño profesional y potencia GPU seria para edicion de video 4K.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad Pro 5 Gen 9', 'Lenovo', 850000, 'AMD Ryzen 7 8845HS', '16GB DDR5', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '14"', '1.46 kg', 'Hasta 9h', ARRAY['Ryzen 7 mas RTX 4050', 'Liviana 1.46kg', 'Dev y creativo'], ARRAY['creacion_desarrollo'], 'La combo Ryzen 7 + RTX 4050 en un cuerpo liviano. Para devs que tambien hacen diseño o trabajan con ML/IA local.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+Pro+5+Ryzen+7+RTX+4050', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-ideapad-pro5-g9.jpg', 'Notebook liviana con Ryzen 7 y RTX 4050. Ideal para desarrolladores que tambien hacen diseño o corren modelos de IA.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Swift X 14 SFX14-72G', 'Acer', 780000, 'Intel Core Ultra 5 125H', '16GB LPDDR5', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '14.5"', '1.5 kg', 'Hasta 9h', ARRAY['Ultra 5 + RTX 4050', 'Pantalla 2.8K 120Hz', 'Compacta'], ARRAY['creacion_desarrollo'], 'Acer Swift X: GPU dedicada en formato ultradelgado. Pantalla 2.8K a 120Hz. Para creativos que odian las laptops pesadas.', 8, 'https://www.mercadolibre.com.ar/s?q=Acer+Swift+X+14+RTX+4050', 'https://http2.mlstatic.com/D_NQ_NP_acer-swift-x14.jpg', 'Notebook Acer delgada con GPU dedicada RTX 4050 y pantalla 2.8K. La mejor opcion creativa en formato compacto de Acer.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Samsung Galaxy Book3 Ultra', 'Samsung', 1050000, 'AMD Ryzen 7 7745HX', '16GB DDR5', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '16"', '1.79 kg', 'Hasta 8h', ARRAY['Samsung premium max', 'AMOLED + RTX 4050', 'Pantalla impresionante'], ARRAY['creacion_desarrollo'], 'La Galaxy Book Ultra: pantalla AMOLED de 16 pulgadas y RTX 4050. Samsung llevado al extremo para creadores.', 9, 'https://www.mercadolibre.com.ar/s?q=Samsung+Galaxy+Book3+Ultra', 'https://http2.mlstatic.com/D_NQ_NP_samsung-book3-ultra.jpg', 'Notebook Samsung con pantalla AMOLED 16 pulgadas y GPU dedicada. La mejor experiencia visual del mercado Windows para creadores.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Envy 16 RTX 4060', 'HP', 870000, 'Intel Core i7-13700H', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '16"', '2.4 kg', 'Hasta 7h', ARRAY['Pantalla grande creativa', 'RTX 4060 potente', 'HP premium 16'], ARRAY['creacion_desarrollo'], 'HP Envy 16: la pantalla grande de HP con RTX 4060 para edicion seria. Tonos calibrados de fabrica para diseño.', 9, 'https://www.mercadolibre.com.ar/s?q=HP+Envy+16+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_hp-envy16-rtx4060.jpg', 'Notebook HP 16 pulgadas con RTX 4060 y pantalla calibrada. Para editores de video que necesitan espacio de trabajo amplio.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ZenBook 14X OLED', 'Asus', 700000, 'Intel Core i7-12700H', '16GB DDR5', 'NVIDIA RTX 3050 Ti', '512GB SSD', 'Windows 11', '14.5"', '1.65 kg', 'Hasta 8h', ARRAY['OLED 2.8K 90Hz', 'RTX 3050 Ti', 'Asus premium'], ARRAY['creacion_desarrollo'], 'ZenBook 14X: OLED 2.8K a 90Hz. La pantalla es un placer visual. RTX 3050 Ti para acelerar tus proyectos creativos.', 8, 'https://www.mercadolibre.com.ar/s?q=Asus+ZenBook+14X+OLED', 'https://http2.mlstatic.com/D_NQ_NP_asus-zenbook14x-oled.jpg', 'Notebook Asus con pantalla OLED 2.8K de alta calidad y GPU RTX. Para creadores que priorizan la experiencia visual premium.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo ThinkBook 16p Gen 4', 'Lenovo', 1050000, 'AMD Ryzen 9 7940HX', '32GB DDR5', 'NVIDIA RTX 4060', '1TB SSD', 'Windows 11 Pro', '16"', '2.0 kg', 'Hasta 8h', ARRAY['32GB RAM', '1TB SSD', 'Ryzen 9 tope'], ARRAY['creacion_desarrollo'], 'ThinkBook 16p: la creativa de Lenovo con 32GB RAM y 1TB SSD. Para devs que corren Docker, VMs y diseño al mismo tiempo.', 9, 'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkBook+16p+Gen+4', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-thinkbook16p-g4.jpg', 'Notebook Lenovo con 32GB RAM y 1TB SSD. Para desarrolladores que corren multiples entornos virtuales simultaneamente.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer ConceptD 3 Ezel', 'Acer', 650000, 'Intel Core i7-11800H', '16GB DDR4', 'NVIDIA RTX 3050 Ti', '512GB SSD', 'Windows 11', '15.6"', '2.0 kg', 'Hasta 7h', ARRAY['Pantalla tactil giratoria', 'Para diseñadores graficos', 'Unica forma'], ARRAY['creacion_desarrollo'], 'ConceptD: la laptop convertible de Acer para diseñadores. La pantalla gira y queda en modo caballete. Muy creativa.', 8, 'https://www.mercadolibre.com.ar/s?q=Acer+ConceptD+3+Ezel', 'https://http2.mlstatic.com/D_NQ_NP_acer-conceptd3-ezel.jpg', 'Notebook Acer con pantalla giratoria en modo caballete. Pensada especificamente para diseñadores graficos y artistas digitales.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- CREACION_DESARROLLO — PREMIUM (8 laptops, ARS 1.2M+)
+-- Perfil: profesional creativo o dev senior que no acepta compromisos
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell XPS 15 9530', 'Dell', 1400000, 'Intel Core i7-13700H', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '15.6"', '1.86 kg', 'Hasta 8h', ARRAY['Pantalla OLED 3.5K', 'Construccion premium', 'La mejor de Dell'], ARRAY['creacion_desarrollo'], 'La XPS 15 es la laptop premium de Dell. Pantalla OLED 3.5K que deja a todos con la boca abierta. Para creadores serios.', 9, 'https://www.mercadolibre.com.ar/s?q=Dell+XPS+15+9530', 'https://http2.mlstatic.com/D_NQ_NP_dell-xps15-9530.jpg', 'Notebook Dell XPS premium con pantalla OLED 3.5K. La experiencia visual mas impresionante del mercado Windows para creadores.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MacBook Pro M3 14"', 'Apple', 1900000, 'Apple M3 Pro', '18GB Unified', '18-core GPU', '512GB SSD', 'macOS Sequoia', '14.2"', '1.61 kg', 'Hasta 17h', ARRAY['Potencia profesional', 'Pantalla Liquid Retina XDR', 'El sueno del creativo'], ARRAY['creacion_desarrollo'], 'El rey de la creacion de contenido. Video 4K sin calentarse, desarrollo sin limites, diseño con colores exactos. Sin igual.', 10, 'https://www.amazon.com/s?k=MacBook+Pro+M3+14', 'https://http2.mlstatic.com/D_NQ_NP_macbook-pro-m3-14.jpg', 'MacBook Pro con chip M3 Pro. La mejor laptop para creadores de contenido profesional que priorizan velocidad y autonomia.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MacBook Pro M3 16"', 'Apple', 2400000, 'Apple M3 Pro', '18GB Unified', '18-core GPU', '512GB SSD', 'macOS Sequoia', '16.2"', '2.14 kg', 'Hasta 22h', ARRAY['Pantalla enorme premium', 'M3 Pro imparable', 'Para produccion seria'], ARRAY['creacion_desarrollo'], 'La MacBook Pro 16: cuando 14 pulgadas no es suficiente. Pantalla enorme, 22 horas de bateria, M3 Pro. Para studios.', 10, 'https://www.amazon.com/s?k=MacBook+Pro+M3+16', 'https://http2.mlstatic.com/D_NQ_NP_macbook-pro-m3-16.jpg', 'MacBook Pro 16 pulgadas con chip M3 Pro. La workstation movil definitiva para produccion audiovisual y desarrollo avanzado.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MacBook Pro M2 14"', 'Apple', 1600000, 'Apple M2 Pro', '16GB Unified', '19-core GPU', '512GB SSD', 'macOS Sequoia', '14.2"', '1.61 kg', 'Hasta 17h', ARRAY['M2 Pro excelente', 'Precio mas accesible que M3', 'Gran opcion'], ARRAY['creacion_desarrollo'], 'El M2 Pro sigue siendo una bestia en 2026. Si el M3 Pro esta fuera de presupuesto, este no decepciona para nada.', 9, 'https://www.amazon.com/s?k=MacBook+Pro+M2+14', 'https://http2.mlstatic.com/D_NQ_NP_macbook-pro-m2-14.jpg', 'MacBook Pro con chip M2 Pro. Performance profesional a precio ligeramente menor que el M3. Excelente relacion valor-precio.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Spectre x360 14 Ultra 7', 'HP', 1600000, 'Intel Core Ultra 7 155H', '32GB LPDDR5', 'Intel Arc', '1TB SSD', 'Windows 11', '14"', '1.42 kg', 'Hasta 17h', ARRAY['32GB RAM', 'OLED 2.8K premium', 'HP icónico'], ARRAY['creacion_desarrollo'], 'El Spectre x360 con Ultra 7 y 32GB de RAM. La version definitiva del HP mas elegante. Para profesionales que quieren lo mejor.', 9, 'https://www.mercadolibre.com.ar/s?q=HP+Spectre+x360+Ultra+7+32GB', 'https://http2.mlstatic.com/D_NQ_NP_hp-spectre-x360-ultra7.jpg', 'Notebook premium HP con 32GB RAM y pantalla OLED. El maximo nivel de la linea Spectre para profesionales exigentes.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ProArt Studiobook 16 OLED', 'Asus', 2000000, 'Intel Core i9-13980HX', '32GB DDR5', 'NVIDIA RTX 4070', '1TB SSD', 'Windows 11 Pro', '16"', '2.4 kg', 'Hasta 7h', ARRAY['Workstation creativa', 'RTX 4070 pro', 'OLED calibrado Pantone'], ARRAY['creacion_desarrollo'], 'ProArt Studiobook: la workstation de Asus. Pantalla OLED calibrada Pantone, RTX 4070 y 32GB RAM. Para studios profesionales.', 10, 'https://www.mercadolibre.com.ar/s?q=Asus+ProArt+Studiobook+16+OLED', 'https://http2.mlstatic.com/D_NQ_NP_asus-proart-studiobook16.jpg', 'Workstation movil Asus con pantalla OLED calibrada profesionalmente. Para estudios de diseño y produccion audiovisual seria.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Razer Blade 15 RTX 4070 Ti', 'Razer', 2600000, 'Intel Core i9-13950HX', '16GB DDR5', 'NVIDIA RTX 4070 Ti', '1TB SSD', 'Windows 11', '15.6"', '2.01 kg', 'Hasta 6h', ARRAY['La laptop mas gamer-creativa', 'RTX 4070 Ti', 'Metal CNC pulido'], ARRAY['creacion_desarrollo', 'gaming_rendimiento'], 'Razer Blade: donde gaming y creatividad se unen. RTX 4070 Ti en un chasis de metal CNC impecable. La laptop mas deseable.', 9, 'https://www.mercadolibre.com.ar/s?q=Razer+Blade+15+RTX+4070+Ti', 'https://http2.mlstatic.com/D_NQ_NP_razer-blade15-rtx4070ti.jpg', 'Notebook Razer premium con RTX 4070 Ti. La interseccion perfecta entre gaming de alto rendimiento y trabajo creativo profesional.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo ThinkPad X1 Extreme Gen 5', 'Lenovo', 2200000, 'Intel Core i7-12800H', '32GB DDR5', 'NVIDIA RTX 3080 Ti', '1TB SSD', 'Windows 11 Pro', '16"', '1.81 kg', 'Hasta 8h', ARRAY['Workstation empresarial', 'RTX 3080 Ti', 'ThinkPad premium max'], ARRAY['creacion_desarrollo'], 'El X1 Extreme: la ThinkPad mas poderosa. RTX 3080 Ti y 32GB RAM en el chasis mas premium de Lenovo. Para profesionales top.', 9, 'https://www.mercadolibre.com.ar/s?q=Lenovo+ThinkPad+X1+Extreme+Gen+5', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-x1-extreme-g5.jpg', 'Notebook workstation ThinkPad con RTX 3080 Ti. La herramienta de los ingenieros y arquitectos que necesitan maxima potencia.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- GAMING_RENDIMIENTO — ESENCIAL (10 laptops, ARS 420k–650k)
+-- Perfil: gamer que empieza, presupuesto ajustado pero quiere jugar en serio
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad Gaming 3 Gen 7', 'Lenovo', 500000, 'AMD Ryzen 5 6600H', '16GB DDR5', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '15.6"', '2.2 kg', 'Hasta 5h', ARRAY['Gaming accesible', 'Pantalla 120Hz', 'Buen primer paso gamer'], ARRAY['gaming_rendimiento'], 'La puerta de entrada al gaming. RTX 3050 mueve Fortnite, Valorant y los juegos populares a seteos medios sin problema.', 7, 'https://www.mercadolibre.com.ar/s?q=Lenovo+IdeaPad+Gaming+3+Gen+7', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-gaming3-g7.jpg', 'Notebook gaming de entrada Lenovo con RTX 3050. Para gamers que quieren jugar sin gastar una fortuna.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Nitro 5 AN515-47 Ryzen 5', 'Acer', 480000, 'AMD Ryzen 5 6600H', '16GB DDR5', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '15.6"', '2.5 kg', 'Hasta 5h', ARRAY['Nitro gaming clasica', 'Diseno agresivo', 'Buena ventilacion'], ARRAY['gaming_rendimiento'], 'El Nitro 5 es el clasico gaming de Acer. Ventilacion agresiva que mantiene la GPU fria. RTX 3050 para gaming casual.', 7, 'https://www.mercadolibre.com.ar/s?q=Acer+Nitro+5+AN515+Ryzen+5+RTX+3050', 'https://http2.mlstatic.com/D_NQ_NP_acer-nitro5-an515-ryzen5.jpg', 'Notebook gaming Acer Nitro 5 con RTX 3050. El clasico gaming de entrada con sistema de cooling probado y confiable.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Victus 16 RTX 3050 Ti', 'HP', 550000, 'Intel Core i7-12650H', '16GB DDR4', 'NVIDIA RTX 3050 Ti', '512GB SSD', 'Windows 11', '16.1"', '2.37 kg', 'Hasta 5h', ARRAY['Pantalla grande gamer', 'HP gaming', 'i7 + RTX 3050 Ti'], ARRAY['gaming_rendimiento'], 'HP Victus: la entrada al gaming de HP. Pantalla de 16 pulgadas, i7 y RTX 3050 Ti. Buena para gaming casual y competitivo.', 7, 'https://www.mercadolibre.com.ar/s?q=HP+Victus+16+i7+RTX+3050+Ti', 'https://http2.mlstatic.com/D_NQ_NP_hp-victus16-rtx3050ti.jpg', 'Notebook gaming HP 16 pulgadas con RTX 3050 Ti. La opcion gaming de HP con pantalla grande para una experiencia inmersiva.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MSI Katana 15 B12VEK', 'MSI', 580000, 'Intel Core i5-12450H', '16GB DDR5', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '15.6"', '2.25 kg', 'Hasta 5h', ARRAY['RTX 4050 a buen precio', 'Diseno gamer sutil', 'MSI confiable'], ARRAY['gaming_rendimiento'], 'MSI Katana con RTX 4050 a precio de RTX 3050. Diseño mas discreto que otras gaming, la podes llevar a la facu sin vergüenza.', 7, 'https://www.mercadolibre.com.ar/s?q=MSI+Katana+15+RTX+4050', 'https://http2.mlstatic.com/D_NQ_NP_msi-katana15-rtx4050.jpg', 'Notebook gaming MSI con RTX 4050 a precio accesible. Diseno discreto que no grita gamer pero tiene el rendimiento que necesitas.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus TUF Gaming F15 FX507ZC', 'Asus', 540000, 'Intel Core i5-12500H', '16GB DDR4', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '15.6"', '2.2 kg', 'Hasta 6h', ARRAY['Construccion militar TUF', 'i5-H potente', '144Hz'], ARRAY['gaming_rendimiento'], 'TUF Gaming: construida para durar. Pasa tests militares de resistencia. La mas duradera en gaming de entrada.', 7, 'https://www.mercadolibre.com.ar/s?q=Asus+TUF+Gaming+F15+FX507', 'https://http2.mlstatic.com/D_NQ_NP_asus-tuf-f15-fx507.jpg', 'Notebook gaming Asus TUF con construccion reforzada y pantalla 144Hz. Para gamers que la van a tratar mal y necesitan durabilidad.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo LOQ 15AHP9', 'Lenovo', 620000, 'AMD Ryzen 5 7235HS', '16GB DDR5', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '15.6"', '2.4 kg', 'Hasta 5h', ARRAY['Nueva linea gaming Lenovo', 'RTX 4050 eficiente', 'Gran precio'], ARRAY['gaming_rendimiento'], 'La LOQ es la nueva linea gaming de Lenovo. RTX 4050 a precio competitivo con el nuevo Ryzen 7235HS. Muy buena propuesta.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+LOQ+15+RTX+4050', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-loq15-rtx4050.jpg', 'Notebook gaming Lenovo LOQ nueva generacion con RTX 4050. La propuesta gaming mas reciente y competitiva de Lenovo.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell G15 5520', 'Dell', 470000, 'Intel Core i5-12500H', '16GB DDR4', 'NVIDIA RTX 3050', '512GB SSD', 'Windows 11', '15.6"', '2.5 kg', 'Hasta 5h', ARRAY['Dell gaming accesible', 'Buen precio', 'Cooling eficiente'], ARRAY['gaming_rendimiento'], 'Dell G15: Dell entra fuerte al gaming de entrada. Buen cooling y construccion solida tipica de Dell. RTX 3050 para empezar.', 7, 'https://www.mercadolibre.com.ar/s?q=Dell+G15+5520+RTX+3050', 'https://http2.mlstatic.com/D_NQ_NP_dell-g15-5520.jpg', 'Notebook gaming Dell G15 con RTX 3050 y cooling eficiente. La calidad constructiva Dell aplicada al gaming de entrada.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MSI GF63 Thin 12VE', 'MSI', 540000, 'Intel Core i7-12650H', '16GB DDR4', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '15.6"', '1.86 kg', 'Hasta 5h', ARRAY['Gaming liviana', 'La mas liviana gaming', 'RTX 4050 en 1.86kg'], ARRAY['gaming_rendimiento'], 'GF63 Thin: una laptop gaming de menos de 2 kg. La mas liviana de MSI. Podes jugar Y llevarla a todos lados.', 7, 'https://www.mercadolibre.com.ar/s?q=MSI+GF63+Thin+RTX+4050', 'https://http2.mlstatic.com/D_NQ_NP_msi-gf63-thin-rtx4050.jpg', 'Notebook gaming MSI ultra liviana de 1.86 kg con RTX 4050. Para gamers que no quieren sacrificar portabilidad.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Nitro V 15 ANV15-51', 'Acer', 500000, 'Intel Core i5-13420H', '16GB DDR5', 'NVIDIA RTX 2050', '512GB SSD', 'Windows 11', '15.6"', '2.5 kg', 'Hasta 5h', ARRAY['Nitro economica', 'Intel i5 13va gen', 'Para empezar gaming'], ARRAY['gaming_rendimiento'], 'Nitro V: la version mas economica de la Nitro 5. i5 de 13va generacion y RTX 2050. Para gaming casual sin presupuesto.', 6, 'https://www.mercadolibre.com.ar/s?q=Acer+Nitro+V+15+ANV15', 'https://http2.mlstatic.com/D_NQ_NP_acer-nitro-v15.jpg', 'Notebook gaming Acer entry-level con i5 moderno y RTX 2050. La opcion mas accesible para entrar al gaming con marca reconocida.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Omen 16 Entry i5', 'HP', 640000, 'Intel Core i5-12500H', '8GB DDR4', 'NVIDIA RTX 3060', '512GB SSD', 'Windows 11', '16.1"', '2.4 kg', 'Hasta 5h', ARRAY['HP gaming premium', 'RTX 3060 potente', 'Pantalla 165Hz'], ARRAY['gaming_rendimiento'], 'HP Omen con RTX 3060 a precio de entrada. Un salto enorme sobre el RTX 3050. Pantalla de 165Hz que se nota.', 8, 'https://www.mercadolibre.com.ar/s?q=HP+Omen+16+RTX+3060', 'https://http2.mlstatic.com/D_NQ_NP_hp-omen16-rtx3060.jpg', 'Notebook gaming HP Omen con RTX 3060 y pantalla 165Hz. Una GPU mucho mas potente que el RTX 3050 a precio razonable.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- GAMING_RENDIMIENTO — EQUILIBRADO (12 laptops, ARS 650k–1.1M)
+-- Perfil: gamer serio, jugador competitivo, o entusiasta
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Nitro 5 AN515-58 RTX 4050', 'Acer', 650000, 'AMD Ryzen 5 7535HS', '16GB DDR5', 'NVIDIA RTX 4050', '512GB SSD', 'Windows 11', '15.6"', '2.5 kg', 'Hasta 5h', ARRAY['RTX 4050 nueva gen', 'Pantalla 144Hz', 'Gaming serio'], ARRAY['gaming_rendimiento'], 'RTX 4050 y 144Hz. Aca ya jugamos en serio. Fortnite al maximo, Valorant a 200fps, FIFA sin lag. La Nitro madura.', 8, 'https://www.mercadolibre.com.ar/s?q=Acer+Nitro+5+RTX+4050+144Hz', 'https://http2.mlstatic.com/D_NQ_NP_acer-nitro5-rtx4050.jpg', 'Notebook gaming Acer con RTX 4050 nueva generacion y pantalla 144Hz. Rendimiento serio para gaming competitivo.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus TUF Gaming A15 2024', 'Asus', 850000, 'AMD Ryzen 7 7745HX', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '15.6"', '2.2 kg', 'Hasta 6h', ARRAY['RTX 4060 gamer', 'Construccion militar', 'Ryzen 7 potente'], ARRAY['gaming_rendimiento'], 'TUF Gaming A15: RTX 4060 para gaming AAA sin problemas. Construccion que pasa tests militares. De las mejores en su rango.', 9, 'https://www.mercadolibre.com.ar/s?q=Asus+TUF+Gaming+A15+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_asus-tuf-a15-rtx4060.jpg', 'Notebook gaming Asus con RTX 4060 y construccion robusta. Para gamers que quieren durabilidad y potencia sin concesiones.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Omen 16 AMD RTX 4060', 'HP', 900000, 'AMD Ryzen 7 7745HX', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '16.1"', '2.3 kg', 'Hasta 6h', ARRAY['HP gaming tope', 'RTX 4060', 'Pantalla QHD 165Hz'], ARRAY['gaming_rendimiento'], 'HP Omen con RTX 4060: HP en serio para gaming. Pantalla QHD a 165Hz. Lo mejor que hace HP en la categoria.', 9, 'https://www.mercadolibre.com.ar/s?q=HP+Omen+16+AMD+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_hp-omen16-rtx4060-amd.jpg', 'Notebook gaming HP Omen premium con RTX 4060 y pantalla QHD 165Hz. La mejor propuesta gaming de HP para jugadores serios.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo LOQ 15IRX9', 'Lenovo', 880000, 'Intel Core i7-13650HX', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '15.6"', '2.4 kg', 'Hasta 5h', ARRAY['LOQ con RTX 4060', 'i7-H potente', '144Hz'], ARRAY['gaming_rendimiento'], 'La LOQ tope de gama con RTX 4060 e i7-H. Lenovo toma en serio la gama media gaming. Muy buena propuesta.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+LOQ+15+RTX+4060+i7', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-loq15-rtx4060.jpg', 'Notebook gaming Lenovo LOQ con RTX 4060 e i7 potente. La nueva apuesta seria de Lenovo en el segmento gaming medio.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MSI Katana B13VFK RTX 4060', 'MSI', 920000, 'Intel Core i7-13620H', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '15.6"', '2.25 kg', 'Hasta 5h', ARRAY['MSI gaming serio', 'RTX 4060 potente', '144Hz'], ARRAY['gaming_rendimiento'], 'Katana con RTX 4060: MSI sube el juego. La GPU mas potente dentro de la linea Katana. Para gaming a 1080p maximos.', 8, 'https://www.mercadolibre.com.ar/s?q=MSI+Katana+B13+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_msi-katana-b13-rtx4060.jpg', 'Notebook gaming MSI Katana con RTX 4060. Para gamers que quieren maximos graficos en 1080p con marca de confianza gaming.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Dell G15 5530 RTX 4060', 'Dell', 860000, 'Intel Core i7-13650HX', '16GB DDR5', 'NVIDIA RTX 4060', '512GB SSD', 'Windows 11', '15.6"', '2.5 kg', 'Hasta 5h', ARRAY['Dell gaming premium', 'RTX 4060', '165Hz'], ARRAY['gaming_rendimiento'], 'Dell G15 con RTX 4060: Dell gaming en serio. El G15 tiene excelente cooling y construccion tipica Dell. Muy solida.', 8, 'https://www.mercadolibre.com.ar/s?q=Dell+G15+5530+RTX+4060', 'https://http2.mlstatic.com/D_NQ_NP_dell-g15-5530.jpg', 'Notebook gaming Dell G15 con RTX 4060 y pantalla 165Hz. La solidez constructiva Dell aplicada al gaming de nivel medio.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Acer Predator Helios 300 PH315-55', 'Acer', 980000, 'Intel Core i7-12700H', '16GB DDR5', 'NVIDIA RTX 3070 Ti', '512GB SSD', 'Windows 11', '15.6"', '2.3 kg', 'Hasta 5h', ARRAY['RTX 3070 Ti besto', 'Predator cooling extremo', 'Para AAA al maximo'], ARRAY['gaming_rendimiento'], 'Predator Helios 300: la gama alta de Acer. RTX 3070 Ti con cooling de nivel profesional. Para exprimir los juegos AAA.', 9, 'https://www.mercadolibre.com.ar/s?q=Acer+Predator+Helios+300+RTX+3070+Ti', 'https://http2.mlstatic.com/D_NQ_NP_acer-predator-helios300.jpg', 'Notebook gaming Acer Predator con RTX 3070 Ti y cooling extremo. Para jugadores que quieren maxima performance en juegos AAA.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo IdeaPad Gaming 3i Gen 7 RTX 3060', 'Lenovo', 700000, 'Intel Core i5-12500H', '16GB DDR4', 'NVIDIA RTX 3060', '512GB SSD', 'Windows 11', '15.6"', '2.2 kg', 'Hasta 5h', ARRAY['RTX 3060 accesible', '120Hz', 'Lenovo gaming confiable'], ARRAY['gaming_rendimiento'], 'Gaming 3i con RTX 3060: la mejor relacion fps/pesos en la linea Lenovo. RTX 3060 a buen precio todavia.', 8, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Gaming+3i+RTX+3060', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-gaming3i-rtx3060.jpg', 'Notebook gaming Lenovo con RTX 3060. La mejor relacion precio-rendimiento en gaming de nivel intermedio de la marca.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ROG Strix G15 G513RC', 'Asus', 780000, 'AMD Ryzen 7 6800H', '16GB DDR5', 'NVIDIA RTX 3050 Ti', '512GB SSD', 'Windows 11', '15.6"', '2.3 kg', 'Hasta 6h', ARRAY['ROG premium accesible', 'Diseño gaming icónico', '144Hz'], ARRAY['gaming_rendimiento'], 'ROG Strix de entrada: el logo ROG a precio razonable. El diseño es intimidante y la pantalla de 144Hz se nota al jugar.', 8, 'https://www.mercadolibre.com.ar/s?q=Asus+ROG+Strix+G15+G513', 'https://http2.mlstatic.com/D_NQ_NP_asus-rog-strix-g15-g513.jpg', 'Notebook gaming Asus ROG Strix de entrada con diseño icónico y pantalla 144Hz. Para gamers que quieren la marca ROG a precio accesible.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MSI Vector GP66', 'MSI', 1050000, 'Intel Core i7-12700H', '16GB DDR5', 'NVIDIA RTX 3070 Ti', '1TB SSD', 'Windows 11', '15.6"', '2.4 kg', 'Hasta 5h', ARRAY['240Hz pantalla', 'RTX 3070 Ti', '1TB SSD'], ARRAY['gaming_rendimiento'], 'MSI Vector: pantalla de 240Hz para gaming competitivo en serio. RTX 3070 Ti y 1TB SSD. Para el jugador competitivo serio.', 9, 'https://www.mercadolibre.com.ar/s?q=MSI+Vector+GP66+RTX+3070+Ti', 'https://http2.mlstatic.com/D_NQ_NP_msi-vector-gp66.jpg', 'Notebook gaming MSI con pantalla 240Hz y RTX 3070 Ti. Para jugadores competitivos que cada cuadro por segundo cuenta.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Gigabyte G5 GE RTX 3050 Ti', 'Gigabyte', 680000, 'Intel Core i5-12500H', '16GB DDR4', 'NVIDIA RTX 3050 Ti', '512GB SSD', 'Windows 11', '15.6"', '2.5 kg', 'Hasta 6h', ARRAY['Gigabyte gaming', 'Buen precio', '144Hz'], ARRAY['gaming_rendimiento'], 'Gigabyte G5: la marca de motherboards entra al gaming con buen precio. RTX 3050 Ti a 144Hz. Buena relacion precio-fps.', 7, 'https://www.mercadolibre.com.ar/s?q=Gigabyte+G5+GE+RTX+3050+Ti', 'https://http2.mlstatic.com/D_NQ_NP_gigabyte-g5-ge.jpg', 'Notebook gaming Gigabyte con RTX 3050 Ti y pantalla 144Hz. Conocida por sus componentes de alta calidad a buen precio.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('HP Omen Transcend 14', 'HP', 1050000, 'Intel Core Ultra 7 155H', '16GB DDR5', 'NVIDIA RTX 4070', '512GB SSD', 'Windows 11', '14"', '1.58 kg', 'Hasta 6h', ARRAY['Gamer liviana 14 pulgadas', 'RTX 4070 compacta', 'La mas liviana con RTX 4070'], ARRAY['gaming_rendimiento'], 'La Omen Transcend 14 es un milagro: RTX 4070 en 1.58 kg. La laptop gaming mas liviana con GPU de alto rendimiento.', 9, 'https://www.mercadolibre.com.ar/s?q=HP+Omen+Transcend+14+RTX+4070', 'https://http2.mlstatic.com/D_NQ_NP_hp-omen-transcend14.jpg', 'Notebook gaming HP 14 pulgadas con RTX 4070. La mas liviana del mercado con GPU de nivel premium: solo 1.58 kg.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- GAMING_RENDIMIENTO — PREMIUM (8 laptops, ARS 1.1M+)
+-- Perfil: gamer hardcore, streamer, o entusiasta sin limite de presupuesto
+-- ═══════════════════════════════════════════════════════════════
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ROG Strix G15 G513RS', 'Asus', 1200000, 'AMD Ryzen 9 6900HX', '32GB DDR5', 'NVIDIA RTX 3070 Ti', '512GB SSD', 'Windows 11', '15.6"', '2.3 kg', 'Hasta 5h', ARRAY['32GB RAM', 'Pantalla QHD 240Hz', 'Gaming premium ROG'], ARRAY['gaming_rendimiento'], '32GB de RAM, QHD a 240Hz y RTX 3070 Ti. Para los que quieren lo mejor sin llegar al tope de precio.', 9, 'https://www.mercadolibre.com.ar/s?q=Asus+ROG+Strix+G15+RTX+3070+Ti', 'https://http2.mlstatic.com/D_NQ_NP_asus-rog-strix-g15-3070ti.jpg', 'Notebook gaming ROG premium con 32GB RAM y pantalla QHD 240Hz. Para gamers que quieren lo mejor de ROG sin llegar al precio flagship.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo Legion 5 Pro Gen 8', 'Lenovo', 1450000, 'AMD Ryzen 7 7745HX', '16GB DDR5', 'NVIDIA RTX 4070', '512GB SSD', 'Windows 11', '16"', '2.49 kg', 'Hasta 5h', ARRAY['RTX 4070', 'Pantalla WQXGA 165Hz', 'La bestia gamer'], ARRAY['gaming_rendimiento'], 'La Legion 5 Pro es la mas popular por algo. RTX 4070 y pantalla WQXGA de 165Hz. Un monstruo que devora cualquier juego.', 10, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Legion+5+Pro+RTX+4070', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-legion5-pro-g8.jpg', 'Notebook gaming Lenovo Legion 5 Pro con RTX 4070 y pantalla WQXGA. La laptop gaming mas vendida en su rango de precio en Argentina.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ROG Zephyrus G14 2024', 'Asus', 1600000, 'AMD Ryzen 9 8945HS', '16GB DDR5', 'NVIDIA RTX 4070', '1TB SSD', 'Windows 11', '14"', '1.65 kg', 'Hasta 8h', ARRAY['Gamer compacta premium', 'RTX 4070 en 14 pulgadas', 'ROG ultra liviana'], ARRAY['gaming_rendimiento'], 'Zephyrus G14 2024: RTX 4070 en 1.65 kg. La laptop gaming mas impresionante del mercado. Liviana, potente y con 8h de bateria.', 10, 'https://www.mercadolibre.com.ar/s?q=Asus+ROG+Zephyrus+G14+2024+RTX+4070', 'https://http2.mlstatic.com/D_NQ_NP_asus-rog-zephyrus-g14-2024.jpg', 'Notebook gaming ROG ultra liviana con RTX 4070 en 1.65 kg. El marvel de ingenieria gaming mas impresionante de Asus.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('MSI Titan GT77 HX', 'MSI', 2200000, 'Intel Core i9-13980HX', '32GB DDR5', 'NVIDIA RTX 4080', '2TB SSD', 'Windows 11', '17.3"', '3.0 kg', 'Hasta 4h', ARRAY['El tope de gama gaming', 'RTX 4080', 'i9 tope'], ARRAY['gaming_rendimiento'], 'El Titan GT77: la laptop gaming mas poderosa de MSI. i9 y RTX 4080. Si podes pagarlo, es el maximo de lo que existe.', 10, 'https://www.mercadolibre.com.ar/s?q=MSI+Titan+GT77+HX+RTX+4080', 'https://http2.mlstatic.com/D_NQ_NP_msi-titan-gt77-rtx4080.jpg', 'Workstation gaming MSI con RTX 4080 e i9. La laptop gaming mas potente del catalogo MSI. Sin igual en rendimiento puro.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Lenovo Legion 7 Gen 8', 'Lenovo', 2500000, 'Intel Core i9-13900HX', '32GB DDR5', 'NVIDIA RTX 4080', '1TB SSD', 'Windows 11', '16"', '2.5 kg', 'Hasta 5h', ARRAY['Legion maxima potencia', 'RTX 4080', 'i9 + 32GB'], ARRAY['gaming_rendimiento'], 'Legion 7 con RTX 4080 e i9: el tope de la linea Legion. Para streamers y gamers que no tienen limite de presupuesto.', 10, 'https://www.mercadolibre.com.ar/s?q=Lenovo+Legion+7+Gen+8+RTX+4080', 'https://http2.mlstatic.com/D_NQ_NP_lenovo-legion7-g8-rtx4080.jpg', 'Notebook gaming Lenovo Legion 7 con RTX 4080 e i9. El maximo poder de la linea Legion para gamers y streamers profesionales.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Asus ROG Strix SCAR 16 2024', 'Asus', 3000000, 'AMD Ryzen 9 7945HX', '32GB DDR5', 'NVIDIA RTX 4090', '1TB SSD', 'Windows 11', '16"', '2.5 kg', 'Hasta 4h', ARRAY['RTX 4090 notebook', '240Hz QHD+', 'El maximo que existe'], ARRAY['gaming_rendimiento'], 'SCAR 16 con RTX 4090: la laptop gaming mas potente del mundo. Si podes pagarlo, nada la supera. El maximo absoluto.', 10, 'https://www.mercadolibre.com.ar/s?q=Asus+ROG+SCAR+16+RTX+4090', 'https://http2.mlstatic.com/D_NQ_NP_asus-rog-scar16-rtx4090.jpg', 'Notebook gaming flagship ROG con RTX 4090. El maximo rendimiento gaming disponible en formato laptop. Sin competencia.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Alienware m18 R1', 'Alienware', 2800000, 'Intel Core i9-13980HX', '32GB DDR5', 'NVIDIA RTX 4080', '1TB SSD', 'Windows 11', '18"', '3.81 kg', 'Hasta 4h', ARRAY['Pantalla enorme 18 pulgadas', 'Alienware icónico', 'Workstation gaming'], ARRAY['gaming_rendimiento'], 'Alienware m18: 18 pulgadas de pantalla gaming. No es para llevar a ningun lado, es una workstation gaming para el escritorio.', 9, 'https://www.mercadolibre.com.ar/s?q=Alienware+m18+R1+RTX+4080', 'https://http2.mlstatic.com/D_NQ_NP_alienware-m18-rtx4080.jpg', 'Notebook gaming Alienware 18 pulgadas con RTX 4080. La experiencia gaming mas inmersiva posible en formato portatil.');
+
+INSERT INTO laptops (name, brand, price, cpu, ram, gpu, storage, os, screen_size, weight, battery, simplified_tags, usage_profiles, influencer_note, recommendation_score, affiliate_link, image_url, description) VALUES ('Razer Blade 18 RTX 4090', 'Razer', 3500000, 'Intel Core i9-13950HX', '32GB DDR5', 'NVIDIA RTX 4090', '2TB SSD', 'Windows 11', '18"', '3.03 kg', 'Hasta 4h', ARRAY['El mas caro del mercado', 'RTX 4090 + i9', 'Razer icónico'], ARRAY['gaming_rendimiento', 'creacion_desarrollo'], 'El Razer Blade 18: la laptop mas cara y poderosa del mercado. RTX 4090, i9 y 2TB SSD en un chasis de metal pulido. Un objeto de deseo.', 10, 'https://www.mercadolibre.com.ar/s?q=Razer+Blade+18+RTX+4090', 'https://http2.mlstatic.com/D_NQ_NP_razer-blade18-rtx4090.jpg', 'La laptop mas poderosa del catalogo: Razer Blade 18 con RTX 4090. Para quienes solo quieren lo absolutamente mejor sin importar el precio.');
+
+-- ═══════════════════════════════════════════════════════════════
+-- VERIFICACIÓN (ejecutar manualmente para confirmar)
+-- ═══════════════════════════════════════════════════════════════
+-- SELECT count(*) FROM laptops; -- debe retornar 100
+-- SELECT usage_profiles[1] AS segmento, count(*) FROM laptops GROUP BY 1 ORDER BY 2 DESC;
 -- SELECT brand, count(*) FROM laptops GROUP BY brand ORDER BY count(*) DESC;
+-- SELECT os, count(*) FROM laptops GROUP BY os;
+-- Distribución esperada: ~40 productividad, ~30 creacion, ~30 gaming
 
 -- ═══════════════════════════════════════════════════════════════
 -- PROFILE-TO-LAPTOP ASSIGNMENT
@@ -609,7 +295,7 @@ BEGIN
               AND price BETWEEN price_min AND price_max
               AND (o = 'abierto' OR
                    (o = 'windows' AND os = 'Windows 11') OR
-                   (o = 'macos' AND os = 'macOS Sequoia'))
+                   (o = 'macos' AND os = 'macOS'))
             ORDER BY recommendation_score DESC NULLS LAST
             LIMIT 5
           ) INTO selected_ids;
@@ -621,13 +307,13 @@ BEGIN
               WHERE w::text = ANY(usage_profiles)
                 AND (o = 'abierto' OR
                      (o = 'windows' AND os = 'Windows 11') OR
-                     (o = 'macos' AND os = 'macOS Sequoia'))
+                     (o = 'macos' AND os = 'macOS'))
               ORDER BY recommendation_score DESC NULLS LAST
               LIMIT 5
             ) INTO selected_ids;
           END IF;
 
-          -- Final fallback: relax OS too (for macos profiles where only 2 macs exist)
+          -- Final fallback: relax OS too (for macos profiles where only few macs exist)
           IF array_length(selected_ids, 1) IS NULL OR array_length(selected_ids, 1) < 5 THEN
             SELECT ARRAY(
               SELECT id FROM laptops
