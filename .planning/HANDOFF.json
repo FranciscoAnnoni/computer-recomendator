@@ -1,68 +1,49 @@
 {
   "version": "1.0",
-  "timestamp": "2026-04-08T10:20:21.491Z",
-  "phase": "06",
-  "phase_name": "iterative-improvements",
-  "phase_dir": ".planning/phases/06-iterative-improvements",
+  "timestamp": "2026-04-09T09:55:15.941Z",
+  "phase": "ad-hoc",
+  "phase_name": "profile-laptop-matching",
+  "phase_dir": null,
   "plan": null,
   "task": null,
   "status": "paused",
-  "session_work": "ML store scraping — scraped 69 laptops from PC Center, TuNotebook, EXO, Apple (API fallback), Gfast brand search, and 5 specific product URLs",
   "completed_tasks": [
-    {"id": 1, "name": "Verified DB state: 122 laptops loaded (all batches complete), 23 red-labeled, 81 profiles with 0 laptop_ids", "status": "done"},
-    {"id": 2, "name": "Fetch 5 specific product URLs (Lenovo IdeaPad Slim3 Ryzen7, HP 255 G10 x2, Gfast N-758R, N-536R)", "status": "done"},
-    {"id": 3, "name": "Scrape PC Center Computers tienda (29 laptops: Lenovo, HP, Gfast, Dell)", "status": "done"},
-    {"id": 4, "name": "Scrape TuNotebook TechStore tienda (27 laptops: HP, Asus, Acer, MSI, Dell, Lenovo)", "status": "done"},
-    {"id": 5, "name": "Scrape EXO tienda (5 EXO laptops)", "status": "done"},
-    {"id": 6, "name": "Apple MacBooks via products/search API fallback (3 MacBook Air M3)", "status": "done"},
-    {"id": 7, "name": "Gfast brand search via API (14 Gfast models)", "status": "done"},
-    {"id": 8, "name": "Deduplicate + filter $0 price and accessories → 69 clean laptops saved to /tmp/new_laptops_scraped.json", "status": "done"},
-    {"id": 9, "name": "Write reusable scraper: scripts/ml_scrape_new.py", "status": "done"}
+    {"id": 1, "name": "Analizar 81 perfiles del quiz (3 workload × 3 lifestyle × 3 budget × 3 OS)", "status": "done"},
+    {"id": 2, "name": "Analizar catálogo completo 198 laptops con precios ARS y tags", "status": "done"},
+    {"id": 3, "name": "Diseñar matching strategy por budget/portabilidad/workload/OS", "status": "done"},
+    {"id": 4, "name": "Generar docs/profile-recommendations.csv (81 perfiles × 3 recomendaciones)", "status": "done"},
+    {"id": 5, "name": "Verificar 51 UUIDs únicos en Supabase — 0 faltantes, todos en catálogo", "status": "done"},
+    {"id": 6, "name": "Ejecutar 81 UPDATE profiles SET laptop_ids en Supabase (3 batches)", "status": "done"}
   ],
   "remaining_tasks": [
-    {"id": 10, "name": "User reviews /tmp/new_laptops_scraped.json (69 laptops) and approves import", "status": "awaiting_user"},
-    {"id": 11, "name": "Import approved laptops to Supabase via mcp__supabase__execute_sql (INSERT ON CONFLICT DO NOTHING)", "status": "not_started"},
-    {"id": 12, "name": "Fix seed.sql:303 'macOS Sequoia' → 'macOS' then run DO block for profile-to-laptop assignments (81 profiles)", "status": "not_started"},
-    {"id": 13, "name": "Frontend: add red badge for availability_warning=true laptops on CatalogCard", "status": "not_started"}
+    {"id": 7, "name": "Verificar visualmente en la web que cada perfil muestra las 3 laptops correctas", "status": "not_started"},
+    {"id": 8, "name": "Revisar perfiles esencial+macos (solo 2 laptops, todas sobre presupuesto — 9 perfiles afectados)", "status": "not_started"},
+    {"id": 9, "name": "Revisar perfiles gaming+esencial (laptops desde $1.28M, sobre presupuesto esencial — 9 perfiles)", "status": "not_started"},
+    {"id": 10, "name": "Ajustar matchings si alguno no se ve bien en la web", "status": "not_started"}
   ],
-  "blockers": [
-    {
-      "description": "Apple official store not scrapeable — listado.mercadolibre.com.ar redirects to account verification; tienda page uses JS rendering without catalog product IDs",
-      "type": "technical",
-      "workaround": "Used products/search API fallback → 3 MacBook Air M3 from third-party resellers. DB already has 10 Apple laptops. Acceptable for MVP."
-    },
-    {
-      "description": "Pygcomexarg has no functional tienda page (bare storefront)",
-      "type": "technical",
-      "workaround": "Their Gfast products covered via PC Center store + Gfast brand search."
-    }
-  ],
+  "blockers": [],
   "human_actions_pending": [
     {
-      "action": "Review /tmp/new_laptops_scraped.json and decide which laptops to import to DB",
-      "context": "69 laptops scraped. Preview: python3 -c \"import json; [print(l['brand'], int(l['price']/1000), 'k', l['name'][:55]) for l in json.load(open('/tmp/new_laptops_scraped.json'))['laptops_flat']]\"",
-      "blocking": true
+      "action": "Hacer el quiz en la web y validar visualmente las recomendaciones",
+      "context": "Las 81 asignaciones están en Supabase pero no se verificó el resultado visual. Empezar con: Trabajar + Nómada + Esencial + Windows → debería mostrar EXO T38, Noblex N14x1010, Lenovo IdeaPad 1",
+      "blocking": false
     }
   ],
   "decisions": [
-    {"decision": "Use HTML scraping of www.mercadolibre.com.ar/tienda/{slug}?category_id=MLA1652", "rationale": "listado.mercadolibre.com.ar redirects to account verification; /sites/MLA/search blocked for client_credentials"},
-    {"decision": "Extract 7-9 digit MLA IDs from HTML as catalog product IDs → /products/{id} API", "rationale": "Only /products/{id} and /products/{id}/items work with client_credentials; /items/{id} blocked (403)"},
-    {"decision": "products/search API fallback for Apple (tienda returns 0 catalog IDs)", "rationale": "Apple tienda uses JS rendering, only 10-digit item IDs appear in HTML"},
-    {"decision": "Filter $0 price and accessory keywords post-scraping", "rationale": "Many catalog products have no active items → $0; accessories (bags, etc.) slip through laptop keyword filter"}
+    {"decision": "3 laptops curadas por perfil reemplazando las 5 genéricas previas", "rationale": "El usuario quiere recomendaciones especiales, no relleno"},
+    {"decision": "Budget tiers: esencial <$900k, equilibrado $900k-$2.1M, premium >$2.1M ARS", "rationale": "Basado en catálogo real — gaming empieza en $1.28M"},
+    {"decision": "Perfiles macos+esencial reciben MacBook Air M2 aunque estén sobre presupuesto", "rationale": "No existe ningún Mac por debajo de $1.5M"},
+    {"decision": "No se agregaron laptops nuevas — todas las recomendaciones calzaron con el catálogo existente", "rationale": "Verificado: 0 IDs faltantes de los 51 únicos referenciados"},
+    {"decision": "Todos los 198 laptops ya tienen affiliate_link — no se requirió agregar links", "rationale": "Query confirmó affiliate_link no vacío en ningún registro"}
   ],
-  "uncommitted_files": [
-    "scripts/ml_scrape_new.py (new scraper — NOT yet committed)"
-  ],
-  "ephemeral_files": [
-    "/tmp/new_laptops_scraped.json — 69 scraped laptops (EPHEMERAL: lost on reboot, regenerate with: python3 scripts/ml_scrape_new.py)"
-  ],
-  "next_action": "1. If /tmp/new_laptops_scraped.json missing: run python3 scripts/ml_scrape_new.py (~3 min). 2. User reviews JSON. 3. Import to Supabase. 4. Fix seed.sql line ~303: change 'macOS Sequoia' to 'macOS'. 5. Run DO block from seed.sql:269 via mcp__supabase__execute_sql to assign 5 laptops to each of 81 profiles.",
-  "context_notes": "DB state: 122 laptops (all batches from prev session complete — HANDOFF was stale), 23 red-labeled, 81 profiles with 0 laptop_ids. Profile DO block is the critical missing piece for recommendation engine to work. The OS mismatch bug ('macOS Sequoia' vs 'macOS') must be fixed before running it or macos profiles will use the global fallback instead of macOS-specific laptops.",
+  "uncommitted_files": ["docs/profile-recommendations.csv"],
+  "next_action": "Hacer el quiz en la web. Test case 1: Trabajar+Nómada+Esencial+Windows → EXO T38 + Noblex N14x1010 + Lenovo IdeaPad 1. Test case 2: Crear+Escritorio+Premium+macOS → MacBook Pro M3 14\" + MacBook Air M3 24GB + MacBook Pro M4 Pro 14\". Test case 3: Gaming+Escritorio+Premium+Windows → HP Gamer Ryzen9 + HP Omen 16 + Acer Predator 16.",
+  "context_notes": "Trabajo ad-hoc en conversación sin fase GSD activa. DB project_id: orxstqqcsxatxaprqyvq. CSV de referencia en docs/profile-recommendations.csv. Los 81 UPDATEs retornaron array vacío (éxito en Supabase). Verificado con SELECT que profiles esencial/windows tienen 3 IDs correctos.",
   "db_state": {
-    "total_laptops": 122,
-    "red_labeled": 23,
-    "profiles_with_laptops": 0,
+    "total_laptops": 198,
+    "profiles_with_laptops": 81,
     "total_profiles": 81,
-    "project_id": "orxstqqcsxatxaprqyvq"
+    "project_id": "orxstqqcsxatxaprqyvq",
+    "avg_laptops_per_profile": "2-3 (esencial+macos=2, resto=3)"
   }
 }
