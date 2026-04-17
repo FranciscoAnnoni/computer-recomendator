@@ -29,8 +29,36 @@ A guided discovery experience through an intuitive quiz, leading to a curated ca
 - **Style:** Apple Minimalist. Clean typography, generous white space, high-quality imagery, and subtle animations.
 - **Tone:** Helpful, expert, and approachable. No jargon unless explained.
 
+## Current Milestone: v1.1 Launch-Ready Polish
+
+**Goal:** Mejorar el diseño mobile, SEO, feedback de usuarios, avatares de perfiles, y hacer deploy de la app.
+
+**Target features:**
+- Rediseño mobile — UX/UI mejorado para uso en celular
+- SEO mejorado — meta tags, structured data, OG images
+- Modal de feedback — botón junto al toggle de tema, abre modal para que el usuario deje comentarios
+- Avatares por perfil — 81 imágenes únicas (pixel art), una por cada perfil del recomendador
+- Deploy a producción — Vercel
+
 ## Current State
 
 Phase 6 complete (2026-04-05) — Laptop catalog now populated with 22 real Argentine market products (MercadoLibre + Amazon), all 81 quiz profiles assigned 5 laptop recommendations, image CDNs configured in next/image, and affiliate program guide created for the product owner. The full app is functional end-to-end.
 
-Last updated: 2026-04-05
+## Evolution
+
+This document evolves at phase transitions and milestone boundaries.
+
+**After each phase transition** (via `/gsd:transition`):
+1. Requirements invalidated? → Move to Out of Scope with reason
+2. Requirements validated? → Move to Validated with phase reference
+3. New requirements emerged? → Add to Active
+4. Decisions to log? → Add to Key Decisions
+5. "What This Is" still accurate? → Update if drifted
+
+**After each milestone** (via `/gsd:complete-milestone`):
+1. Full review of all sections
+2. Core Value check — still the right priority?
+3. Audit Out of Scope — reasons still valid?
+4. Update Context with current state
+
+Last updated: 2026-04-17 — Milestone v1.1 started

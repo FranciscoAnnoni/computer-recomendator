@@ -1,24 +1,31 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: completed
-stopped_at: Completed 06-03-PLAN.md
-last_updated: "2026-04-05T22:38:55.197Z"
+milestone: v1.1
+milestone_name: launch-ready-polish
+status: defining requirements
+stopped_at: ""
+last_updated: "2026-04-17T00:00:00.000Z"
 progress:
-  total_phases: 6
-  completed_phases: 6
-  total_plans: 20
-  completed_plans: 20
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
 ---
 
 # State: Computer Recomendator
 
+## Project Reference
+
+See: .planning/PROJECT.md (updated 2026-04-17)
+
+**Core value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
+**Current focus:** Defining requirements for v1.1
+
 ## Project Overview
 
-- **Status:** Milestone complete
-- **Current Milestone:** Phase 1 (Foundation & Setup).
-- **Recent Progress:** Plan 01-01 complete — Next.js 16.2 scaffold with Tailwind v4, shadcn/ui, Apple design tokens, dark mode.
+- **Status:** Defining requirements
+- **Current Milestone:** v1.1 Launch-Ready Polish
+- **Last activity:** 2026-04-17 — Milestone v1.1 started
 
 ## Context Memory
 
