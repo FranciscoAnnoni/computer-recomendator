@@ -1,50 +1,101 @@
-# Requirements: Computer Recomendator
+# Requirements: Computer Recomendator v1.1
 
-## Functional Requirements
+**Defined:** 2026-04-17
+**Core Value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
 
-### 1. Guided Discovery Quiz
-- **RF1.1:** A multi-step quiz with 3-4 interactive questions.
-- **RF1.2:** Questions must include:
-    - Usage Profile (e.g., Designing, Programming, Studying).
-    - OS Preference (e.g., macOS, Windows, Linux).
-    - Budget Range (e.g., Low, Medium, High).
-- **RF1.3:** Logic to filter and recommend the most suitable laptops based on quiz responses.
+## v1.1 Requirements
 
-### 2. Product Catalog
-- **RF2.1:** List of laptops curated by the influencer.
-- **RF2.2:** Each laptop entry must show:
-    - High-quality image.
-    - Model name.
-    - Simplified benefits (e.g., "Very Fast", "Lightweight", "Supports Photoshop").
-    - Personal recommendation note.
-    - Price (range or exact).
-- **RF2.3:** Filtering and sorting capabilities (Price, Brand, Usage).
+### Deploy
 
-### 3. Product Comparison Tool
-- **RF3.1:** Ability to select at least 2 and up to 3 laptops for side-by-side comparison.
-- **RF3.2:** Visual comparison of simplified specs (performance bars, compatibility icons).
+- [ ] **DEP-01**: User can access the app at a public Vercel production URL
+- [ ] **DEP-02**: App connects to Supabase in production (env vars set in Vercel dashboard)
+- [ ] **DEP-03**: No local dev config (`allowedDevOrigins`) leaks into production build
 
-### 4. Detail View
-- **RF4.1:** Full details of a laptop, including both technical and simplified specs.
-- **RF4.2:** Direct link to purchase or view externally.
+### SEO
 
-### 5. Content Management
-- **RF5.1:** Admin capability (or simplified data management) to add/edit laptops, specs, and recommendations.
+- [ ] **SEO-01**: All pages render with `lang="es"` (currently hardcoded `"en"`)
+- [ ] **SEO-02**: `metadataBase` is configured in root layout with production URL
+- [ ] **SEO-03**: Each page (home, quiz, catalog, compare, profile) has unique Spanish title and description
+- [ ] **SEO-04**: OG image file exists at `public/og-image.png` and is correctly referenced
+- [ ] **SEO-05**: `twitter:card` metadata is present on all pages
+- [ ] **SEO-06**: `robots.txt` exists and is correctly configured
+- [ ] **SEO-07**: Sitemap is generated and accessible at `/sitemap.xml`
 
-## Non-Functional Requirements
+### Feedback
 
-### 1. User Experience & Design
-- **RNF1.1:** Mobile-first responsive design.
-- **RNF1.2:** Apple Minimalist aesthetic:
-    - SF Pro-like typography.
-    - Subtle hover/active states.
-    - High contrast but soft shadows.
-- **RNF1.3:** Minimalist animations (fade-ins, smooth slide transitions).
+- [ ] **FEED-01**: User can open a feedback modal from a button in the Navbar (next to ThemeToggle)
+- [ ] **FEED-02**: User can submit text feedback (and optional star rating) via the modal
+- [ ] **FEED-03**: Submitted feedback is stored in a Supabase `feedback` table
+- [ ] **FEED-04**: Feedback form includes a honeypot field to block automated bot submissions
 
-### 2. Performance & Accessibility
-- **RNF2.1:** Fast initial load (especially on mobile).
-- **RNF2.2:** High accessibility standards (WCAG 2.1 Level AA).
-- **RNF2.3:** Intuitive navigation without technical jargon.
+### Avatares
 
-### 3. Maintainability
-- **RNF3.1:** Modular codebase to easily add new quiz questions or laptop attributes in the future.
+- [ ] **AVA-01**: A build script generates 81 unique DiceBear pixel-art SVGs, one per profile, seeded by profile ID
+- [ ] **AVA-02**: Generated SVGs are stored as static files at `public/avatars/`
+- [ ] **AVA-03**: `ProfileAvatar` component displays the pixel-art avatar instead of the initials placeholder
+- [ ] **AVA-04**: Avatars are visible in quiz results, profile sheet, and profile page
+
+### Mobile UX
+
+- [ ] **MOB-01**: All interactive elements (buttons, cards, nav items) have minimum 44px touch targets
+- [ ] **MOB-02**: No horizontal overflow on any page at 375px viewport width
+- [ ] **MOB-03**: Hero section typography scales correctly on mobile (no oversized text)
+- [ ] **MOB-04**: Catalog filter and search controls are thumb-friendly on mobile
+
+## v2 Requirements (deferred)
+
+### SEO avanzado
+- **SEO-ADV-01**: Individual laptop routes `/catalog/[slug]` for Google indexing per product
+- **SEO-ADV-02**: JSON-LD structured data for laptop product pages
+
+### Feedback avanzado
+- **FEED-ADV-01**: Rate limiting (Upstash) for feedback submissions
+- **FEED-ADV-02**: Admin view to read and moderate submitted feedback
+
+### Mobile
+- **MOB-ADV-01**: Bottom navigation bar for mobile
+
+## Out of Scope
+
+| Feature | Reason |
+|---------|--------|
+| /catalog/[slug] routes | Significant catalog architecture change — deferred to v1.2 |
+| Upstash rate limiting | Adds external service dependency — honeypot sufficient for v1.1 traffic |
+| Admin feedback dashboard | No admin user system exists — out of scope |
+| Real-time notifications | No realtime requirements in v1.1 |
+
+## Traceability
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| DEP-01 | Phase 7 | Pending |
+| DEP-02 | Phase 7 | Pending |
+| DEP-03 | Phase 7 | Pending |
+| SEO-01 | Phase 8 | Pending |
+| SEO-02 | Phase 8 | Pending |
+| SEO-03 | Phase 8 | Pending |
+| SEO-04 | Phase 8 | Pending |
+| SEO-05 | Phase 8 | Pending |
+| SEO-06 | Phase 8 | Pending |
+| SEO-07 | Phase 8 | Pending |
+| FEED-01 | Phase 9 | Pending |
+| FEED-02 | Phase 9 | Pending |
+| FEED-03 | Phase 9 | Pending |
+| FEED-04 | Phase 9 | Pending |
+| AVA-01 | Phase 10 | Pending |
+| AVA-02 | Phase 10 | Pending |
+| AVA-03 | Phase 10 | Pending |
+| AVA-04 | Phase 10 | Pending |
+| MOB-01 | Phase 11 | Pending |
+| MOB-02 | Phase 11 | Pending |
+| MOB-03 | Phase 11 | Pending |
+| MOB-04 | Phase 11 | Pending |
+
+**Coverage:**
+- v1.1 requirements: 22 total
+- Mapped to phases: 22
+- Unmapped: 0 ✓
+
+---
+*Requirements defined: 2026-04-17*
+*Last updated: 2026-04-17 — initial definition*
