@@ -11,10 +11,10 @@ import {
 interface ProfileSheetProps {
   profileName: string;
   profileDescription: string;
-  onRehacer: () => void;
+  onGoToProfile: () => void;
 }
 
-export function ProfileSheet({ profileName, profileDescription, onRehacer }: ProfileSheetProps) {
+export function ProfileSheet({ profileName, profileDescription, onGoToProfile }: ProfileSheetProps) {
   return (
     <>
       <SheetHeader>
@@ -22,8 +22,8 @@ export function ProfileSheet({ profileName, profileDescription, onRehacer }: Pro
         <SheetDescription>{profileDescription}</SheetDescription>
       </SheetHeader>
       <SheetFooter>
-        <Button onClick={onRehacer} className="w-full">
-          Rehacer quiz
+        <Button onClick={onGoToProfile} className="w-full">
+          Ir al perfil
         </Button>
       </SheetFooter>
     </>

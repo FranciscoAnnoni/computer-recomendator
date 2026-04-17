@@ -14,7 +14,7 @@ import {
 import { Container } from "@/components/layout/container";
 import { ProfileAvatar } from "@/components/quiz/profile-avatar";
 import { ProfileSheet } from "@/components/quiz/profile-sheet";
-import { PROFILE_STORAGE_KEY, QUIZ_STORAGE_KEY } from "@/types/quiz";
+import { PROFILE_STORAGE_KEY } from "@/types/quiz";
 import { getProfileColor } from "@/lib/profile-color";
 
 const navLinks = [
@@ -64,12 +64,9 @@ export function Navbar() {
     return () => window.removeEventListener("profileUpdated", handleProfileUpdated);
   }, []);
 
-  const handleRehacer = () => {
-    localStorage.removeItem(PROFILE_STORAGE_KEY);
-    localStorage.removeItem(QUIZ_STORAGE_KEY);
-    setCompletedProfile(null);
+  const handleGoToProfile = () => {
     setProfileSheetOpen(false);
-    router.push("/quiz");
+    router.push("/profile");
   };
 
   return (
@@ -98,7 +95,7 @@ export function Navbar() {
                   <ProfileSheet
                     profileName={completedProfile.profile_name}
                     profileDescription={completedProfile.profile_description}
-                    onRehacer={handleRehacer}
+                    onGoToProfile={handleGoToProfile}
                   />
                 </SheetContent>
               </Sheet>
