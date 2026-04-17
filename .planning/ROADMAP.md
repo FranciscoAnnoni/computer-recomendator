@@ -1,94 +1,146 @@
 # Roadmap: Computer Recomendator
 
+## Milestone v1.0 (Phases 1–6) — Complete
+
 ## Phase 1: Foundation & Project Setup
-- [ ] Initialize Next.js project with Tailwind CSS.
-- [ ] Set up design tokens (colors, typography for Apple-style aesthetic).
-- [ ] Configure basic layout components (Navbar, Footer, Container).
-- [ ] Define the data structure for laptops (JSON or initial DB schema).
+- [x] Initialize Next.js project with Tailwind CSS.
+- [x] Set up design tokens (colors, typography for Apple-style aesthetic).
+- [x] Configure basic layout components (Navbar, Footer, Container).
+- [x] Define the data structure for laptops (JSON or initial DB schema).
 
 **Requirements:** [RNF1.1, RNF1.2, RNF3.1, RF2.2, RNF2.1]
 **Plans:** 3/3 plans complete
 
-Plans:
-- [ ] 01-01-PLAN.md — Initialize Next.js project with Tailwind, shadcn/ui, and Apple-minimalist design tokens
-- [ ] 01-02-PLAN.md — Build layout shell: Navbar (frosted glass, mobile hamburger), Footer, Container
-- [ ] 01-03-PLAN.md — Define laptop data model (TypeScript types, Supabase SQL schema, client config)
-
 ## Phase 2: Core Discovery Quiz
-- [ ] Implement the multi-step quiz component.
-- [ ] Develop the logic for mapping quiz answers to laptop categories/profiles.
-- [ ] Create the "Recommendation Result" view.
-- [ ] Add smooth transitions between quiz steps.
 
 **Goal:** Working 3-step carousel quiz at /quiz that maps user answers to one of 27 Supabase profiles, displays 5 recommended laptops, and persists the quiz profile in the Navbar.
 
 **Requirements:** [RF1.1, RF1.2, RF1.3, RNF1.1, RNF1.2, RNF1.3, RNF2.2, RNF3.1]
 **Plans:** 5/5 plans complete
 
-Plans:
-- [x] 02-01-PLAN.md — Install dependencies (framer-motion, shadcn card), define quiz types/constants, create profiles DDL and Supabase query functions
-- [x] 02-02-PLAN.md — Build quiz interaction UI: QuizShell state machine, carousel with drag/arrow nav, step transitions, 9 SVG illustrations
-- [x] 02-03-PLAN.md — Build result view: profile header, 5 laptop cards, skeleton loading, error/empty states
-- [x] 02-04-PLAN.md — Navbar profile integration: ProfileAvatar, ProfileSheet, conditional CTA, end-to-end verification
-
 ## Phase 3: Product Catalog & Detail View
-- [ ] Build the laptop catalog with a clean, grid-based layout.
-- [ ] Implement filters and search functionality.
-- [ ] Create the laptop detail page with technical and "human-readable" specs.
-- [ ] Integrate influencer recommendation notes into the UI.
 
 **Goal:** Full /catalog page with search, filters, single-column card list, full-screen detail overlay with specs and influencer notes, quiz profile integration, and "Comprar Ahora" affiliate links.
 
 **Requirements:** [RF2.1, RF2.2, RF2.3, RF4.1, RF4.2, RNF1.1, RNF1.2, RNF1.3, RNF2.1, RNF2.2]
 **Plans:** 3/3 plans complete
 
-Plans:
-- [x] 03-01-PLAN.md — Extend Laptop type, create migration SQL, fetchAllLaptops, CatalogCard and CatalogSkeleton components
-- [x] 03-02-PLAN.md — Build CatalogClient page with search, filters, quiz profile section, pagination, and stagger animations
-- [x] 03-03-PLAN.md — Build DetailOverlay with specs and influencer section, wire into CatalogClient, fix ResultLaptopCard link
-
 ## Phase 4: Comparison Tool
-- [ ] Implement the "Select to Compare" functionality.
-- [ ] Build the Comparison View with visual side-by-side spec charts/icons.
-- [ ] Optimize the comparison layout for mobile devices.
 
 **Goal:** Self-contained /compare page with slot-based laptop selection (2 on mobile, up to 3 on desktop), picker Sheet with search, bracket-style spec rows, and framer-motion transitions.
 
 **Requirements:** [RF3.1, RF3.2]
 **Plans:** 2/2 plans complete
 
-Plans:
-- [x] 04-01-PLAN.md — Create CompareCard, EmptySlot, CompareSpecRow components and ComparatorClient orchestrator with /compare route
-- [x] 04-02-PLAN.md — Wire LaptopPicker Sheet with search and duplicate prevention, update Navbar label, final verification
-
 ## Phase 5: Polish & Deployment
-- [ ] Add final animations and micro-interactions.
-- [ ] Conduct mobile-first responsive testing across devices.
-- [ ] Performance optimization (Image lazy loading, asset optimization).
-- [ ] Final deployment to Vercel/Netlify.
 
-**Goal:** Polish the existing app with targeted animations (home hero fade-up, DetailOverlay duration fix), next/image migration for mobile performance, SEO metadata on all pages, and responsive validation across 5 breakpoints. Deployment deferred.
+**Goal:** Polish the existing app with targeted animations, next/image migration for mobile performance, SEO metadata on all pages, and responsive validation across breakpoints.
 
-**Requirements:** [D-01, D-02, D-03, D-04, D-05, D-06, D-07, D-08, D-09, D-10, D-11, D-12, D-13, D-14, D-15, D-16, D-17]
+**Requirements:** [D-01 through D-17]
 **Plans:** 3/4 plans executed
 
-Plans:
-- [x] 05-01-PLAN.md — Migrate CatalogCard and CompareCard to next/image with remotePatterns config
-- [x] 05-02-PLAN.md — Add home hero staggered fade-up animation and fix DetailOverlay duration to 0.25s
-- [x] 05-03-PLAN.md — Add SEO metadata (title, description, OG tags) to all 5 public pages
-- [ ] 05-04-PLAN.md — Responsive validation checkpoint across 5 breakpoints with inline fixes
-
 ## Phase 6: Iterative Improvements
-- [ ] User-driven feedback loop: go through each requested change one by one.
-- [ ] UI/UX refinements identified after seeing the app in action.
-- [ ] Data and content improvements (laptop data, copy, translations).
-- [ ] Bug fixes and edge cases surfaced during real usage.
 
-**Goal:** Populate the database with real Argentine market laptop data, assign 5 laptops to each of the 81 quiz profiles, and create an affiliate program guide for MercadoLibre and Amazon Associates so every feature works end-to-end with real data.
+**Goal:** Populate the database with real Argentine market laptop data, assign 5 laptops to each of the 81 quiz profiles, and create an affiliate program guide.
 
 **Plans:** 3/3 plans complete
 
-Plans:
-- [x] 06-01-PLAN.md — Create affiliate program registration and integration guide (MercadoLibre + Amazon)
-- [x] 06-02-PLAN.md — Seed 22 real Argentine market laptops into Supabase with complete specs and image CDN config
-- [x] 06-03-PLAN.md — Assign exactly 5 laptops to each of the 81 quiz profiles via SQL
+---
+
+## Milestone v1.1 — Launch-Ready Polish
+
+### Phases
+
+- [ ] **Phase 7: Deploy** — Ship the app to a public Vercel production URL with production Supabase credentials
+- [ ] **Phase 8: SEO** — Full Spanish SEO coverage across all pages with OG image, sitemap, and robots.txt
+- [ ] **Phase 9: Feedback Modal** — Users can submit feedback directly from the Navbar
+- [ ] **Phase 10: Profile Avatars** — Each of the 81 quiz profiles displays a unique pixel-art avatar
+- [ ] **Phase 11: Mobile UX** — All pages are fully usable on a 375px mobile viewport
+
+---
+
+## Phase Details
+
+### Phase 7: Deploy
+**Goal:** The app is publicly accessible at a production Vercel URL with full Supabase connectivity and a clean production config.
+**Requirements:** DEP-01, DEP-02, DEP-03
+**UI hint:** no
+**Dependencies:** none
+
+**Success Criteria:**
+1. Any user can visit the public URL and see the fully functional app without any authentication or local setup.
+2. Quiz results load real data from the Supabase production database (not a local or preview environment).
+3. The production build contains no `allowedDevOrigins` or other dev-only config that could expose security warnings.
+**Plans:** TBD
+
+---
+
+### Phase 8: SEO
+**Goal:** All pages are discoverable by Spanish-language search engines with correct metadata, Open Graph tags, a sitemap, and a robots.txt.
+**Requirements:** SEO-01, SEO-02, SEO-03, SEO-04, SEO-05, SEO-06, SEO-07
+**UI hint:** no
+**Dependencies:** Phase 7
+
+**Success Criteria:**
+1. Pasting any page URL into a social platform (Twitter, WhatsApp) renders a Spanish title, description, and OG preview image.
+2. Visiting `/sitemap.xml` returns a valid XML sitemap listing all public routes.
+3. A browser language inspection of any page shows `<html lang="es">`.
+4. Visiting `/robots.txt` returns a valid file that allows crawling of all public pages.
+**Plans:** TBD
+
+---
+
+### Phase 9: Feedback Modal
+**Goal:** Users can submit text feedback (with optional star rating) from any page via a Navbar button, and submissions are persisted in Supabase with basic bot protection.
+**Requirements:** FEED-01, FEED-02, FEED-03, FEED-04
+**UI hint:** yes
+**Dependencies:** Phase 7
+
+**Success Criteria:**
+1. A feedback button is visible in the Navbar on every page, next to the theme toggle.
+2. Clicking the button opens a modal where the user can type feedback and optionally select a star rating, then submit.
+3. After submission, the feedback entry appears in the Supabase `feedback` table with the submitted text and rating.
+4. Automated bot form submissions are silently rejected without storing data.
+**Plans:** TBD
+
+---
+
+### Phase 10: Profile Avatars
+**Goal:** Each of the 81 quiz profiles has a unique pixel-art avatar that replaces the initials placeholder everywhere a profile is displayed.
+**Requirements:** AVA-01, AVA-02, AVA-03, AVA-04
+**UI hint:** yes
+**Dependencies:** none
+
+**Success Criteria:**
+1. Running the build script produces 81 distinct SVG files under `public/avatars/`, each visually different from the others.
+2. After completing the quiz, the profile result shows a pixel-art avatar instead of initials.
+3. Opening the profile sheet from the Navbar displays the pixel-art avatar for the active profile.
+4. Visiting a profile page shows the pixel-art avatar in the profile header.
+**Plans:** TBD
+
+---
+
+### Phase 11: Mobile UX
+**Goal:** Every page of the app is comfortable to use on a 375px mobile viewport, with no overflow, appropriately sized touch targets, and readable typography.
+**Requirements:** MOB-01, MOB-02, MOB-03, MOB-04
+**UI hint:** yes
+**Dependencies:** Phase 9, Phase 10
+
+**Success Criteria:**
+1. On a 375px viewport, no page requires horizontal scrolling and no content is clipped off-screen.
+2. All buttons, cards, and navigation items can be tapped accurately with a thumb (minimum 44px touch target).
+3. The hero section headline on mobile reads at a comfortable size without overflowing its container.
+4. The catalog search input and filter controls are easy to operate one-handed on a phone.
+**Plans:** TBD
+
+---
+
+## Progress
+
+| Phase | Plans Complete | Status | Completed |
+|-------|----------------|--------|-----------|
+| 7. Deploy | 0/? | Not started | - |
+| 8. SEO | 0/? | Not started | - |
+| 9. Feedback Modal | 0/? | Not started | - |
+| 10. Profile Avatars | 0/? | Not started | - |
+| 11. Mobile UX | 0/? | Not started | - |

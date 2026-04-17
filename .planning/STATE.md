@@ -2,11 +2,12 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: launch-ready-polish
-status: defining requirements
+status: not started (planning)
 stopped_at: ""
+current_phase: 7
 last_updated: "2026-04-17T00:00:00.000Z"
 progress:
-  total_phases: 0
+  total_phases: 5
   completed_phases: 0
   total_plans: 0
   completed_plans: 0
@@ -19,13 +20,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-17)
 
 **Core value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
-**Current focus:** Defining requirements for v1.1
+**Current focus:** Phase 7 — Deploy
 
 ## Project Overview
 
-- **Status:** Defining requirements
+- **Status:** Not started (planning complete)
 - **Current Milestone:** v1.1 Launch-Ready Polish
-- **Last activity:** 2026-04-17 — Milestone v1.1 started
+- **Last activity:** 2026-04-17 — Roadmap created for v1.1
 
 ## Context Memory
 
@@ -36,10 +37,11 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 
 ## Current Priorities
 
-- [x] Initialize the Next.js repository.
-- [x] Define the project architecture (folders, naming conventions).
-- [x] Set up Tailwind with minimalist color palette and typography.
-- [ ] Draft the initial JSON structure for the laptop catalog.
+- [ ] Phase 7: Deploy app to Vercel production with Supabase env vars
+- [ ] Phase 8: Full SEO coverage (lang, metadata, OG, sitemap, robots.txt)
+- [ ] Phase 9: Feedback modal wired to Supabase feedback table
+- [ ] Phase 10: 81 DiceBear pixel-art avatars generated and displayed
+- [ ] Phase 11: Mobile UX pass — 375px viewport, 44px touch targets, no overflow
 
 ## Decisions
 
@@ -107,5 +109,5 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 
 ## Session
 
-- **Last session:** 2026-04-05T22:35:42.427Z
-- **Stopped at:** Completed 06-03-PLAN.md
+- **Last session:** 2026-04-17T00:00:00.000Z
+- **Stopped at:** Roadmap created for v1.1 — ready to plan Phase 7
