@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
 status: executing
-stopped_at: Completed 08-02-PLAN.md
-last_updated: "2026-04-18T18:26:35.677Z"
+stopped_at: Completed 08-01-PLAN.md
+last_updated: "2026-04-18T18:27:01.402Z"
 last_activity: 2026-04-18
 progress:
   total_phases: 11
-  completed_phases: 6
+  completed_phases: 7
   total_plans: 23
-  completed_plans: 21
+  completed_plans: 22
 ---
 
 # State: Computer Recomendator
@@ -85,6 +85,9 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 06-03]: PL/pgSQL DO block with enum_range iteration for 81 profiles; lifestyle excluded from laptop filter; three-level fallback ensures 5 laptops per profile
 - [Phase 08-02]: Priority scheme: home 1.0 > quiz 0.9 > catalog 0.8 > compare 0.7 > profile 0.6 in sitemap
 - [Phase 08-02]: og-image.png auto-generated via sharp (Next.js transitive dep) at 1200x630 brand blue #0071E3
+- [Phase 08-01]: Separate viewport export required — viewport inside metadata is deprecated since Next.js 14
+- [Phase 08-01]: metadataBase set to computer-recomendator.vercel.app; es_AR locale for Argentine audience; title template with default+template object
+- [Phase 08-01]: Profile metadata in layout.tsx only — page.tsx is Client Component, metadata exports silently ignored by Next.js
 
 ## Performance Metrics
 
@@ -109,8 +112,9 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 06-iterative-improvements P02 | 8min | 2 tasks | 2 files |
 | Phase 06-iterative-improvements P03 | 5min | 1 tasks | 1 files |
 | Phase 08-seo P02 | 2min | 3 tasks | 3 files |
+| Phase 08-seo P01 | 15min | 3 tasks | 6 files |
 
 ## Session
 
-- **Last session:** 2026-04-18T18:26:35.675Z
-- **Stopped at:** Completed 08-02-PLAN.md
+- **Last session:** 2026-04-18T18:27:01.400Z
+- **Stopped at:** Completed 08-01-PLAN.md
