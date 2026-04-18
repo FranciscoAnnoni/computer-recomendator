@@ -42,7 +42,7 @@ A guided discovery experience through an intuitive quiz, leading to a curated ca
 
 ## Current State
 
-Phase 6 complete (2026-04-05) — Laptop catalog now populated with 22 real Argentine market products (MercadoLibre + Amazon), all 81 quiz profiles assigned 5 laptop recommendations, image CDNs configured in next/image, and affiliate program guide created for the product owner. The full app is functional end-to-end.
+Phase 8 complete (2026-04-18) — Full Spanish SEO coverage: `lang="es"`, `metadataBase`, separate `viewport` export, `twitter:summary_large_image` cards on all 5 public pages, `/sitemap.xml`, `/robots.txt`, and `public/og-image.png` (1200x630). All 7 SEO requirements satisfied.
 
 ## Evolution
 
@@ -61,4 +61,4 @@ This document evolves at phase transitions and milestone boundaries.
 3. Audit Out of Scope — reasons still valid?
 4. Update Context with current state
 
-Last updated: 2026-04-17 — Milestone v1.1 started
+Last updated: 2026-04-18 — Phase 8 (SEO) complete
