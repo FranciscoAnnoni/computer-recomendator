@@ -8,7 +8,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Computer Recomendator",
     description: "Encuentra la laptop perfecta para tus necesidades con recomendaciones de expertos.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Computer Recomendator — encuentra tu laptop ideal" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Computer Recomendator",
+    description:
+      "Encuentra la laptop perfecta para tus necesidades con recomendaciones de expertos.",
+    images: [{ url: "/og-image.png", alt: "Computer Recomendator — encuentra tu laptop ideal" }],
   },
 };
 
