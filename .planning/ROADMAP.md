@@ -71,7 +71,9 @@
 1. Any user can visit the public URL and see the fully functional app without any authentication or local setup.
 2. Quiz results load real data from the Supabase production database (not a local or preview environment).
 3. The production build contains no `allowedDevOrigins` or other dev-only config that could expose security warnings.
-**Plans:** TBD
+
+**Plans:** 1 plan
+- [ ] 07-01-PLAN.md — Refactor next.config.ts to phase function, deploy to Vercel with Supabase env vars, smoke-test production
 
 ---
 
@@ -139,7 +141,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 7. Deploy | 0/? | Not started | - |
+| 7. Deploy | 0/1 | Planned | - |
 | 8. SEO | 0/? | Not started | - |
 | 9. Feedback Modal | 0/? | Not started | - |
 | 10. Profile Avatars | 0/? | Not started | - |
