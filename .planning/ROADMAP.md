@@ -106,7 +106,10 @@
 2. Clicking the button opens a modal where the user can type feedback and optionally select a star rating, then submit.
 3. After submission, the feedback entry appears in the Supabase `feedback` table with the submitted text and rating.
 4. Automated bot form submissions are silently rejected without storing data.
-**Plans:** TBD
+
+**Plans:** 2 plans
+- [ ] 09-01-PLAN.md — FeedbackDialog component with form, honeypot, localStorage limit, Supabase insert, success/error states
+- [ ] 09-02-PLAN.md — Wire FeedbackButton into Navbar desktop and mobile sections
 
 ---
 
@@ -146,6 +149,6 @@
 |-------|----------------|--------|-----------|
 | 7. Deploy | 0/1 | Planned | - |
 | 8. SEO | 2/2 | Complete   | 2026-04-18 |
-| 9. Feedback Modal | 0/? | Not started | - |
+| 9. Feedback Modal | 0/2 | Planned | - |
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
