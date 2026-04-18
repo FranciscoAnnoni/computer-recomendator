@@ -32,6 +32,9 @@ export interface Laptop {
   gallery_images: string[] | null; // up to 4 extra gallery images
   description: string | null;      // product description paragraph
 
+  // Stock / availability
+  availability_warning: boolean | null;
+
   // Timestamps
   created_at: string;              // ISO timestamp
   updated_at: string;              // ISO timestamp

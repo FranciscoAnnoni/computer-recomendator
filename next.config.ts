@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 
-const nextConfig: NextConfig = {
-  allowedDevOrigins: ["192.168.100.14", "192.168.1.67", "192.168.1.74"],
+const nextConfig = (phase: string): NextConfig => ({
+  ...(phase === PHASE_DEVELOPMENT_SERVER && {
+    allowedDevOrigins: ["192.168.100.14", "192.168.1.67", "192.168.1.74"],
+  }),
   images: {
     remotePatterns: [
       {
@@ -23,6 +26,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-};
+});
 
 export default nextConfig;
