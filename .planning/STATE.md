@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
-status: planning
-stopped_at: Phase 7 context gathered
-last_updated: "2026-04-18T08:53:58.185Z"
-last_activity: 2026-04-17 — Roadmap created for v1.1
+status: executing
+stopped_at: Completed 08-02-PLAN.md
+last_updated: "2026-04-18T18:26:35.677Z"
+last_activity: 2026-04-18
 progress:
   total_phases: 11
   completed_phases: 6
-  total_plans: 20
-  completed_plans: 20
+  total_plans: 23
+  completed_plans: 21
 ---
 
 # State: Computer Recomendator
@@ -20,13 +20,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-17)
 
 **Core value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
-**Current focus:** Phase 7 — Deploy
+**Current focus:** Phase 08 — seo
 
 ## Project Overview
 
-- **Status:** Not started (planning complete)
+- **Status:** Executing Phase 08
 - **Current Milestone:** v1.1 Launch-Ready Polish
-- **Last activity:** 2026-04-17 — Roadmap created for v1.1
+- **Last activity:** 2026-04-18
 
 ## Context Memory
 
@@ -83,6 +83,8 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 06]: Used MercadoLibre search URLs as affiliate link placeholders; MacBooks use Amazon search URLs
 - [Phase 06]: Image URLs use mlstatic.com placeholder paths — real image IDs require live scraping deferred to later plan
 - [Phase 06-03]: PL/pgSQL DO block with enum_range iteration for 81 profiles; lifestyle excluded from laptop filter; three-level fallback ensures 5 laptops per profile
+- [Phase 08-02]: Priority scheme: home 1.0 > quiz 0.9 > catalog 0.8 > compare 0.7 > profile 0.6 in sitemap
+- [Phase 08-02]: og-image.png auto-generated via sharp (Next.js transitive dep) at 1200x630 brand blue #0071E3
 
 ## Performance Metrics
 
@@ -106,8 +108,9 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 06-iterative-improvements P01 | 1min | 1 tasks | 1 files |
 | Phase 06-iterative-improvements P02 | 8min | 2 tasks | 2 files |
 | Phase 06-iterative-improvements P03 | 5min | 1 tasks | 1 files |
+| Phase 08-seo P02 | 2min | 3 tasks | 3 files |
 
 ## Session
 
-- **Last session:** 2026-04-18T08:53:58.180Z
-- **Stopped at:** Phase 7 context gathered
+- **Last session:** 2026-04-18T18:26:35.675Z
+- **Stopped at:** Completed 08-02-PLAN.md

@@ -16,10 +16,10 @@
 - [ ] **SEO-01**: All pages render with `lang="es"` (currently hardcoded `"en"`)
 - [ ] **SEO-02**: `metadataBase` is configured in root layout with production URL
 - [ ] **SEO-03**: Each page (home, quiz, catalog, compare, profile) has unique Spanish title and description
-- [ ] **SEO-04**: OG image file exists at `public/og-image.png` and is correctly referenced
+- [x] **SEO-04**: OG image file exists at `public/og-image.png` and is correctly referenced
 - [ ] **SEO-05**: `twitter:card` metadata is present on all pages
-- [ ] **SEO-06**: `robots.txt` exists and is correctly configured
-- [ ] **SEO-07**: Sitemap is generated and accessible at `/sitemap.xml`
+- [x] **SEO-06**: `robots.txt` exists and is correctly configured
+- [x] **SEO-07**: Sitemap is generated and accessible at `/sitemap.xml`
 
 ### Feedback
 
@@ -74,10 +74,10 @@
 | SEO-01 | Phase 8 | Pending |
 | SEO-02 | Phase 8 | Pending |
 | SEO-03 | Phase 8 | Pending |
-| SEO-04 | Phase 8 | Pending |
+| SEO-04 | Phase 8 | Complete |
 | SEO-05 | Phase 8 | Pending |
-| SEO-06 | Phase 8 | Pending |
-| SEO-07 | Phase 8 | Pending |
+| SEO-06 | Phase 8 | Complete |
+| SEO-07 | Phase 8 | Complete |
 | FEED-01 | Phase 9 | Pending |
 | FEED-02 | Phase 9 | Pending |
 | FEED-03 | Phase 9 | Pending |

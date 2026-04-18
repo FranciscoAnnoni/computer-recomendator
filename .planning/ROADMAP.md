@@ -52,7 +52,7 @@
 ### Phases
 
 - [ ] **Phase 7: Deploy** — Ship the app to a public Vercel production URL with production Supabase credentials
-- [ ] **Phase 8: SEO** — Full Spanish SEO coverage across all pages with OG image, sitemap, and robots.txt
+- [x] **Phase 8: SEO** — Full Spanish SEO coverage across all pages with OG image, sitemap, and robots.txt (completed 2026-04-18)
 - [ ] **Phase 9: Feedback Modal** — Users can submit feedback directly from the Navbar
 - [ ] **Phase 10: Profile Avatars** — Each of the 81 quiz profiles displays a unique pixel-art avatar
 - [ ] **Phase 11: Mobile UX** — All pages are fully usable on a 375px mobile viewport
@@ -88,7 +88,10 @@
 2. Visiting `/sitemap.xml` returns a valid XML sitemap listing all public routes.
 3. A browser language inspection of any page shows `<html lang="es">`.
 4. Visiting `/robots.txt` returns a valid file that allows crawling of all public pages.
-**Plans:** TBD
+
+**Plans:** 2/2 plans complete
+- [x] 08-01-PLAN.md — Root layout lang="es", metadataBase, viewport export, and twitter cards on all 5 pages
+- [x] 08-02-PLAN.md — Sitemap, robots.txt, and public/og-image.png asset
 
 ---
 
@@ -142,7 +145,7 @@
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 7. Deploy | 0/1 | Planned | - |
-| 8. SEO | 0/? | Not started | - |
+| 8. SEO | 2/2 | Complete   | 2026-04-18 |
 | 9. Feedback Modal | 0/? | Not started | - |
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
