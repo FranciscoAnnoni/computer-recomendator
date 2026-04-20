@@ -1,45 +1,40 @@
 "use client";
 
-import { motion } from "framer-motion";
-import type { Variants } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-
-const heroVariants: Variants = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.08 } },
-};
-
-const itemVariants: Variants = {
-  hidden: { opacity: 0, y: 16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.25, ease: "easeOut" } },
-};
 
 export function HeroSection() {
   return (
-    <motion.div
-      variants={heroVariants}
-      initial="hidden"
-      animate="show"
-      className="flex flex-col items-center gap-6 max-w-2xl"
-    >
-      <motion.h1
-        variants={itemVariants}
-        className="text-heading font-bold tracking-tight text-foreground leading-[1.1]"
+    <div className="flex flex-col items-center gap-6 max-w-2xl rise">
+      <div className="label-ed" style={{ color: 'var(--pr-fixed-dim)' }}>
+        — Encontrá tu laptop ideal
+      </div>
+      <h1
+        className="display-lg text-center"
+        style={{ color: 'var(--on-sur)' }}
       >
-        Computer Recomendator
-      </motion.h1>
-      <motion.p
-        variants={itemVariants}
-        className="text-subhead font-medium text-muted-foreground leading-[1.3]"
+        Computer{" "}
+        <span style={{
+          background: 'linear-gradient(135deg, var(--pr-bright), var(--pr-container))',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+          backgroundClip: 'text',
+        }}>
+          Recomendator
+        </span>
+      </h1>
+      <p
+        className="rise-d1 text-center"
+        style={{ fontSize: '1.125rem', color: 'var(--on-sur-var)', lineHeight: 1.55, maxWidth: 480 }}
       >
-        Find the perfect laptop for your needs
-      </motion.p>
-      <motion.div variants={itemVariants} className="mt-4">
+        Find the perfect laptop for your needs — curated recommendations from experts.
+      </p>
+      <div className="rise-d2 mt-2">
         <Link href="/quiz">
-          <Button size="lg">Find My Laptop &rarr;</Button>
+          <button className="btn-ed btn-ed-xl btn-primary-ed">
+            Find My Laptop →
+          </button>
         </Link>
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   );
 }

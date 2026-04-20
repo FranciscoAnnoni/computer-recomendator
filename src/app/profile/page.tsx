@@ -67,59 +67,81 @@ export default function ProfilePage() {
 
   return (
     <>
-      <main className="min-h-screen">
-        <div className="max-w-2xl mx-auto px-4 py-16">
+      <main className="min-h-screen" style={{ paddingTop: '3rem', paddingBottom: '6rem' }}>
+        <div style={{ maxWidth: 840, margin: '0 auto', padding: '0 1.5rem' }}>
 
-          {/* Profile header */}
+          {/* Profile header card */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.25, ease: "easeOut" }}
-            className="flex flex-col items-center text-center mb-12"
+            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'auto 1fr',
+              gap: '2rem',
+              alignItems: 'center',
+              padding: '2rem',
+              marginBottom: '3rem',
+              borderRadius: '1.25rem',
+              background: 'rgba(25,27,35,0.55)',
+              backdropFilter: 'blur(20px)',
+              WebkitBackdropFilter: 'blur(20px)',
+              boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.05)',
+            }}
           >
             <div
-              className="w-24 h-24 rounded-full flex items-center justify-center text-white text-4xl font-bold mb-6 ring-4 ring-white/10 shadow-lg"
-              style={{ backgroundColor: color }}
+              style={{
+                width: 96, height: 96, borderRadius: '50%',
+                background: `radial-gradient(circle at 30% 30%, ${color}, color-mix(in srgb, ${color} 60%, #000))`,
+                display: 'grid', placeItems: 'center',
+                fontFamily: 'var(--font-display-ed)', fontWeight: 700,
+                fontSize: '2.5rem', color: 'rgba(255,255,255,0.92)',
+                boxShadow: `0 0 0 1px rgba(255,255,255,0.08), 0 0 48px ${color}55`,
+                flexShrink: 0,
+              }}
             >
               P
             </div>
-
-            <h1 className="text-2xl font-semibold text-foreground tracking-tight">
-              {profile.profile_name}
-            </h1>
-            <p className="text-muted-foreground mt-2 max-w-sm leading-relaxed">
-              {profile.profile_description}
-            </p>
-
-            <Button variant="outline" className="mt-6" onClick={handleRehacer}>
-              Rehacer quiz
-            </Button>
+            <div>
+              <div className="label-ed" style={{ color: 'var(--pr-fixed-dim)', marginBottom: 6 }}>Tu perfil</div>
+              <h1 className="display-md" style={{ margin: 0, marginBottom: 8 }}>{profile.profile_name}</h1>
+              <p style={{ margin: 0, color: 'var(--on-sur-var)', lineHeight: 1.55, marginBottom: '1rem' }}>
+                {profile.profile_description}
+              </p>
+              <button className="btn-ed btn-ed-sm btn-ghost-ed" onClick={handleRehacer}>
+                Rehacer quiz
+              </button>
+            </div>
           </motion.div>
+
+          {/* Recommendations header */}
+          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
+            <h2 className="headline-lg" style={{ margin: 0 }}>Recomendados para vos</h2>
+            {displayedLaptops.length > 0 && (
+              <span className="label-ed-sm">{displayedLaptops.length} modelos</span>
+            )}
+          </div>
 
           {/* Laptop list */}
           {displayedLaptops.length > 0 ? (
-            <section>
-              <h2 className="text-lg font-semibold text-foreground mb-4">
-                Recomendados para vos:
-              </h2>
-              <div className="flex flex-col gap-3">
-                {displayedLaptops.map((laptop, i) => (
-                  <motion.div
-                    key={laptop.id}
-                    initial={{ opacity: 0, y: 16 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.1 + i * 0.07, duration: 0.25, ease: "easeOut" }}
-                  >
-                    <ProfileLaptopCard
-                      laptop={laptop}
-                      onVerMas={() => setActiveLaptop(laptop)}
-                    />
-                  </motion.div>
-                ))}
-              </div>
-            </section>
+            <div className="flex flex-col gap-3">
+              {displayedLaptops.map((laptop, i) => (
+                <motion.div
+                  key={laptop.id}
+                  initial={{ opacity: 0, y: 16 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.08 * i, duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  <ProfileLaptopCard
+                    laptop={laptop}
+                    rank={i + 1}
+                    onVerMas={() => setActiveLaptop(laptop)}
+                  />
+                </motion.div>
+              ))}
+            </div>
           ) : (
-            <p className="text-muted-foreground text-sm text-center py-8">
+            <p style={{ color: 'var(--on-sur-muted)', fontSize: '0.875rem', textAlign: 'center', padding: '2rem 0' }}>
               Aún no hay laptops cargadas para este perfil. Volvé pronto.
             </p>
           )}

@@ -354,47 +354,58 @@ export function CatalogClient() {
     <Container className="py-16">
       {/* Section 1: Quiz Profile (conditional) */}
       {completedProfile && (
-        <section className="mb-12">
-          <h2 className="text-[28px] font-medium leading-[1.3]">Tu perfil</h2>
-          <p className="text-[17px] text-muted-foreground mt-1">
-            {completedProfile.profile_name}
-          </p>
-          <div className="flex gap-3 mt-4">
-            <Button
-              variant="default"
-              onClick={() => {
-                setProfileFilter(true);
-                setPage(1);
-              }}
-            >
-              Ver laptops del perfil
-            </Button>
-            <Button variant="outline" onClick={handleRehacer}>
-              Rehacer quiz
-            </Button>
+        <section
+          className="rise mb-12"
+          style={{
+            display: 'flex', alignItems: 'center', gap: '1.5rem',
+            padding: '1.5rem',
+            borderRadius: '1.25rem',
+            background: 'rgba(25,27,35,0.5)',
+            boxShadow: 'inset 0 0 0 1px rgba(138,180,255,0.12)',
+            position: 'relative', overflow: 'hidden',
+          }}
+        >
+          <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 0% 50%, rgba(138,180,255,0.08), transparent 60%)', pointerEvents: 'none' }} />
+          <div style={{ flex: 1 }}>
+            <div className="label-ed-sm" style={{ marginBottom: 4 }}>Tu perfil</div>
+            <div className="title-md">{completedProfile.profile_name}</div>
           </div>
+          <button
+            className="btn-ed btn-ed-sm btn-primary-ed"
+            onClick={() => { setProfileFilter(true); setPage(1); }}
+          >
+            Ver laptops del perfil
+          </button>
+          <button className="btn-ed btn-ed-sm btn-ghost-ed" onClick={handleRehacer}>
+            Rehacer quiz
+          </button>
         </section>
       )}
 
-      {/* Search bar */}
-      <div className="relative">
-        <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
-        <input
-          type="text"
-          value={inputValue}
-          onChange={handleSearchChange}
-          placeholder="Buscar laptops..."
-          aria-label="Buscar laptops"
-          className="w-full h-10 pl-10 pr-4 rounded-lg border bg-background text-[17px] placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-        />
+      {/* Heading */}
+      <div className="rise-d1 mb-8">
+        <div className="label-ed" style={{ color: 'var(--pr-fixed-dim)', marginBottom: 12 }}>— Catálogo completo</div>
+        <h1 className="display-md" style={{ margin: 0 }}>Todos los laptops</h1>
+        <p style={{ marginTop: 8, color: 'var(--on-sur-var)', fontSize: '0.9375rem' }}>
+          {filteredLaptops.length} modelos · actualizado hoy
+        </p>
       </div>
 
-      {/* Filter button row */}
-      <div className="flex justify-end mt-3">
-        <Button variant="ghost" onClick={() => setFilterDrawerOpen(true)}>
-          <Filter className="size-4" />
-          Filtrar
-        </Button>
+      {/* Search + filter bar */}
+      <div className="rise-d2 grid gap-3 mb-6" style={{ gridTemplateColumns: '1fr auto' }}>
+        <div className="search-bar-ed">
+          <Search className="size-4 shrink-0" style={{ color: 'var(--on-sur-muted)' }} />
+          <input
+            type="text"
+            value={inputValue}
+            onChange={handleSearchChange}
+            placeholder="Buscar por marca, modelo, CPU..."
+            aria-label="Buscar laptops"
+          />
+        </div>
+        <button className="btn-ed btn-ed-md btn-ghost-ed" onClick={() => setFilterDrawerOpen(true)}>
+          <Filter className="size-4" /> Filtrar
+        </button>
       </div>
 
       {/* Active filter bar */}
@@ -410,11 +421,6 @@ export function CatalogClient() {
 
       {/* Section 2: Global Catalog */}
       <section className="mt-6">
-        <h2 className="text-[28px] font-medium leading-[1.3]">Todos los laptops</h2>
-        <p className="text-[12px] text-muted-foreground mt-1">
-          {filteredLaptops.length} laptops
-        </p>
-
         {/* Loading state */}
         {loading && <div className="mt-4"><CatalogSkeleton count={6} /></div>}
 
@@ -434,7 +440,7 @@ export function CatalogClient() {
             variants={containerVariants}
             initial="hidden"
             animate="show"
-            className="flex flex-col gap-6 mt-4 list-none p-0"
+            className="flex flex-col gap-3 list-none p-0"
           >
             {visibleLaptops.map((laptop) => (
               <motion.li key={laptop.id} variants={cardVariants}>
@@ -447,9 +453,9 @@ export function CatalogClient() {
         {/* Load more */}
         {visibleLaptops.length < filteredLaptops.length && (
           <div className="flex justify-center mt-8">
-            <Button variant="outline" onClick={() => setPage((p) => p + 1)}>
-              Cargar mas
-            </Button>
+            <button className="btn-ed btn-ed-md btn-ghost-ed" onClick={() => setPage((p) => p + 1)}>
+              Cargar más
+            </button>
           </div>
         )}
       </section>

@@ -70,14 +70,10 @@ export function Navbar() {
   };
 
   return (
-    <nav
-      className={`sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border transition-shadow ${
-        scrolled ? "shadow-sm" : ""
-      }`}
-    >
+    <nav className="navbar-ed sticky top-0 z-50 border-b border-white/[0.04]">
       <Container>
-        <div className="flex items-center justify-between h-16">
-          {/* LEFT: profile avatar (post-quiz) + logo */}
+        <div className="flex items-center h-[68px] gap-8">
+          {/* Brand */}
           <div className="flex items-center gap-3">
             {completedProfile && (
               <Sheet open={profileSheetOpen} onOpenChange={setProfileSheetOpen}>
@@ -102,40 +98,37 @@ export function Navbar() {
             )}
             <Link
               href="/"
-              className="font-semibold text-foreground hover:opacity-80 transition-opacity"
+              style={{ fontFamily: 'var(--font-display-ed)', fontWeight: 700, fontSize: '0.95rem', letterSpacing: '-0.01em' }}
+              className="hover:opacity-80 transition-opacity"
             >
-              Computer Recomendator
+              Computer <span style={{ color: 'var(--on-sur-muted)', fontWeight: 500 }}>Recomendator</span>
             </Link>
           </div>
 
-          {/* RIGHT: desktop nav links + theme toggle + CTA */}
-          <div className="hidden md:flex items-center gap-4">
+          {/* Desktop nav */}
+          <div className="hidden md:flex items-center gap-6 ml-auto">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-body text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <Link key={link.href} href={link.href} className="nav-link-ed">
                 {link.label}
               </Link>
             ))}
-            <Button variant={completedProfile ? "outline" : "default"}>
-              <Link href={completedProfile ? "/profile" : "/quiz"}>
-                Find My Laptop &rarr;
-              </Link>
-            </Button>
+            <Link href={completedProfile ? "/profile" : "/quiz"}>
+              <button className="btn-ed btn-ed-sm btn-primary-ed">
+                Find My Laptop →
+              </button>
+            </Link>
             <ThemeToggle />
           </div>
 
-          {/* Mobile: theme toggle + hamburger */}
-          <div className="md:hidden flex items-center gap-4">
+          {/* Mobile */}
+          <div className="md:hidden flex items-center gap-3 ml-auto">
             <ThemeToggle />
             <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
               <SheetTrigger
                 render={
                   <button
                     aria-label="Open menu"
-                    className="inline-flex items-center justify-center rounded-lg p-2 text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                    className="icon-btn-ed"
                   />
                 }
               >
@@ -147,18 +140,18 @@ export function Navbar() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="text-body text-muted-foreground hover:text-foreground transition-colors py-2"
+                      className="nav-link-ed py-2 block"
                       onClick={() => setMobileOpen(false)}
                     >
                       {link.label}
                     </Link>
                   ))}
                   <div className="mt-4">
-                    <Button variant={completedProfile ? "outline" : "default"} className="w-full">
-                      <Link href={completedProfile ? "/profile" : "/quiz"} onClick={() => setMobileOpen(false)}>
-                        Find My Laptop &rarr;
-                      </Link>
-                    </Button>
+                    <Link href={completedProfile ? "/profile" : "/quiz"} onClick={() => setMobileOpen(false)}>
+                      <button className="btn-ed btn-ed-md btn-primary-ed w-full">
+                        Find My Laptop →
+                      </button>
+                    </Link>
                   </div>
                 </nav>
               </SheetContent>

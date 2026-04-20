@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { Cpu, HardDrive, MemoryStick, ChevronRight } from "lucide-react";
+import { Cpu, HardDrive, MemoryStick } from "lucide-react";
 import type { Laptop } from "@/types/laptop";
 
 interface ProfileLaptopCardProps {
   laptop: Laptop;
+  rank?: number;
   onVerMas: () => void;
 }
 
-export function ProfileLaptopCard({ laptop, onVerMas }: ProfileLaptopCardProps) {
+export function ProfileLaptopCard({ laptop, rank, onVerMas }: ProfileLaptopCardProps) {
   const [imgError, setImgError] = useState(false);
 
   const specs = [
@@ -19,64 +20,98 @@ export function ProfileLaptopCard({ laptop, onVerMas }: ProfileLaptopCardProps) 
   ].filter((s) => s.value);
 
   return (
-    <button
+    <article
       onClick={onVerMas}
-      className="group w-full flex items-stretch gap-0 rounded-2xl border border-border bg-card hover:border-primary/40 hover:shadow-md transition-all duration-200 overflow-hidden cursor-pointer text-left"
+      className="ed-card cursor-pointer"
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'auto 1fr auto',
+        gap: '1.5rem',
+        padding: '1.5rem',
+      }}
     >
+      {/* Accent bar */}
+      <div style={{
+        position: 'absolute',
+        top: 0, left: '1.5rem',
+        width: 24, height: 2,
+        background: 'var(--pr)',
+      }} />
+
+      {/* Rank badge */}
+      {rank !== undefined && (
+        <div style={{ position: 'absolute', top: '1rem', right: '1rem' }}>
+          <span className="label-ed-sm" style={{ fontFamily: 'ui-monospace, monospace', color: 'var(--on-sur-muted)' }}>
+            #{String(rank).padStart(2, '0')}
+          </span>
+        </div>
+      )}
+
       {/* Image */}
-      <div className="w-28 sm:w-36 shrink-0 p-3 flex items-center">
-        <div className="w-full rounded-xl overflow-hidden bg-muted">
-        {laptop.image_url && !imgError ? (
-          <img
-            src={laptop.image_url}
-            alt={laptop.name}
-            className="w-full aspect-square object-cover"
-            onError={() => setImgError(true)}
-          />
-        ) : (
-          <div className="w-full aspect-square flex items-center justify-center text-muted-foreground text-xs text-center px-2 font-medium">
-            {laptop.brand}
-          </div>
-        )}
+      <div style={{ width: 112, height: 112, flexShrink: 0 }}>
+        <div className="w-full h-full rounded-xl overflow-hidden bg-white/5 flex items-center justify-center">
+          {laptop.image_url && !imgError ? (
+            <img
+              src={laptop.image_url}
+              alt={laptop.name}
+              className="w-full h-full object-cover"
+              onError={() => setImgError(true)}
+            />
+          ) : (
+            <span className="label-ed-sm text-center px-2">{laptop.brand}</span>
+          )}
         </div>
       </div>
 
       {/* Content */}
-      <div className="flex-1 min-w-0 flex flex-col justify-between p-4">
-        <div>
-          <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide mb-1">
-            {laptop.brand}
+      <div className="min-w-0">
+        <div className="label-ed-sm" style={{ marginBottom: 4 }}>{laptop.brand}</div>
+        <h3 className="title-md" style={{ margin: 0, marginBottom: 6 }}>{laptop.name}</h3>
+        {laptop.influencer_note && (
+          <p
+            style={{
+              margin: 0, marginBottom: 12, fontSize: '0.8125rem',
+              color: 'var(--on-sur-var)', lineHeight: 1.5,
+              display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+            }}
+          >
+            {laptop.influencer_note}
           </p>
-          <h3 className="font-semibold text-foreground text-base leading-snug">
-            {laptop.name}
-          </h3>
-
-          {laptop.influencer_note && (
-            <p className="text-sm text-muted-foreground mt-2 leading-relaxed line-clamp-2">
-              {laptop.influencer_note}
-            </p>
-          )}
-
-          <div className="flex flex-wrap gap-x-3 gap-y-1 mt-3">
-            {specs.map((spec, i) => (
-              <span key={i} className="flex items-center gap-1 text-xs text-muted-foreground">
-                <spec.icon className="size-3 shrink-0" />
-                <span>{spec.value}</span>
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div className="flex items-center justify-between mt-3">
-          <p className="text-lg font-bold text-foreground">
-            ${laptop.price.toLocaleString()}
-          </p>
-          <span className="inline-flex items-center gap-0.5 text-sm font-medium text-primary group-hover:underline">
-            Ver más
-            <ChevronRight className="size-4" />
-          </span>
+        )}
+        <div className="flex flex-wrap gap-2">
+          {specs.map((spec, i) => (
+            <span key={i} className="spec-pill-ed flex items-center gap-1">
+              <spec.icon className="size-3 shrink-0" />
+              {spec.value}
+            </span>
+          ))}
         </div>
       </div>
-    </button>
+
+      {/* Price + CTA */}
+      <div
+        style={{
+          display: 'flex', flexDirection: 'column',
+          alignItems: 'flex-end', justifyContent: 'space-between',
+          minWidth: 120,
+        }}
+      >
+        <div />
+        <div style={{ textAlign: 'right' }}>
+          <div className="headline-sm" style={{ margin: 0, fontFamily: 'ui-monospace, monospace' }}>
+            ${laptop.price.toLocaleString()}
+          </div>
+          <div
+            style={{
+              marginTop: 6, fontSize: '0.75rem', fontWeight: 600,
+              color: 'var(--pr)', display: 'flex', alignItems: 'center',
+              gap: 4, justifyContent: 'flex-end',
+            }}
+          >
+            Ver más →
+          </div>
+        </div>
+      </div>
+    </article>
   );
 }

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Cpu, MemoryStick, HardDrive, ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import type { Laptop } from "@/types/laptop";
 
 interface CatalogCardProps {
@@ -14,106 +13,93 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
   const hasInfluencer =
     laptop.influencer_note !== null && laptop.influencer_note.length > 0;
 
-  const subtitle =
-    laptop.simplified_tags.length > 0
-      ? laptop.simplified_tags.slice(0, 3).join(" • ")
-      : null;
-
   return (
     <article
       onClick={() => onVerMas(laptop.id)}
-      className="flex flex-row items-center rounded-2xl border border-border bg-card hover:border-foreground/30 transition-colors cursor-pointer select-none"
+      className="ed-card-row flex flex-row items-center cursor-pointer select-none"
+      style={{ padding: '0.75rem 1.25rem', gap: '1.5rem' }}
     >
-      {/* ── 1. Image ───────────────────────────── */}
-      <div className="relative w-[100px] sm:w-[155px] shrink-0 self-stretch bg-muted rounded-l-2xl overflow-hidden">
-        {laptop.image_url ? (
-          <Image
-            src={laptop.image_url}
-            alt={laptop.name}
-            fill
-            sizes="(max-width: 640px) 100px, 155px"
-            className="object-cover pointer-events-none"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-[11px] text-muted-foreground font-mono p-2 text-center">
-            {laptop.brand}
-          </div>
-        )}
-        {hasInfluencer && (
-          <span
-            className="absolute top-2 left-2 text-primary text-sm leading-none select-none drop-shadow"
-            aria-label="Recomendado por experto"
-          >
-            ★
-          </span>
-        )}
+      {/* Image */}
+      <div className="relative shrink-0" style={{ width: 72, height: 72 }}>
+        <div className="w-full h-full rounded-xl overflow-hidden bg-white/5 flex items-center justify-center">
+          {laptop.image_url ? (
+            <Image
+              src={laptop.image_url}
+              alt={laptop.name}
+              fill
+              sizes="72px"
+              className="object-cover pointer-events-none"
+            />
+          ) : (
+            <span className="label-ed-sm">{laptop.brand}</span>
+          )}
+        </div>
         {laptop.availability_warning && (
-          <span className="absolute bottom-2 left-2 bg-red-500 text-white text-[9px] sm:text-[10px] font-semibold px-1.5 py-0.5 rounded-md leading-none select-none">
+          <span
+            className="absolute -bottom-1 -left-1 -right-1 text-center"
+            style={{
+              padding: '2px 6px',
+              background: '#ff7a85',
+              color: '#2a0005',
+              borderRadius: 4,
+              fontSize: 9, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em',
+            }}
+          >
             Stock limitado
           </span>
         )}
       </div>
 
-      {/* ── 2. Name + subtitle + specs ─────────── */}
-      <div className="flex flex-col justify-center flex-1 min-w-0 px-3 sm:px-6 py-3">
-        <h3 className="text-[14px] sm:text-[18px] font-bold leading-snug text-foreground truncate">
-          {laptop.name}
-        </h3>
-
-        {subtitle && (
-          <p className="text-[11px] sm:text-[13px] text-muted-foreground mt-0.5 truncate">
-            {subtitle}
-          </p>
-        )}
-
-        {/* Spec row — single line, no wrap */}
-        <div className="flex items-center gap-2 mt-1.5 overflow-hidden">
-          <span className="flex items-center gap-1 shrink-0 text-[10px] sm:text-[13px] text-foreground/80">
-            <Cpu className="size-3 sm:size-4 text-muted-foreground shrink-0" />
-            <span className="sm:inline hidden">CPU: </span>
-            <span className="max-w-[55px] sm:max-w-none truncate">{laptop.cpu}</span>
+      {/* Content */}
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 mb-0.5">
+          <span className="label-ed-sm">{laptop.brand}</span>
+          {hasInfluencer && (
+            <span className="label-ed-sm" style={{ color: 'var(--pr-fixed-dim)' }}>• Top pick</span>
+          )}
+        </div>
+        <div className="title-md truncate" style={{ marginBottom: 4 }}>{laptop.name}</div>
+        <div className="flex items-center gap-3" style={{ color: 'var(--on-sur-muted)', fontSize: '0.8125rem' }}>
+          <span className="flex items-center gap-1">
+            <Cpu className="size-3 shrink-0" />
+            <span className="hidden sm:inline">CPU: </span>
+            <span className="max-w-[60px] sm:max-w-none truncate">{laptop.cpu}</span>
           </span>
-          <span className="text-muted-foreground/30 shrink-0 text-[10px] sm:text-[13px]">|</span>
-          <span className="flex items-center gap-1 shrink-0 text-[10px] sm:text-[13px] text-foreground/80">
-            <MemoryStick className="size-3 sm:size-4 text-muted-foreground shrink-0" />
+          <span style={{ opacity: 0.4 }}>|</span>
+          <span className="flex items-center gap-1 shrink-0">
+            <MemoryStick className="size-3 shrink-0" />
             {laptop.ram}
           </span>
-          <span className="text-muted-foreground/30 shrink-0 text-[10px] sm:text-[13px]">|</span>
-          <span className="flex items-center gap-1 shrink-0 text-[10px] sm:text-[13px] text-foreground/80">
-            <HardDrive className="size-3 sm:size-4 text-muted-foreground shrink-0" />
+          <span style={{ opacity: 0.4 }}>|</span>
+          <span className="flex items-center gap-1 shrink-0">
+            <HardDrive className="size-3 shrink-0" />
             {laptop.storage}
           </span>
         </div>
-
         {/* Price — mobile only */}
-        <p className="text-[13px] font-bold text-foreground mt-1.5 sm:hidden">
+        <p className="sm:hidden" style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--on-sur)', marginTop: 4, fontFamily: 'ui-monospace, monospace' }}>
           ${laptop.price.toLocaleString()}
         </p>
       </div>
 
-      {/* ── 3. Price — desktop only ───────────── */}
-      <div className="hidden sm:flex items-center justify-center shrink-0 px-5">
-        <p className="text-[22px] font-bold text-muted-foreground whitespace-nowrap">
+      {/* Price — desktop */}
+      <div className="hidden sm:block shrink-0 text-right" style={{ minWidth: 120 }}>
+        <div className="title-md" style={{ fontFamily: 'ui-monospace, monospace', color: 'var(--on-sur)' }}>
           ${laptop.price.toLocaleString()}
-        </p>
+        </div>
       </div>
 
-      {/* ── 4. Ver más button — desktop ── */}
-      <div className="hidden sm:flex items-center justify-center px-5 shrink-0">
-        <Button
-          variant="outline"
-          size="sm"
-          className="text-[13px] px-4 h-9 rounded-xl border-primary text-primary hover:bg-primary/10 pointer-events-none"
-          tabIndex={-1}
-        >
-          Ver más
-        </Button>
-      </div>
+      {/* CTA — desktop */}
+      <button
+        className="hidden sm:inline-flex btn-ed btn-ed-sm btn-ghost-ed shrink-0"
+        onClick={e => { e.stopPropagation(); onVerMas(laptop.id); }}
+        tabIndex={-1}
+      >
+        Ver más →
+      </button>
 
-      {/* ── 4. Chevron — mobile ── */}
-      <div className="sm:hidden flex items-center justify-center px-3 shrink-0 text-primary">
-        <ChevronRight className="size-5" />
-      </div>
+      {/* Chevron — mobile */}
+      <ChevronRight className="sm:hidden size-4 shrink-0" style={{ color: 'var(--pr)' }} />
     </article>
   );
 }

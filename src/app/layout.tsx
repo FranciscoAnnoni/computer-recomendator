@@ -1,14 +1,27 @@
 import type { Metadata, Viewport } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Manrope, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { NeuralFog } from "@/components/layout/neural-fog";
 
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
   variable: "--font-roboto",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-manrope",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
 });
 
 export const viewport: Viewport = {
@@ -40,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${roboto.variable} h-full antialiased`}
+      className={`${roboto.variable} ${manrope.variable} ${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
@@ -50,8 +63,9 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
+          <NeuralFog />
           <Navbar />
-          <main className="min-h-screen">{children}</main>
+          <main className="relative z-[2] min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
