@@ -156,8 +156,8 @@
 4. Existing rows whose ML catalog products no longer have a quality local listing have `availability_warning=true`; none are deleted.
 5. New laptops in the catalog appear in the DB with `affiliate_link` matching `https://www.mercadolibre.com.ar/p/{id}?matt_d2id={ML_AFFILIATE_D2ID}`.
 
-**Plans:** 2 plans
-- [ ] 12-01-PLAN.md — DB migration adding `catalog_product_id TEXT` with partial unique index + pytest scaffold (conftest, fixtures, 4 stub tests)
+**Plans:** 1/2 plans executed
+- [x] 12-01-PLAN.md — DB migration adding `catalog_product_id TEXT` with partial unique index + pytest scaffold (conftest, fixtures, 4 stub tests)
 - [ ] 12-02-PLAN.md — `scripts/refresh_basics.py` (pure helpers) + `scripts/refresh_catalog.py` (single-command orchestrator with dry-run, stale flag, upsert)
 
 ---
@@ -171,4 +171,4 @@
 | 9. Feedback Modal | 0/2 | Planned | - |
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
-| 12. Catalog Refresh | 0/2 | Planned | - |
+| 12. Catalog Refresh | 1/2 | In Progress|  |

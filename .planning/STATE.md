@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
-status: planning
-stopped_at: Phase 9 context gathered
-last_updated: "2026-04-18T19:01:51.572Z"
-last_activity: 2026-04-18
+status: executing
+stopped_at: Completed 12-01-PLAN.md
+last_updated: "2026-05-01T15:15:25.427Z"
+last_activity: 2026-05-01
 progress:
-  total_phases: 11
+  total_phases: 12
   completed_phases: 7
-  total_plans: 23
-  completed_plans: 22
+  total_plans: 27
+  completed_plans: 23
 ---
 
 # State: Computer Recomendator
@@ -20,13 +20,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-17)
 
 **Core value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
-**Current focus:** Phase 08 — seo
+**Current focus:** Phase 12 — catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates
 
 ## Project Overview
 
-- **Status:** Ready to plan
+- **Status:** Executing Phase 12
 - **Current Milestone:** v1.1 Launch-Ready Polish
-- **Last activity:** 2026-04-18
+- **Last activity:** 2026-05-01
 
 ## Context Memory
 
@@ -88,6 +88,8 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 08-01]: Separate viewport export required — viewport inside metadata is deprecated since Next.js 14
 - [Phase 08-01]: metadataBase set to computer-recomendator.vercel.app; es_AR locale for Argentine audience; title template with default+template object
 - [Phase 08-01]: Profile metadata in layout.tsx only — page.tsx is Client Component, metadata exports silently ignored by Next.js
+- [Phase 12]: Partial unique index (WHERE catalog_product_id IS NOT NULL) allows NULL for manually-inserted rows without collision
+- [Phase 12]: pytest.importorskip used for stub test files — SKIPPED (not ERRORing) until scripts/refresh_catalog.py exists in Plan 02
 
 ## Performance Metrics
 
@@ -113,8 +115,15 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 06-iterative-improvements P03 | 5min | 1 tasks | 1 files |
 | Phase 08-seo P02 | 2min | 3 tasks | 3 files |
 | Phase 08-seo P01 | 15min | 3 tasks | 6 files |
+| Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P01 | 8min | 2 tasks | 12 files |
 
 ## Session
 
-- **Last session:** 2026-04-18T19:01:51.569Z
-- **Stopped at:** Phase 9 context gathered
+- **Last session:** 2026-05-01T15:15:25.423Z
+- **Stopped at:** Completed 12-01-PLAN.md
+
+## Accumulated Context
+
+### Roadmap Evolution
+
+- Phase 12 added: Catalog refresh — MercadoLibre scraping, affiliate links, and profile updates
