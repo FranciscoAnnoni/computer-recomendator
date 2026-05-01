@@ -57,6 +57,7 @@
 - [ ] **Phase 10: Profile Avatars** — Each of the 81 quiz profiles displays a unique pixel-art avatar
 - [ ] **Phase 11: Mobile UX** — All pages are fully usable on a 375px mobile viewport
 - [x] **Phase 12: Catalog Refresh** — Single-command annual refresh of MercadoLibre catalog with stale-seller detection and affiliate link auto-generation (completed 2026-05-01)
+- [ ] **Phase 13: Profile Curation** — Algorithmically score the live laptop catalog and assign 5 hand-curated laptops to each of the 81 quiz profiles
 
 ---
 
@@ -160,6 +161,24 @@
 - [x] 12-01-PLAN.md — DB migration adding `catalog_product_id TEXT` with partial unique index + pytest scaffold (conftest, fixtures, 4 stub tests)
 - [x] 12-02-PLAN.md — `scripts/refresh_basics.py` (pure helpers) + `scripts/refresh_catalog.py` (single-command orchestrator with dry-run, stale flag, upsert)
 
+### Phase 13: Catalog Product Sorting and Profile Curation
+
+**Goal:** Every one of the 81 quiz profiles has exactly 5 well-chosen, curated laptop recommendations matching the profile's dimensions (workload, lifestyle, budget, os_preference). A single Python script (`scripts/curate_profiles.py`) computes algorithmic recommendation_scores for all 55 live-DB laptops, fills missing influencer_notes, selects 5 laptops per profile via OS → budget → workload → lifestyle → score → brand-diversity logic, and PATCHes Supabase profiles.laptop_ids — with --dry-run safety and a regenerated seed-profiles-81.sql so the seed file mirrors the live DB.
+**Requirements:** REQ-01, REQ-02, REQ-03, REQ-04, REQ-05, REQ-06, REQ-07, REQ-08, REQ-09
+**UI hint:** no
+**Dependencies:** Phase 12
+
+**Success Criteria:**
+1. Running `python3 scripts/curate_profiles.py --dry-run` prints proposed laptop_ids assignments for all 81 profiles without writing to Supabase, exits 0.
+2. Running `python3 scripts/curate_profiles.py --apply` writes recommendation_score (1-10) and influencer_note to all laptops missing them, then PATCHes profiles.laptop_ids 81 times.
+3. After apply: every profile in the live DB has exactly 5 laptop UUIDs in `laptop_ids` (no empty arrays); every laptop has non-NULL `recommendation_score` and non-NULL `influencer_note`.
+4. macOS profiles only get macOS laptops; gaming + windows profiles only get laptops with dedicated GPU when ≥5 are available; gaming + macOS profiles get best macOS laptops with documented gap warning.
+5. `supabase/seed-profiles-81.sql` contains 81 `UPDATE profiles SET laptop_ids = ARRAY[...]::uuid[]` statements — keeping the seed file in sync with the live DB.
+
+**Plans:** 1/2 plans executed
+- [x] 13-01-PLAN.md — Build `scripts/curate_profiles.py` (3-stage script: enrich + select + assign) + Wave 0 pytest stubs covering 7 testable behaviors
+- [ ] 13-02-PLAN.md — Run dry-run, user-checkpoint review, --apply to Supabase, regenerate seed-profiles-81.sql, audit live DB state
+
 ---
 
 ## Progress
@@ -172,3 +191,4 @@
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
 | 12. Catalog Refresh | 2/2 | Complete    | 2026-05-01 |
+| 13. Profile Curation | 1/2 | In Progress|  |

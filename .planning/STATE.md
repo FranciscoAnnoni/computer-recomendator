@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
-status: completed
-stopped_at: Completed 12-02-PLAN.md
-last_updated: "2026-05-01T15:41:06.039Z"
+status: executing
+stopped_at: Completed 13-01-PLAN.md
+last_updated: "2026-05-01T21:50:04.427Z"
 last_activity: 2026-05-01
 progress:
-  total_phases: 12
+  total_phases: 13
   completed_phases: 8
-  total_plans: 27
-  completed_plans: 24
+  total_plans: 29
+  completed_plans: 25
 ---
 
 # State: Computer Recomendator
@@ -20,11 +20,11 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-17)
 
 **Core value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
-**Current focus:** Phase 12 — catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates
+**Current focus:** Phase 13 — catalog-product-sorting-and-profile-curation
 
 ## Project Overview
 
-- **Status:** Milestone complete
+- **Status:** Executing Phase 13
 - **Current Milestone:** v1.1 Launch-Ready Polish
 - **Last activity:** 2026-05-01
 
@@ -92,6 +92,9 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 12]: pytest.importorskip used for stub test files — SKIPPED (not ERRORing) until scripts/refresh_catalog.py exists in Plan 02
 - [Phase 12]: Pure helpers in refresh_basics.py, orchestrator in refresh_catalog.py — tests import basics directly without triggering CLI side effects
 - [Phase 12]: upsert payload omits influencer_note and recommendation_score — merge-duplicates preserves them without explicit send
+- [Phase 13-catalog-product-sorting-and-profile-curation]: EFFECTIVE_TIERS uses 600k/1.5M boundaries (from 13-RESEARCH.md) not stale CONTEXT.md values
+- [Phase 13-catalog-product-sorting-and-profile-curation]: gaming+macos gap logged in output rather than crashing — best available macOS laptops assigned
+- [Phase 13-catalog-product-sorting-and-profile-curation]: default mode is --dry-run; --apply required to write; zero PATCH calls in dry-run verified by test
 
 ## Performance Metrics
 
@@ -119,14 +122,16 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 08-seo P01 | 15min | 3 tasks | 6 files |
 | Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P01 | 8min | 2 tasks | 12 files |
 | Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P02 | 3min | 2 tasks | 5 files |
+| Phase 13-catalog-product-sorting-and-profile-curation P01 | 12min | 2 tasks | 3 files |
 
 ## Session
 
-- **Last session:** 2026-05-01T15:38:16.967Z
-- **Stopped at:** Completed 12-02-PLAN.md
+- **Last session:** 2026-05-01T21:50:04.424Z
+- **Stopped at:** Completed 13-01-PLAN.md
 
 ## Accumulated Context
 
 ### Roadmap Evolution
 
 - Phase 12 added: Catalog refresh — MercadoLibre scraping, affiliate links, and profile updates
+- Phase 13 added: catalog product sorting and profile curation
