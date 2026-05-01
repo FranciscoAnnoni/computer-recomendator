@@ -36,6 +36,9 @@ EFFECTIVE_TIERS = {
 
 GPU_KEYWORDS = ["rtx", "rx 6", "rx 7", "gtx", "radeon rx", "geforce"]
 
+# Devices that require an external monitor + keyboard — never recommend to mobile/nomadic profiles
+DESKTOP_ONLY_KEYWORDS = ["mini pc", "mac mini", "mac studio", "pc gamer", "nucbox", "minisforum", "gmktec"]
+
 AFFILIATE_LINK_RE = re.compile(r"https://www\.mercadolibre\.com\.ar/p/MLA\d+\?matt_d2id=")
 
 # ── Pure helpers ──────────────────────────────────────────────────────────────
@@ -88,6 +91,60 @@ def has_dedicated_gpu(laptop: dict) -> bool:
     return any(k in combined for k in GPU_KEYWORDS)
 
 
+def is_desktop_only(laptop: dict) -> bool:
+    """True for devices that need an external monitor + keyboard (mini PCs, Mac minis, PC Gamers)."""
+    name = (laptop.get("name") or "").lower()
+    return any(k in name for k in DESKTOP_ONLY_KEYWORDS)
+
+
+def _get_apple_pins(pool: list[dict], budget: str, lifestyle: str) -> list[str]:
+    """Returns ordered IDs to pin at the top of an Apple profile's recommendations.
+
+    Rules (explicit from product spec):
+      esencial → cheapest MacBook Neo is the 10/10 pick for any lifestyle
+      premium + escritorio_fijo → Mac mini M4 (10/10) then MacBook Air M5 (9/10)
+      premium + mobile → MacBook Air M5 (10/10)
+    """
+    pins: list[str] = []
+
+    if budget == "esencial":
+        neo = min(
+            [l for l in pool if "macbook neo" in (l.get("name") or "").lower()],
+            key=lambda l: l.get("price") or 99_999_999,
+            default=None,
+        )
+        if neo:
+            pins.append(neo["id"])
+
+    elif budget == "premium":
+        if lifestyle == "escritorio_fijo":
+            mac_mini = min(
+                [l for l in pool if "mac mini" in (l.get("name") or "").lower()],
+                key=lambda l: l.get("price") or 99_999_999,
+                default=None,
+            )
+            m5_air = next(
+                (l for l in pool
+                 if "m5" in (l.get("name") or "").lower()
+                 and "air" in (l.get("name") or "").lower()),
+                None,
+            )
+            for pick in [mac_mini, m5_air]:
+                if pick:
+                    pins.append(pick["id"])
+        else:
+            m5_air = next(
+                (l for l in pool
+                 if "m5" in (l.get("name") or "").lower()
+                 and "air" in (l.get("name") or "").lower()),
+                None,
+            )
+            if m5_air:
+                pins.append(m5_air["id"])
+
+    return pins
+
+
 def generate_influencer_note(laptop: dict) -> str:
     brand = laptop.get("brand") or "Esta laptop"
     cpu = laptop.get("cpu") or ""
@@ -138,9 +195,9 @@ def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
     else:  # windows OR abierto both use Windows pool
         pool = [l for l in all_laptops if "windows" in (l.get("os") or "").lower()]
 
-    # Step 2: Exclude PC Gamer desktops from portable profiles
-    if lifestyle == "maxima_portabilidad":
-        pool = [l for l in pool if not (l.get("name") or "").lower().startswith("pc gamer")]
+    # Step 2: Exclude desktop-only devices (mini PCs, Mac minis, PC Gamers) from portable profiles
+    if lifestyle != "escritorio_fijo":
+        pool = [l for l in pool if not is_desktop_only(l)]
 
     # Step 3: Gaming GPU requirement (windows/abierto only — Macs lack dedicated GPU)
     if workload == "gaming_rendimiento" and os_pref != "macos":
@@ -177,14 +234,19 @@ def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
         l.get("price") or 0,
     ))
 
-    # Step 8: Brand diversity cap (max 2 per brand) + non-canonical link demotion for rank #1
+    # Step 8: Brand diversity cap (max 2 per brand).
+    # Pinned picks (profile-curated top choices) go first unconditionally.
+    # Remaining slots: canonical affiliate links before non-canonical.
+    pin_ids = _get_apple_pins(pool, budget, lifestyle) if os_pref == "macos" else []
+    pinned = [l for pid in pin_ids for l in pool if l["id"] == pid]
+    pin_id_set = set(pin_ids)
+    rest = [l for l in pool if l["id"] not in pin_id_set]
+    canonical_rest = [l for l in rest if AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
+    non_canonical_rest = [l for l in rest if not AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
+    ordered = pinned + canonical_rest + non_canonical_rest
+
     selected: list[str] = []
     brand_counts: dict[str, int] = defaultdict(int)
-    # Demote non-canonical links so they don't end up at rank #1
-    canonical = [l for l in pool if AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
-    non_canonical = [l for l in pool if not AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
-    ordered = canonical + non_canonical
-
     for l in ordered:
         brand = (l.get("brand") or "unknown").lower()
         if brand_counts[brand] >= 2:
