@@ -171,4 +171,4 @@
 | 9. Feedback Modal | 0/2 | Planned | - |
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
-| 12. Catalog Refresh | 2/2 | Complete   | 2026-05-01 |
+| 12. Catalog Refresh | 2/2 | Complete    | 2026-05-01 |
