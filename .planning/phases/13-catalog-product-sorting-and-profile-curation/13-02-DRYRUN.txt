@@ -1,0 +1,264 @@
+
+[DRY-RUN] curate_profiles.py — Phase 13 profile curation
+
+== STAGE 1: Enrich laptop quality data ==
+  fetched 212 laptops
+  Acer Predator Helio Neo 16s Core 9 Ultra 32gb Rtx  score=9 updates=['recommendation_score', 'influencer_note']
+  Notebook Acer Predator Core9 Ultra 185h Rtx4070 1t score=7 updates=['recommendation_score', 'influencer_note']
+  Acer Predator 16 Ci9-13900hx 1tb Ssd 16ddr5 Rtx408 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Acer Nitro Mod. An515                     score=7 updates=['recommendation_score', 'influencer_note']
+  Acer Nitro Avn15 I7-13620h 16gb Rtx 5050 1tb Ssd 1 score=9 updates=['recommendation_score', 'influencer_note']
+  Portatil Gamer Acer Nitro V15 I5 13420h 16gb Rtx 5 score=9 updates=['recommendation_score', 'influencer_note']
+  Notebook Gamer Acer Nitro V15 Ryzen 5 8gb 512gb Ss score=7 updates=['influencer_note']
+  Notebook Acer Aspire I5 8gb 512gb 15.6 Diginet Col score=7 updates=['recommendation_score', 'influencer_note']
+  MacBook Pro M4 Pro 16" 24GB/512GB                  score=9 updates=['recommendation_score', 'influencer_note']
+  Notebook Acer Aspire 3 15,6 Core I3 1005g1 4gb 1TB score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Acer Aspire 3 15.6 8g 512gb Color Gris    score=7 updates=['recommendation_score', 'influencer_note']
+  PC Gamer Armada RTX 3070 Ti 32GB/1TB               score=6 updates=['recommendation_score', 'influencer_note']
+  PC Gamer Noxi Armada Ryzen 7 5700G 16GB            score=7 updates=['influencer_note']
+  Notebook Asus Vivobook M1502ya-bq580 Ryzen 7 5825u score=7 updates=['influencer_note']
+  Notebook Asus Vivobook 14 Intel Core I3 1215u 16gb score=7 updates=['influencer_note']
+  Notebook Asus Rog Strix G16 Ultra9 275hx 1tb 32gb  score=7 updates=['recommendation_score', 'influencer_note']
+  Asus Rog Strix G16 (2025) Color Negro              score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Asus Rog Strix Scar Corei9 16gb 512gb Rtx score=7 updates=['recommendation_score', 'influencer_note']
+  Portátil para juegos Asus Rog Strix G16, Intel i9- score=7 updates=['influencer_note']
+  Mini PC CX Ryzen 3 8GB/240GB                       score=7 updates=['recommendation_score', 'influencer_note']
+  Mini PC B-Max B6 Plus i3 12GB/512GB                score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Asus Tuf Gaming A15 Fa506nf-hn003w Amd Ry score=7 updates=['influencer_note']
+  Notebook ASUS Vivobook 15 i5 8GB 512GB             score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Asus VivoBook X712JA                      score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Asus Vivobook Go 15 Amd R3-7320u Negro    score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo Bgh At510w Intel Celeron 4gb 64g score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Acer BGH                                  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo Bgh - 14 128ssd 4gb - Fx1000     score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Bgh Positivo At At520ln 14 4gb De Ram 128 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo BGH AT550 Gris 14" Intel N3350 4 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo Bgh At560w Celeron 500gb Rom / 4 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Dell Inspiron 3520 15 I7 16GB 512GB Negro score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Dell Inspiron 15.6 Ryzen 7 7730u 16gb 1tb score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Dell Inspiron 3511 Color Negro            score=7 updates=['influencer_note']
+  Notebook Dell Inspiron 5425 Plata AMD Ryzen 7 16GB score=7 updates=['influencer_note']
+  Laptop Dell Vostro 14 Ryzen 5 8gb Ram 256gb Ssd W1 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Enova 14 Celeron N4020 Ram 4gb Ssd 128gb  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Onn-s3185 Intel I3 12va Ram 8gb Ssd 512gb score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Exo Intel I5-1335u 8gb Ssd 480gb 15,6 W11 score=7 updates=['influencer_note']
+  Notebook Exo Smart G12x-rs5l core I5 12500h 8gb Ss score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Exo Smart Core I3 1215u 8gb Ssd 256gb 15. score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Exo Ryzen 3 3200u Clever 8gb Ssd 480gb 15 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Cel L65 4gb64gb W11 14.1p - Exo           score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Exo 14,1 Celeron 4gb 128gb Ssd P46        score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Exo Intel Cel Smart Xr1 14.1 4/64gb       score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook EXO G4 10.1" color verde militar 2GB de R score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast N-536r AMD Ryzen 5 3500U 8GB RAM DD score=7 updates=['recommendation_score', 'influencer_note']
+  Gigabyte - Aorus 15.6 Ips I7-12700h 16gb Rtx 3070  score=8 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram 512 score=7 updates=['influencer_note']
+  Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram Ddr score=7 updates=['influencer_note']
+  Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro 5650u score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook HP 15-fc0251la AMD Ryzen 5 8GB RAM 512GB  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram 512 score=7 updates=['influencer_note']
+  Notebook Hp Omen Core Ultra 9 275hx 32gb 1tb Rtx50 score=7 updates=['recommendation_score', 'influencer_note']
+  Laptop Hp Pavilion 15.6 Táctil, Intel I3, 32gb Ram score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp Victus Ryzen 5-7535hs 32gb Ddr5 1tb 15 score=7 updates=['recommendation_score', 'influencer_note']
+  Laptop Gaming Hp Victus 15.6 Ryzen 5 8gb 512gb Ssd score=7 updates=['recommendation_score', 'influencer_note']
+  Hp Notebook 440 G10 Tarjeta De Video Discreta Rtx  score=7 updates=['influencer_note']
+  Notebook Hp Victus Ryzen 5-7535hs 16gb Ddr5 1tb 15 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp Pavilion Gaming 15-ec1024la Amd Ryzen  score=7 updates=['recommendation_score', 'influencer_note']
+  Hp Notebook 455g9 15 Ryzen 5 5625u 16g/512g Window score=7 updates=['influencer_note']
+  Hp Victus 16 Azul 15.6 I5-13420h 32gb 512ssd Rtx30 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook HP dq2510la                               score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp Victus Gaming 15-fa0027la I5 8gb Ram 5 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp Victus Victus 15-fa2013dx Plateado 15. score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook HP 15-dq1071cl                            score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook HP HP Laptop Laptop 15-ef1019la (310J3LA) score=7 updates=['recommendation_score', 'influencer_note']
+  PC Gamer Armada RTX 3060 32GB/960GB                score=8 updates=['recommendation_score', 'influencer_note']
+  GMKtec Nucbox M6 Ryzen 5 6600H 16GB                score=7 updates=['recommendation_score', 'influencer_note']
+  Minisforum UM790 Pro Ryzen 9 64GB/1TB              score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Ideapad 1 15ijl7 Intel Celeron N45 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo V15 Ryzen 5 7520U 16Gb Ssd 512Gb 1 score=7 updates=['influencer_note']
+  Laptop Lenovo Ideapad Ryzen 5 8gb 256gb Ssd Win 11 score=7 updates=['recommendation_score', 'influencer_note']
+  Lenovo Ideapad Slim 5 16irl8 82xf0019us 16" i7 16G score=7 updates=['recommendation_score', 'influencer_note']
+  Lenovo Thinkpad T14 I5 512gb 16gb Win11 Pro        score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Loq 15ahp10 Ryzen 7 250 32gb 512gb score=9 updates=['influencer_note']
+  Lenovo Loq 15iax9e I7-12650hx 12gb 1tb Rtx 4050 6g score=9 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Thinkpad L14 G4 I5 16g 512g W11p N score=7 updates=['recommendation_score', 'influencer_note']
+  Apple Mac Studio M4 Max 36GB/512GB                 score=7 updates=['recommendation_score', 'influencer_note']
+  Lenovo Yoga 7i 16 I7 16gb 1tb Ssd                  score=7 updates=['influencer_note']
+  Notebook Lenovo Loq Core I5 12450hx 12gb Ssd 512gb score=7 updates=['influencer_note']
+  Lenovo Yoga 7 16 Ryzen 7 350 16gb 1tb Ssd          score=7 updates=['influencer_note']
+  Lenovo Yoga 7i 2en1 I7 Ultra 155U 1tb Ssd 16gb Ddr score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Thinkpad E16 Gen2 R5 16gb 512gb Ss score=7 updates=['influencer_note']
+  Ultrabook Lenovo ThinkPad T495 negro de 14 pulgada score=7 updates=['influencer_note']
+  Notebook Lenovo Yoga 7i 82YL0006US 14" Intel 1335U score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo IdeaPad Gaming 3 15ARH05           score=7 updates=['recommendation_score', 'influencer_note']
+  Laptop Lenovo Ideapad 5 I7 8gb 512gb W10           score=7 updates=['recommendation_score', 'influencer_note']
+  Laptop Lenovo Loq 15iax9e Gamer Intel Ci5 8gb 512g score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo IdeaPad 3 14ITL6                   score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo IdeaPad 1 Plata 14" N4020 4GB 1366 score=7 updates=['recommendation_score', 'influencer_note']
+  LG Gram 17 Laptop Táctil Profesional, Intel Core U score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook LG Gram 17 I7-1360p 1tb Ssd 16gb Ddr5 Ips score=7 updates=['recommendation_score', 'influencer_note']
+  Laptop MSI Raider 18" Ai Gaming 5090 64g RAM 2TB S score=7 updates=['recommendation_score', 'influencer_note']
+  Laptop Gaming Msi Crosshair 15 I7 8gb 512gb 15.6 F score=7 updates=['influencer_note']
+  Notebook - Intel Noblex                            score=7 updates=['influencer_note']
+  Notebook Intel Core I3 8gb Ssd 256gb 14,1 Windows  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Noblex 13.9 N14w1c 4 Gb Ram 64 Gb Rom W10 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Pcbox Fire Pcb-glw2 Intel Celeron N4020 4 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Philco N14P4020 14.1 Pulgadas Intel Celer score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo Bgh At510w Intel Celeron 4gb 64g score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo Bgh - 14 128ssd 4gb - Fx1000 Pos score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Positivo Bgh At560w Celeron 500gb / 4gb D score=7 updates=['recommendation_score', 'influencer_note']
+  Samsung Galaxy Book5 360 15.6 Ultra5 16gb 512gb Ss score=7 updates=['recommendation_score', 'influencer_note']
+  Samsung Galaxy Book4 I5 15.6 512gb 16gb Ram Color  score=7 updates=['recommendation_score', 'influencer_note']
+  Samsung Galaxy Book 3 15,6 Fhd I5 13gen 512gb ssd  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Samsung Galaxy Book Galaxy book 3 Gris 19 score=7 updates=['recommendation_score', 'influencer_note']
+  MacBook Air M3 13" 8GB/512GB                       score=9 updates=['recommendation_score', 'influencer_note']
+  MacBook Air M3 13" 24GB/512GB                      score=9 updates=['influencer_note']
+  MacBook Pro M3 14" 16GB/512GB                      score=9 updates=['influencer_note']
+  MacBook Pro M3 Pro 14" 18GB/512GB                  score=9 updates=['influencer_note']
+  MacBook Pro M3 Pro 16" 18GB/512GB                  score=9 updates=['recommendation_score', 'influencer_note']
+  MacBook Pro M4 14" 16GB/512GB                      score=9 updates=['influencer_note']
+  MacBook Pro M4 14" 16GB/1TB                        score=9 updates=['influencer_note']
+  MacBook Pro M4 Pro 14" 24GB/512GB                  score=9 updates=['recommendation_score', 'influencer_note']
+  Mac mini M4 16GB/256GB (220V)                      score=7 updates=['recommendation_score', 'influencer_note']
+  PC Gamer Mexx G6550 Ryzen 7 5700 32GB/1TB RTX 3050 score=6 updates=['recommendation_score', 'influencer_note']
+  Notebook Exo Smart T38 Intel N4020 4gb Ssd128gb Wi score=8 updates=['recommendation_score']
+  Notebook Exo Smart R41 Celeron N4020 Ram 4gb Ssd 1 score=8 updates=['recommendation_score']
+  Notebook Noblex N14x1010 14.1 Hd Intel Celeron 4gb score=8 updates=['recommendation_score']
+  Notebook Noblex N14x1000 14.1 Hd Intel Celeron 4gb score=8 updates=['recommendation_score']
+  Notebook ASUS Vivobook Go 15 N100 4GB 128GB        score=8 updates=['recommendation_score']
+  Notebook Asus Vivobook Procesador Intel Core I5 13 score=8 updates=['recommendation_score']
+  Lenovo Yoga 7 2-in-1 14 Ryzen Ai 5 340 16gb 512gb  score=8 updates=['recommendation_score']
+  Dell Inspiron 14 Qual Snapdragon X Copilot+ 16gb 5 score=8 updates=[]
+  LG Gram Touch I7-1360p 512gb Ssd 16gb Ddr5 Ips Fhd score=8 updates=['recommendation_score']
+  Notebook Lenovo Yoga Slim Ryzen 7 8gb 14 512gb Ssd score=8 updates=['recommendation_score']
+  MacBook Air M4 13" 16GB/512GB                      score=10 updates=['recommendation_score']
+  MacBook Air M2 15" 8GB/256GB                       score=9 updates=['recommendation_score']
+  MacBook Air 15" M3 8GB/512GB                       score=8 updates=['recommendation_score']
+  MacBook Air M2 13" 8GB/256GB (Reacondicionada por  score=7 updates=[]
+  Notebook Dell Inspiron 3535 Amd Ryzen 5 7520u Full score=8 updates=['recommendation_score']
+  Apple MacBook Neo 13" A18 Pro 8GB/512GB Índigo     score=3 updates=['recommendation_score', 'influencer_note']
+  MacBook Air M4 13.6" 16GB/256GB Celeste            score=10 updates=['recommendation_score']
+  MacBook Air M5 16GB/512GB                          score=8 updates=['recommendation_score']
+  MacBook Pro M5 14" 16GB/1TB Negro Espacial         score=8 updates=['recommendation_score']
+  Apple MacBook Neo 13" A18 Pro 8GB/256GB            score=6 updates=['recommendation_score']
+  Notebook Exo G12x-585 Intel Core I5 12va 8gb Ssd 4 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook HP 255 G10 Ryzen 7 7730U | 16GB RAM | 512 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp 255r G10 Amd Ryzen 7 7735u 16gb Ram 51 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast N-758r AMD Ryzen 7 5825u 16 GB RAM  score=7 updates=['influencer_note']
+  Notebook Gfast Intel Celeron N4020 4gb Ssd 120gb W score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Ideapad Slim 3 15ARP10 AMD Ryzen 7 score=8 updates=['recommendation_score']
+  Notebook Gfast N-536r AMD Ryzen 5 3500U 16GB RAM D score=7 updates=['influencer_note']
+  Notebook Lenovo V15 G4 Amn Amd Ryzen 3 7320u 16gb  score=7 updates=['influencer_note']
+  Notebook Lenovo Ideapad 1 15ijl7 Intel Celeron N45 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo V15 G4 Amd Ryzen 3 7320u 16gb De R score=7 updates=['influencer_note']
+  Notebook HP 255 G10 AMD Ryzen 3 7330U 8GB 512GB SS score=7 updates=['influencer_note']
+  Notebook Hp 255 G10 Amd Ryzen 3 7330u 16 Gb Ddr4 5 score=7 updates=['influencer_note']
+  Notebook Hp 255 G10 Amd Ryzen 3 7330u 16 Gb Ddr4 1 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp 255 G10 Amd Ryzen 3 7330u 32 Gb Ddr4 5 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Ideapad 1 15ijl7 Intel Celeron N45 score=7 updates=['influencer_note']
+  Notebook Lenovo Ideapad 1 15ijl7 Intel Celeron N45 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast N-536r AMD Ryzen 5 3500U 8GB RAM DD score=7 updates=['influencer_note']
+  Notebook Lenovo Ideapad 15amn8, Amd Ryzen 5 7520u, score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast N-321r AMD Ryzen 3 3200u 16GB RAM D score=7 updates=['influencer_note']
+  Notebook Lenovo Loq 15irx10 Intel Core I7-13650hx  score=9 updates=['influencer_note']
+  Notebook Lenovo Ideapad Slim 3 15ARP10 AMD Ryzen 7 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp 250r G9 Intel Core I5-1335u 8 Gb Ddr4- score=7 updates=['influencer_note']
+  Noteboook Lenovo Ideapad Slim 3 Ryzen 5 15.6 16gb  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast N-321r AMD Ryzen 3 3200u 8GB RAM DD score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Dell Inspiron 14 5440 Intel Core I5-1334u score=8 updates=[]
+  Notebook Hp 255 G10 Amd Ryzen 3-7330u 16 Gb Ddr4 S score=8 updates=['recommendation_score']
+  Notebook Lenovo Loq 15irx10 Intel Core I7-13650hx  score=9 updates=['influencer_note']
+  Notebook Lenovo Loq 15ahp10 AMD Ryzen 7 250 64 GB  score=10 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Loq 15ahp10 AMD Ryzen 7 250 64 GB  score=9 updates=['influencer_note']
+  Notebook Lenovo Loq 15ahp10 AMD Ryzen 7 250 64 GB  score=10 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Loq 15ahp10 AMD Ryzen 7 250 64 GB  score=9 updates=['influencer_note']
+  HP Omnibook Amd Ryzen Ia 7 350 16 GB De Ram 512 GB score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Asus Vivobook 14 Intel Core I3 1215u 16gb score=7 updates=['influencer_note']
+  Notebook Gamer Lenovo Loq 15 15ahp10 Amd Ryzen 7 2 score=10 updates=['recommendation_score']
+  Notebook Dell Inspiron 14 5441 Snapdragon X Plus 1 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Ideapad 5 16 Pulgadas 2 En 1 Ryzen score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Hp 15-fc0047wm 15,6' Fhd Touch 512gb / 16 score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Laptop Hp Omnibook 5 16 2k Amd Ryzen Ai 7 score=7 updates=['recommendation_score', 'influencer_note']
+  Ordenador portátil Asus Vivobook 16 M1607ka Ryzen  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Lenovo Loq 15ahp10 Ryzen 7 250 32gb 512gb score=9 updates=['influencer_note']
+  Laptop Gamer Hp Omen 16 2k Ultra 7-255h 16 Ram 1 T score=9 updates=['influencer_note']
+  Notebook Asus Vivobook S Ultra9 285h 32gb 1tb Oled score=7 updates=['recommendation_score', 'influencer_note']
+  Computador Portatil Gamer Lenovo Loq 15ahp10 Gris, score=9 updates=['influencer_note']
+  Notebook Asus Vivobook 14 Intel Core I3 1215u, 8gb score=7 updates=['influencer_note']
+  Notebook Gamer Ryzen 9 8940hx Rtx 5060 1tb Ssd 32g score=9 updates=['influencer_note']
+  Notebook Exo Smart T38 Intel N4020 4gb Ssd128gb Wi score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Onn-s3185 Intel I3 12va Ram 8gb Ssd 512gb score=7 updates=['influencer_note']
+  Notebook EXO MCF T2-37 T2-37 Gris 14" 1366 px x 76 score=7 updates=['recommendation_score', 'influencer_note']
+  Netbook Exolite L1 Intel Celeron N4020 8gb Ssd 480 score=8 updates=['recommendation_score']
+  Notebook Gfast 13,5 128gb 4gb N-130                score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast Chicago1.1 Intel Celeron 4gb 128gb  score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast Berlin Intel N4020 4gb 128gb Ssd Wi score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast Paris Intel Core Ultra 5 16gb 480gb score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast Roma 7.1 Amd Ryzen7 480gb Ssd 8gb R score=7 updates=['influencer_note']
+  Notebook Gfast N-152 Intel Celeron 128gb Ssd 4gb R score=7 updates=['recommendation_score', 'influencer_note']
+  Notebook Gfast N-552 Core I5 480gb Sdd 8gb Ram 15. score=7 updates=['influencer_note']
+  Notebook Gfast Roma 3.1 Amd Ryzen 3 8gb 240gb Ssd  score=7 updates=['influencer_note']
+  Acer Predator Phn16s Ultra 9 275hx 16gb 1tb Rtx 50 score=10 updates=[]
+  Laptop Acer Predator Triton 14: I7, 16gb, Rtx 4050 score=10 updates=['recommendation_score']
+  Notebook Asus Zenbook 14 Oled Amd Ryzen 7 8840hs 1 score=8 updates=[]
+  Notebook Asus Zenbook A14 Snapdragon X X1 26 100 1 score=8 updates=[]
+  Notebook Huawei Matebook D16 Core I5 16gb Ram 512g score=8 updates=[]
+  Notebook Huawei Matebook D14 Core I5 8gb Ram 512gb score=8 updates=['recommendation_score']
+  Notebook Lenovo Ideapad 1 14IJL7 Intel Celeron N45 score=8 updates=['recommendation_score']
+  MacBook Pro M2 Pro 16" 16GB/512GB                  score=9 updates=[]
+  Mac mini M4 16GB/256GB                             score=10 updates=['recommendation_score']
+  MacBook Pro M4 Pro 14" 24GB/1TB                    score=10 updates=[]
+  Apple MacBook Air M4 13" 16GB/256GB Azul Medianoch score=10 updates=['recommendation_score']
+  Notebook Hp 255 G10 Amd Ryzen 5 7530u 16 Gb Ddr4-s score=8 updates=[]
+  Notebook Gamer Acer Nitro V16 Amd Ryzen 5 240 16gb score=10 updates=['recommendation_score']
+  Msi Cyborg Laptop Intel I7 144hz Rtx 5060 16gb 512 score=10 updates=['recommendation_score']
+  Notebook Gamer Acer Predator Helios Neo 16s Ai Ole score=10 updates=['recommendation_score']
+  Portatil Gamer Acer Nitro V15 I5 13420h 16gb Rtx 5 score=10 updates=['recommendation_score']
+  Apple MacBook Air 13-inch Silver 13" Apple M3 8GB  score=10 updates=['recommendation_score']
+  Apple MacBook Air 13-inch Starlight 13" Apple M3 8 score=10 updates=['recommendation_score']
+  -> scored 150 laptops, generated 170 influencer notes
+
+== STAGE 2: Select 5 laptops per profile ==
+  fetched 36 profiles
+
+  [creacion_desarrollo + macos]  (6 profiles)
+    El Indie Dev Movil                            -> 5 laptops
+    El Editor Profesional                         -> 5 laptops
+    El Disenador Novato Fijo                      -> 5 laptops
+
+  [creacion_desarrollo + windows]  (6 profiles)
+    El Desarrollador Viajero                      -> 5 laptops
+    El Disenador Ambulante                        -> 5 laptops
+    El Game Dev Indie                             -> 5 laptops
+
+  [gaming_rendimiento + macos]  (6 profiles)
+    El Indie Gamer Mac                            -> 5 laptops
+    El Gamer Apple de Base                        -> 5 laptops
+    El Mac Gamer Dedicado                         -> 5 laptops
+
+  [gaming_rendimiento + windows]  (6 profiles)
+    El Pro Gamer en Gira                          -> 5 laptops
+    El Gamer Hardcore                             -> 5 laptops
+    El Gamer Casual Hogareno                      -> 5 laptops
+
+  [productividad_estudio + macos]  (6 profiles)
+    El Freelancer de Cafe                         -> 5 laptops
+    El Emprendedor Ligero                         -> 5 laptops
+    El Fanatico Apple Fijo                        -> 5 laptops
+
+  [productividad_estudio + windows]  (6 profiles)
+    El Estudiante de Base                         -> 5 laptops
+    El Teletrabajador Estable                     -> 5 laptops
+    El Estudiante Viajero                         -> 5 laptops
+
+  Gaps:
+  GAMING-MAC GAP: El Indie Gamer Mac — Macs have no dedicated GPU; assigned best macOS by score.
+  GAMING-MAC GAP: El Gamer Apple de Base — Macs have no dedicated GPU; assigned best macOS by score.
+  GAMING-MAC GAP: El Mac Gamer Dedicado — Macs have no dedicated GPU; assigned best macOS by score.
+  GAMING-MAC GAP: El Studio Gamer — Macs have no dedicated GPU; assigned best macOS by score.
+  GAMING-MAC GAP: El Gamer Casual Apple — Macs have no dedicated GPU; assigned best macOS by score.
+  GAMING-MAC GAP: El Gamer Ecosystem Apple — Macs have no dedicated GPU; assigned best macOS by score.
+
+== STAGE 3: PATCH profiles.laptop_ids ==
+  [dry-run] would PATCH 36 profiles (use --apply to write)
+
+36 profiles processed.
