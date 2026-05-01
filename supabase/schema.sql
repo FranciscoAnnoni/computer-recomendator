@@ -27,6 +27,9 @@ CREATE TABLE IF NOT EXISTS laptops (
   affiliate_link TEXT DEFAULT '',
   image_url TEXT DEFAULT '',
 
+  -- Catalog refresh (migration 06)
+  catalog_product_id TEXT,
+
   -- Timestamps
   created_at TIMESTAMPTZ DEFAULT NOW(),
   updated_at TIMESTAMPTZ DEFAULT NOW()
@@ -40,6 +43,11 @@ CREATE INDEX IF NOT EXISTS idx_laptops_brand ON laptops (brand);
 
 -- Index for price range queries
 CREATE INDEX IF NOT EXISTS idx_laptops_price ON laptops (price);
+
+-- Partial unique index for catalog_product_id (excludes NULLs so manually-inserted rows don't collide)
+CREATE UNIQUE INDEX IF NOT EXISTS laptops_catalog_product_id_unique
+  ON laptops (catalog_product_id)
+  WHERE catalog_product_id IS NOT NULL;
 
 -- Trigger to auto-update updated_at
 CREATE OR REPLACE FUNCTION update_updated_at()
