@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import { DetailOverlay } from "@/components/catalog/detail-overlay";
@@ -94,6 +95,7 @@ function ErrorState({ message, onRetry }: { message: string; onRetry: () => void
 export function CatalogClient() {
   const router = useRouter();
 
+  const [mounted, setMounted] = useState(false);
   const [laptops, setLaptops] = useState<Laptop[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -125,6 +127,8 @@ export function CatalogClient() {
       setLoading(false);
     }
   }, []);
+
+  useEffect(() => { setMounted(true); }, []);
 
   useEffect(() => {
     loadLaptops();
@@ -357,28 +361,30 @@ export function CatalogClient() {
         <section
           className="rise mb-12"
           style={{
-            display: 'flex', alignItems: 'center', gap: '1.5rem',
-            padding: '1.5rem',
+            display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.75rem',
+            padding: '1.25rem 1.5rem',
             borderRadius: '1.25rem',
-            background: 'rgba(25,27,35,0.5)',
-            boxShadow: 'inset 0 0 0 1px rgba(138,180,255,0.12)',
+            background: 'var(--ed-profile-card-bg)',
+            boxShadow: 'inset 0 0 0 1px var(--ed-profile-card-border), var(--ed-shadow-card)',
             position: 'relative', overflow: 'hidden',
           }}
         >
-          <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 0% 50%, rgba(138,180,255,0.08), transparent 60%)', pointerEvents: 'none' }} />
-          <div style={{ flex: 1 }}>
+          <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 0% 50%, var(--ed-profile-glow), transparent 60%)', pointerEvents: 'none' }} />
+          <div style={{ flex: '1 1 140px', minWidth: 0 }}>
             <div className="label-ed-sm" style={{ marginBottom: 4 }}>Tu perfil</div>
-            <div className="title-md">{completedProfile.profile_name}</div>
+            <div className="title-md" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{completedProfile.profile_name}</div>
           </div>
-          <button
-            className="btn-ed btn-ed-sm btn-primary-ed"
-            onClick={() => { setProfileFilter(true); setPage(1); }}
-          >
-            Ver laptops del perfil
-          </button>
-          <button className="btn-ed btn-ed-sm btn-ghost-ed" onClick={handleRehacer}>
-            Rehacer quiz
-          </button>
+          <div style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
+            <button
+              className="btn-ed btn-ed-sm btn-primary-ed"
+              onClick={() => { setProfileFilter(true); setPage(1); }}
+            >
+              Ver laptops del perfil
+            </button>
+            <button className="btn-ed btn-ed-sm btn-ghost-ed" onClick={handleRehacer}>
+              Rehacer
+            </button>
+          </div>
         </section>
       )}
 
@@ -403,7 +409,7 @@ export function CatalogClient() {
             aria-label="Buscar laptops"
           />
         </div>
-        <button className="btn-ed btn-ed-md btn-ghost-ed" onClick={() => setFilterDrawerOpen(true)}>
+        <button className="btn-ed btn-ed-sm sm:btn-ed-md btn-ghost-ed shrink-0" onClick={() => setFilterDrawerOpen(true)}>
           <Filter className="size-4" /> Filtrar
         </button>
       </div>
@@ -474,20 +480,23 @@ export function CatalogClient() {
       />
 
       {/* Detail overlay — slides up with Framer Motion */}
-      <AnimatePresence>
-        {activeLaptop && (
-          <motion.div
-            key={activeLaptop.id}
-            initial={{ y: "100%" }}
-            animate={{ y: 0 }}
-            exit={{ y: "100%" }}
-            transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] }}
-            className="fixed inset-0 z-50 bg-background/90 backdrop-blur-2xl"
-          >
-            <DetailOverlay laptop={activeLaptop} onClose={handleCloseOverlay} />
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {mounted && createPortal(
+        <AnimatePresence>
+          {activeLaptop && (
+            <motion.div
+              key={activeLaptop.id}
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              exit={{ y: "100%" }}
+              transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] }}
+              className="fixed inset-0 z-[200] bg-background/90 backdrop-blur-2xl"
+            >
+              <DetailOverlay laptop={activeLaptop} onClose={handleCloseOverlay} />
+            </motion.div>
+          )}
+        </AnimatePresence>,
+        document.body
+      )}
     </Container>
     </main>
   );

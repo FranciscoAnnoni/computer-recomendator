@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Container>
-      <section className="flex flex-col items-center justify-center text-center py-20 min-h-[calc(100vh-4rem)]">
+      <section className="flex flex-col items-center justify-center text-center py-20 min-h-[calc(100dvh-68px)]">
         <HeroSection />
       </section>
     </Container>

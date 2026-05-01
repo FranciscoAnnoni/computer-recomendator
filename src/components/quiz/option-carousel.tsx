@@ -128,22 +128,20 @@ export function OptionCarousel({ options, selectedValue, onSelect, onNext }: Opt
             type="button"
             aria-label="Opcion anterior"
             onClick={handleArrowLeft}
-            className={`w-11 h-11 flex items-center justify-center rounded-full bg-background border border-border focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none ${
-              isLeftDisabled ? "opacity-30 pointer-events-none" : ""
-            }`}
+            className="icon-btn-ed"
+            style={{ opacity: isLeftDisabled ? 0.3 : 1, pointerEvents: isLeftDisabled ? 'none' : 'auto' }}
           >
             <ChevronLeft className="size-5" />
           </button>
-          <span className="text-xs text-muted-foreground">
+          <span className="label-ed-sm" style={{ color: 'var(--on-sur-muted)' }}>
             {centerIndex + 1} / {options.length}
           </span>
           <button
             type="button"
             aria-label="Opcion siguiente"
             onClick={handleArrowRight}
-            className={`w-11 h-11 flex items-center justify-center rounded-full bg-background border border-border focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none ${
-              isRightDisabled ? "opacity-30 pointer-events-none" : ""
-            }`}
+            className="icon-btn-ed"
+            style={{ opacity: isRightDisabled ? 0.3 : 1, pointerEvents: isRightDisabled ? 'none' : 'auto' }}
           >
             <ChevronRight className="size-5" />
           </button>
@@ -160,9 +158,8 @@ export function OptionCarousel({ options, selectedValue, onSelect, onNext }: Opt
         type="button"
         aria-label="Opcion anterior"
         onClick={handleArrowLeft}
-        className={`absolute left-0 z-10 w-11 h-11 flex items-center justify-center rounded-full bg-background border border-border focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none ${
-          isLeftDisabled ? "opacity-30 pointer-events-none" : ""
-        }`}
+        className="absolute left-0 z-10 icon-btn-ed"
+        style={{ opacity: isLeftDisabled ? 0.3 : 1, pointerEvents: isLeftDisabled ? 'none' : 'auto' }}
       >
         <ChevronLeft className="size-5" />
       </button>
@@ -205,9 +202,8 @@ export function OptionCarousel({ options, selectedValue, onSelect, onNext }: Opt
         type="button"
         aria-label="Opcion siguiente"
         onClick={handleArrowRight}
-        className={`absolute right-0 z-10 w-11 h-11 flex items-center justify-center rounded-full bg-background border border-border focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none ${
-          isRightDisabled ? "opacity-30 pointer-events-none" : ""
-        }`}
+        className="absolute right-0 z-10 icon-btn-ed"
+        style={{ opacity: isRightDisabled ? 0.3 : 1, pointerEvents: isRightDisabled ? 'none' : 'auto' }}
       >
         <ChevronRight className="size-5" />
       </button>

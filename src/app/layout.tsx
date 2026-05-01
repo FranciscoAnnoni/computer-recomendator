@@ -53,10 +53,10 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${roboto.variable} ${manrope.variable} ${inter.variable} h-full antialiased`}
+      className={`${roboto.variable} ${manrope.variable} ${inter.variable} antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+      <body className="min-h-dvh flex flex-col" suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -65,7 +65,7 @@ export default function RootLayout({
         >
           <NeuralFog />
           <Navbar />
-          <main className="relative z-[2] min-h-screen">{children}</main>
+          <main className="relative z-[2] flex-1">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

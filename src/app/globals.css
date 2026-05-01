@@ -140,11 +140,12 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
   html {
     @apply font-sans;
+  }
+  body {
+    @apply bg-background text-foreground;
+    overflow-x: clip;
   }
 }
 
@@ -215,7 +216,81 @@
    Premium Editorial Framework — design tokens & utilities
 ═══════════════════════════════════════════════════════════════════ */
 
+/* ── Light mode editorial tokens (default) ──────────────────────── */
 :root {
+  --surface:                  #ffffff;
+  --surface-container-lowest: #f7f8fa;
+  --surface-container-low:    #f1f3f6;
+  --surface-container:        #f7f8fa;
+  --surface-container-high:   #e9ecf1;
+  --surface-container-highest:#e1e4ea;
+  --surface-bright:           #ffffff;
+
+  --pr:              #2f6bff;
+  --pr-bright:       #4d8eff;
+  --pr-container:    #1e4fd9;
+  --pr-fixed-dim:    #2f6bff;
+  --on-pr-fixed:     #ffffff;
+
+  --sec:             #0d8c84;
+  --sec-container:   #c8f0ee;
+
+  --on-sur:          #1a1b1f;
+  --on-sur-var:      #54575f;
+  --on-sur-muted:    #888b94;
+
+  --outline-ed:      #e9ecf1;
+
+  --shadow-ambient:  0 2px 8px rgba(20,22,35,0.04);
+  --shadow-card:     0 2px 8px rgba(20,22,35,0.04);
+  --glow-primary:    0 4px 24px rgba(47,107,255,0.35);
+
+  --font-display-ed: var(--font-manrope), 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-body-ed:    var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --ease-editorial:  cubic-bezier(0.22, 1, 0.36, 1);
+
+  --fog-opacity: 0.06;
+
+  /* Surface-aware component tokens */
+  --ed-surface-glass:        rgba(247,248,250,0.9);
+  --ed-surface-card:         #ffffff;
+  --ed-surface-row:          #ffffff;
+  --ed-surface-row-hover:    #f7f8fa;
+  --ed-border-card:          rgba(26,27,31,0.06);
+  --ed-border-hover:         rgba(47,107,255,0.30);
+  --ed-shadow-card:          0 2px 8px rgba(20,22,35,0.04);
+  --ed-shadow-hover:         0 12px 32px rgba(20,22,35,0.08);
+  --ed-ghost-bg:             rgba(26,27,31,0.02);
+  --ed-ghost-border:         rgba(26,27,31,0.10);
+  --ed-ghost-hover:          rgba(26,27,31,0.05);
+  --ed-ghost-hover-border:   rgba(26,27,31,0.14);
+  --ed-chip-bg:              rgba(26,27,31,0.04);
+  --ed-chip-hover:           rgba(26,27,31,0.08);
+  --ed-chip-active-bg:       rgba(47,107,255,0.10);
+  --ed-chip-active-color:    #1e4fd9;
+  --ed-chip-active-border:   rgba(47,107,255,0.25);
+  --ed-search-bg:            #f1f3f6;
+  --ed-search-border:        rgba(26,27,31,0.06);
+  --ed-icon-bg:              rgba(26,27,31,0.04);
+  --ed-icon-hover:           rgba(26,27,31,0.08);
+  --ed-navbar-bg:            #ffffff;
+  --ed-navbar-border:        rgba(26,27,31,0.08);
+  --ed-quiz-card-bg:         #f7f8fa;
+  --ed-quiz-card-active:     rgba(47,107,255,0.06);
+  --ed-quiz-card-shadow:     inset 0 0 0 1px rgba(26,27,31,0.06), 0 2px 8px rgba(20,22,35,0.04);
+  --ed-quiz-card-active-shadow: inset 0 0 0 1.5px rgba(47,107,255,0.30), 0 4px 24px rgba(47,107,255,0.10);
+  --ed-img-bg:               rgba(26,27,31,0.04);
+  --ed-overlay-header-bg:    rgba(255,255,255,0.95);
+  --ed-profile-card-bg:      rgba(247,248,250,0.9);
+  --ed-profile-card-border:  rgba(26,27,31,0.06);
+  --ed-progress-track:       rgba(0,0,0,0.08);
+  --ed-recommendation-bg:    rgba(47,107,255,0.04);
+  --ed-recommendation-border:rgba(47,107,255,0.12);
+  --ed-profile-glow:         rgba(47,107,255,0.08);
+}
+
+/* ── Dark mode editorial overrides ──────────────────────────────── */
+.dark {
   --surface:                  #0b0c10;
   --surface-container-lowest: #0f1117;
   --surface-container-low:    #14161d;
@@ -243,12 +318,43 @@
   --shadow-card:     0 8px 24px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.02);
   --glow-primary:    0 0 32px rgba(138,180,255,0.25), 0 0 8px rgba(138,180,255,0.4);
 
-  --font-display-ed: var(--font-manrope), 'Manrope', ui-sans-serif, system-ui, sans-serif;
-  --font-body-ed:    var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
-
-  --ease-editorial:  cubic-bezier(0.22, 1, 0.36, 1);
-
   --fog-opacity: 0.22;
+
+  --ed-surface-glass:        rgba(30,34,50,0.80);
+  --ed-surface-card:         #1c2035;
+  --ed-surface-row:          rgba(28,32,48,0.80);
+  --ed-surface-row-hover:    rgba(34,38,56,0.95);
+  --ed-border-card:          rgba(255,255,255,0.10);
+  --ed-border-hover:         rgba(138,180,255,0.35);
+  --ed-shadow-card:          0 4px 16px rgba(0,0,0,0.50);
+  --ed-shadow-hover:         0 12px 40px rgba(0,0,0,0.55);
+  --ed-ghost-bg:             rgba(255,255,255,0.05);
+  --ed-ghost-border:         rgba(255,255,255,0.12);
+  --ed-ghost-hover:          rgba(255,255,255,0.09);
+  --ed-ghost-hover-border:   rgba(255,255,255,0.20);
+  --ed-chip-bg:              rgba(255,255,255,0.07);
+  --ed-chip-hover:           rgba(255,255,255,0.12);
+  --ed-chip-active-bg:       rgba(138,180,255,0.16);
+  --ed-chip-active-color:    var(--pr-bright);
+  --ed-chip-active-border:   rgba(138,180,255,0.30);
+  --ed-search-bg:            rgba(28,32,48,0.80);
+  --ed-search-border:        rgba(255,255,255,0.10);
+  --ed-icon-bg:              rgba(255,255,255,0.07);
+  --ed-icon-hover:           rgba(255,255,255,0.12);
+  --ed-navbar-bg:            rgb(14,16,22);
+  --ed-navbar-border:        rgba(255,255,255,0.08);
+  --ed-quiz-card-bg:         #1c2035;
+  --ed-quiz-card-active:     rgba(138,180,255,0.12);
+  --ed-quiz-card-shadow:     inset 0 0 0 1px rgba(255,255,255,0.12);
+  --ed-quiz-card-active-shadow: inset 0 0 0 1.5px rgba(138,180,255,0.5), 0 0 40px rgba(138,180,255,0.2);
+  --ed-img-bg:               rgba(255,255,255,0.05);
+  --ed-overlay-header-bg:    rgba(20,22,29,0.95);
+  --ed-profile-card-bg:      rgba(25,27,35,0.55);
+  --ed-profile-card-border:  rgba(138,180,255,0.12);
+  --ed-progress-track:       rgba(255,255,255,0.08);
+  --ed-recommendation-bg:    rgba(138,180,255,0.04);
+  --ed-recommendation-border:rgba(138,180,255,0.12);
+  --ed-profile-glow:         rgba(138,180,255,0.08);
 }
 
 /* ── Neural fog ─────────────────────────────────────────────────── */
@@ -261,7 +367,9 @@
   filter: blur(80px); mix-blend-mode: screen;
   opacity: var(--fog-opacity);
   animation: fog-float 60s linear infinite;
-  will-change: transform;
+}
+@media (max-width: 768px) {
+  .fog-root, .grain { display: none; }
 }
 .fog-blob.b1 {
   width: 720px; height: 720px;
@@ -355,37 +463,37 @@
 
 /* ── Glass card ─────────────────────────────────────────────────── */
 .glass {
-  background: rgba(25,27,35,0.55);
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), var(--shadow-ambient);
+  background: var(--ed-surface-glass);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: inset 0 0 0 1px var(--ed-border-card), var(--shadow-ambient);
   border-radius: 1.25rem;
 }
 
-/* ── Editorial card (dark, no border) ──────────────────────────── */
+/* ── Editorial card ─────────────────────────────────────────────── */
 .ed-card {
   position: relative;
-  background: rgba(15,17,23,0.7);
+  background: var(--ed-surface-card);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 1.25rem;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04);
+  box-shadow: inset 0 0 0 1px var(--ed-border-card);
   transition: box-shadow 0.35s var(--ease-editorial);
   overflow: hidden;
 }
 .ed-card:hover {
-  box-shadow: inset 0 0 0 1px rgba(138,180,255,0.3), 0 12px 40px rgba(0,0,0,0.4);
+  box-shadow: inset 0 0 0 1px var(--ed-border-hover), var(--ed-shadow-hover);
 }
 .ed-card-row {
   position: relative;
-  background: rgba(15,17,23,0.5);
+  background: var(--ed-surface-row);
   border-radius: 0.75rem;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.03);
+  box-shadow: inset 0 0 0 1px var(--ed-border-card);
   transition: background 0.2s, box-shadow 0.2s;
 }
 .ed-card-row:hover {
-  background: rgba(25,27,35,0.7);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1);
+  background: var(--ed-surface-row-hover);
+  box-shadow: inset 0 0 0 1px var(--ed-border-hover), var(--ed-shadow-hover);
 }
 
 /* ── Pill buttons ───────────────────────────────────────────────── */
@@ -415,28 +523,28 @@
   box-shadow: 0 0 0 1px rgba(173,198,255,0.5), 0 8px 32px rgba(77,142,255,0.5);
 }
 .btn-ghost-ed {
-  background: rgba(255,255,255,0.02);
+  background: var(--ed-ghost-bg);
   color: var(--on-sur);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08);
+  box-shadow: inset 0 0 0 1px var(--ed-ghost-border);
 }
-.btn-ghost-ed:hover { background: rgba(255,255,255,0.06); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.16); }
+.btn-ghost-ed:hover { background: var(--ed-ghost-hover); box-shadow: inset 0 0 0 1px var(--ed-ghost-hover-border); }
 
 /* ── Chip ───────────────────────────────────────────────────────── */
 .chip-ed {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 6px 12px; border-radius: 9999px;
   font-size: 0.8125rem; font-weight: 500;
-  background: rgba(255,255,255,0.04);
+  background: var(--ed-chip-bg);
   color: var(--on-sur-var);
   cursor: pointer;
   transition: all 0.2s;
   border: 0;
 }
-.chip-ed:hover { background: rgba(255,255,255,0.08); color: var(--on-sur); }
+.chip-ed:hover { background: var(--ed-chip-hover); color: var(--on-sur); }
 .chip-ed.active {
-  background: rgba(138,180,255,0.14);
-  color: var(--pr-bright);
-  box-shadow: inset 0 0 0 1px rgba(138,180,255,0.25);
+  background: var(--ed-chip-active-bg);
+  color: var(--ed-chip-active-color);
+  box-shadow: inset 0 0 0 1px var(--ed-chip-active-border);
 }
 
 /* ── Spec pill ──────────────────────────────────────────────────── */
@@ -444,7 +552,7 @@
   display: inline-flex; align-items: center; gap: 6px;
   padding: 4px 10px; border-radius: 9999px;
   font-size: 0.75rem; color: var(--on-sur-var);
-  background: rgba(255,255,255,0.04);
+  background: var(--ed-chip-bg);
   letter-spacing: 0.02em;
 }
 
@@ -468,9 +576,8 @@
 /* ── Navbar editorial ───────────────────────────────────────────── */
 .navbar-ed {
   position: sticky; top: 0; z-index: 40;
-  backdrop-filter: blur(20px) saturate(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  background: rgba(11,12,16,0.55);
+  background: var(--ed-navbar-bg);
+  border-bottom: 1px solid var(--ed-navbar-border);
 }
 .brand-dot-ed {
   width: 32px; height: 32px; border-radius: 50%;
@@ -497,19 +604,19 @@
 .icon-btn-ed {
   width: 36px; height: 36px; border-radius: 50%;
   display: inline-grid; place-items: center;
-  background: rgba(255,255,255,0.03);
+  background: var(--ed-icon-bg);
   color: var(--on-sur-var);
   transition: all 0.2s; cursor: pointer; border: 0;
 }
-.icon-btn-ed:hover { background: rgba(255,255,255,0.08); color: var(--on-sur); }
+.icon-btn-ed:hover { background: var(--ed-icon-hover); color: var(--on-sur); }
 
 /* ── Search bar editorial ───────────────────────────────────────── */
 .search-bar-ed {
   display: flex; align-items: center; gap: 0.75rem;
   padding: 0 1.25rem; height: 48px;
-  background: rgba(25,27,35,0.5);
+  background: var(--ed-search-bg);
   border-radius: 9999px;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04);
+  box-shadow: inset 0 0 0 1px var(--ed-search-border);
 }
 .search-bar-ed input {
   flex: 1; background: transparent; border: 0; outline: 0;
@@ -527,4 +634,16 @@
 /* ── Quiz page layout ───────────────────────────────────────────── */
 @media (max-width: 640px) {
   .quiz-grid { grid-template-columns: 1fr !important; }
+}
+
+/* ── Dark mode — restore original glass effects ─────────────────── */
+.dark .navbar-ed {
+  background: rgba(11,12,16,0.55);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.dark .ed-card-row:hover {
+  background: rgba(25,27,35,0.7);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1);
 }

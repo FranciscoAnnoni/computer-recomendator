@@ -56,42 +56,49 @@ export function DetailOverlay({ laptop, onClose }: DetailOverlayProps) {
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
-      {/* Sticky header */}
+      {/* Header */}
       <div style={{
         flexShrink: 0,
-        position: 'sticky', top: 0, zIndex: 2,
-        padding: '0.75rem 1.5rem',
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        background: 'rgba(20,22,29,0.9)',
+        position: 'relative', zIndex: 20,
+        padding: '0.625rem 1rem',
+        display: 'flex', alignItems: 'center', gap: '0.75rem',
+        background: 'var(--ed-overlay-header-bg)',
         backdropFilter: 'blur(20px)',
         WebkitBackdropFilter: 'blur(20px)',
-        borderBottom: '1px solid rgba(255,255,255,0.04)',
+        borderBottom: '1px solid var(--ed-navbar-border)',
       }}>
-        <div style={{ width: 32, height: 3, background: 'rgba(255,255,255,0.2)', borderRadius: 2 }} />
+        {/* X button — top left */}
         <button
-          onClick={onClose}
+          type="button"
+          onClick={(e) => { e.stopPropagation(); onClose(); }}
           aria-label="Cerrar"
           className="icon-btn-ed"
         >
           <X className="size-4" />
         </button>
+        {/* Drag pill — centered */}
+        <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+          <div style={{ width: 36, height: 3, background: 'rgba(128,128,128,0.3)', borderRadius: 2 }} />
+        </div>
+        {/* Spacer to balance the X button */}
+        <div style={{ width: 36, height: 36 }} />
       </div>
 
       {/* Scrollable content */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto">
-        <div style={{ padding: '2rem 3rem 4rem', maxWidth: 960, margin: '0 auto' }}>
+        <div className="px-4 sm:px-10 md:px-12 pt-6 sm:pt-8 pb-16" style={{ maxWidth: 960, margin: '0 auto' }}>
 
           {/* Hero: image + info */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', marginBottom: '3rem' }}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}
             className="sm-stack">
             {/* Image column */}
             <div>
               <div style={{
                 aspectRatio: '4/3', borderRadius: '1.25rem',
-                background: 'rgba(25,27,35,0.6)',
+                background: 'var(--ed-quiz-card-bg)',
                 position: 'relative', overflow: 'hidden',
                 display: 'grid', placeItems: 'center',
-                boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.04)',
+                boxShadow: 'inset 0 0 0 1px var(--ed-border-card)',
               }}>
                 {allImages.length > 0 ? (
                   <img src={allImages[selectedImg]} alt={laptop.name} className="w-full h-full object-cover" />
@@ -147,19 +154,19 @@ export function DetailOverlay({ laptop, onClose }: DetailOverlayProps) {
                 </div>
               </div>
 
-              <div style={{ display: 'flex', gap: 12 }}>
+              <div className="flex gap-2 sm:gap-3">
                 <a
                   href={laptop.affiliate_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-ed btn-ed-lg btn-primary-ed"
+                  className="btn-ed btn-ed-sm sm:btn-ed-md btn-primary-ed"
                   style={{ flex: 1, textDecoration: 'none', textAlign: 'center' }}
                 >
-                  Comprar Ahora →
+                  Comprar →
                 </a>
                 <button
                   onClick={() => router.push(`/compare?laptop=${laptop.id}`)}
-                  className="btn-ed btn-ed-lg btn-ghost-ed"
+                  className="btn-ed btn-ed-sm sm:btn-ed-md btn-ghost-ed shrink-0"
                 >
                   Comparar
                 </button>
@@ -191,8 +198,8 @@ export function DetailOverlay({ laptop, onClose }: DetailOverlayProps) {
             <div style={{
               padding: '1.5rem',
               borderRadius: '1rem',
-              background: 'rgba(138,180,255,0.04)',
-              boxShadow: 'inset 0 0 0 1px rgba(138,180,255,0.12)',
+              background: 'var(--ed-recommendation-bg)',
+              boxShadow: 'inset 0 0 0 1px var(--ed-recommendation-border)',
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: '0.75rem' }}>
                 <span style={{ fontSize: 12 }}>✦</span>
