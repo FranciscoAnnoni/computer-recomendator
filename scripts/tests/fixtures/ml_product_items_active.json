@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "item_id": "MLA1234567890",
+      "price": 1899999,
+      "listing_type_id": "gold_pro",
+      "international_delivery_mode": "none",
+      "seller_id": 99999
+    },
+    {
+      "item_id": "MLA1234567891",
+      "price": 1999999,
+      "listing_type_id": "gold_special",
+      "international_delivery_mode": "none",
+      "seller_id": 88888
+    }
+  ]
+}

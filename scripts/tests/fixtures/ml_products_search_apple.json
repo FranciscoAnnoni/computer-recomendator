@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "id": "MLA37740033",
+      "name": "Apple MacBook Air M3 13.6\" 8GB 256GB",
+      "attributes": [
+        {"id": "BRAND", "value_name": "Apple"},
+        {"id": "PROCESSOR_MODEL", "value_name": "Apple M3"},
+        {"id": "RAM", "value_name": "8 GB"},
+        {"id": "INTERNAL_MEMORY", "value_name": "256 GB"},
+        {"id": "OPERATING_SYSTEM", "value_name": "macOS"},
+        {"id": "DISPLAY_SIZE", "value_name": "13.6 \""}
+      ],
+      "pictures": [
+        {"url": "https://http2.mlstatic.com/D_NQ_NP_test-I.jpg"}
+      ]
+    }
+  ],
+  "paging": {"total": 1, "offset": 0, "limit": 50}
+}
