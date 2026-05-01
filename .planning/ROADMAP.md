@@ -56,7 +56,7 @@
 - [ ] **Phase 9: Feedback Modal** — Users can submit feedback directly from the Navbar
 - [ ] **Phase 10: Profile Avatars** — Each of the 81 quiz profiles displays a unique pixel-art avatar
 - [ ] **Phase 11: Mobile UX** — All pages are fully usable on a 375px mobile viewport
-- [ ] **Phase 12: Catalog Refresh** — Single-command annual refresh of MercadoLibre catalog with stale-seller detection and affiliate link auto-generation
+- [x] **Phase 12: Catalog Refresh** — Single-command annual refresh of MercadoLibre catalog with stale-seller detection and affiliate link auto-generation (completed 2026-05-01)
 
 ---
 
@@ -156,9 +156,9 @@
 4. Existing rows whose ML catalog products no longer have a quality local listing have `availability_warning=true`; none are deleted.
 5. New laptops in the catalog appear in the DB with `affiliate_link` matching `https://www.mercadolibre.com.ar/p/{id}?matt_d2id={ML_AFFILIATE_D2ID}`.
 
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 - [x] 12-01-PLAN.md — DB migration adding `catalog_product_id TEXT` with partial unique index + pytest scaffold (conftest, fixtures, 4 stub tests)
-- [ ] 12-02-PLAN.md — `scripts/refresh_basics.py` (pure helpers) + `scripts/refresh_catalog.py` (single-command orchestrator with dry-run, stale flag, upsert)
+- [x] 12-02-PLAN.md — `scripts/refresh_basics.py` (pure helpers) + `scripts/refresh_catalog.py` (single-command orchestrator with dry-run, stale flag, upsert)
 
 ---
 
@@ -171,4 +171,4 @@
 | 9. Feedback Modal | 0/2 | Planned | - |
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
-| 12. Catalog Refresh | 1/2 | In Progress|  |
+| 12. Catalog Refresh | 2/2 | Complete   | 2026-05-01 |

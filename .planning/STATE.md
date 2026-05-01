@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
 status: executing
-stopped_at: Completed 12-01-PLAN.md
-last_updated: "2026-05-01T15:15:25.427Z"
+stopped_at: Completed 12-02-PLAN.md
+last_updated: "2026-05-01T15:38:16.971Z"
 last_activity: 2026-05-01
 progress:
   total_phases: 12
-  completed_phases: 7
+  completed_phases: 8
   total_plans: 27
-  completed_plans: 23
+  completed_plans: 24
 ---
 
 # State: Computer Recomendator
@@ -90,6 +90,8 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 08-01]: Profile metadata in layout.tsx only — page.tsx is Client Component, metadata exports silently ignored by Next.js
 - [Phase 12]: Partial unique index (WHERE catalog_product_id IS NOT NULL) allows NULL for manually-inserted rows without collision
 - [Phase 12]: pytest.importorskip used for stub test files — SKIPPED (not ERRORing) until scripts/refresh_catalog.py exists in Plan 02
+- [Phase 12]: Pure helpers in refresh_basics.py, orchestrator in refresh_catalog.py — tests import basics directly without triggering CLI side effects
+- [Phase 12]: upsert payload omits influencer_note and recommendation_score — merge-duplicates preserves them without explicit send
 
 ## Performance Metrics
 
@@ -116,11 +118,12 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 08-seo P02 | 2min | 3 tasks | 3 files |
 | Phase 08-seo P01 | 15min | 3 tasks | 6 files |
 | Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P01 | 8min | 2 tasks | 12 files |
+| Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P02 | 3min | 2 tasks | 5 files |
 
 ## Session
 
-- **Last session:** 2026-05-01T15:15:25.423Z
-- **Stopped at:** Completed 12-01-PLAN.md
+- **Last session:** 2026-05-01T15:38:16.967Z
+- **Stopped at:** Completed 12-02-PLAN.md
 
 ## Accumulated Context
 

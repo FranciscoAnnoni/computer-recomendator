@@ -45,10 +45,10 @@
 ### Catalog Refresh (Phase 12)
 
 - [x] **CAT-01**: A migration adds `catalog_product_id TEXT` with a partial UNIQUE index (`WHERE catalog_product_id IS NOT NULL`) to the `laptops` table, enabling idempotent upsert by ML catalog ID
-- [ ] **CAT-02**: Running `python3 scripts/refresh_catalog.py` executes the full annual catalog refresh as a single command
-- [ ] **CAT-03**: Affiliate links for new and refreshed catalog products are auto-generated as `https://www.mercadolibre.com.ar/p/{id}?matt_d2id={ML_AFFILIATE_D2ID}` (no manual paste step)
+- [x] **CAT-02**: Running `python3 scripts/refresh_catalog.py` executes the full annual catalog refresh as a single command
+- [x] **CAT-03**: Affiliate links for new and refreshed catalog products are auto-generated as `https://www.mercadolibre.com.ar/p/{id}?matt_d2id={ML_AFFILIATE_D2ID}` (no manual paste step)
 - [x] **CAT-04**: Existing rows whose ML products have no quality local listing are flagged with `availability_warning=true` (NEVER deleted); manually-curated `influencer_note` and `recommendation_score` are preserved through refresh
-- [ ] **CAT-05**: `--dry-run` flag prints planned writes (upserts + stale flags) without making any Supabase mutations
+- [x] **CAT-05**: `--dry-run` flag prints planned writes (upserts + stale flags) without making any Supabase mutations
 
 ## v2 Requirements (deferred)
 
@@ -104,10 +104,10 @@
 | MOB-03 | Phase 11 | Pending |
 | MOB-04 | Phase 11 | Pending |
 | CAT-01 | Phase 12 | Complete |
-| CAT-02 | Phase 12 | Pending |
-| CAT-03 | Phase 12 | Pending |
+| CAT-02 | Phase 12 | Complete |
+| CAT-03 | Phase 12 | Complete |
 | CAT-04 | Phase 12 | Complete |
-| CAT-05 | Phase 12 | Pending |
+| CAT-05 | Phase 12 | Complete |
 
 **Coverage:**
 - v1.1 requirements: 27 total
