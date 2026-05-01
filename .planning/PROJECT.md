@@ -42,7 +42,7 @@ A guided discovery experience through an intuitive quiz, leading to a curated ca
 
 ## Current State
 
-Phase 12 complete (2026-05-01) — Catalog refresh workflow operational: `catalog_product_id` column live in Supabase, `scripts/refresh_catalog.py` single-command orchestrator with 6-stage pipeline (scrape → enrich → stale-detect → affiliate-regen → upsert → audit), 17 tests passing.
+Phase 13 complete (2026-05-01) — Profile curation complete: `scripts/curate_profiles.py` scores all 212 live laptops, assigns 5 curated laptops per profile via OS→budget→workload→lifestyle→brand-diversity logic, PATCHes 36 Supabase profiles. All 212 laptops have `recommendation_score` (1–10) and `influencer_note`. `supabase/seed-profiles-81.sql` updated with 36 UPDATE blocks. 25 tests passing.
 
 ## Evolution
 
