@@ -56,6 +56,7 @@
 - [ ] **Phase 9: Feedback Modal** — Users can submit feedback directly from the Navbar
 - [ ] **Phase 10: Profile Avatars** — Each of the 81 quiz profiles displays a unique pixel-art avatar
 - [ ] **Phase 11: Mobile UX** — All pages are fully usable on a 375px mobile viewport
+- [ ] **Phase 12: Catalog Refresh** — Single-command annual refresh of MercadoLibre catalog with stale-seller detection and affiliate link auto-generation
 
 ---
 
@@ -141,6 +142,24 @@
 4. The catalog search input and filter controls are easy to operate one-handed on a phone.
 **Plans:** TBD
 
+### Phase 12: Catalog Refresh — MercadoLibre Scraping, Affiliate Links, and Profile Updates
+
+**Goal:** A single command (`python3 scripts/refresh_catalog.py`) performs the full annual catalog refresh: scrapes active MercadoLibre catalog products, auto-generates affiliate links via `?matt_d2id=`, detects stale sellers in existing DB rows and flags them with `availability_warning=true`, and upserts fresh data to Supabase while preserving manually-curated `influencer_note` and `recommendation_score` fields.
+**Requirements:** CAT-01, CAT-02, CAT-03, CAT-04, CAT-05
+**UI hint:** no
+**Dependencies:** none (pure backend/data work)
+
+**Success Criteria:**
+1. Running `python3 scripts/refresh_catalog.py --dry-run --brands apple` prints planned writes without hitting Supabase and exits 0.
+2. Running `python3 scripts/refresh_catalog.py` end-to-end scrapes catalog products, auto-generates affiliate links, flags stale rows, and upserts fresh data.
+3. Manually-curated `influencer_note` and `recommendation_score` values on existing rows are unchanged after a refresh.
+4. Existing rows whose ML catalog products no longer have a quality local listing have `availability_warning=true`; none are deleted.
+5. New laptops in the catalog appear in the DB with `affiliate_link` matching `https://www.mercadolibre.com.ar/p/{id}?matt_d2id={ML_AFFILIATE_D2ID}`.
+
+**Plans:** 2 plans
+- [ ] 12-01-PLAN.md — DB migration adding `catalog_product_id TEXT` with partial unique index + pytest scaffold (conftest, fixtures, 4 stub tests)
+- [ ] 12-02-PLAN.md — `scripts/refresh_basics.py` (pure helpers) + `scripts/refresh_catalog.py` (single-command orchestrator with dry-run, stale flag, upsert)
+
 ---
 
 ## Progress
@@ -152,3 +171,4 @@
 | 9. Feedback Modal | 0/2 | Planned | - |
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
+| 12. Catalog Refresh | 0/2 | Planned | - |

@@ -42,6 +42,14 @@
 - [ ] **MOB-03**: Hero section typography scales correctly on mobile (no oversized text)
 - [ ] **MOB-04**: Catalog filter and search controls are thumb-friendly on mobile
 
+### Catalog Refresh (Phase 12)
+
+- [ ] **CAT-01**: A migration adds `catalog_product_id TEXT` with a partial UNIQUE index (`WHERE catalog_product_id IS NOT NULL`) to the `laptops` table, enabling idempotent upsert by ML catalog ID
+- [ ] **CAT-02**: Running `python3 scripts/refresh_catalog.py` executes the full annual catalog refresh as a single command
+- [ ] **CAT-03**: Affiliate links for new and refreshed catalog products are auto-generated as `https://www.mercadolibre.com.ar/p/{id}?matt_d2id={ML_AFFILIATE_D2ID}` (no manual paste step)
+- [ ] **CAT-04**: Existing rows whose ML products have no quality local listing are flagged with `availability_warning=true` (NEVER deleted); manually-curated `influencer_note` and `recommendation_score` are preserved through refresh
+- [ ] **CAT-05**: `--dry-run` flag prints planned writes (upserts + stale flags) without making any Supabase mutations
+
 ## v2 Requirements (deferred)
 
 ### SEO avanzado
@@ -55,6 +63,10 @@
 ### Mobile
 - **MOB-ADV-01**: Bottom navigation bar for mobile
 
+### Catalog Refresh avanzado
+- **CAT-ADV-01**: Auto-assign new catalog laptops to quiz profiles based on `usage_profiles` (currently human-curated)
+- **CAT-ADV-02**: Scheduled cron / GitHub Action for fully automated annual refresh
+
 ## Out of Scope
 
 | Feature | Reason |
@@ -63,6 +75,7 @@
 | Upstash rate limiting | Adds external service dependency — honeypot sufficient for v1.1 traffic |
 | Admin feedback dashboard | No admin user system exists — out of scope |
 | Real-time notifications | No realtime requirements in v1.1 |
+| Automated profile-to-laptop assignment | Requires curation; human-in-the-loop for v1.1 |
 
 ## Traceability
 
@@ -90,12 +103,17 @@
 | MOB-02 | Phase 11 | Pending |
 | MOB-03 | Phase 11 | Pending |
 | MOB-04 | Phase 11 | Pending |
+| CAT-01 | Phase 12 | Pending |
+| CAT-02 | Phase 12 | Pending |
+| CAT-03 | Phase 12 | Pending |
+| CAT-04 | Phase 12 | Pending |
+| CAT-05 | Phase 12 | Pending |
 
 **Coverage:**
-- v1.1 requirements: 22 total
-- Mapped to phases: 22
+- v1.1 requirements: 27 total
+- Mapped to phases: 27
 - Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-04-17*
-*Last updated: 2026-04-17 — initial definition*
+*Last updated: 2026-05-01 — added Phase 12 catalog refresh requirements (CAT-01 through CAT-05)*
