@@ -42,7 +42,7 @@ A guided discovery experience through an intuitive quiz, leading to a curated ca
 
 ## Current State
 
-Phase 8 complete (2026-04-18) — Full Spanish SEO coverage: `lang="es"`, `metadataBase`, separate `viewport` export, `twitter:summary_large_image` cards on all 5 public pages, `/sitemap.xml`, `/robots.txt`, and `public/og-image.png` (1200x630). All 7 SEO requirements satisfied.
+Phase 12 complete (2026-05-01) — Catalog refresh workflow operational: `catalog_product_id` column live in Supabase, `scripts/refresh_catalog.py` single-command orchestrator with 6-stage pipeline (scrape → enrich → stale-detect → affiliate-regen → upsert → audit), 17 tests passing.
 
 ## Evolution
 
@@ -61,4 +61,4 @@ This document evolves at phase transitions and milestone boundaries.
 3. Audit Out of Scope — reasons still valid?
 4. Update Context with current state
 
-Last updated: 2026-04-18 — Phase 8 (SEO) complete
+Last updated: 2026-05-01 — Phase 12 (Catalog Refresh) complete
