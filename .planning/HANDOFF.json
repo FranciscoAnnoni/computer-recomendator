@@ -1,49 +1,41 @@
 {
   "version": "1.0",
-  "timestamp": "2026-04-09T09:55:15.941Z",
-  "phase": "ad-hoc",
-  "phase_name": "profile-laptop-matching",
-  "phase_dir": null,
-  "plan": null,
-  "task": null,
+  "timestamp": "2026-05-01T22:10:57.768Z",
+  "phase": "13",
+  "phase_name": "catalog-product-sorting-and-profile-curation",
+  "phase_dir": ".planning/phases/13-catalog-product-sorting-and-profile-curation",
+  "plan": 2,
+  "task": 3,
+  "total_tasks": 3,
   "status": "paused",
   "completed_tasks": [
-    {"id": 1, "name": "Analizar 81 perfiles del quiz (3 workload × 3 lifestyle × 3 budget × 3 OS)", "status": "done"},
-    {"id": 2, "name": "Analizar catálogo completo 198 laptops con precios ARS y tags", "status": "done"},
-    {"id": 3, "name": "Diseñar matching strategy por budget/portabilidad/workload/OS", "status": "done"},
-    {"id": 4, "name": "Generar docs/profile-recommendations.csv (81 perfiles × 3 recomendaciones)", "status": "done"},
-    {"id": 5, "name": "Verificar 51 UUIDs únicos en Supabase — 0 faltantes, todos en catálogo", "status": "done"},
-    {"id": 6, "name": "Ejecutar 81 UPDATE profiles SET laptop_ids en Supabase (3 batches)", "status": "done"}
+    {"id": "13-01-t1", "name": "Wave 0 pytest stubs + conftest fixtures", "status": "done", "commit": "7e505ae"},
+    {"id": "13-01-t2", "name": "Build curate_profiles.py 3-stage script", "status": "done", "commit": "23c65be"},
+    {"id": "13-02-t1", "name": "Run dry-run + archive transcript", "status": "done", "commit": "9c133e0"},
+    {"id": "13-02-t2", "name": "User checkpoint approved", "status": "done"},
+    {"id": "13-02-t3", "name": "Apply curation + seed regeneration (via SQL MCP)", "status": "done", "commit": "83f1cd3"}
   ],
   "remaining_tasks": [
-    {"id": 7, "name": "Verificar visualmente en la web que cada perfil muestra las 3 laptops correctas", "status": "not_started"},
-    {"id": 8, "name": "Revisar perfiles esencial+macos (solo 2 laptops, todas sobre presupuesto — 9 perfiles afectados)", "status": "not_started"},
-    {"id": 9, "name": "Revisar perfiles gaming+esencial (laptops desde $1.28M, sobre presupuesto esencial — 9 perfiles)", "status": "not_started"},
-    {"id": 10, "name": "Ajustar matchings si alguno no se ve bien en la web", "status": "not_started"}
+    {"id": "13-02-summary", "name": "Create 13-02-SUMMARY.md", "status": "not_started"},
+    {"id": "verify", "name": "Run gsd-verifier for phase 13", "status": "not_started"},
+    {"id": "roadmap", "name": "Mark phase 13 complete in ROADMAP/STATE", "status": "not_started"},
+    {"id": "project_md", "name": "Evolve PROJECT.md after phase 13", "status": "not_started"}
   ],
   "blockers": [],
-  "human_actions_pending": [
+  "human_actions_pending": [],
+  "decisions": [
     {
-      "action": "Hacer el quiz en la web y validar visualmente las recomendaciones",
-      "context": "Las 81 asignaciones están en Supabase pero no se verificó el resultado visual. Empezar con: Trabajar + Nómada + Esencial + Windows → debería mostrar EXO T38, Noblex N14x1010, Lenovo IdeaPad 1",
-      "blocking": false
+      "decision": "Used MCP execute_sql instead of REST API PATCH for profiles table",
+      "rationale": "Supabase RLS only has SELECT for anon key on profiles. PATCH returned 200 with [] silently. MCP uses service role, bypasses RLS.",
+      "phase": "13"
+    },
+    {
+      "decision": "36 profiles / 212 laptops (not 81/55 as RESEARCH.md expected)",
+      "rationale": "Catalog grew after Phase 12. Script worked correctly on actual DB state.",
+      "phase": "13"
     }
   ],
-  "decisions": [
-    {"decision": "3 laptops curadas por perfil reemplazando las 5 genéricas previas", "rationale": "El usuario quiere recomendaciones especiales, no relleno"},
-    {"decision": "Budget tiers: esencial <$900k, equilibrado $900k-$2.1M, premium >$2.1M ARS", "rationale": "Basado en catálogo real — gaming empieza en $1.28M"},
-    {"decision": "Perfiles macos+esencial reciben MacBook Air M2 aunque estén sobre presupuesto", "rationale": "No existe ningún Mac por debajo de $1.5M"},
-    {"decision": "No se agregaron laptops nuevas — todas las recomendaciones calzaron con el catálogo existente", "rationale": "Verificado: 0 IDs faltantes de los 51 únicos referenciados"},
-    {"decision": "Todos los 198 laptops ya tienen affiliate_link — no se requirió agregar links", "rationale": "Query confirmó affiliate_link no vacío en ningún registro"}
-  ],
-  "uncommitted_files": ["docs/profile-recommendations.csv"],
-  "next_action": "Hacer el quiz en la web. Test case 1: Trabajar+Nómada+Esencial+Windows → EXO T38 + Noblex N14x1010 + Lenovo IdeaPad 1. Test case 2: Crear+Escritorio+Premium+macOS → MacBook Pro M3 14\" + MacBook Air M3 24GB + MacBook Pro M4 Pro 14\". Test case 3: Gaming+Escritorio+Premium+Windows → HP Gamer Ryzen9 + HP Omen 16 + Acer Predator 16.",
-  "context_notes": "Trabajo ad-hoc en conversación sin fase GSD activa. DB project_id: orxstqqcsxatxaprqyvq. CSV de referencia en docs/profile-recommendations.csv. Los 81 UPDATEs retornaron array vacío (éxito en Supabase). Verificado con SELECT que profiles esencial/windows tienen 3 IDs correctos.",
-  "db_state": {
-    "total_laptops": 198,
-    "profiles_with_laptops": 81,
-    "total_profiles": 81,
-    "project_id": "orxstqqcsxatxaprqyvq",
-    "avg_laptops_per_profile": "2-3 (esencial+macos=2, resto=3)"
-  }
+  "uncommitted_files": [],
+  "next_action": "Fresh session: /gsd:execute-phase 13 — will skip completed 13-01, detect 13-02 has no SUMMARY, create it, run verifier, close phase.",
+  "context_notes": "All DB writes complete. 36/36 profiles x5 laptops, 212/212 scores+notes. Remaining work is SUMMARY.md + VERIFICATION.md + bookkeeping only."
 }
