@@ -57,7 +57,7 @@
 - [ ] **Phase 10: Profile Avatars** — Each of the 81 quiz profiles displays a unique pixel-art avatar
 - [ ] **Phase 11: Mobile UX** — All pages are fully usable on a 375px mobile viewport
 - [x] **Phase 12: Catalog Refresh** — Single-command annual refresh of MercadoLibre catalog with stale-seller detection and affiliate link auto-generation (completed 2026-05-01)
-- [ ] **Phase 13: Profile Curation** — Algorithmically score the live laptop catalog and assign 5 hand-curated laptops to each of the 81 quiz profiles
+- [x] **Phase 13: Profile Curation** — Algorithmically score the live laptop catalog and assign 5 hand-curated laptops to each of the 81 quiz profiles (completed 2026-05-01)
 
 ---
 
@@ -175,7 +175,7 @@
 4. macOS profiles only get macOS laptops; gaming + windows profiles only get laptops with dedicated GPU when ≥5 are available; gaming + macOS profiles get best macOS laptops with documented gap warning.
 5. `supabase/seed-profiles-81.sql` contains 81 `UPDATE profiles SET laptop_ids = ARRAY[...]::uuid[]` statements — keeping the seed file in sync with the live DB.
 
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 - [x] 13-01-PLAN.md — Build `scripts/curate_profiles.py` (3-stage script: enrich + select + assign) + Wave 0 pytest stubs covering 7 testable behaviors
 - [ ] 13-02-PLAN.md — Run dry-run, user-checkpoint review, --apply to Supabase, regenerate seed-profiles-81.sql, audit live DB state
 
@@ -191,4 +191,4 @@
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
 | 12. Catalog Refresh | 2/2 | Complete    | 2026-05-01 |
-| 13. Profile Curation | 1/2 | In Progress|  |
+| 13. Profile Curation | 1/2 | Complete    | 2026-05-01 |
