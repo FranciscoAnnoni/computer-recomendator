@@ -161,6 +161,13 @@ def generate_influencer_note(laptop: dict) -> str:
     return note[:200]
 
 
+def _min_ram_gb(laptop: dict) -> int:
+    """Extract numeric GB from the ram field (e.g. '16GB' → 16, '8 GB DDR5' → 8)."""
+    ram = (laptop.get("ram") or "").lower()
+    m = re.search(r"(\d+)\s*gb", ram)
+    return int(m.group(1)) if m else 0
+
+
 def _portability_score(laptop: dict) -> int:
     """Higher = more portable. Used as a soft sort key for maxima_portabilidad lifestyle."""
     weight = laptop.get("weight") or 999
@@ -183,11 +190,12 @@ def _portability_score(laptop: dict) -> int:
 
 def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
                                effective_tiers: dict) -> list[str]:
-    """Returns up to 5 laptop UUIDs for the profile. Algorithm per 13-RESEARCH.md."""
+    """Returns up to 5 laptop UUIDs for the profile, ordered by recommendation_score DESC."""
     workload = profile.get("workload")
     budget = profile.get("budget")
     os_pref = profile.get("os_preference")
     lifestyle = profile.get("lifestyle")
+    id_to_laptop = {l["id"]: l for l in all_laptops}
 
     # Step 1: OS filter
     if os_pref == "macos":
@@ -198,6 +206,14 @@ def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
     # Step 2: Exclude desktop-only devices (mini PCs, Mac minis, PC Gamers) from portable profiles
     if lifestyle != "escritorio_fijo":
         pool = [l for l in pool if not is_desktop_only(l)]
+
+    # Step 2b: Minimum 8 GB RAM for Windows equilibrado/premium (4 GB laptops not suitable)
+    if os_pref != "macos" and budget in ("equilibrado", "premium"):
+        ram_pool = [l for l in pool if _min_ram_gb(l) >= 8]
+        if len(ram_pool) >= 5:
+            pool = ram_pool
+        elif ram_pool:
+            pool = ram_pool + [l for l in pool if l not in ram_pool]
 
     # Step 3: Gaming GPU requirement (windows/abierto only — Macs lack dedicated GPU)
     if workload == "gaming_rendimiento" and os_pref != "macos":
@@ -215,12 +231,16 @@ def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
     if len(budget_pool) >= 5:
         pool = budget_pool
     elif len(budget_pool) > 0:
-        # Keep budget pool plus widen by adding next-tier laptops
         pool = budget_pool + [l for l in pool if l not in budget_pool]
     # else: keep full pool (budget fallback)
 
-    # Step 5: Workload preference (soft — usage_profiles array)
+    # Step 5: Workload preference (soft — usage_profiles array).
+    # For creacion_desarrollo (Windows): gaming GPU laptops are valid even if tagged gaming_rendimiento.
+    # Inject them so brand-diversity can pick ≥3 GPU laptops for designers.
     workload_pool = [l for l in pool if workload in (l.get("usage_profiles") or [])]
+    if workload == "creacion_desarrollo" and os_pref != "macos":
+        gpu_extra = [l for l in pool if has_dedicated_gpu(l) and l not in workload_pool]
+        workload_pool = workload_pool + gpu_extra
     if len(workload_pool) >= 5:
         pool = workload_pool
 
@@ -235,15 +255,25 @@ def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
     ))
 
     # Step 8: Brand diversity cap (max 2 per brand).
-    # Pinned picks (profile-curated top choices) go first unconditionally.
-    # Remaining slots: canonical affiliate links before non-canonical.
+    # Order: pinned picks first, then (for designers) GPU before non-GPU, then canonical before non-canonical.
     pin_ids = _get_apple_pins(pool, budget, lifestyle) if os_pref == "macos" else []
     pinned = [l for pid in pin_ids for l in pool if l["id"] == pid]
     pin_id_set = set(pin_ids)
     rest = [l for l in pool if l["id"] not in pin_id_set]
-    canonical_rest = [l for l in rest if AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
-    non_canonical_rest = [l for l in rest if not AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
-    ordered = pinned + canonical_rest + non_canonical_rest
+
+    if workload == "creacion_desarrollo" and os_pref != "macos":
+        # GPU laptops get priority slots 1-3; split each group canonical-first
+        gpu_r = [l for l in rest if has_dedicated_gpu(l)]
+        non_gpu_r = [l for l in rest if not has_dedicated_gpu(l)]
+        def _split_canonical(lst):
+            c = [l for l in lst if AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
+            nc = [l for l in lst if not AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
+            return c + nc
+        ordered = pinned + _split_canonical(gpu_r) + _split_canonical(non_gpu_r)
+    else:
+        canonical_rest = [l for l in rest if AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
+        non_canonical_rest = [l for l in rest if not AFFILIATE_LINK_RE.match(l.get("affiliate_link") or "")]
+        ordered = pinned + canonical_rest + non_canonical_rest
 
     selected: list[str] = []
     brand_counts: dict[str, int] = defaultdict(int)
@@ -264,7 +294,12 @@ def select_laptops_for_profile(profile: dict, all_laptops: list[dict],
                 if len(selected) == 5:
                     break
 
-    return selected
+    # Final ordering: pinned items keep their positions; remaining slots sorted by score DESC
+    pin_id_set_final = set(pin_ids) & set(selected)
+    pinned_final = [lid for lid in pin_ids if lid in pin_id_set_final]
+    rest_final = [lid for lid in selected if lid not in pin_id_set_final]
+    rest_final.sort(key=lambda lid: -(id_to_laptop.get(lid, {}).get("recommendation_score") or 0))
+    return pinned_final + rest_final
 
 # ── Supabase HTTP helpers ─────────────────────────────────────────────────────
 
