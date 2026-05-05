@@ -8,21 +8,18 @@ export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  // Only render after hydration — resolvedTheme is undefined on the server
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) {
-    // Same size as the real button so layout doesn't shift
-    return <div className="w-9 h-9" aria-hidden="true" />;
-  }
-
-  const isDark = resolvedTheme === "dark";
+  // Before hydration assume dark (matches defaultTheme). suppressHydrationWarning
+  // handles the rare case where the user is in light mode on first paint.
+  const isDark = mounted ? resolvedTheme === "dark" : true;
 
   return (
     <button
       type="button"
+      suppressHydrationWarning
       aria-label={isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro"}
-      onClick={() => setTheme(isDark ? "light" : "dark")}
+      onClick={() => mounted && setTheme(isDark ? "light" : "dark")}
       className="w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors focus-visible:ring-2 focus-visible:ring-primary focus-visible:outline-none"
     >
       {isDark ? <Sun className="size-4" /> : <Moon className="size-4" />}

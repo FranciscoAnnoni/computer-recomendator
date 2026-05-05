@@ -88,7 +88,7 @@ export function QuizStep({ stepIndex, stepData, currentSelection, onSelect, onNe
       ) : (
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
+          gridTemplateColumns: `repeat(${stepData.options.length}, 1fr)`,
           gap: '1rem',
         }}>
           {stepData.options.map((option, i) => {
@@ -110,7 +110,7 @@ export function QuizStep({ stepIndex, stepData, currentSelection, onSelect, onNe
                   boxShadow: active ? 'var(--ed-quiz-card-active-shadow)' : 'var(--ed-quiz-card-shadow)',
                   transition: 'all 0.35s var(--ease-editorial)',
                   cursor: 'pointer',
-                  minHeight: 320,
+                  minHeight: 352,
                   display: 'flex', flexDirection: 'column',
                   border: 0,
                   animationDelay: `${i * 80}ms`,
@@ -126,6 +126,7 @@ export function QuizStep({ stepIndex, stepData, currentSelection, onSelect, onNe
                       sizes="260px"
                       className="object-contain"
                       style={{ opacity: active ? 1 : 0.5, transition: 'opacity 0.2s' }}
+                      draggable={false}
                     />
                   ) : (
                     <div style={{ width: 64, height: 64, borderRadius: '50%', background: 'rgba(255,255,255,0.06)' }} />
@@ -171,7 +172,7 @@ export function QuizStep({ stepIndex, stepData, currentSelection, onSelect, onNe
           style={{ opacity: currentSelection ? 1 : 0.4 }}
           disabled={!currentSelection}
         >
-          {isLastStep ? 'Ver mis recomendaciones' : 'Siguiente'} →
+          {isLastStep ? (isMobile ? 'Ver perfil' : 'Ver mis recomendaciones') : 'Siguiente'} →
         </button>
       </div>
     </div>

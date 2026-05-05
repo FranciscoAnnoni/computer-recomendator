@@ -117,7 +117,10 @@ export function CatalogClient() {
     try {
       setLoading(true);
       setError(null);
-      const data = await fetchAllLaptops();
+      const timeout = new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error("timeout")), 15000)
+      );
+      const data = await Promise.race([fetchAllLaptops(), timeout]);
       setLaptops(data);
     } catch {
       setError(
@@ -377,12 +380,12 @@ export function CatalogClient() {
           <div style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
             <button
               className="btn-ed btn-ed-sm btn-primary-ed"
-              onClick={() => { setProfileFilter(true); setPage(1); }}
+              onClick={() => router.push("/profile")}
             >
               Ver laptops del perfil
             </button>
             <button className="btn-ed btn-ed-sm btn-ghost-ed" onClick={handleRehacer}>
-              Rehacer
+              Rehacer quiz
             </button>
           </div>
         </section>

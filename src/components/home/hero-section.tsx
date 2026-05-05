@@ -26,12 +26,12 @@ export function HeroSection() {
         className="rise-d1 text-center"
         style={{ fontSize: '1.125rem', color: 'var(--on-sur-var)', lineHeight: 1.55, maxWidth: 480 }}
       >
-        Find the perfect laptop for your needs — curated recommendations from experts.
+        Respondé 4 preguntas y te recomendamos la laptop ideal para vos.
       </p>
       <div className="rise-d2 mt-2">
         <Link href="/quiz">
           <button className="btn-ed btn-ed-xl btn-primary-ed">
-            Find My Laptop →
+            Encontrá tu laptop →
           </button>
         </Link>
       </div>

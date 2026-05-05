@@ -1,12 +1,12 @@
 import type { NextConfig } from "next";
 import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
-import path from "path";
 
 const nextConfig = (phase: string): NextConfig => ({
-  outputFileTracingRoot: path.join(__dirname),
+  outputFileTracingRoot: process.cwd(),
   ...(phase === PHASE_DEVELOPMENT_SERVER && {
-    allowedDevOrigins: ["192.168.100.14", "192.168.1.67", "192.168.1.74", "192.168.1.87"],
+    allowedDevOrigins: ["192.168.1.62", "192.168.*", "10.*"],
   }),
+  turbopack: {},
   images: {
     remotePatterns: [
       {

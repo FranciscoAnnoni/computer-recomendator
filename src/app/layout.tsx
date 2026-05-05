@@ -3,7 +3,7 @@ import { Roboto, Manrope, Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/layout/navbar";
-import { Footer } from "@/components/layout/footer";
+import { FooterWrapper } from "@/components/layout/footer-wrapper";
 import { NeuralFog } from "@/components/layout/neural-fog";
 
 const roboto = Roboto({
@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${roboto.variable} ${manrope.variable} ${inter.variable} antialiased`}
+      className={`dark ${roboto.variable} ${manrope.variable} ${inter.variable} antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-dvh flex flex-col" suppressHydrationWarning>
@@ -66,7 +66,7 @@ export default function RootLayout({
           <NeuralFog />
           <Navbar />
           <main className="relative z-[2] flex-1">{children}</main>
-          <Footer />
+          <FooterWrapper />
         </ThemeProvider>
       </body>
     </html>

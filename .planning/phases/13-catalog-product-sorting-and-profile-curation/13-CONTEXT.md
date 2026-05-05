@@ -42,9 +42,16 @@ Out of scope: catalog product sorting, catalog page UI changes, any non-profile 
 ### Seed file update
 - After applying to Supabase, update `supabase/seed-profiles-81.sql` to reflect the new `laptop_ids` assignments (so the seed file stays in sync with DB)
 
+### Quality bar per recommended laptop (locked)
+- The 5 recommended laptops ARE the product — this is the core value of the page
+- Every recommended laptop MUST have: a working affiliate link, non-trivial description (>40 words), non-null influencer_note, recommendation_score ≥ 7
+- Rank #1 for each profile must be a 10/10 recommendation (the absolute best match)
+- Affiliate links MUST use the MercadoLibre affiliate format: `https://www.mercadolibre.com.ar/p/{id}?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85`
+- Laptops with broken/missing affiliate links, generic descriptions, or missing influencer notes should NOT be selected as recommendations
+
 ### Claude's Discretion
 - Exact tie-breaking logic when multiple laptops have equal recommendation_score
-- Whether to add brand diversity enforcement (max 2 laptops per brand per profile)
+- Brand diversity enforcement (max 2 laptops per brand per profile)
 - Output format of dry-run report
 - Whether to generate a per-profile markdown review file alongside the script
 

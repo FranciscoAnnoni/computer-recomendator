@@ -145,6 +145,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
     overflow-x: clip;
   }
 }
@@ -602,13 +603,21 @@
   height: 2px; background: var(--pr); border-radius: 1px;
 }
 .icon-btn-ed {
-  width: 36px; height: 36px; border-radius: 50%;
+  width: 44px; height: 44px; border-radius: 50%;
   display: inline-grid; place-items: center;
   background: var(--ed-icon-bg);
   color: var(--on-sur-var);
   transition: all 0.2s; cursor: pointer; border: 0;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 .icon-btn-ed:hover { background: var(--ed-icon-hover); color: var(--on-sur); }
+
+/* ── Prevent native browser image drag on cards ─────────────────── */
+.ed-card-row img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
 
 /* ── Search bar editorial ───────────────────────────────────────── */
 .search-bar-ed {

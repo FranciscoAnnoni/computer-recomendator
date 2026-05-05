@@ -1,70 +1,14 @@
 {
-  "generated_at": "2026-04-10T07:15:29",
+  "generated_at": "2026-05-01T19:13:04",
   "summary": {
-    "total": 55,
+    "total": 39,
     "pass": 0,
-    "warn": 55,
+    "warn": 39,
     "fail": 0,
-    "hidden": 5,
+    "hidden": 7,
     "missing_in_db": 0
   },
   "laptops": [
-    {
-      "id": "aa000009-0000-0000-0000-000000000009",
-      "name": "Apple Mac Studio M4 Max 36GB/512GB",
-      "brand": "Apple",
-      "price": 7000000.0,
-      "cpu": "Apple M4 Max",
-      "ram": "36 GB",
-      "storage": "512 GB SSD",
-      "os": "macOS",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/mini-pc-apple-mac-studio-m4-max-512gb-ssd-36gb-macos/up/MLAU3426024598?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "La workstation definitiva de Apple. M4 Max con 36GB de memoria unificada y GPU de 32 núcleos. Para producción audiovisual, diseño 3D y desarrollo profesional a máxima velocidad.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/mini-pc-apple-mac-studio-m4-max-512gb-ssd-36gb-macos/up/MLAU3426024598?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (28 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 6,
-      "profiles": [
-        {
-          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
-          "profile_name": "El Mac Devotee"
-        },
-        {
-          "id": "e5b577f8-fb74-4fda-a36a-3cfdc7b280dd",
-          "profile_name": "El Rey del Benchmark"
-        },
-        {
-          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
-          "profile_name": "El Studio Gamer"
-        },
-        {
-          "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
-          "profile_name": "El Editor Profesional"
-        },
-        {
-          "id": "92cac807-d5c7-412a-8623-95328ff1995d",
-          "profile_name": "El Senior Dev de Casa"
-        },
-        {
-          "id": "e01b87eb-1ec6-4e0d-b649-565aeadbbac1",
-          "profile_name": "El Ingeniero de Infraestructura"
-        }
-      ],
-      "hidden_by_filter": false
-    },
     {
       "id": "a96bb526-8bb4-47f8-bc78-83bda5899fbe",
       "name": "Apple MacBook Air 13-inch Silver 13\" Apple M3 8GB de Ram",
@@ -76,7 +20,7 @@
       "os": "macOS",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA37740033?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "MacBook Air M3 en su versión más accesible. Para creadores que necesitan Figma, Sketch, Final Cut o Xcode: el M3 los maneja sin problema. Autonomía de día completo real y pantalla Liquid Retina que hace diferencia.",
+      "influencer_note": "MacBook Air M3 version accesible. Para Figma, Sketch, Final Cut o Xcode. Autonomia de dia completo real.",
       "description": "Notebook Apple. Apple MacBook Air 13-inch Silver 13\" Apple M3 8GB de Ram.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -93,89 +37,215 @@
         "RAM faltante o genérico",
         "Almacenamiento faltante o genérico"
       ],
-      "n_profiles": 4,
-      "profiles": [
-        {
-          "id": "5025e518-9e16-4a90-9030-00054c656f56",
-          "profile_name": "El Estudiante Con Aspiraciones"
-        },
-        {
-          "id": "26d267ef-aad4-4cc8-9001-f5480ee5ef6f",
-          "profile_name": "El Designer Junior"
-        },
-        {
-          "id": "0b88ffc3-e6bd-4a82-9684-8207cc6ad89f",
-          "profile_name": "El Noob Apple Gamer"
-        },
-        {
-          "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
-          "profile_name": "El Artista Digital Nomade"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "0fed29b6-f727-4e65-9fe7-b93106f58183",
-      "name": "Apple MacBook Air Macbook Air 13 Pulgadas",
-      "brand": "Apple",
-      "price": 1500000.0,
-      "cpu": "",
-      "ram": "",
-      "storage": "",
-      "os": "macOS",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA22357182?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El punto de entrada al ecosistema Apple para creativos. Chip M de Apple, pantalla Retina y autonomía que supera cualquier Windows del mismo precio. Si arrancás con diseño o desarrollo y querés un Mac, por acá empezá.",
-      "description": "Notebook Apple. Apple MacBook Air Macbook Air 13 Pulgadas.",
-      "has_influencer_note": true,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA22357182?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción auto-generada (solo repite el nombre)",
-        "CPU faltante o genérico",
-        "RAM faltante o genérico",
-        "Almacenamiento faltante o genérico"
-      ],
-      "n_profiles": 8,
+      "n_profiles": 12,
       "profiles": [
         {
           "id": "65d40d46-3df9-4220-a516-5e9f8e9d578c",
           "profile_name": "El Indie Gamer Mac"
         },
         {
-          "id": "fc0ccb19-7087-403c-8408-8c27cd3db016",
-          "profile_name": "El UX Designer"
+          "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
+          "profile_name": "El Indie Dev Movil"
+        },
+        {
+          "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
+          "profile_name": "El Editor Profesional"
+        },
+        {
+          "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
+          "profile_name": "El Disenador Novato Fijo"
         },
         {
           "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
           "profile_name": "El Disenador Aspiracional"
         },
         {
-          "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
-          "profile_name": "El Indie Dev Movil"
+          "id": "b3141f48-5473-4737-97e8-603816051b63",
+          "profile_name": "El Mac Gamer Dedicado"
         },
         {
-          "id": "87415029-3d9d-43fc-abcd-3fa419c57c79",
-          "profile_name": "El Creator Gamer"
+          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
+          "profile_name": "El Gamer Apple de Base"
+        },
+        {
+          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
+          "profile_name": "El Studio Gamer"
         },
         {
           "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
           "profile_name": "El Gamer Casual Apple"
         },
         {
-          "id": "c3fd9ae3-78f6-47f4-9810-38fbf85238cd",
-          "profile_name": "El Profesional Apple"
+          "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
+          "profile_name": "El Productor Musical"
+        },
+        {
+          "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
+          "profile_name": "El Artista Digital Nomade"
+        },
+        {
+          "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
+          "profile_name": "El Gamer Ecosystem Apple"
+        }
+      ],
+      "hidden_by_filter": false
+    },
+    {
+      "id": "a2bb2e6b-f8a4-4d0e-9db9-abaca12f7a48",
+      "name": "Apple MacBook Air 13-inch Starlight 13\" Apple M3 8GB de Ram",
+      "brand": "Apple",
+      "price": 2751756.8,
+      "cpu": "M3",
+      "ram": "",
+      "storage": "",
+      "os": "macOS",
+      "battery": null,
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA37740537?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "MacBook Air M3 sin ventilador, sin ruido, sin calor. 8GB unificados se sienten diferente a 8GB convencionales.",
+      "description": "Notebook Apple. Apple MacBook Air 13-inch Starlight 13\" Apple M3 8GB de Ram.",
+      "has_influencer_note": true,
+      "desc_grade": "basic",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA37740537?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "Descripción muy corta (13 palabras)",
+        "RAM faltante o genérico",
+        "Almacenamiento faltante o genérico"
+      ],
+      "n_profiles": 12,
+      "profiles": [
+        {
+          "id": "65d40d46-3df9-4220-a516-5e9f8e9d578c",
+          "profile_name": "El Indie Gamer Mac"
+        },
+        {
+          "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
+          "profile_name": "El Indie Dev Movil"
+        },
+        {
+          "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
+          "profile_name": "El Editor Profesional"
+        },
+        {
+          "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
+          "profile_name": "El Disenador Novato Fijo"
+        },
+        {
+          "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
+          "profile_name": "El Disenador Aspiracional"
+        },
+        {
+          "id": "b3141f48-5473-4737-97e8-603816051b63",
+          "profile_name": "El Mac Gamer Dedicado"
+        },
+        {
+          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
+          "profile_name": "El Gamer Apple de Base"
+        },
+        {
+          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
+          "profile_name": "El Studio Gamer"
+        },
+        {
+          "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
+          "profile_name": "El Gamer Casual Apple"
+        },
+        {
+          "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
+          "profile_name": "El Productor Musical"
+        },
+        {
+          "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
+          "profile_name": "El Artista Digital Nomade"
+        },
+        {
+          "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
+          "profile_name": "El Gamer Ecosystem Apple"
+        }
+      ],
+      "hidden_by_filter": false
+    },
+    {
+      "id": "6bd3cfa5-5e24-43fe-85a5-8a4ede62342c",
+      "name": "Apple MacBook Air M4 13\" 16GB/256GB Azul Medianoche",
+      "brand": "Apple",
+      "price": 2290000.0,
+      "cpu": "Apple M4",
+      "ram": "16 GB",
+      "storage": "256 GB",
+      "os": "macOS",
+      "battery": "18h",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54109556?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "MacBook Air M4 con 16GB unificados. Arranca apps al instante, compila sin calor, bateria 15h reales.",
+      "description": "",
+      "has_influencer_note": true,
+      "desc_grade": "poor",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA54109556?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "Sin descripción o demasiado corta"
+      ],
+      "n_profiles": 12,
+      "profiles": [
+        {
+          "id": "65d40d46-3df9-4220-a516-5e9f8e9d578c",
+          "profile_name": "El Indie Gamer Mac"
         },
         {
           "id": "61bc3c7f-73a5-45f8-a5cd-3a6df455e1c0",
           "profile_name": "El Freelancer de Cafe"
+        },
+        {
+          "id": "93f90106-d30a-45aa-b177-83990c5d4c13",
+          "profile_name": "El Emprendedor Ligero"
+        },
+        {
+          "id": "ca5b89a1-7c18-41b4-af1c-a6d7f52f53bf",
+          "profile_name": "El Fanatico Apple Fijo"
+        },
+        {
+          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
+          "profile_name": "El Becario con Gustos"
+        },
+        {
+          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
+          "profile_name": "El Mac Devotee"
+        },
+        {
+          "id": "b3141f48-5473-4737-97e8-603816051b63",
+          "profile_name": "El Mac Gamer Dedicado"
+        },
+        {
+          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
+          "profile_name": "El Gamer Apple de Base"
+        },
+        {
+          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
+          "profile_name": "El Studio Gamer"
+        },
+        {
+          "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
+          "profile_name": "El Creativo Fijo"
+        },
+        {
+          "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
+          "profile_name": "El Gamer Casual Apple"
+        },
+        {
+          "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
+          "profile_name": "El Gamer Ecosystem Apple"
         }
       ],
       "hidden_by_filter": false
@@ -211,12 +281,12 @@
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "fa50fb5f-c82f-4e2d-a4e3-dd14107adbf7",
-          "profile_name": "El Contributor Nomade"
+          "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
+          "profile_name": "El Teletrabajador Estable"
         },
         {
-          "id": "f4532e6d-9018-4cd7-ad3f-9d8c1c731fe7",
-          "profile_name": "El Consultor Open Source"
+          "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
+          "profile_name": "El Profesional Nomade"
         }
       ],
       "hidden_by_filter": false
@@ -232,9 +302,9 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48791009?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
+      "influencer_note": "GMKtec con AMD Ryzen 5 6600H y 16 GB RAM. Buena opcion de gama media para este perfil.",
       "description": "Mini PC de alto rendimiento con Ryzen 5 6600H. Potencia de laptop premium en formato ultra compacto. Ideal para diseño, desarrollo y trabajo intensivo.",
-      "has_influencer_note": false,
+      "has_influencer_note": true,
       "desc_grade": "basic",
       "link_check": {
         "status": "skipped",
@@ -245,34 +315,17 @@
       },
       "verdict": "WARN",
       "all_issues": [
-        "Descripción corta (24 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
+        "Descripción corta (24 palabras)"
       ],
-      "n_profiles": 6,
+      "n_profiles": 2,
       "profiles": [
         {
-          "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
-          "profile_name": "El Teletrabajador Estable"
+          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
+          "profile_name": "El Desarrollador Viajero"
         },
         {
           "id": "e252d2bf-f594-412d-84fd-87442434c327",
           "profile_name": "El Game Dev Indie"
-        },
-        {
-          "id": "083323eb-9f48-4997-a929-29efb1ece27b",
-          "profile_name": "El LAN Master"
-        },
-        {
-          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
-          "profile_name": "El Gamer Serio"
-        },
-        {
-          "id": "9cf86959-c713-4780-8e90-c301e3982ea0",
-          "profile_name": "El Sysadmin Hogareno"
-        },
-        {
-          "id": "adff2dc2-7c68-447c-8ab8-86e48a8e9af7",
-          "profile_name": "El DevOps Domestico"
         }
       ],
       "hidden_by_filter": false
@@ -303,23 +356,15 @@
       "all_issues": [
         "Descripción muy corta (15 palabras)"
       ],
-      "n_profiles": 4,
+      "n_profiles": 2,
       "profiles": [
+        {
+          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
+          "profile_name": "El Director de Proyecto"
+        },
         {
           "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
           "profile_name": "El Ejecutivo Viajante"
-        },
-        {
-          "id": "122c814c-7a1e-40fb-871a-2f1732df1efb",
-          "profile_name": "El Tech Lead Nomade"
-        },
-        {
-          "id": "1a17d7f6-da47-4582-995d-cc1bad04c93d",
-          "profile_name": "El Creador en Movimiento"
-        },
-        {
-          "id": "331b3063-55d9-463b-b626-5a6b36b3f0b4",
-          "profile_name": "El Creador de Contenido"
         }
       ],
       "hidden_by_filter": false
@@ -335,7 +380,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA37511623?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Gaming premium en formato compacto de 14 pulgadas. La RTX 4050 sigue siendo potente para jugar a 1080p en alta calidad. Lo que lo diferencia es el tamaño: la única gamer seria que cabe cómoda en una mochila de viaje.",
+      "influencer_note": "Gaming en formato compacto de 14 pulgadas con RTX 4050. Cabe en cualquier mochila.",
       "description": "Notebook Acer. Procesador 13700H. 16 GB de RAM. almacenamiento 512 GB. pantalla 14 \".",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -350,91 +395,70 @@
       "all_issues": [
         "Descripción muy corta (14 palabras)"
       ],
-      "n_profiles": 2,
+      "n_profiles": 6,
       "profiles": [
         {
           "id": "ac48874e-6373-459d-b2e9-482b6a269e39",
           "profile_name": "El Pro Gamer en Gira"
         },
         {
-          "id": "1378127a-b456-4b97-ab5c-e479039b4122",
-          "profile_name": "El E-Sports Engineer"
+          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
+          "profile_name": "El Gamer Serio"
+        },
+        {
+          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
+          "profile_name": "El Gamer Casual Hogareno"
+        },
+        {
+          "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
+          "profile_name": "El Gamer Hardcore"
+        },
+        {
+          "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
+          "profile_name": "El Gamer Mochilero"
+        },
+        {
+          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
+          "profile_name": "El Competitivo Viajero"
         }
       ],
       "hidden_by_filter": false
     },
     {
-      "id": "c0193479-7b16-4f90-8e43-5660332824ac",
-      "name": "Lenovo Loq 15iax9e I7-12650hx 12gb 1tb Rtx 4050 6gb",
+      "id": "a74b0d02-8635-499d-9c93-c6dea592059f",
+      "name": "Laptop Lenovo Ideapad Ryzen 5 8gb 256gb Ssd Win 11 82VG00WXUS",
       "brand": "Lenovo",
-      "price": 2660289.0,
-      "cpu": "i7-12650HX",
-      "ram": "12 GB",
-      "storage": "1 TB",
+      "price": 899999.0,
+      "cpu": "7520U",
+      "ram": "8 GB",
+      "storage": "256 GB",
       "os": "Windows 11",
       "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA49998054?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Lenovo LOQ 15IAX9E Intel Core i7-12650HX 14 núcleos hasta 4.7 GHz, 12GB DDR5, SSD 1TB, NVIDIA RTX 4050 6GB.",
-      "has_influencer_note": false,
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA62507275?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "Lenovo con 7520U y 8 GB RAM. Buena opcion de gama media para este perfil.",
+      "description": "Lenovo IdeaPad AMD Ryzen 5 7520U hasta 4.3 GHz, 8GB RAM, SSD 256GB, pantalla 15.6\" Full HD.",
+      "has_influencer_note": true,
       "desc_grade": "basic",
       "link_check": {
         "status": "skipped",
         "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA49998054?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA62507275?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
         "redirect_to": null,
         "notes": []
       },
       "verdict": "WARN",
       "all_issues": [
-        "Descripción muy corta (19 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
+        "Descripción muy corta (17 palabras)"
       ],
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "ac48874e-6373-459d-b2e9-482b6a269e39",
-          "profile_name": "El Pro Gamer en Gira"
+          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
+          "profile_name": "El Desarrollador Viajero"
         },
         {
-          "id": "f493af0a-c9cc-43b5-a63f-7d0db81e049c",
-          "profile_name": "El Linux Gamer Entusiasta"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "8f8ac311-ddcc-4a54-8715-5becccf9892b",
-      "name": "Lenovo Yoga 7 16 Ryzen 7 350 16gb 1tb Ssd",
-      "brand": "Lenovo",
-      "price": 2100000.0,
-      "cpu": "AMD Ryzen AI 7 350",
-      "ram": "16 GB",
-      "storage": "1 TB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48914015?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Lenovo Yoga 7 AMD Ryzen AI7 350, 16Gb LPDDR5X, SSD NVME M.2 1Tb, pantalla táctil 16\" WUXGA 60Hz.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA48914015?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción muy corta (18 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 1,
-      "profiles": [
-        {
-          "id": "331b3063-55d9-463b-b626-5a6b36b3f0b4",
-          "profile_name": "El Creador de Contenido"
+          "id": "e252d2bf-f594-412d-84fd-87442434c327",
+          "profile_name": "El Game Dev Indie"
         }
       ],
       "hidden_by_filter": false
@@ -470,56 +494,12 @@
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
-          "profile_name": "El Desarrollador Viajero"
+          "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
+          "profile_name": "El Teletrabajador Estable"
         },
         {
           "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
           "profile_name": "El Profesional Nomade"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "8eddd7fa-3e6a-4efa-94e8-d19523ea2817",
-      "name": "Lenovo Yoga 7i 16 I7 16gb 1tb Ssd",
-      "brand": "Lenovo",
-      "price": 2299999.0,
-      "cpu": "256V",
-      "ram": "16 GB",
-      "storage": "1 TB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA50394296?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Lenovo Yoga 7i 16\" pantalla táctil 2K IPS, Intel Core, 16GB RAM, SSD 1TB.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA50394296?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción muy corta (14 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 3,
-      "profiles": [
-        {
-          "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
-          "profile_name": "El Ejecutivo Viajante"
-        },
-        {
-          "id": "a7df0078-dc73-4710-83a2-f9242146f03c",
-          "profile_name": "El Manager Productivo"
-        },
-        {
-          "id": "af849201-1c0b-4fc9-a191-99be2888e35b",
-          "profile_name": "El Arquitecto de Software"
         }
       ],
       "hidden_by_filter": false
@@ -535,7 +515,7 @@
       "os": "macOS",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA56327008?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El Mac más accesible del mercado. No es portátil, pero si trabajás desde casa y querés entrar al ecosistema Apple sin gastar en MacBook, el mini M4 con 16GB es una bestia silenciosa para crear y desarrollar.",
+      "influencer_note": "El Mac mas accesible. No es portatil pero si trabajas desde casa, el mini M4 con 16GB es una bestia silenciosa.",
       "description": "",
       "has_influencer_note": true,
       "desc_grade": "poor",
@@ -550,249 +530,79 @@
       "all_issues": [
         "Sin descripción o demasiado corta"
       ],
-      "n_profiles": 8,
-      "profiles": [
-        {
-          "id": "ca5b89a1-7c18-41b4-af1c-a6d7f52f53bf",
-          "profile_name": "El Fanatico Apple Fijo"
-        },
-        {
-          "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
-          "profile_name": "El Disenador Novato Fijo"
-        },
-        {
-          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
-          "profile_name": "El Gamer Apple de Base"
-        },
-        {
-          "id": "b3141f48-5473-4737-97e8-603816051b63",
-          "profile_name": "El Mac Gamer Dedicado"
-        },
-        {
-          "id": "9cf86959-c713-4780-8e90-c301e3982ea0",
-          "profile_name": "El Sysadmin Hogareno"
-        },
-        {
-          "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
-          "profile_name": "El Creativo Fijo"
-        },
-        {
-          "id": "adff2dc2-7c68-447c-8ab8-86e48a8e9af7",
-          "profile_name": "El DevOps Domestico"
-        },
-        {
-          "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
-          "profile_name": "El Productor Musical"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "ff382032-f157-4273-b03d-fea9fb4c8254",
-      "name": "MacBook Air M2 13\" 8GB/256GB",
-      "brand": "Apple",
-      "price": 1900000.0,
-      "cpu": "Apple M2",
-      "ram": "8 GB",
-      "storage": "256 GB",
-      "os": "macOS",
-      "battery": "15h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26385766?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "MacBook Air M2 base. 256GB alcanza si usás iCloud o Drive. Mismo chip potente que el M2 512GB y batería de 15h. La opción cuando el presupuesto ajusta y no querés renunciar a Apple.",
-      "description": "",
-      "has_influencer_note": true,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA26385766?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta"
-      ],
-      "n_profiles": 14,
+      "n_profiles": 18,
       "profiles": [
         {
           "id": "65d40d46-3df9-4220-a516-5e9f8e9d578c",
           "profile_name": "El Indie Gamer Mac"
         },
         {
-          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
-          "profile_name": "El Becario con Gustos"
-        },
-        {
-          "id": "fc0ccb19-7087-403c-8408-8c27cd3db016",
-          "profile_name": "El UX Designer"
-        },
-        {
-          "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
-          "profile_name": "El Disenador Aspiracional"
-        },
-        {
-          "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
-          "profile_name": "El Disenador Novato Fijo"
-        },
-        {
           "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
           "profile_name": "El Indie Dev Movil"
-        },
-        {
-          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
-          "profile_name": "El Gamer Apple de Base"
-        },
-        {
-          "id": "b3141f48-5473-4737-97e8-603816051b63",
-          "profile_name": "El Mac Gamer Dedicado"
-        },
-        {
-          "id": "87415029-3d9d-43fc-abcd-3fa419c57c79",
-          "profile_name": "El Creator Gamer"
-        },
-        {
-          "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
-          "profile_name": "El Gamer Casual Apple"
-        },
-        {
-          "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
-          "profile_name": "El Creativo Fijo"
-        },
-        {
-          "id": "c3fd9ae3-78f6-47f4-9810-38fbf85238cd",
-          "profile_name": "El Profesional Apple"
         },
         {
           "id": "61bc3c7f-73a5-45f8-a5cd-3a6df455e1c0",
           "profile_name": "El Freelancer de Cafe"
         },
         {
-          "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
-          "profile_name": "El Productor Musical"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "b81d5496-d891-4904-8410-77878cf108fb",
-      "name": "MacBook Air M2 13\" 8GB/512GB",
-      "brand": "Apple",
-      "price": 1700000.0,
-      "cpu": "Apple M2",
-      "ram": "8 GB",
-      "storage": "512 GB",
-      "os": "macOS",
-      "battery": "15h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26385767?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "La puerta de entrada al ecosistema Apple con batería real de 15h. M2 silencioso (sin ventilador), pantalla Retina y 512GB para no quedarte corto. El Mac más accesible que vale la pena.",
-      "description": "",
-      "has_influencer_note": true,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA26385767?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta"
-      ],
-      "n_profiles": 23,
-      "profiles": [
-        {
-          "id": "33aa2784-642f-4e8b-a936-385561d4d489",
-          "profile_name": "El Dev Full Stack"
+          "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
+          "profile_name": "El Editor Profesional"
         },
         {
-          "id": "65d40d46-3df9-4220-a516-5e9f8e9d578c",
-          "profile_name": "El Indie Gamer Mac"
-        },
-        {
-          "id": "fa2b1986-f4b6-433c-8e22-325f1977b7ad",
-          "profile_name": "El LAN Party Libre"
-        },
-        {
-          "id": "49d4e094-7279-40c5-a1a1-04eb9dc3ef12",
-          "profile_name": "El Backend Engineer"
-        },
-        {
-          "id": "fa50fb5f-c82f-4e2d-a4e3-dd14107adbf7",
-          "profile_name": "El Contributor Nomade"
-        },
-        {
-          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
-          "profile_name": "El Becario con Gustos"
+          "id": "93f90106-d30a-45aa-b177-83990c5d4c13",
+          "profile_name": "El Emprendedor Ligero"
         },
         {
           "id": "ca5b89a1-7c18-41b4-af1c-a6d7f52f53bf",
           "profile_name": "El Fanatico Apple Fijo"
         },
         {
-          "id": "5025e518-9e16-4a90-9030-00054c656f56",
-          "profile_name": "El Estudiante Con Aspiraciones"
-        },
-        {
-          "id": "26d267ef-aad4-4cc8-9001-f5480ee5ef6f",
-          "profile_name": "El Designer Junior"
-        },
-        {
-          "id": "fc0ccb19-7087-403c-8408-8c27cd3db016",
-          "profile_name": "El UX Designer"
-        },
-        {
-          "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
-          "profile_name": "El Disenador Aspiracional"
+          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
+          "profile_name": "El Becario con Gustos"
         },
         {
           "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
           "profile_name": "El Disenador Novato Fijo"
         },
         {
-          "id": "0b88ffc3-e6bd-4a82-9684-8207cc6ad89f",
-          "profile_name": "El Noob Apple Gamer"
+          "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
+          "profile_name": "El Disenador Aspiracional"
         },
         {
-          "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
-          "profile_name": "El Indie Dev Movil"
-        },
-        {
-          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
-          "profile_name": "El Gamer Apple de Base"
+          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
+          "profile_name": "El Mac Devotee"
         },
         {
           "id": "b3141f48-5473-4737-97e8-603816051b63",
           "profile_name": "El Mac Gamer Dedicado"
         },
         {
-          "id": "87415029-3d9d-43fc-abcd-3fa419c57c79",
-          "profile_name": "El Creator Gamer"
+          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
+          "profile_name": "El Gamer Apple de Base"
         },
         {
-          "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
-          "profile_name": "El Gamer Casual Apple"
+          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
+          "profile_name": "El Studio Gamer"
         },
         {
           "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
           "profile_name": "El Creativo Fijo"
         },
         {
-          "id": "c3fd9ae3-78f6-47f4-9810-38fbf85238cd",
-          "profile_name": "El Profesional Apple"
-        },
-        {
-          "id": "f4532e6d-9018-4cd7-ad3f-9d8c1c731fe7",
-          "profile_name": "El Consultor Open Source"
-        },
-        {
-          "id": "61bc3c7f-73a5-45f8-a5cd-3a6df455e1c0",
-          "profile_name": "El Freelancer de Cafe"
+          "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
+          "profile_name": "El Gamer Casual Apple"
         },
         {
           "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
           "profile_name": "El Productor Musical"
+        },
+        {
+          "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
+          "profile_name": "El Artista Digital Nomade"
+        },
+        {
+          "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
+          "profile_name": "El Gamer Ecosystem Apple"
         }
       ],
       "hidden_by_filter": false
@@ -823,102 +633,31 @@
       "all_issues": [
         "Sin descripción o demasiado corta"
       ],
-      "n_profiles": 2,
+      "n_profiles": 6,
       "profiles": [
+        {
+          "id": "61bc3c7f-73a5-45f8-a5cd-3a6df455e1c0",
+          "profile_name": "El Freelancer de Cafe"
+        },
         {
           "id": "93f90106-d30a-45aa-b177-83990c5d4c13",
           "profile_name": "El Emprendedor Ligero"
-        },
-        {
-          "id": "ca0e297c-9aca-4d11-bd52-6c90c2ea0416",
-          "profile_name": "El Profesional Premium"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "6bd3cfa5-5e24-43fe-85a5-8a4ede62342c",
-      "name": "MacBook Air M4 13\" 16GB/256GB",
-      "brand": "Apple",
-      "price": 2250000.0,
-      "cpu": "Apple M4",
-      "ram": "16 GB",
-      "storage": "256 GB",
-      "os": "macOS",
-      "battery": "18h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54109556?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El MacBook Air más nuevo del mercado. Chip M4 con 16GB unificados: arranca apps al instante, compila sin calor y la batería aguanta más de 15h reales. Si vas a entrar al ecosistema Apple en 2025, esta es la opción.",
-      "description": "",
-      "has_influencer_note": true,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA54109556?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta"
-      ],
-      "n_profiles": 14,
-      "profiles": [
-        {
-          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
-          "profile_name": "El Becario con Gustos"
         },
         {
           "id": "ca5b89a1-7c18-41b4-af1c-a6d7f52f53bf",
           "profile_name": "El Fanatico Apple Fijo"
         },
         {
-          "id": "5025e518-9e16-4a90-9030-00054c656f56",
-          "profile_name": "El Estudiante Con Aspiraciones"
+          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
+          "profile_name": "El Becario con Gustos"
         },
         {
-          "id": "26d267ef-aad4-4cc8-9001-f5480ee5ef6f",
-          "profile_name": "El Designer Junior"
+          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
+          "profile_name": "El Mac Devotee"
         },
         {
-          "id": "0b88ffc3-e6bd-4a82-9684-8207cc6ad89f",
-          "profile_name": "El Noob Apple Gamer"
-        },
-        {
-          "id": "93f90106-d30a-45aa-b177-83990c5d4c13",
-          "profile_name": "El Emprendedor Ligero"
-        },
-        {
-          "id": "ca0e297c-9aca-4d11-bd52-6c90c2ea0416",
-          "profile_name": "El Profesional Premium"
-        },
-        {
-          "id": "af849201-1c0b-4fc9-a191-99be2888e35b",
-          "profile_name": "El Arquitecto de Software"
-        },
-        {
-          "id": "122c814c-7a1e-40fb-871a-2f1732df1efb",
-          "profile_name": "El Tech Lead Nomade"
-        },
-        {
-          "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
-          "profile_name": "El Artista Digital Nomade"
-        },
-        {
-          "id": "15ecf10d-b05c-465f-8576-f5368c7af00b",
-          "profile_name": "El Full Stack Sin Fronteras"
-        },
-        {
-          "id": "4cdac62f-a7ad-4721-9be8-1be66609d600",
-          "profile_name": "El Motion Designer"
-        },
-        {
-          "id": "61c8b976-f12e-4b51-8243-804e50672bad",
-          "profile_name": "El Tech Architect"
-        },
-        {
-          "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
-          "profile_name": "El Gamer Ecosystem Apple"
+          "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
+          "profile_name": "El Creativo Fijo"
         }
       ],
       "hidden_by_filter": false
@@ -949,123 +688,130 @@
       "all_issues": [
         "Sin descripción o demasiado corta"
       ],
-      "n_profiles": 3,
+      "n_profiles": 6,
       "profiles": [
         {
-          "id": "ce32bc7a-bac2-4155-9bac-dffe15907d0d",
-          "profile_name": "El Creator Gamer Premium"
+          "id": "61bc3c7f-73a5-45f8-a5cd-3a6df455e1c0",
+          "profile_name": "El Freelancer de Cafe"
         },
         {
           "id": "93f90106-d30a-45aa-b177-83990c5d4c13",
           "profile_name": "El Emprendedor Ligero"
         },
         {
-          "id": "4cdac62f-a7ad-4721-9be8-1be66609d600",
-          "profile_name": "El Motion Designer"
+          "id": "ca5b89a1-7c18-41b4-af1c-a6d7f52f53bf",
+          "profile_name": "El Fanatico Apple Fijo"
+        },
+        {
+          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
+          "profile_name": "El Becario con Gustos"
+        },
+        {
+          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
+          "profile_name": "El Mac Devotee"
+        },
+        {
+          "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
+          "profile_name": "El Creativo Fijo"
         }
       ],
       "hidden_by_filter": false
     },
     {
-      "id": "521c6fbe-05b5-40af-b9f1-e0e785265733",
-      "name": "MacBook Pro M3 14\" 16GB/512GB",
+      "id": "aa000022-0000-0000-0000-000000000022",
+      "name": "MacBook Air M4 13.6\" 16GB/256GB Celeste",
       "brand": "Apple",
-      "price": 3500000.0,
-      "cpu": "Apple M3 Pro",
-      "ram": "16 GB",
-      "storage": "512 GB",
+      "price": 2250000.0,
+      "cpu": "Apple M4",
+      "ram": "16GB",
+      "storage": "256GB SSD",
       "os": "macOS",
-      "battery": "18h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA44897258?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
+      "battery": "Hasta 18 horas",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA53450246?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "Apple con Apple M4 y 16 GB RAM. Buena opcion de gama alta para este perfil.",
       "description": "",
-      "has_influencer_note": false,
+      "has_influencer_note": true,
       "desc_grade": "poor",
       "link_check": {
         "status": "skipped",
         "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA44897258?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA53450246?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
         "redirect_to": null,
         "notes": []
       },
       "verdict": "WARN",
       "all_issues": [
-        "Sin descripción o demasiado corta",
-        "Sin influencer_note — falta el hint de recomendación"
+        "Sin descripción o demasiado corta"
       ],
-      "n_profiles": 6,
+      "n_profiles": 18,
       "profiles": [
         {
-          "id": "ce32bc7a-bac2-4155-9bac-dffe15907d0d",
-          "profile_name": "El Creator Gamer Premium"
+          "id": "65d40d46-3df9-4220-a516-5e9f8e9d578c",
+          "profile_name": "El Indie Gamer Mac"
+        },
+        {
+          "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
+          "profile_name": "El Indie Dev Movil"
+        },
+        {
+          "id": "61bc3c7f-73a5-45f8-a5cd-3a6df455e1c0",
+          "profile_name": "El Freelancer de Cafe"
+        },
+        {
+          "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
+          "profile_name": "El Editor Profesional"
+        },
+        {
+          "id": "93f90106-d30a-45aa-b177-83990c5d4c13",
+          "profile_name": "El Emprendedor Ligero"
+        },
+        {
+          "id": "ca5b89a1-7c18-41b4-af1c-a6d7f52f53bf",
+          "profile_name": "El Fanatico Apple Fijo"
+        },
+        {
+          "id": "f7cfaf7d-4880-48f6-8e59-46f2dcd4a6e7",
+          "profile_name": "El Becario con Gustos"
+        },
+        {
+          "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
+          "profile_name": "El Disenador Novato Fijo"
+        },
+        {
+          "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
+          "profile_name": "El Disenador Aspiracional"
+        },
+        {
+          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
+          "profile_name": "El Mac Devotee"
+        },
+        {
+          "id": "b3141f48-5473-4737-97e8-603816051b63",
+          "profile_name": "El Mac Gamer Dedicado"
+        },
+        {
+          "id": "c86fb43d-c390-462f-a13e-71e87cb9326c",
+          "profile_name": "El Gamer Apple de Base"
+        },
+        {
+          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
+          "profile_name": "El Studio Gamer"
+        },
+        {
+          "id": "5a06743b-0f96-45db-b5cd-c9efc8f4aaa8",
+          "profile_name": "El Creativo Fijo"
+        },
+        {
+          "id": "90d9fe9d-2e0b-4470-966a-e306a44a7549",
+          "profile_name": "El Gamer Casual Apple"
+        },
+        {
+          "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
+          "profile_name": "El Productor Musical"
         },
         {
           "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
           "profile_name": "El Artista Digital Nomade"
-        },
-        {
-          "id": "15ecf10d-b05c-465f-8576-f5368c7af00b",
-          "profile_name": "El Full Stack Sin Fronteras"
-        },
-        {
-          "id": "4cdac62f-a7ad-4721-9be8-1be66609d600",
-          "profile_name": "El Motion Designer"
-        },
-        {
-          "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
-          "profile_name": "El Gamer Ecosystem Apple"
-        },
-        {
-          "id": "1378127a-b456-4b97-ab5c-e479039b4122",
-          "profile_name": "El E-Sports Engineer"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "173d70d4-fa6e-4a06-98b8-88b587c14783",
-      "name": "MacBook Pro M4 14\" 16GB/512GB",
-      "brand": "Apple",
-      "price": 3500000.0,
-      "cpu": "Apple M4",
-      "ram": "16 GB",
-      "storage": "512 GB",
-      "os": "macOS",
-      "battery": "18h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47742751?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "",
-      "has_influencer_note": false,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA47742751?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 5,
-      "profiles": [
-        {
-          "id": "ce32bc7a-bac2-4155-9bac-dffe15907d0d",
-          "profile_name": "El Creator Gamer Premium"
-        },
-        {
-          "id": "ca0e297c-9aca-4d11-bd52-6c90c2ea0416",
-          "profile_name": "El Profesional Premium"
-        },
-        {
-          "id": "af849201-1c0b-4fc9-a191-99be2888e35b",
-          "profile_name": "El Arquitecto de Software"
-        },
-        {
-          "id": "61c8b976-f12e-4b51-8243-804e50672bad",
-          "profile_name": "El Tech Architect"
         },
         {
           "id": "d7af6484-0bc8-4a99-b5fc-02ca694d21bf",
@@ -1085,7 +831,7 @@
       "os": "macOS",
       "battery": "18h",
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA56262150?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El Pro M4 con 1TB de almacenamiento para proyectos grandes. 24GB de RAM unificada que maneja video 4K ProRes, compilaciones masivas y VMs sin sudar. Para profesionales que no pueden permitirse bottlenecks.",
+      "influencer_note": "MacBook Pro M4 Pro con 1TB. 24GB de RAM unificada para video 4K ProRes, compilaciones y VMs sin bottlenecks.",
       "description": "",
       "has_influencer_note": true,
       "desc_grade": "poor",
@@ -1100,211 +846,31 @@
       "all_issues": [
         "Sin descripción o demasiado corta"
       ],
-      "n_profiles": 1,
+      "n_profiles": 6,
       "profiles": [
         {
-          "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
-          "profile_name": "El Editor Profesional"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "d13ca84b-6ac2-4f00-bb6a-4544d35e4b19",
-      "name": "MacBook Pro M4 Pro 14\" 24GB/512GB",
-      "brand": "Apple",
-      "price": 4890000.0,
-      "cpu": "Apple M4 Pro",
-      "ram": "24 GB",
-      "storage": "512 GB",
-      "os": "macOS",
-      "battery": "18h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47733719?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "",
-      "has_influencer_note": false,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA47733719?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 3,
-      "profiles": [
-        {
-          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
-          "profile_name": "El Mac Devotee"
-        },
-        {
-          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
-          "profile_name": "El Studio Gamer"
-        },
-        {
-          "id": "e01b87eb-1ec6-4e0d-b649-565aeadbbac1",
-          "profile_name": "El Ingeniero de Infraestructura"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "0f5ccbb1-6fc5-42da-9338-d12e07bc11ac",
-      "name": "MacBook Pro M4 Pro 16\" 24GB/512GB",
-      "brand": "Apple",
-      "price": 4999999.0,
-      "cpu": "Apple M4 Pro",
-      "ram": "24 GB",
-      "storage": "512 GB",
-      "os": "macOS",
-      "battery": "18h",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48955810?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "",
-      "has_influencer_note": false,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA48955810?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 3,
-      "profiles": [
-        {
-          "id": "6aca5b49-f367-4ee6-9302-6e77d0937b45",
-          "profile_name": "El Mac Devotee"
-        },
-        {
-          "id": "dea41367-666f-43cd-8cbe-8fa303a8c3d0",
-          "profile_name": "El Studio Gamer"
+          "id": "52b32e10-c1ec-4e93-a6da-cd76392b2018",
+          "profile_name": "El Indie Dev Movil"
         },
         {
           "id": "3b0444b7-4a08-48c4-aae5-7611d9553408",
           "profile_name": "El Editor Profesional"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "aa000002-0000-0000-0000-000000000002",
-      "name": "Mini PC B-Max B6 Plus i3 12GB/512GB",
-      "brand": "B-Max",
-      "price": 489851.0,
-      "cpu": "Intel Core i3-1000NG4",
-      "ram": "12 GB",
-      "storage": "512 GB SSD",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA44123036?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Mini PC muy vendida con 12GB RAM y 512GB SSD. Perfecta para tareas de oficina, estudio y navegación web desde un escritorio compacto.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA44123036?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (23 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 6,
-      "profiles": [
-        {
-          "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
-          "profile_name": "El Estudiante de Base"
         },
         {
-          "id": "baa21dca-f45a-4f6f-9f98-1b51c7ec1ab4",
-          "profile_name": "El Geek Estudiantil"
+          "id": "11c766a8-09e5-45ef-9c96-d565cf03adf0",
+          "profile_name": "El Disenador Novato Fijo"
         },
         {
-          "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
-          "profile_name": "El Programador Hogareno"
+          "id": "27bc9459-9599-47c5-a840-1f1b3ad4b206",
+          "profile_name": "El Disenador Aspiracional"
         },
         {
-          "id": "6bc14a87-9252-460b-9a21-0fb70500bc29",
-          "profile_name": "El Linux Enthusiast"
+          "id": "1503d7fb-9dc3-4dd1-a673-f7593a213e0b",
+          "profile_name": "El Productor Musical"
         },
         {
-          "id": "f0b36cd1-d929-47f3-8103-1564c061753d",
-          "profile_name": "El Retrogamer Linux"
-        },
-        {
-          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
-          "profile_name": "El Gamer Casual Hogareno"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "aa000001-0000-0000-0000-000000000001",
-      "name": "Mini PC CX Ryzen 3 8GB/240GB",
-      "brand": "CX",
-      "price": 499000.0,
-      "cpu": "AMD Ryzen 3",
-      "ram": "8 GB",
-      "storage": "240 GB SSD",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA44005785?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Mini PC compacta ideal para escritorio. Ocupa poco espacio, consume poca energía y conecta monitor, teclado y mouse para convertirse en un escritorio completo.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA44005785?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (24 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 6,
-      "profiles": [
-        {
-          "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
-          "profile_name": "El Estudiante de Base"
-        },
-        {
-          "id": "baa21dca-f45a-4f6f-9f98-1b51c7ec1ab4",
-          "profile_name": "El Geek Estudiantil"
-        },
-        {
-          "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
-          "profile_name": "El Programador Hogareno"
-        },
-        {
-          "id": "6bc14a87-9252-460b-9a21-0fb70500bc29",
-          "profile_name": "El Linux Enthusiast"
-        },
-        {
-          "id": "f0b36cd1-d929-47f3-8103-1564c061753d",
-          "profile_name": "El Retrogamer Linux"
-        },
-        {
-          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
-          "profile_name": "El Gamer Casual Hogareno"
+          "id": "8131ad92-7ae5-475d-96e8-6bd65f86ac16",
+          "profile_name": "El Artista Digital Nomade"
         }
       ],
       "hidden_by_filter": false
@@ -1320,9 +886,9 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48422891?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
+      "influencer_note": "Minisforum con AMD Ryzen 9 7940HX y 64 GB RAM. Buena opcion de gama media para este perfil.",
       "description": "La mini PC más potente del mercado argentino: Ryzen 9 7940HX con 64GB RAM y gráficos Radeon 780M. Maneja edición de video 4K, renders y desarrollo pesado en un cubo de 12cm.",
-      "has_influencer_note": false,
+      "has_influencer_note": true,
       "desc_grade": "basic",
       "link_check": {
         "status": "skipped",
@@ -1333,26 +899,17 @@
       },
       "verdict": "WARN",
       "all_issues": [
-        "Descripción corta (32 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
+        "Descripción corta (32 palabras)"
       ],
-      "n_profiles": 4,
+      "n_profiles": 2,
       "profiles": [
         {
-          "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
-          "profile_name": "El Teletrabajador Estable"
+          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
+          "profile_name": "El Desarrollador Viajero"
         },
         {
           "id": "e252d2bf-f594-412d-84fd-87442434c327",
           "profile_name": "El Game Dev Indie"
-        },
-        {
-          "id": "9cf86959-c713-4780-8e90-c301e3982ea0",
-          "profile_name": "El Sysadmin Hogareno"
-        },
-        {
-          "id": "adff2dc2-7c68-447c-8ab8-86e48a8e9af7",
-          "profile_name": "El DevOps Domestico"
         }
       ],
       "hidden_by_filter": false
@@ -1368,7 +925,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA62367069?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "RTX 5060 de última generación a precio razonable. MSI Cyborg es la opción para los que no quieren pagar marca de gaming premium pero sí quieren rendimiento real. 144hz y buena disipación térmica.",
+      "influencer_note": "RTX 5060 de ultima generacion. MSI Cyborg para rendimiento real sin pagar marca premium. 144hz y buena disipacion.",
       "description": "Notebook MSI. Msi Cyborg Laptop Intel I7 144hz Rtx 5060 16gb 512gb Ssd.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1385,80 +942,34 @@
         "RAM faltante o genérico",
         "Almacenamiento faltante o genérico"
       ],
-      "n_profiles": 4,
+      "n_profiles": 6,
       "profiles": [
         {
           "id": "ac48874e-6373-459d-b2e9-482b6a269e39",
           "profile_name": "El Pro Gamer en Gira"
         },
         {
+          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
+          "profile_name": "El Gamer Serio"
+        },
+        {
+          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
+          "profile_name": "El Gamer Casual Hogareno"
+        },
+        {
           "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
           "profile_name": "El Gamer Hardcore"
         },
         {
-          "id": "20bce0c6-be7f-4057-966f-798d97d1fa7a",
-          "profile_name": "El Streamer Hibrido"
+          "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
+          "profile_name": "El Gamer Mochilero"
         },
         {
-          "id": "1378127a-b456-4b97-ab5c-e479039b4122",
-          "profile_name": "El E-Sports Engineer"
+          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
+          "profile_name": "El Competitivo Viajero"
         }
       ],
       "hidden_by_filter": false
-    },
-    {
-      "id": "6b371488-7dce-490e-b213-58f0ca19aeb2",
-      "name": "Netbook Exolite L1 Intel Celeron N4020 8gb Ssd 480gb Linux Color Negro",
-      "brand": "EXO",
-      "price": 577199.0,
-      "cpu": "N4020",
-      "ram": "",
-      "storage": "",
-      "os": "Windows 11",
-      "battery": "4 Ah",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA42615655?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El secreto de los que saben: esta netbook corre Linux de fábrica, tiene 8GB de RAM y 480GB SSD. Para browsear, editar texto, programar en Python o aprender a usar la terminal, hace todo lo que necesitás sin gastar de más. Ideal si querés entrar al mundo open source sin romper el chanchito.",
-      "description": "Notebook EXO. Netbook Exolite L1 Intel Celeron N4020 8gb Ssd 480gb Linux Color Negro.",
-      "has_influencer_note": true,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA42615655?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción muy corta (14 palabras)",
-        "RAM faltante o genérico",
-        "Almacenamiento faltante o genérico",
-        "OCULTA en UI — filtro de profile page la excluye"
-      ],
-      "n_profiles": 5,
-      "profiles": [
-        {
-          "id": "df6a83b4-0751-4500-9f90-5386ea08bd00",
-          "profile_name": "El Dev Indie Portable"
-        },
-        {
-          "id": "4fcd1245-ea71-407b-bdfd-ad5b5fa6ab06",
-          "profile_name": "El Coder Autodidacta"
-        },
-        {
-          "id": "7060de79-04c2-4660-9455-216e50adfbba",
-          "profile_name": "El Gamer Open Source"
-        },
-        {
-          "id": "54baefc3-631f-429e-bd66-c9ee042b90f5",
-          "profile_name": "El Tesis en Linux"
-        },
-        {
-          "id": "978412f9-7330-4ace-a6f4-4eff1bee49fe",
-          "profile_name": "El Gamer Retro Portable"
-        }
-      ],
-      "hidden_by_filter": true
     },
     {
       "id": "a14cfd33-de29-4b01-8033-b9c857162a31",
@@ -1471,7 +982,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51871727?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Pantalla grande 15.6\" para ver más sin pagar más. El Intel N100 es más moderno y eficiente que el Celeron clásico. La opción esencial si preferís pantalla grande.",
+      "influencer_note": "HP con 7530U y 16 GB RAM. Buena opcion de gama media para este perfil.",
       "description": "El Notebook Asus Vivobook Go 15 E1504GA-NJ030W es la solución ideal para aquellos que buscan un dispositivo ligero, funcional y eficiente. Procesador Intel Processor N100, 4GB RAM, 128GB SSD.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1486,47 +997,15 @@
       "all_issues": [
         "Descripción corta (29 palabras)"
       ],
-      "n_profiles": 1,
+      "n_profiles": 2,
       "profiles": [
         {
-          "id": "96c90e62-9201-4102-9a97-7b4731e5b93d",
-          "profile_name": "El Universitario Clasico"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "5bb8c8b3-957d-418c-9080-09030443090f",
-      "name": "Notebook Asus Vivobook 14 Intel Core I3 1215u 16gb De Ram 512gb Ssd Full Hd Windows 11 Home",
-      "brand": "Asus",
-      "price": 1076286.0,
-      "cpu": "1215U",
-      "ram": "16 GB",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA40553594?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "La Notebook Asus Vivobook 14 es una opción ideal para quienes buscan un equilibrio entre rendimiento y portabilidad. Intel Core I3 1215U y 16GB de memoria RAM DDR4, almacenamiento 512GB SSD, pantalla ",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA40553594?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (37 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 1,
-      "profiles": [
+          "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
+          "profile_name": "El Estudiante de Base"
+        },
         {
-          "id": "b8bd9612-e27a-4bff-a2b5-cee55761c0fd",
-          "profile_name": "El Dev Freelance"
+          "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
+          "profile_name": "El Estudiante Viajero"
         }
       ],
       "hidden_by_filter": false
@@ -1563,12 +1042,12 @@
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
-          "profile_name": "El Profesional Nomade"
+          "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
+          "profile_name": "El Teletrabajador Estable"
         },
         {
-          "id": "f4532e6d-9018-4cd7-ad3f-9d8c1c731fe7",
-          "profile_name": "El Consultor Open Source"
+          "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
+          "profile_name": "El Profesional Nomade"
         }
       ],
       "hidden_by_filter": true
@@ -1584,7 +1063,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA61813247?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Pantalla OLED en 14 pulgadas con 1.2kg de peso. El Ryzen 7 8840hs con 16GB y 1TB SSD NVMe es rápido y eficiente. Para diseñadores y editores que valoran ver los colores reales en una pantalla que no miente.",
+      "influencer_note": "Pantalla OLED en 14 pulgadas con 1.2kg. Ryzen 7 8840hs con 16GB y 1TB SSD. Para disenadores que valoran colores reales.",
       "description": "Pantalla OLED de 14 pulgadas (1920x1200), AMD Ryzen 7 8840HS, 16GB RAM, 1TB SSD, peso 1.2kg.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1606,8 +1085,8 @@
           "profile_name": "El Creador en Movimiento"
         },
         {
-          "id": "331b3063-55d9-463b-b626-5a6b36b3f0b4",
-          "profile_name": "El Creador de Contenido"
+          "id": "ec956936-94f5-478f-982b-d462abb6bce6",
+          "profile_name": "El Streamer Profesional"
         }
       ],
       "hidden_by_filter": false
@@ -1623,7 +1102,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA61323435?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "980 gramos. La laptop más liviana del catálogo y encima con Snapdragon X Elite que tiene más de 20 horas de batería. No es para gaming, es para devs y creativos que vuelan constantemente y no pueden dejar el cable en casa.",
+      "influencer_note": "980 gramos. La laptop mas liviana del catalogo con Snapdragon X Elite y mas de 20 horas de bateria.",
       "description": "La Zenbook A14 pesa menos de 1 kilo con Snapdragon X, ofrece ventajas Copilot+ y batería de más de un día. Diseño minimalista.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1638,31 +1117,15 @@
       "all_issues": [
         "Descripción corta (23 palabras)"
       ],
-      "n_profiles": 6,
+      "n_profiles": 2,
       "profiles": [
-        {
-          "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
-          "profile_name": "El Ejecutivo Viajante"
-        },
-        {
-          "id": "a7df0078-dc73-4710-83a2-f9242146f03c",
-          "profile_name": "El Manager Productivo"
-        },
-        {
-          "id": "122c814c-7a1e-40fb-871a-2f1732df1efb",
-          "profile_name": "El Tech Lead Nomade"
-        },
         {
           "id": "1a17d7f6-da47-4582-995d-cc1bad04c93d",
           "profile_name": "El Creador en Movimiento"
         },
         {
-          "id": "15ecf10d-b05c-465f-8576-f5368c7af00b",
-          "profile_name": "El Full Stack Sin Fronteras"
-        },
-        {
-          "id": "61c8b976-f12e-4b51-8243-804e50672bad",
-          "profile_name": "El Tech Architect"
+          "id": "ec956936-94f5-478f-982b-d462abb6bce6",
+          "profile_name": "El Streamer Profesional"
         }
       ],
       "hidden_by_filter": false
@@ -1678,7 +1141,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA66368367?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Dell sólido con i5-1334u, 16GB DDR5 y pantalla 1920x1200 (más alta que FHD estándar). La diferencia se nota en hojas de cálculo y código. Construcción que aguanta años.",
+      "influencer_note": "Dell solido con i5-1334u, 16GB DDR5 y pantalla 1920x1200.",
       "description": "Notebook Dell. Notebook Dell Inspiron 14 5440 Intel Core I5-1334u 16 GB DDR5 512 GB SSD 14\" 1920x1200px Full HD+ IPS Intel Iris Xe Graphics 80EU Wifi 6 (802.11ax) Windows 11 Pro Teclado Español Color ",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1695,23 +1158,15 @@
         "RAM faltante o genérico",
         "Almacenamiento faltante o genérico"
       ],
-      "n_profiles": 4,
+      "n_profiles": 2,
       "profiles": [
         {
-          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
-          "profile_name": "El Desarrollador Viajero"
+          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
+          "profile_name": "El Director de Proyecto"
         },
         {
-          "id": "ab02b1e6-d4ae-4fe1-a5d0-a250ecf28b26",
-          "profile_name": "El Teletrabajador Hibrido"
-        },
-        {
-          "id": "fa50fb5f-c82f-4e2d-a4e3-dd14107adbf7",
-          "profile_name": "El Contributor Nomade"
-        },
-        {
-          "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
-          "profile_name": "El Profesional Nomade"
+          "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
+          "profile_name": "El Ejecutivo Viajante"
         }
       ],
       "hidden_by_filter": false
@@ -1727,7 +1182,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA42801267?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El Ryzen 5 7520U es una bestia de eficiencia: genera poco calor, dura horas con la batería y tiene el poder suficiente para editar videos livianos, usar Figma o correr máquinas virtuales. El precio es justo para lo que entrega, y el Full HD de 15.6\" se ve muy bien para trabajar todo el día.",
+      "influencer_note": "Apple con Apple M5 y 16 GB RAM. Buena opcion de gama alta para este perfil.",
       "description": "Notebook Dell. Notebook Dell Inspiron 3535 Amd Ryzen 5 7520u Full Hd 8 Gb Lpddr5-sdram 512 Gb Ssd - 15.6 - Windows 11 Home - Teclado En Español - Color Plata.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1747,12 +1202,12 @@
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "33aa2784-642f-4e8b-a936-385561d4d489",
-          "profile_name": "El Dev Full Stack"
+          "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
+          "profile_name": "El Teletrabajador Estable"
         },
         {
-          "id": "ab02b1e6-d4ae-4fe1-a5d0-a250ecf28b26",
-          "profile_name": "El Teletrabajador Hibrido"
+          "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
+          "profile_name": "El Profesional Nomade"
         }
       ],
       "hidden_by_filter": false
@@ -1768,7 +1223,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA49101171?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Hermana de la T38. Celeron N4020, 4GB y 128GB SSD: lo justo para empezar la facu. 1.3kg liviana y con garantía local. La más accesible para quien no necesita más que apuntar y entregar.",
+      "influencer_note": "EXO con Core I5 12va y 8 GB RAM. Buena opcion de gama media para este perfil.",
       "description": "EXO Smart R41 LT4 Celeron N4020, 4GB DDR4, SSD 128 GB, pantalla 14.1\" HD 1366x768.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1783,11 +1238,23 @@
       "all_issues": [
         "Descripción muy corta (15 palabras)"
       ],
-      "n_profiles": 1,
+      "n_profiles": 4,
       "profiles": [
         {
-          "id": "96c90e62-9201-4102-9a97-7b4731e5b93d",
-          "profile_name": "El Universitario Clasico"
+          "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
+          "profile_name": "El Estudiante de Base"
+        },
+        {
+          "id": "a0bf09f9-a3d6-469a-b935-d84699da91cc",
+          "profile_name": "El Disenador Ambulante"
+        },
+        {
+          "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
+          "profile_name": "El Programador Hogareno"
+        },
+        {
+          "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
+          "profile_name": "El Estudiante Viajero"
         }
       ],
       "hidden_by_filter": false
@@ -1803,7 +1270,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA22826188?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "La notebook más vendida de Argentina. Celeron N4020 y 4GB cubre apuntes, videollamadas y Office sin drama. El precio más bajo con respaldo de marca nacional.",
+      "influencer_note": "Apple con Apple M5 y 16 GB RAM. Buena opcion de gama alta para este perfil.",
       "description": "La notebook EXO Smart T38 Intel Celeron N4020, 4GB RAM, SSD 128GB, pantalla LED 14\".",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1818,47 +1285,23 @@
       "all_issues": [
         "Descripción muy corta (15 palabras)"
       ],
-      "n_profiles": 10,
+      "n_profiles": 4,
       "profiles": [
         {
-          "id": "2cfa031f-d93a-4d59-a3b0-52de028921aa",
-          "profile_name": "El Autodidacta Digital"
+          "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
+          "profile_name": "El Estudiante de Base"
         },
         {
-          "id": "df6a83b4-0751-4500-9f90-5386ea08bd00",
-          "profile_name": "El Dev Indie Portable"
+          "id": "a0bf09f9-a3d6-469a-b935-d84699da91cc",
+          "profile_name": "El Disenador Ambulante"
         },
         {
-          "id": "9e74d07c-5bd9-4f8f-a4d8-dadbd95b218c",
-          "profile_name": "El Aprendiz de Codigo"
-        },
-        {
-          "id": "4fcd1245-ea71-407b-bdfd-ad5b5fa6ab06",
-          "profile_name": "El Coder Autodidacta"
-        },
-        {
-          "id": "81637961-8692-41bd-97cc-06663139e203",
-          "profile_name": "El Gamer Entre Clases"
+          "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
+          "profile_name": "El Programador Hogareno"
         },
         {
           "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
           "profile_name": "El Estudiante Viajero"
-        },
-        {
-          "id": "7060de79-04c2-4660-9455-216e50adfbba",
-          "profile_name": "El Gamer Open Source"
-        },
-        {
-          "id": "54baefc3-631f-429e-bd66-c9ee042b90f5",
-          "profile_name": "El Tesis en Linux"
-        },
-        {
-          "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
-          "profile_name": "El Gamer Mochilero"
-        },
-        {
-          "id": "978412f9-7330-4ace-a6f4-4eff1bee49fe",
-          "profile_name": "El Gamer Retro Portable"
         }
       ],
       "hidden_by_filter": false
@@ -1874,7 +1317,7 @@
       "os": "Windows 11",
       "battery": "76 Ah",
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA60846857?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "El Nitro V16 actualizado con RTX 5050 y pantalla 180hz. Ryzen 5 de última gen y 16GB dan juego fluido en todos los títulos populares. Una de las mejores opciones para gaming de entrada sin compromiso.",
+      "influencer_note": "Nitro V16 con RTX 5050 y pantalla 180hz. Ryzen 5 ultima gen y 16GB. Una de las mejores opciones gaming de entrada.",
       "description": "Notebook Acer. Notebook Gamer Acer Nitro V16 Amd Ryzen 5 240 16gb Ram 512gb Ssd Pantalla 16 Full Hd 180hz Placa De Video Rtx 5050 8gb Gddr6 Teclado Retroiluminado Color Negro Windows 11.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1892,15 +1335,31 @@
         "Almacenamiento faltante o genérico",
         "OCULTA en UI — filtro de profile page la excluye"
       ],
-      "n_profiles": 2,
+      "n_profiles": 6,
       "profiles": [
         {
-          "id": "20bce0c6-be7f-4057-966f-798d97d1fa7a",
-          "profile_name": "El Streamer Hibrido"
+          "id": "ac48874e-6373-459d-b2e9-482b6a269e39",
+          "profile_name": "El Pro Gamer en Gira"
         },
         {
-          "id": "f493af0a-c9cc-43b5-a63f-7d0db81e049c",
-          "profile_name": "El Linux Gamer Entusiasta"
+          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
+          "profile_name": "El Gamer Serio"
+        },
+        {
+          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
+          "profile_name": "El Gamer Casual Hogareno"
+        },
+        {
+          "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
+          "profile_name": "El Gamer Hardcore"
+        },
+        {
+          "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
+          "profile_name": "El Gamer Mochilero"
+        },
+        {
+          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
+          "profile_name": "El Competitivo Viajero"
         }
       ],
       "hidden_by_filter": true
@@ -1916,7 +1375,7 @@
       "os": "Windows 11",
       "battery": "60 mAh",
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA66481380?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "RTX 5050 de nueva generación con Ryzen 7: la combinación que querés si usás Linux con Steam y necesitás GPU para renders o machine learning. El LOQ tiene pantalla de alta tasa de refresco, build sólido y refrigeración que no te va a decepcionar en sesiones largas. La GPU GDDR7 es un salto real sobre la generación anterior.",
+      "influencer_note": "RTX 5050 con Ryzen 7 y pantalla alta tasa de refresco. GPU GDDR7 es un salto real sobre la generacion anterior.",
       "description": "Notebook Lenovo. Notebook Gamer Lenovo Loq 15 15ahp10 Amd Ryzen 7 250 16gb 512gb Rtx 5050 8gb Gddr7.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1934,11 +1393,112 @@
         "Almacenamiento faltante o genérico",
         "OCULTA en UI — filtro de profile page la excluye"
       ],
-      "n_profiles": 1,
+      "n_profiles": 6,
       "profiles": [
         {
-          "id": "f493af0a-c9cc-43b5-a63f-7d0db81e049c",
-          "profile_name": "El Linux Gamer Entusiasta"
+          "id": "ac48874e-6373-459d-b2e9-482b6a269e39",
+          "profile_name": "El Pro Gamer en Gira"
+        },
+        {
+          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
+          "profile_name": "El Gamer Serio"
+        },
+        {
+          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
+          "profile_name": "El Gamer Casual Hogareno"
+        },
+        {
+          "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
+          "profile_name": "El Gamer Hardcore"
+        },
+        {
+          "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
+          "profile_name": "El Gamer Mochilero"
+        },
+        {
+          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
+          "profile_name": "El Competitivo Viajero"
+        }
+      ],
+      "hidden_by_filter": true
+    },
+    {
+      "id": "d46d104c-e75c-4f8c-92ba-2c0f753af62b",
+      "name": "Notebook HP 15-fc0251la AMD Ryzen 5 8GB RAM 512GB SSD 15,6\" FHD Windows 11 Home",
+      "brand": "HP",
+      "price": 1072499.0,
+      "cpu": "7520U",
+      "ram": "8 GB",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "battery": null,
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54637344?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "HP con 7520U y 8 GB RAM. Buena opcion de gama media para este perfil.",
+      "description": "HP 15-fc0251la AMD Ryzen 5, 8GB RAM, SSD 512GB, pantalla 15.6\" FHD, relación pantalla-cuerpo 85%.",
+      "has_influencer_note": true,
+      "desc_grade": "basic",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA54637344?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "Descripción muy corta (15 palabras)"
+      ],
+      "n_profiles": 2,
+      "profiles": [
+        {
+          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
+          "profile_name": "El Desarrollador Viajero"
+        },
+        {
+          "id": "e252d2bf-f594-412d-84fd-87442434c327",
+          "profile_name": "El Game Dev Indie"
+        }
+      ],
+      "hidden_by_filter": false
+    },
+    {
+      "id": "bdc35ae8-833d-4c21-8b9a-7c2898f8f58c",
+      "name": "Notebook Hp 15-fc0047wm 15,6' Fhd Touch 512gb / 16gb Ram R7-7730u W11",
+      "brand": "HP",
+      "price": 1559999.0,
+      "cpu": "7730u",
+      "ram": "",
+      "storage": "",
+      "os": "Windows 11",
+      "battery": "41.04 mAh",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA50851393?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "HP con 7730u. Buena opcion de gama alta para este perfil.",
+      "description": "Notebook HP. Notebook Hp 15-fc0047wm 15,6' Fhd Touch 512gb / 16gb Ram R7-7730u W11.",
+      "has_influencer_note": true,
+      "desc_grade": "basic",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA50851393?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "Descripción muy corta (14 palabras)",
+        "RAM faltante o genérico",
+        "Almacenamiento faltante o genérico",
+        "OCULTA en UI — filtro de profile page la excluye"
+      ],
+      "n_profiles": 2,
+      "profiles": [
+        {
+          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
+          "profile_name": "El Director de Proyecto"
+        },
+        {
+          "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
+          "profile_name": "El Ejecutivo Viajante"
         }
       ],
       "hidden_by_filter": true
@@ -1954,7 +1514,7 @@
       "os": "Windows 11",
       "battery": "3.467 Ah",
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA46567431?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Acá está el truco: 16GB de RAM por menos de un millón de pesos. La mayoría de los que miran las especificaciones no entienden lo importante que es tener suficiente RAM para no desesperarse con el multitasking. El Ryzen 3 maneja bien las tareas de oficina y estudio, y con ese almacenamiento SSD arranca en segundos.",
+      "influencer_note": "16GB de RAM por menos de un millon de pesos. Ryzen 3 maneja bien tareas de oficina y estudio, con SSD arranca en segundos.",
       "description": "Notebook HP. Notebook Hp 255 G10 Amd Ryzen 3-7330u 16 Gb Ddr4 Ssd 256 Gb 39.6cm (15.6 ) 1366x768px Amd Radeon Graphics Rx Vega 6 Teclado Español Freedos Color Gris Ceniza Oscuro.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -1972,191 +1532,50 @@
         "Almacenamiento faltante o genérico",
         "OCULTA en UI — filtro de profile page la excluye"
       ],
-      "n_profiles": 3,
+      "n_profiles": 2,
       "profiles": [
         {
           "id": "026c983a-7f43-4063-b115-2bc54aa1b481",
           "profile_name": "El Teletrabajador Estable"
         },
         {
-          "id": "ab02b1e6-d4ae-4fe1-a5d0-a250ecf28b26",
-          "profile_name": "El Teletrabajador Hibrido"
-        },
-        {
-          "id": "b8bd9612-e27a-4bff-a2b5-cee55761c0fd",
-          "profile_name": "El Dev Freelance"
+          "id": "eb5f39f4-cc48-443c-86d0-07c9ece4e51f",
+          "profile_name": "El Profesional Nomade"
         }
       ],
       "hidden_by_filter": true
     },
     {
-      "id": "6002c3bc-9621-4ef9-a67a-4599c942f031",
-      "name": "Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram 512gb Ssd 15.6 Full Hd Gráficos Integrados Radeon 610m Windows 11 Home",
-      "brand": "HP",
-      "price": 1293199.0,
-      "cpu": "7520U",
-      "ram": "16 GB",
+      "id": "e7443a6e-55b0-4731-8c0e-ab05242a83a1",
+      "name": "Notebook Huawei Matebook D14 Core I5 8gb Ram 512gb Ssd 14'' Plateado",
+      "brand": "Huawei",
+      "price": 1699999.0,
+      "cpu": "3700U",
+      "ram": "8 GB",
       "storage": "512 GB",
       "os": "Windows 11",
       "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54622919?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "HP 255 G10 AMD Ryzen 5 7520U, 16GB RAM DDR4, SSD 512GB, pantalla 15.6\" FHD IPS.",
-      "has_influencer_note": false,
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA40588469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "Liviana para creativos. 1.38kg con pantalla FullView, i5 solido y 8GB. Ideal para diseno y desarrollo en movimiento.",
+      "description": "Huawei MateBook D14, pantalla 14 pulgadas FullHD 1920x1200, AMD Ryzen 5 3700U, 8GB RAM, SSD 512GB.",
+      "has_influencer_note": true,
       "desc_grade": "basic",
       "link_check": {
         "status": "skipped",
         "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA54622919?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA40588469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
         "redirect_to": null,
         "notes": []
       },
       "verdict": "WARN",
       "all_issues": [
-        "Descripción muy corta (16 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
+        "Descripción muy corta (16 palabras)"
       ],
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "33aa2784-642f-4e8b-a936-385561d4d489",
-          "profile_name": "El Dev Full Stack"
-        },
-        {
-          "id": "49d4e094-7279-40c5-a1a1-04eb9dc3ef12",
-          "profile_name": "El Backend Engineer"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "44e92daf-969f-449f-b428-522bcad0c6e7",
-      "name": "Notebook Hp Victus Gaming 15-fa0027la I5 8gb Ram 512gb Win11 Negro",
-      "brand": "HP",
-      "price": 1549999.0,
-      "cpu": "i5-12450H",
-      "ram": "8 GB",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA38502774?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "HP Victus Gaming 15-fa0027la Intel Core i5 12a gen, 8GB RAM, SSD 512GB, pantalla 15.6\".",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA38502774?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción muy corta (15 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 3,
-      "profiles": [
-        {
-          "id": "d398133d-f7f0-47b9-aab8-5b666d5f364e",
-          "profile_name": "El Gamer Balanceado"
-        },
-        {
-          "id": "698fc3d6-9e75-46df-96c9-3b63014f41eb",
-          "profile_name": "El Gamer Tecnico"
-        },
-        {
-          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
-          "profile_name": "El Competitivo Viajero"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "a1bb3190-986d-4827-a204-e28b95055b9f",
-      "name": "Notebook Hp Victus Victus 15-fa2013dx Plateado 15.6 Disco Ssd 512 Gb Intel 13420h 8gb De Ram",
-      "brand": "HP",
-      "price": 1495000.0,
-      "cpu": "13420H",
-      "ram": "8 GB",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA63128585?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Notebook HP. Procesador 13420H. 8 GB de RAM. almacenamiento 512 GB. pantalla 15.6 \".",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA63128585?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción muy corta (14 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 4,
-      "profiles": [
-        {
-          "id": "fa2b1986-f4b6-433c-8e22-325f1977b7ad",
-          "profile_name": "El LAN Party Libre"
-        },
-        {
-          "id": "d398133d-f7f0-47b9-aab8-5b666d5f364e",
-          "profile_name": "El Gamer Balanceado"
-        },
-        {
-          "id": "698fc3d6-9e75-46df-96c9-3b63014f41eb",
-          "profile_name": "El Gamer Tecnico"
-        },
-        {
-          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
-          "profile_name": "El Competitivo Viajero"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "4bf85614-08e7-4ade-8df2-63c400a7199c",
-      "name": "Notebook LG Gram 17 I7-1360p 1tb Ssd 16gb Ddr5 Ips Win11 Color Negro",
-      "brand": "LG",
-      "price": 3199997.0,
-      "cpu": "i7-1360P",
-      "ram": "16 GB",
-      "storage": "1 TB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA39932653?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "LG gram 17\" Intel Core i7-1360P 12 núcleos, 16GB DDR5, SSD 1TB, pantalla 2560x1600, peso 1.45kg.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA39932653?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción muy corta (16 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 3,
-      "profiles": [
-        {
-          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
-          "profile_name": "El Director de Proyecto"
-        },
-        {
-          "id": "a7df0078-dc73-4710-83a2-f9242146f03c",
-          "profile_name": "El Manager Productivo"
+          "id": "1a17d7f6-da47-4582-995d-cc1bad04c93d",
+          "profile_name": "El Creador en Movimiento"
         },
         {
           "id": "ec956936-94f5-478f-982b-d462abb6bce6",
@@ -2166,52 +1585,40 @@
       "hidden_by_filter": false
     },
     {
-      "id": "3dd29d8f-b61c-4c9e-b126-79113da0c999",
-      "name": "Notebook Lenovo IdeaPad Gaming 3 15ARH05",
-      "brand": "Lenovo",
-      "price": 1375000.0,
-      "cpu": "Ver descripción",
-      "ram": "Ver descripción",
-      "storage": "Ver descripción",
+      "id": "6c4a3e95-9590-4375-8bb7-221cb88682e0",
+      "name": "Notebook Huawei Matebook D16 Core I5 16gb Ram 512gb Ssd 16'' Gris",
+      "brand": "Huawei",
+      "price": 2129999.0,
+      "cpu": "12450H",
+      "ram": "16 GB",
+      "storage": "512 GB",
       "os": "Windows 11",
       "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA25250672?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "",
-      "has_influencer_note": false,
-      "desc_grade": "poor",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA38832469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "16 pulgadas con 1.7kg. Pantalla IPS 16:10 comodo para codigo y diseno. 16GB y i5 para multitarea real.",
+      "description": "Huawei MateBook D16, pantalla 16 pulgadas, Intel Core i5-12450H, 16GB RAM, SSD 512GB.",
+      "has_influencer_note": true,
+      "desc_grade": "basic",
       "link_check": {
         "status": "skipped",
         "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA25250672?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA38832469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
         "redirect_to": null,
         "notes": []
       },
       "verdict": "WARN",
       "all_issues": [
-        "Sin descripción o demasiado corta",
-        "Sin influencer_note — falta el hint de recomendación",
-        "CPU faltante o genérico",
-        "RAM faltante o genérico",
-        "Almacenamiento faltante o genérico"
+        "Descripción muy corta (13 palabras)"
       ],
-      "n_profiles": 4,
+      "n_profiles": 2,
       "profiles": [
         {
-          "id": "fa2b1986-f4b6-433c-8e22-325f1977b7ad",
-          "profile_name": "El LAN Party Libre"
+          "id": "1a17d7f6-da47-4582-995d-cc1bad04c93d",
+          "profile_name": "El Creador en Movimiento"
         },
         {
-          "id": "d398133d-f7f0-47b9-aab8-5b666d5f364e",
-          "profile_name": "El Gamer Balanceado"
-        },
-        {
-          "id": "698fc3d6-9e75-46df-96c9-3b63014f41eb",
-          "profile_name": "El Gamer Tecnico"
-        },
-        {
-          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
-          "profile_name": "El Competitivo Viajero"
+          "id": "ec956936-94f5-478f-982b-d462abb6bce6",
+          "profile_name": "El Streamer Profesional"
         }
       ],
       "hidden_by_filter": false
@@ -2227,7 +1634,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA46083582?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "La laptop más liviana del catálogo Windows (1.3kg) para quien solo necesita navegar, tomar apuntes y hacer videollamadas. El Celeron N4500 no es para editar video, pero para estudio básico funciona y el precio es imbatible.",
+      "influencer_note": "La mas liviana del catalogo Windows (1.3kg) para estudio basico. Celeron N4500 para navegar, apuntes y videollamadas.",
       "description": "Lenovo IdeaPad 1 14IJL7 Intel Celeron N4500 2.8 GHz dual-core, 4GB RAM DDR4, SSD 128GB, pantalla 14\" HD.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -2242,38 +1649,117 @@
       "all_issues": [
         "Descripción muy corta (18 palabras)"
       ],
-      "n_profiles": 7,
+      "n_profiles": 2,
       "profiles": [
-        {
-          "id": "96c90e62-9201-4102-9a97-7b4731e5b93d",
-          "profile_name": "El Universitario Clasico"
-        },
-        {
-          "id": "2cfa031f-d93a-4d59-a3b0-52de028921aa",
-          "profile_name": "El Autodidacta Digital"
-        },
         {
           "id": "a0bf09f9-a3d6-469a-b935-d84699da91cc",
           "profile_name": "El Disenador Ambulante"
         },
         {
-          "id": "9e74d07c-5bd9-4f8f-a4d8-dadbd95b218c",
-          "profile_name": "El Aprendiz de Codigo"
+          "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
+          "profile_name": "El Programador Hogareno"
+        }
+      ],
+      "hidden_by_filter": false
+    },
+    {
+      "id": "9b860be0-c51e-4eb9-8c0d-fc7ec8c1c386",
+      "name": "Notebook Lenovo Ideapad Slim 3 15ARP10 AMD Ryzen 7 7735hs 24GB DDR5 1 TB SSD Nvme 15.3 WUXGA IPS 1920x1200 AMD Radeon Graphics 680M Wifi 6 Camara FHD IR Teclado Español Color Luna Grey",
+      "brand": "Lenovo",
+      "price": 2122199.0,
+      "cpu": "7735HS",
+      "ram": "",
+      "storage": "",
+      "os": "Windows 11",
+      "battery": "4.334 Ah",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA65915109?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "Ryzen 7 7735hs con 24GB DDR5 y 1TB NVMe.",
+      "description": "Notebook Lenovo. Notebook Lenovo Ideapad Slim 3 15ARP10 AMD Ryzen 7 7735hs 24GB DDR5 1 TB SSD Nvme 15.3 WUXGA IPS 1920x1200 AMD Radeon Graphics 680M Wifi 6 Camara FHD IR Teclado Español Color Luna Gre",
+      "has_influencer_note": true,
+      "desc_grade": "basic",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA65915109?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "Descripción corta (36 palabras)",
+        "RAM faltante o genérico",
+        "Almacenamiento faltante o genérico",
+        "OCULTA en UI — filtro de profile page la excluye"
+      ],
+      "n_profiles": 2,
+      "profiles": [
+        {
+          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
+          "profile_name": "El Director de Proyecto"
         },
         {
-          "id": "81637961-8692-41bd-97cc-06663139e203",
-          "profile_name": "El Gamer Entre Clases"
+          "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
+          "profile_name": "El Ejecutivo Viajante"
+        }
+      ],
+      "hidden_by_filter": true
+    },
+    {
+      "id": "84322b86-6bc0-4e60-86a9-ce4f66c40ab9",
+      "name": "Notebook Lenovo Loq 15ahp10 AMD Ryzen 7 250 64 GB DDR5-SDRAM 1 TB SSD 39.6 Cm (15.6) Full HD IPS 144 Hz Nvidia Geforce RTX 5060 8GB GDDR7 Wi-fi 6 (802.11ax) Teclado Español Windows 11 Home Luna Grey",
+      "brand": "Lenovo",
+      "price": 4638199.0,
+      "cpu": "250",
+      "ram": "",
+      "storage": "",
+      "os": "Windows 11",
+      "battery": "3.886 Ah",
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA65793690?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "Lenovo con 250. Buena opcion de gama alta para este perfil.",
+      "description": "Notebook Lenovo. Notebook Lenovo Loq 15ahp10 AMD Ryzen 7 250 64 GB DDR5-SDRAM 1 TB SSD 39.6 Cm (15.6) Full HD IPS 144 Hz Nvidia Geforce RTX 5060 8GB GDDR7 Wi-fi 6 (802.11ax) Teclado Español Windows 11",
+      "has_influencer_note": true,
+      "desc_grade": "good",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA65793690?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "RAM faltante o genérico",
+        "Almacenamiento faltante o genérico",
+        "OCULTA en UI — filtro de profile page la excluye"
+      ],
+      "n_profiles": 6,
+      "profiles": [
+        {
+          "id": "ac48874e-6373-459d-b2e9-482b6a269e39",
+          "profile_name": "El Pro Gamer en Gira"
         },
         {
-          "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
-          "profile_name": "El Estudiante Viajero"
+          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
+          "profile_name": "El Gamer Serio"
+        },
+        {
+          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
+          "profile_name": "El Gamer Casual Hogareno"
+        },
+        {
+          "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
+          "profile_name": "El Gamer Hardcore"
         },
         {
           "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
           "profile_name": "El Gamer Mochilero"
+        },
+        {
+          "id": "bf8bf1ee-0469-4873-8a56-878f93e93eaa",
+          "profile_name": "El Competitivo Viajero"
         }
       ],
-      "hidden_by_filter": false
+      "hidden_by_filter": true
     },
     {
       "id": "acac6672-641f-4b62-9fa4-cc167f3eed78",
@@ -2286,9 +1772,9 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA41325752?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
+      "influencer_note": "Lenovo con 7520U y 16 GB RAM. Buena opcion de gama media para este perfil.",
       "description": "Lenovo V15 G4 AMD Ryzen 5 7520U, 16 GB LPDDR5, SSD 512GB NVMe PCIe 4.0, pantalla 15.6\".",
-      "has_influencer_note": false,
+      "has_influencer_note": true,
       "desc_grade": "basic",
       "link_check": {
         "status": "skipped",
@@ -2299,18 +1785,17 @@
       },
       "verdict": "WARN",
       "all_issues": [
-        "Descripción muy corta (17 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
+        "Descripción muy corta (17 palabras)"
       ],
       "n_profiles": 2,
       "profiles": [
         {
-          "id": "b8bd9612-e27a-4bff-a2b5-cee55761c0fd",
-          "profile_name": "El Dev Freelance"
+          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
+          "profile_name": "El Desarrollador Viajero"
         },
         {
-          "id": "49d4e094-7279-40c5-a1a1-04eb9dc3ef12",
-          "profile_name": "El Backend Engineer"
+          "id": "e252d2bf-f594-412d-84fd-87442434c327",
+          "profile_name": "El Game Dev Indie"
         }
       ],
       "hidden_by_filter": false
@@ -2326,7 +1811,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA21253588?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "Ultra delgada y 1.33kg con Ryzen 7. El equilibrio perfecto entre rendimiento y movilidad en el segmento premium Windows. Para ejecutivos que no quieren cargar pero sí necesitan potencia.",
+      "influencer_note": "Apple con Apple M4 y 16 GB RAM. Buena opcion de gama alta para este perfil.",
       "description": "Lenovo Yoga Slim AMD Ryzen 7, 8GB RAM, SSD 512GB, pantalla 14\".",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -2341,11 +1826,15 @@
       "all_issues": [
         "Descripción muy corta (12 palabras)"
       ],
-      "n_profiles": 1,
+      "n_profiles": 2,
       "profiles": [
         {
-          "id": "733992d7-b83c-4806-b63d-b145c149ce81",
-          "profile_name": "El Desarrollador Viajero"
+          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
+          "profile_name": "El Director de Proyecto"
+        },
+        {
+          "id": "b2f2f9e1-a21d-4fa3-8eb3-b81017c36ed6",
+          "profile_name": "El Ejecutivo Viajante"
         }
       ],
       "hidden_by_filter": false
@@ -2376,19 +1865,23 @@
       "all_issues": [
         "Descripción muy corta (14 palabras)"
       ],
-      "n_profiles": 3,
+      "n_profiles": 4,
       "profiles": [
         {
-          "id": "2cfa031f-d93a-4d59-a3b0-52de028921aa",
-          "profile_name": "El Autodidacta Digital"
+          "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
+          "profile_name": "El Estudiante de Base"
         },
         {
           "id": "a0bf09f9-a3d6-469a-b935-d84699da91cc",
           "profile_name": "El Disenador Ambulante"
         },
         {
-          "id": "54baefc3-631f-429e-bd66-c9ee042b90f5",
-          "profile_name": "El Tesis en Linux"
+          "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
+          "profile_name": "El Programador Hogareno"
+        },
+        {
+          "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
+          "profile_name": "El Estudiante Viajero"
         }
       ],
       "hidden_by_filter": false
@@ -2404,7 +1897,7 @@
       "os": "Windows 11",
       "battery": null,
       "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA37505961?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "14 pulgadas y 1.3kg. Para apuntes y trabajos prácticos alcanza bien. Una opción nacional que no te complica la vida ni el bolsillo.",
+      "influencer_note": "LG con i7-1360P y 16 GB RAM. Buena opcion de gama alta para este perfil.",
       "description": "Noblex N14X1010 Intel Celeron N4020, 4GB RAM, SSD 128GB, pantalla 14.1\" HD.",
       "has_influencer_note": true,
       "desc_grade": "basic",
@@ -2419,271 +1912,7 @@
       "all_issues": [
         "Descripción muy corta (12 palabras)"
       ],
-      "n_profiles": 1,
-      "profiles": [
-        {
-          "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
-          "profile_name": "El Estudiante Viajero"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "aa000005-0000-0000-0000-000000000005",
-      "name": "PC Gamer Armada RTX 3060 32GB/960GB",
-      "brand": "Noxi",
-      "price": 2499000.0,
-      "cpu": "AMD Ryzen 7 5700G",
-      "ram": "32 GB",
-      "storage": "960 GB SSD",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51143808?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "PC gamer de alta gama con RTX 3060 12GB y 32GB de RAM. Corre cualquier juego actual en 1080p ultra y la mayoría en 1440p. Placa dedicada Zotac.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA51143808?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (28 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 6,
-      "profiles": [
-        {
-          "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
-          "profile_name": "El Gamer Hardcore"
-        },
-        {
-          "id": "e5b577f8-fb74-4fda-a36a-3cfdc7b280dd",
-          "profile_name": "El Rey del Benchmark"
-        },
-        {
-          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
-          "profile_name": "El Director de Proyecto"
-        },
-        {
-          "id": "92cac807-d5c7-412a-8623-95328ff1995d",
-          "profile_name": "El Senior Dev de Casa"
-        },
-        {
-          "id": "e01b87eb-1ec6-4e0d-b649-565aeadbbac1",
-          "profile_name": "El Ingeniero de Infraestructura"
-        },
-        {
-          "id": "ec956936-94f5-478f-982b-d462abb6bce6",
-          "profile_name": "El Streamer Profesional"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "aa000006-0000-0000-0000-000000000006",
-      "name": "PC Gamer Armada RTX 3070 Ti 32GB/1TB",
-      "brand": "Armada",
-      "price": 3799000.0,
-      "cpu": "AMD Ryzen 7 5700G",
-      "ram": "32 GB",
-      "storage": "1 TB SSD",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/up/MLAU3592669488?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "PC gamer tope de gama con RTX 3070 Ti. Dominá cualquier juego en 1440p y 4K. 32GB RAM y 1TB SSD para la mejor experiencia gaming sin compromisos.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/up/MLAU3592669488?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (28 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 5,
-      "profiles": [
-        {
-          "id": "ed5e7d6c-962b-466f-bdac-914e87f94243",
-          "profile_name": "El Gamer Hardcore"
-        },
-        {
-          "id": "e5b577f8-fb74-4fda-a36a-3cfdc7b280dd",
-          "profile_name": "El Rey del Benchmark"
-        },
-        {
-          "id": "35adcc0c-d224-4670-a068-65919fe9cd07",
-          "profile_name": "El Director de Proyecto"
-        },
-        {
-          "id": "92cac807-d5c7-412a-8623-95328ff1995d",
-          "profile_name": "El Senior Dev de Casa"
-        },
-        {
-          "id": "ec956936-94f5-478f-982b-d462abb6bce6",
-          "profile_name": "El Streamer Profesional"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "aa000011-0000-0000-0000-000000000011",
-      "name": "PC Gamer Mexx G6550 Ryzen 7 5700 32GB/1TB RTX 3050",
-      "brand": "Mexx",
-      "price": 1380499.0,
-      "cpu": "AMD Ryzen 7 5700",
-      "ram": "32 GB",
-      "storage": "1 TB SSD",
-      "os": "Windows",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/pc-gamer-mexx-g6550-amd-ryzen-7-5700-32gb-1tb-ssd-rtx-3050-msi/p/MLA46190399?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "",
-      "has_influencer_note": false,
-      "desc_grade": "poor",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/pc-gamer-mexx-g6550-amd-ryzen-7-5700-32gb-1tb-ssd-rtx-3050-msi/p/MLA46190399?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Sin descripción o demasiado corta",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 3,
-      "profiles": [
-        {
-          "id": "e252d2bf-f594-412d-84fd-87442434c327",
-          "profile_name": "El Game Dev Indie"
-        },
-        {
-          "id": "083323eb-9f48-4997-a929-29efb1ece27b",
-          "profile_name": "El LAN Master"
-        },
-        {
-          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
-          "profile_name": "El Gamer Serio"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "aa000004-0000-0000-0000-000000000004",
-      "name": "PC Gamer Noxi Armada Ryzen 7 5700G 16GB",
-      "brand": "Noxi",
-      "price": 844899.0,
-      "cpu": "AMD Ryzen 7 5700G",
-      "ram": "16 GB",
-      "storage": "480 GB SSD",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA64663793?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "PC gamer armada con 4 coolers ARGB, WiFi y kit teclado+mouse incluido. Ryzen 7 5700G con gráficos integrados potentes. Lista para usar de inmediato.",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA64663793?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (24 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 2,
-      "profiles": [
-        {
-          "id": "083323eb-9f48-4997-a929-29efb1ece27b",
-          "profile_name": "El LAN Master"
-        },
-        {
-          "id": "02d5f5f6-179a-4fc7-91d1-3df8c6d2eca2",
-          "profile_name": "El Gamer Serio"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "428d0b26-bf13-4680-b50a-46f0908a1781",
-      "name": "Portatil Gamer Acer Nitro V15 I5 13420h 16gb Rtx 5050 512gb Black",
-      "brand": "Acer",
-      "price": 2464599.0,
-      "cpu": "13420H",
-      "ram": "16 GB",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA63163752?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "Notebook Acer Nitro V 15 ANV15-53-57BB Intel Core I5-13420H",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA63163752?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción auto-generada (solo repite el nombre)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 1,
-      "profiles": [
-        {
-          "id": "20bce0c6-be7f-4057-966f-798d97d1fa7a",
-          "profile_name": "El Streamer Hibrido"
-        }
-      ],
-      "hidden_by_filter": false
-    },
-    {
-      "id": "8083bc0c-1bf3-4d94-b953-9b23e232d9d6",
-      "name": "Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro 5650u 16 GB de RAM 256 GB Ssd Windows 11 Pro",
-      "brand": "HP",
-      "price": 497680.0,
-      "cpu": "PRO 5650U",
-      "ram": "16 GB",
-      "storage": "256 GB",
-      "os": "Windows 11",
-      "battery": null,
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA2020089210?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "description": "HP Elitebook 845 G8 AMD Ryzen 5 Pro 5650U 6 núcleos hasta 4.2 GHz, 16 GB RAM, SSD 256 GB, pantalla 14\".",
-      "has_influencer_note": false,
-      "desc_grade": "basic",
-      "link_check": {
-        "status": "skipped",
-        "http_code": 0,
-        "final_url": "https://www.mercadolibre.com.ar/p/MLA2020089210?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-        "redirect_to": null,
-        "notes": []
-      },
-      "verdict": "WARN",
-      "all_issues": [
-        "Descripción corta (22 palabras)",
-        "Sin influencer_note — falta el hint de recomendación"
-      ],
-      "n_profiles": 14,
+      "n_profiles": 4,
       "profiles": [
         {
           "id": "6b79ce11-e1d2-4fec-9bc3-1d0faf98ffcf",
@@ -2694,52 +1923,51 @@
           "profile_name": "El Disenador Ambulante"
         },
         {
-          "id": "df6a83b4-0751-4500-9f90-5386ea08bd00",
-          "profile_name": "El Dev Indie Portable"
-        },
-        {
-          "id": "baa21dca-f45a-4f6f-9f98-1b51c7ec1ab4",
-          "profile_name": "El Geek Estudiantil"
-        },
-        {
           "id": "1bd1e1e4-7838-487b-94a9-d78dd8735b78",
           "profile_name": "El Programador Hogareno"
         },
         {
-          "id": "9e74d07c-5bd9-4f8f-a4d8-dadbd95b218c",
-          "profile_name": "El Aprendiz de Codigo"
+          "id": "a3d75c43-68eb-495c-a0c5-5939dcb8704e",
+          "profile_name": "El Estudiante Viajero"
+        }
+      ],
+      "hidden_by_filter": false
+    },
+    {
+      "id": "3879e975-a0d5-4d20-a516-cfa4fa50b129",
+      "name": "Ultrabook Lenovo ThinkPad T495 negro de 14 pulgadas",
+      "brand": "Lenovo",
+      "price": 1802844.0,
+      "cpu": "3500U",
+      "ram": "8 GB",
+      "storage": "256 GB",
+      "os": "Windows 11",
+      "battery": null,
+      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA22873309?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+      "influencer_note": "Lenovo con 3500U y 8 GB RAM. Buena opcion de gama alta para este perfil.",
+      "description": "Lenovo ThinkPad T495 14 pulgadas, AMD Ryzen 5 3500U, 8GB RAM, SSD 256GB.",
+      "has_influencer_note": true,
+      "desc_grade": "basic",
+      "link_check": {
+        "status": "skipped",
+        "http_code": 0,
+        "final_url": "https://www.mercadolibre.com.ar/p/MLA22873309?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
+        "redirect_to": null,
+        "notes": []
+      },
+      "verdict": "WARN",
+      "all_issues": [
+        "Descripción muy corta (13 palabras)"
+      ],
+      "n_profiles": 2,
+      "profiles": [
+        {
+          "id": "1a17d7f6-da47-4582-995d-cc1bad04c93d",
+          "profile_name": "El Creador en Movimiento"
         },
         {
-          "id": "4fcd1245-ea71-407b-bdfd-ad5b5fa6ab06",
-          "profile_name": "El Coder Autodidacta"
-        },
-        {
-          "id": "6bc14a87-9252-460b-9a21-0fb70500bc29",
-          "profile_name": "El Linux Enthusiast"
-        },
-        {
-          "id": "81637961-8692-41bd-97cc-06663139e203",
-          "profile_name": "El Gamer Entre Clases"
-        },
-        {
-          "id": "7060de79-04c2-4660-9455-216e50adfbba",
-          "profile_name": "El Gamer Open Source"
-        },
-        {
-          "id": "f0b36cd1-d929-47f3-8103-1564c061753d",
-          "profile_name": "El Retrogamer Linux"
-        },
-        {
-          "id": "7eb7bb15-eca8-4153-883a-2f16e2ca0428",
-          "profile_name": "El Gamer Casual Hogareno"
-        },
-        {
-          "id": "703196de-1462-48bb-b2f9-ee4bd2bc360e",
-          "profile_name": "El Gamer Mochilero"
-        },
-        {
-          "id": "978412f9-7330-4ace-a6f4-4eff1bee49fe",
-          "profile_name": "El Gamer Retro Portable"
+          "id": "ec956936-94f5-478f-982b-d462abb6bce6",
+          "profile_name": "El Streamer Profesional"
         }
       ],
       "hidden_by_filter": false

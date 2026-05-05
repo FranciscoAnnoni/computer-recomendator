@@ -18,7 +18,8 @@ function vibrate() {
 }
 
 export function OptionCarousel({ options, selectedValue, onSelect, onNext }: OptionCarouselProps) {
-  const INITIAL_CENTER = 1; // middle card (index 1 of 3)
+  // For 3-option steps: index 1 (middle). For 2-option steps: index 0 (first).
+  const INITIAL_CENTER = Math.floor((options.length - 1) / 2);
 
   const derivedCenter = selectedValue
     ? options.findIndex((o) => o.value === selectedValue)
@@ -87,7 +88,10 @@ export function OptionCarousel({ options, selectedValue, onSelect, onNext }: Opt
           className="relative w-[200px] h-[290px] mx-auto cursor-grab active:cursor-grabbing"
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.2}
+          dragElastic={{
+            left: isRightDisabled ? 0 : 0.2,
+            right: isLeftDisabled ? 0 : 0.2,
+          }}
           onDragEnd={handleDragEnd}
         >
           {options.map((option, index) => {
@@ -99,7 +103,7 @@ export function OptionCarousel({ options, selectedValue, onSelect, onNext }: Opt
               <motion.div
                 key={option.value}
                 className="absolute top-0"
-                style={{ left: "50%", marginLeft: "-100px" }}
+                style={{ left: "50%", marginLeft: "-100px", pointerEvents: Math.abs(offset) > 1 ? 'none' : 'auto' }}
                 animate={{
                   x: offset === 0 ? 0 : offset < 0 ? -52 : 52,
                   scale: isCenter ? 1 : 0.88,

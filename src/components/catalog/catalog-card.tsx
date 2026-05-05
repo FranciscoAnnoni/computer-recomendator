@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Cpu, MemoryStick, HardDrive, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Laptop } from "@/types/laptop";
@@ -16,6 +15,7 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
   return (
     <article
       onClick={() => onVerMas(laptop.id)}
+      onDragStart={(e) => e.preventDefault()}
       className="ed-card-row flex flex-row items-stretch cursor-pointer select-none"
     >
       {/* Image — self-stretch, fills card height like the old version */}
@@ -28,12 +28,14 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
         }}
       >
         {laptop.image_url ? (
-          <Image
-            src={laptop.image_url}
-            alt={laptop.name}
-            fill
-            sizes="(min-width: 640px) 130px, 100px"
-            className="object-cover pointer-events-none"
+          <div
+            aria-label={laptop.name}
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url(${laptop.image_url})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center p-2 text-center">
@@ -80,7 +82,6 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
       >
         <div className="label-ed-sm" style={{ marginBottom: 3 }}>{laptop.brand}</div>
 
-        {/* Full name — no truncation */}
         <div
           className="text-[0.9375rem] sm:text-[1.0625rem]"
           style={{
@@ -90,6 +91,9 @@ export function CatalogCard({ laptop, onVerMas }: CatalogCardProps) {
             letterSpacing: '-0.005em',
             color: 'var(--on-sur)',
             marginBottom: 5,
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
           }}
         >
           {laptop.name}

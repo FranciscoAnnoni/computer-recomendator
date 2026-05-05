@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import {
   Sheet,
@@ -18,7 +17,7 @@ import { PROFILE_STORAGE_KEY } from "@/types/quiz";
 import { getProfileColor } from "@/lib/profile-color";
 
 const navLinks = [
-  { href: "/catalog", label: "Catalogo" },
+  { href: "/catalog", label: "Catálogo" },
   { href: "/compare", label: "Comparar" },
 ];
 
@@ -55,7 +54,6 @@ export function Navbar() {
       }
     }
 
-    // Listen for same-tab profile saves (quiz completion)
     const handleProfileUpdated = (e: Event) => {
       const detail = (e as CustomEvent).detail;
       if (detail) setCompletedProfile(detail);
@@ -114,7 +112,7 @@ export function Navbar() {
             ))}
             <Link href={completedProfile ? "/profile" : "/quiz"}>
               <button className="btn-ed btn-ed-sm btn-primary-ed">
-                Find My Laptop →
+                {completedProfile ? "Ir al perfil →" : "Encontrá mi laptop →"}
               </button>
             </Link>
             <ThemeToggle />
@@ -127,7 +125,7 @@ export function Navbar() {
               <SheetTrigger
                 render={
                   <button
-                    aria-label="Open menu"
+                    aria-label="Abrir menú"
                     className="icon-btn-ed"
                   />
                 }
@@ -149,7 +147,7 @@ export function Navbar() {
                   <div className="mt-4">
                     <Link href={completedProfile ? "/profile" : "/quiz"} onClick={() => setMobileOpen(false)}>
                       <button className="btn-ed btn-ed-md btn-primary-ed w-full">
-                        Find My Laptop →
+                        {completedProfile ? "Ir al perfil →" : "Encontrá mi laptop →"}
                       </button>
                     </Link>
                   </div>

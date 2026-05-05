@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { HeroSection } from "@/components/home/hero-section";
+import { NoScroll } from "@/components/home/no-scroll";
 
 export const metadata: Metadata = {
   title: "Computer Recomendator",
@@ -21,10 +22,13 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <Container>
-      <section className="flex flex-col items-center justify-center text-center py-20 min-h-[calc(100dvh-68px)]">
-        <HeroSection />
-      </section>
-    </Container>
+    <>
+      <NoScroll />
+      <Container>
+        <section className="flex flex-col items-center justify-center text-center py-20 min-h-[calc(100dvh-68px)]">
+          <HeroSection />
+        </section>
+      </Container>
+    </>
   );
 }

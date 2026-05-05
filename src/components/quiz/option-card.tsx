@@ -35,7 +35,7 @@ export function OptionCard({ option, isCenter, isSelected, compact = false, onCl
       aria-pressed={isSelected}
       onClick={onClick}
       className={`shrink-0 rounded-2xl flex flex-col overflow-hidden cursor-pointer focus-visible:outline-none transition-all duration-300 ${
-        compact ? "w-[200px] h-[270px]" : "w-[260px] h-[380px]"
+        compact ? "w-[200px] h-[270px]" : "w-[260px] h-[418px]"
       }`}
       style={{
         background: active ? 'var(--ed-quiz-card-active)' : 'var(--ed-quiz-card-bg)',
@@ -55,6 +55,7 @@ export function OptionCard({ option, isCenter, isSelected, compact = false, onCl
             sizes="(max-width: 640px) 200px, 260px"
             className="object-contain transition-opacity duration-200"
             style={{ opacity: active ? 1 : 0.5 }}
+            draggable={false}
           />
         ) : (
           <div className={`rounded-full bg-white/10 m-auto ${compact ? "w-20 h-20" : "w-32 h-32"}`} />

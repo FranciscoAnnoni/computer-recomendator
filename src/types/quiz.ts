@@ -2,9 +2,9 @@ import type { Laptop } from "./laptop";
 
 // Enum types matching Supabase profiles table enums exactly
 export type Workload = "productividad_estudio" | "creacion_desarrollo" | "gaming_rendimiento";
-export type Lifestyle = "maxima_portabilidad" | "movil_flexible" | "escritorio_fijo";
+export type Lifestyle = "maxima_portabilidad" | "escritorio_fijo";
 export type Budget = "esencial" | "equilibrado" | "premium";
-export type OsPreference = "windows" | "macos" | "abierto";
+export type OsPreference = "windows" | "macos";
 
 // Profile result from Supabase
 export interface ProfileResult {
@@ -28,20 +28,20 @@ export interface QuizState {
 // Quiz step option
 export interface QuizOption {
   value: string;          // enum value sent to Supabase
-  label: string;          // short card label (e.g. "TRABAJAR")
+  label: string;          // short card label
   sublabel: string;       // descriptive subtitle shown on card
-  illustrationId: string; // key to look up SVG illustration component
+  illustrationId: string; // key to look up illustration
 }
 
-// Quiz step definition
+// Quiz step definition — options can be 2 or 3
 export interface QuizStepDef {
   id: number;
-  heading: string;     // Spanish question heading
-  subheading: string;  // Filter hint (shown smaller)
-  options: [QuizOption, QuizOption, QuizOption];
+  heading: string;
+  subheading: string;
+  options: QuizOption[];
 }
 
-// The 4 quiz steps with their options — source of truth for all quiz UI
+// The 4 quiz steps — source of truth for all quiz UI
 export const QUIZ_STEPS: [QuizStepDef, QuizStepDef, QuizStepDef, QuizStepDef] = [
   {
     id: 0,
@@ -50,13 +50,13 @@ export const QUIZ_STEPS: [QuizStepDef, QuizStepDef, QuizStepDef, QuizStepDef] = 
     options: [
       {
         value: "productividad_estudio",
-        label: "Trabajar",
+        label: "Trabajo",
         sublabel: "Productividad, estudio y navegación",
         illustrationId: "productivity",
       },
       {
         value: "creacion_desarrollo",
-        label: "Crear",
+        label: "Diseño",
         sublabel: "Diseño, edición de video o desarrollo",
         illustrationId: "creation",
       },
@@ -80,12 +80,6 @@ export const QUIZ_STEPS: [QuizStepDef, QuizStepDef, QuizStepDef, QuizStepDef] = 
         illustrationId: "portability",
       },
       {
-        value: "movil_flexible",
-        label: "Mixto",
-        sublabel: "La muevo por la casa o viajo a veces",
-        illustrationId: "ecosystem",
-      },
-      {
         value: "escritorio_fijo",
         label: "Escritorio",
         sublabel: "Se queda fija en un escritorio",
@@ -106,7 +100,7 @@ export const QUIZ_STEPS: [QuizStepDef, QuizStepDef, QuizStepDef, QuizStepDef] = 
       },
       {
         value: "equilibrado",
-        label: "Inteligente",
+        label: "Balanceado",
         sublabel: "La mejor relación calidad-precio",
         illustrationId: "balanced",
       },
@@ -134,12 +128,6 @@ export const QUIZ_STEPS: [QuizStepDef, QuizStepDef, QuizStepDef, QuizStepDef] = 
         label: "macOS",
         sublabel: "Tengo iPhone, quiero ese ecosistema",
         illustrationId: "macos",
-      },
-      {
-        value: "abierto",
-        label: "Abierto",
-        sublabel: "Dame la que mejor resuelva mi necesidad",
-        illustrationId: "flexible",
       },
     ],
   },

@@ -140,3 +140,10 @@ The `IF NOT EXISTS` clauses make this safe to run multiple times.
 ---
 *Phase: 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates*
 *Completed: 2026-05-01*
+
+## Self-Check: PASSED
+
+All files verified present. All commits verified in git log.
+- `6ff96f7` (feat: migration + schema update) - FOUND
+- `32e9d89` (feat: test scaffold) - FOUND
+- `731e8e4` (docs: plan metadata) - FOUND
