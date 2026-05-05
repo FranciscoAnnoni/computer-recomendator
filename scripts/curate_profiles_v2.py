@@ -141,6 +141,23 @@ def select_for_profile(
     # ── Ordenar por score DESC dentro del pool ────────────────────────────────
     pool = sorted(pool, key=lambda l: (-(l.get("recommendation_score") or 0), l.get("price") or 0))
 
+    # ── Caso especial: gaming + escritorio_fijo — mezclar desktops + laptops ──
+    if workload == "gaming_rendimiento" and lifestyle == "escritorio_fijo" and os_pref != "macos":
+        desktop_pool = [l for l in pool if is_desktop(l)]
+        laptop_pool  = [l for l in pool if not is_desktop(l)]
+        n_desktops   = min(2, len(desktop_pool))
+        n_laptops    = 5 - n_desktops
+        picks        = desktop_pool[:n_desktops] + laptop_pool[:n_laptops]
+        # Complete si quedamos cortos
+        used = {l["id"] for l in picks}
+        for l in pool:
+            if len(picks) >= 5:
+                break
+            if l["id"] not in used:
+                picks.append(l)
+                used.add(l["id"])
+        return [dict(l, _tier=tier_of(l.get("price"))) for l in picks[:5]]
+
     # ── Paso 4: Mix de tiers ──────────────────────────────────────────────────
     mix = BUDGET_MIX[budget]
     tiers_pool: dict[str, list[dict]] = {

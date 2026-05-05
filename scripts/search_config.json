@@ -1,0 +1,17 @@
+{
+  "forced_product_ids": [],
+  "extra_laptop_queries": [
+    "macbook air m4",
+    "macbook pro m4"
+  ],
+  "desktop_gaming_queries": [
+    "pc gamer escritorio",
+    "torre gamer rtx",
+    "pc gaming amd ryzen",
+    "pc gamer rtx 4060",
+    "computadora gamer rtx",
+    "pc gamer ryzen 7"
+  ],
+  "include_international_brands": ["Apple", "MSI", "Razer"],
+  "exclude_keywords": ["tablet", "chromebook", "ipad", "monitor", "teclado", "mouse"]
+}

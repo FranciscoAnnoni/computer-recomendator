@@ -39,11 +39,78 @@ PRICE_TIERS = {
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
+TOWER_KEYWORDS = ["torre gamer", "pc gamer", "computadora gamer", "pc gaming"]
+
+
 def infer_form_factor(name: str) -> str:
     n = name.lower()
     if any(k in n for k in DESKTOP_KEYWORDS):
         return "mini_pc"
+    if any(k in n for k in TOWER_KEYWORDS):
+        return "desktop"
     return "laptop"
+
+
+def parse_specs_from_title(title: str, known_storage: str = "") -> dict:
+    """Parse CPU/RAM/storage/GPU from product title when ML attributes are missing."""
+    result: dict[str, str | None] = {"cpu": None, "ram": None, "storage": None, "gpu": None}
+
+    # GPU
+    gpu_m = re.search(
+        r"\b(RTX\s*\d{4}(?:\s*Ti)?|GTX\s*\d{4}(?:\s*Ti)?|RX\s*\d{4}M?(?:\s*XT)?|Arc\s*A\d+M?)\b",
+        title, re.IGNORECASE,
+    )
+    if gpu_m:
+        result["gpu"] = gpu_m.group(0).strip()
+
+    # CPU — ordered from most to least specific
+    cpu_patterns = [
+        r"(?:Chip\s+)?(M[1-4](?:\s+(?:Pro|Max|Ultra))?)\b",
+        r"\bCore\s+Ultra\s*[5-9]\s*\d{3}[A-Z]?\b",
+        r"\b(i[3579]-\d{4,5}[A-Z]{0,3})\b",
+        r"\bRyzen\s*[3579]\s*\d{4}[A-Z]*\b",
+        r"\bSnapdragon\s*X(?:\s*(?:Plus|Elite))?\b",
+        r"\bRyzen\s*[3579]\b",
+        r"\bCore\s+i[3579]\b",
+        r"\bi[3579]\b",
+        r"\bCeleron\s+\w+\b",
+    ]
+    for pat in cpu_patterns:
+        m = re.search(pat, title, re.IGNORECASE)
+        if m:
+            val = m.group(1) if m.lastindex else m.group(0)
+            result["cpu"] = val.strip()
+            break
+
+    # Storage — detect before RAM to exclude those GB values from RAM matching
+    storage_gb_values: set[int] = set()
+    # Seed with known storage from ML attributes to avoid false RAM matches
+    if known_storage:
+        ks_tb = re.search(r"(\d+)\s*TB", known_storage, re.IGNORECASE)
+        ks_gb = re.search(r"(\d+)\s*GB", known_storage, re.IGNORECASE)
+        if ks_tb:
+            storage_gb_values.add(int(ks_tb.group(1)) * 1024)
+        elif ks_gb:
+            storage_gb_values.add(int(ks_gb.group(1)))
+    st_m = re.search(r"(\d+)\s*(TB)\b", title, re.IGNORECASE)
+    if st_m:
+        result["storage"] = f"{st_m.group(1)}TB"
+        storage_gb_values.add(int(st_m.group(1)) * 1024)
+    else:
+        st_m = re.search(r"(\d+)\s*GB\s*(?:SSD|NVMe|HDD)\b", title, re.IGNORECASE)
+        if st_m:
+            result["storage"] = f"{st_m.group(1)}GB"
+            storage_gb_values.add(int(st_m.group(1)))
+
+    # RAM — typical RAM sizes not already identified as storage
+    RAM_SIZES = {4, 6, 8, 12, 16, 24, 32, 48, 64, 96, 128}
+    for m in re.finditer(r"(\d+)\s*[Gg][Bb]\b", title):
+        val = int(m.group(1))
+        if val in RAM_SIZES and val not in storage_gb_values:
+            result["ram"] = f"{val}GB"
+            break
+
+    return result
 
 
 def has_dedicated_gpu(gpu_text: str, name: str) -> bool:
@@ -90,13 +157,32 @@ def build_staging_row(entry: dict, d2id: str | None) -> dict:
     gpu          = entry.get("gpu") or "Integrada"
     cpu          = entry.get("cpu") or ""
     ram          = entry.get("ram") or ""
+    storage      = entry.get("storage") or ""
     price        = entry.get("price")
     listing_type = entry.get("listing_type") or ""
     prod_id      = entry.get("catalog_product_id") or ""
 
+    # Fill in specs missing or placeholder from ML attributes
+    needs_parse = (
+        not cpu or cpu == "Ver descripción" or
+        not ram or ram == "Ver descripción" or
+        not storage or storage == "Ver descripción"
+    )
+    if needs_parse:
+        parsed = parse_specs_from_title(name, known_storage=storage)
+        if not cpu or cpu == "Ver descripción":
+            cpu = parsed["cpu"] or ""
+        if not ram or ram == "Ver descripción":
+            ram = parsed["ram"] or ""
+        if not storage or storage == "Ver descripción":
+            storage = parsed["storage"] or ""
+        if gpu == "Integrada" and parsed["gpu"]:
+            gpu = parsed["gpu"]
+
     ram_gb       = extract_ram_gb(ram)
     dedicated_gpu = has_dedicated_gpu(gpu, name)
-    form_factor  = infer_form_factor(name)
+    # Honor form_factor from scraper (desktop gaming); fallback to name inference
+    form_factor  = entry.get("form_factor") or infer_form_factor(name)
     profiles     = infer_usage_profiles(name, gpu)
     score        = infer_score(price, cpu, ram_gb, dedicated_gpu, listing_type)
     affiliate    = make_affiliate_link(prod_id, d2id) if prod_id else entry.get("permalink") or ""
@@ -109,7 +195,7 @@ def build_staging_row(entry: dict, d2id: str | None) -> dict:
         "cpu":                  cpu,
         "ram":                  ram,
         "gpu":                  gpu,
-        "storage":              entry.get("storage") or "",
+        "storage":              storage,
         "os":                   entry.get("os") or "",
         "screen_size":          entry.get("screen_size"),
         "weight":               entry.get("weight"),
@@ -166,7 +252,7 @@ def clear_staging(sb_url: str, token: str) -> None:
 
 
 def upsert_laptop(sb_url: str, token: str, row: dict) -> bool:
-    url = f"{sb_url}/rest/v1/laptops_v2"
+    url = f"{sb_url}/rest/v1/laptops_v2?on_conflict=catalog_product_id"
     headers = {
         "apikey": token,
         "Authorization": f"Bearer {token}",

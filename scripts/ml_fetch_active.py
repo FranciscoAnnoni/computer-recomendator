@@ -40,6 +40,21 @@ ML_API = "https://api.mercadolibre.com"
 SITE   = "MLA"
 
 _token: str = ""
+_config: dict = {}
+
+
+def load_search_config(path: str = "scripts/search_config.json") -> dict:
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+
+def entry_excluded_by_config(name: str, config: dict) -> bool:
+    exclude_kw = [k.lower() for k in config.get("exclude_keywords", [])]
+    n = name.lower()
+    return any(k in n for k in exclude_kw)
 
 
 # ── Listing quality tiers ──────────────────────────────────────────────────────
@@ -175,7 +190,7 @@ def get_highlights(limit: int = 20) -> list[str]:
 
 # ── Step 2: Search catalog products per brand ─────────────────────────────────
 
-def search_catalog_products(query: str, brand_attr: str, limit: int) -> list:
+def search_catalog_products(query: str, brand_attr: str, limit: int, domain: str = "MLA-NOTEBOOKS") -> list:
     results = []
     page_size = 50
     offset = 0
@@ -184,7 +199,7 @@ def search_catalog_products(query: str, brand_attr: str, limit: int) -> list:
         batch = min(page_size, limit * 3)
         url = (
             f"{ML_API}/products/search"
-            f"?site_id={SITE}&domain_id=MLA-NOTEBOOKS"
+            f"?site_id={SITE}&domain_id={domain}"
             f"&q={urllib.parse.quote(query)}&status=active"
             f"&limit={batch}&offset={offset}"
         )
@@ -216,14 +231,11 @@ def search_catalog_products(query: str, brand_attr: str, limit: int) -> list:
 
 # ── Step 3: Get active items for a catalog product ────────────────────────────
 
-def get_best_item(catalog_product_id: str) -> Optional[dict]:
+def get_best_item(catalog_product_id: str, allow_international: bool = False) -> Optional[dict]:
     """
-    Fetches items for a catalog product and returns the best listing:
-      - Must be in QUALITY_LISTING_TYPES
-      - Prefer local listings over international (international only as fallback)
-      - Prefer gold_pro > gold_special > gold_premium
-      - Among same tier: prefer lowest price
-    Returns None if no quality listing found (product inactive/low quality).
+    Fetches items for a catalog product and returns the best listing.
+    - allow_international=True: falls back to international listings when no local quality listing exists.
+    - allow_international=False: local-only, no international fallback.
     """
     url = f"{ML_API}/products/{catalog_product_id}/items?limit=20"
     data = fetch(url)
@@ -238,7 +250,6 @@ def get_best_item(catalog_product_id: str) -> Optional[dict]:
             x.get("price", 9_999_999),
         )
 
-    # 1. Try local quality listings first
     local_quality = [
         item for item in all_results
         if item.get("listing_type_id") in QUALITY_LISTING_TYPES
@@ -248,15 +259,15 @@ def get_best_item(catalog_product_id: str) -> Optional[dict]:
         local_quality.sort(key=sort_key)
         return local_quality[0]
 
-    # 2. Fallback: international quality listings (only if no local option exists)
-    intl_quality = [
-        item for item in all_results
-        if item.get("listing_type_id") in QUALITY_LISTING_TYPES
-        and item.get("international_delivery_mode", "none") != "none"
-    ]
-    if intl_quality:
-        intl_quality.sort(key=sort_key)
-        return intl_quality[0]
+    if allow_international:
+        intl_quality = [
+            item for item in all_results
+            if item.get("listing_type_id") in QUALITY_LISTING_TYPES
+            and item.get("international_delivery_mode", "none") != "none"
+        ]
+        if intl_quality:
+            intl_quality.sort(key=sort_key)
+            return intl_quality[0]
 
     return None
 
@@ -396,6 +407,7 @@ def build_entry(
     seller_info: dict,
     canonical_brand: str,
     highlight_rank: Optional[int] = None,
+    form_factor: str = "laptop",
 ) -> dict:
     attrs        = product.get("attributes", [])
     specs        = extract_specs(attrs)
@@ -429,6 +441,7 @@ def build_entry(
         "brand":                canonical_brand,
         "price":                price,
         "original_price":       int(original_price) if original_price else None,
+        "form_factor":          form_factor,
 
         # ── specs ───────────────────────────────────────────────────────
         "cpu":                  specs["cpu"]     or "Ver descripción",
@@ -493,6 +506,9 @@ def main():
 
     _token = get_token(client_id, secret)
 
+    config = load_search_config()
+    intl_brands: set[str] = set(config.get("include_international_brands", []))
+
     out_dir = Path(args.out_dir)
     out_dir.mkdir(exist_ok=True)
 
@@ -527,7 +543,11 @@ def main():
                 if selected_brands and canonical not in selected_brands:
                     continue
 
-                best_item = get_best_item(pid)
+                if entry_excluded_by_config(product.get("name", ""), config):
+                    continue
+
+                allow_intl = canonical in intl_brands
+                best_item = get_best_item(pid, allow_international=allow_intl)
                 if not best_item:
                     print(f"  [{rank:>2}] {pid} — no quality listing, skip", file=sys.stderr)
                     time.sleep(0.2)
@@ -577,15 +597,17 @@ def main():
             brand_seen[canonical_brand].add(pid)
 
             try:
-                best_item = get_best_item(pid)
+                if entry_excluded_by_config(product.get("name", ""), config):
+                    continue
+
+                allow_intl = canonical_brand in intl_brands
+                best_item = get_best_item(pid, allow_international=allow_intl)
                 if not best_item:
-                    # 404 or no quality listings — product is inactive/low quality
                     time.sleep(0.15)
                     continue
 
                 found_active += 1
 
-                # Fetch full product details (specs + description)
                 product_detail = get_product_details(pid)
                 time.sleep(0.15)
 
@@ -614,6 +636,65 @@ def main():
             file=sys.stderr,
         )
         time.sleep(0.4)
+
+    # ── Step C: Desktop gaming PCs ────────────────────────────────────────────
+    desktop_queries = config.get("desktop_gaming_queries", [])
+    if desktop_queries:
+        print(f"\n{'═'*60}", file=sys.stderr)
+        print("STEP C: Desktop gaming PCs...", file=sys.stderr)
+
+        desktop_seen: set[str] = set()
+        desktop_added = 0
+
+        for query in desktop_queries:
+            print(f"\n  q='{query}'", file=sys.stderr)
+            products = search_catalog_products(query, "", 20, domain="MLA-DESKTOP_COMPUTERS")
+            print(f"  → {len(products)} catalog products", file=sys.stderr)
+
+            for product in products:
+                pid = product.get("id", "")
+                if not pid or pid in all_entries or pid in desktop_seen:
+                    continue
+                desktop_seen.add(pid)
+
+                try:
+                    if entry_excluded_by_config(product.get("name", ""), config):
+                        continue
+
+                    best_item = get_best_item(pid, allow_international=False)
+                    if not best_item:
+                        time.sleep(0.15)
+                        continue
+
+                    product_detail = get_product_details(pid)
+                    time.sleep(0.15)
+
+                    attrs = (product_detail or product).get("attributes", [])
+                    brand_val = _get_attr(attrs, "BRAND") or "Other"
+
+                    seller_info = {}
+                    if not args.skip_seller_check:
+                        seller_info = get_seller_info(best_item.get("seller_id", 0))
+                        time.sleep(0.15)
+
+                    entry = build_entry(
+                        product_detail or product, best_item, seller_info,
+                        brand_val, form_factor="desktop",
+                    )
+                    all_entries[pid] = entry
+                    desktop_added += 1
+
+                    print(
+                        f"  ✓ {pid}  ${entry['price']:>12,.0f}  {entry['name'][:45]}",
+                        file=sys.stderr,
+                    )
+                    time.sleep(0.2)
+
+                except Exception as e:
+                    print(f"  ! {pid} error: {e}", file=sys.stderr)
+                    time.sleep(0.5)
+
+        print(f"\n  Desktop gaming PCs added: {desktop_added}", file=sys.stderr)
 
     # ── Group by brand ─────────────────────────────────────────────────────────
     brand_entries: dict[str, list] = defaultdict(list)
