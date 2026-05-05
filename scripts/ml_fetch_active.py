@@ -696,6 +696,61 @@ def main():
 
         print(f"\n  Desktop gaming PCs added: {desktop_added}", file=sys.stderr)
 
+    # ── Step C.2: Mac mini / Mac Studio ────────────────────────────────────────
+    mac_desktop_queries = config.get("mac_desktop_queries", [])
+    if mac_desktop_queries:
+        print(f"\n{'─'*60}", file=sys.stderr)
+        print("STEP C.2: Mac mini / Mac Studio...", file=sys.stderr)
+
+        mac_desktop_seen: set[str] = set()
+        mac_desktop_added = 0
+
+        for query in mac_desktop_queries:
+            print(f"\n  q='{query}'", file=sys.stderr)
+            # Try both laptop and desktop domains
+            products = search_catalog_products(query, "Apple", 15, domain="MLA-DESKTOP_COMPUTERS")
+            if not products:
+                products = search_catalog_products(query, "Apple", 15, domain="MLA-NOTEBOOKS")
+
+            for product in products:
+                pid = product.get("id", "")
+                if not pid or pid in all_entries or pid in mac_desktop_seen:
+                    continue
+                mac_desktop_seen.add(pid)
+
+                try:
+                    best_item = get_best_item(pid, allow_international=True)
+                    if not best_item:
+                        time.sleep(0.15)
+                        continue
+
+                    product_detail = get_product_details(pid)
+                    time.sleep(0.15)
+
+                    seller_info = {}
+                    if not args.skip_seller_check:
+                        seller_info = get_seller_info(best_item.get("seller_id", 0))
+                        time.sleep(0.15)
+
+                    entry = build_entry(
+                        product_detail or product, best_item, seller_info,
+                        "Apple", form_factor="mini_pc",
+                    )
+                    all_entries[pid] = entry
+                    mac_desktop_added += 1
+
+                    print(
+                        f"  ✓ {pid}  ${entry['price']:>12,.0f}  {entry['name'][:45]}",
+                        file=sys.stderr,
+                    )
+                    time.sleep(0.2)
+
+                except Exception as e:
+                    print(f"  ! {pid} error: {e}", file=sys.stderr)
+                    time.sleep(0.5)
+
+        print(f"\n  Mac mini/Studio added: {mac_desktop_added}", file=sys.stderr)
+
     # ── Group by brand ─────────────────────────────────────────────────────────
     brand_entries: dict[str, list] = defaultdict(list)
     for entry in all_entries.values():

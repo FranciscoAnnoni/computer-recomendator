@@ -12,6 +12,12 @@
     "computadora gamer rtx",
     "pc gamer ryzen 7"
   ],
+  "mac_desktop_queries": [
+    "mac mini",
+    "mac studio",
+    "mac mini m4",
+    "apple mac mini"
+  ],
   "include_international_brands": ["Apple", "MSI", "Razer"],
   "exclude_keywords": ["tablet", "chromebook", "ipad", "monitor", "teclado", "mouse"]
 }

@@ -1,4 +1,4 @@
-# Recommendation Preview — 2026-05-05 16:47
+# Recommendation Preview — 2026-05-05 17:03
 
 **Laptops en staging:** 117  |  **Perfiles:** 36
 
@@ -70,7 +70,7 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
 | 2 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 3 | mediana | Notebook Exo Intel I5-1335u 8gb Ssd 480gb 15, | $1,600,000   | 1335U                | 8 GB  | Integrada            |
 | 4 | mediana | Notebook Huawei Matebook D14 Core I5 8gb Ram  | $1,699,999   | 3700U                | 8 GB  | Integrada            |
@@ -80,7 +80,7 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
 | 2 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 3 | mediana | Notebook Exo Intel I5-1335u 8gb Ssd 480gb 15, | $1,600,000   | 1335U                | 8 GB  | Integrada            |
 | 4 | mediana | Notebook Huawei Matebook D14 Core I5 8gb Ram  | $1,699,999   | 3700U                | 8 GB  | Integrada            |
@@ -90,9 +90,9 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
-| 2 | barata  | Notebook Pcbox Fire Pcb-glw2 Intel Celeron N4 | $319,999     | N4020                | 4 GB  | Integrada            |
-| 3 | barata  | Notebook Exo Smart R41 Celeron N4020 Ram 4gb  | $367,499     | N4020                | 4 GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
+| 2 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                |       | Integrada            |
+| 3 | barata  | Notebook EXO G4 10.1" color verde militar 2GB | $149,442     |                      | 2 GB  | Integrada            |
 | 4 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 5 | cara    | Acer Predator Phn16s Ultra 9 275hx 16gb 1tb R | $3,749,999   | i9-12975HX           | 16 GB | Integrada            |
 
@@ -100,9 +100,9 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
-| 2 | barata  | Notebook Pcbox Fire Pcb-glw2 Intel Celeron N4 | $319,999     | N4020                | 4 GB  | Integrada            |
-| 3 | barata  | Notebook Exo Smart R41 Celeron N4020 Ram 4gb  | $367,499     | N4020                | 4 GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
+| 2 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                |       | Integrada            |
+| 3 | barata  | Notebook EXO G4 10.1" color verde militar 2GB | $149,442     |                      | 2 GB  | Integrada            |
 | 4 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 5 | cara    | Acer Predator Phn16s Ultra 9 275hx 16gb 1tb R | $3,749,999   | i9-12975HX           | 16 GB | Integrada            |
 
@@ -260,9 +260,9 @@
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
 | 1 | mediana | Apple MacBook Air MacBook Air M2 Medianoche 1 | $1,700,000   | M2                   | 512 G | Integrada            |
 | 2 | mediana | Macbook Air (mgn63la/a) 13 M1 8gb 256gb Gris  | $1,050,000   | M1                   | 8 GB  | Integrada            |
-| 3 | cara    | Apple MacBook Pro MacBook Pro 16" M3 Pro MRW1 | $7,300,000   | M3 Pro               | 18 GB | Integrada            |
-| 4 | cara    | Macbook Pro Macbook Pro 16 M4 Pro 16 Color Pl | $3,400,000   | M4 Pro               | 24 GB | Integrada            |
-| 5 | cara    | Apple MacBook Pro MacBook Pro 14' Negro espac | $3,500,000   | Chip M3 Pro          | 16 GB | Integrada            |
+| 3 | mediana | Apple MacBook Air Macbook Air 13 Pulgadas     | $1,500,000   |                      |       | Integrada            |
+| 4 | cara    | Apple MacBook Pro MacBook Pro 16" M3 Pro MRW1 | $7,300,000   | M3 Pro               | 18 GB | Integrada            |
+| 5 | cara    | Macbook Pro Macbook Pro 16 M4 Pro 16 Color Pl | $3,400,000   | M4 Pro               | 24 GB | Integrada            |
 
 ### El Creativo Fijo  `escritorio_fijo · equilibrado · macos`
 
@@ -270,9 +270,9 @@
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
 | 1 | mediana | Apple MacBook Air MacBook Air M2 Medianoche 1 | $1,700,000   | M2                   | 512 G | Integrada            |
 | 2 | mediana | Macbook Air (mgn63la/a) 13 M1 8gb 256gb Gris  | $1,050,000   | M1                   | 8 GB  | Integrada            |
-| 3 | cara    | Apple MacBook Pro MacBook Pro 16" M3 Pro MRW1 | $7,300,000   | M3 Pro               | 18 GB | Integrada            |
-| 4 | cara    | Macbook Pro Macbook Pro 16 M4 Pro 16 Color Pl | $3,400,000   | M4 Pro               | 24 GB | Integrada            |
-| 5 | cara    | Apple MacBook Pro MacBook Pro 14' Negro espac | $3,500,000   | Chip M3 Pro          | 16 GB | Integrada            |
+| 3 | mediana | Apple MacBook Air Macbook Air 13 Pulgadas     | $1,500,000   |                      |       | Integrada            |
+| 4 | cara    | Apple MacBook Pro MacBook Pro 16" M3 Pro MRW1 | $7,300,000   | M3 Pro               | 18 GB | Integrada            |
+| 5 | cara    | Macbook Pro Macbook Pro 16 M4 Pro 16 Color Pl | $3,400,000   | M4 Pro               | 24 GB | Integrada            |
 
 ### El Becario con Gustos  `maxima_portabilidad · esencial · macos`
 
@@ -318,7 +318,7 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
 | 2 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 3 | mediana | Notebook Exo Intel I5-1335u 8gb Ssd 480gb 15, | $1,600,000   | 1335U                | 8 GB  | Integrada            |
 | 4 | mediana | Notebook Huawei Matebook D14 Core I5 8gb Ram  | $1,699,999   | 3700U                | 8 GB  | Integrada            |
@@ -328,7 +328,7 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
 | 2 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 3 | mediana | Notebook Exo Intel I5-1335u 8gb Ssd 480gb 15, | $1,600,000   | 1335U                | 8 GB  | Integrada            |
 | 4 | mediana | Notebook Huawei Matebook D14 Core I5 8gb Ram  | $1,699,999   | 3700U                | 8 GB  | Integrada            |
@@ -338,9 +338,9 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
-| 2 | barata  | Notebook Pcbox Fire Pcb-glw2 Intel Celeron N4 | $319,999     | N4020                | 4 GB  | Integrada            |
-| 3 | barata  | Notebook Exo Smart R41 Celeron N4020 Ram 4gb  | $367,499     | N4020                | 4 GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
+| 2 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                |       | Integrada            |
+| 3 | barata  | Notebook EXO G4 10.1" color verde militar 2GB | $149,442     |                      | 2 GB  | Integrada            |
 | 4 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 5 | cara    | Acer Predator Phn16s Ultra 9 275hx 16gb 1tb R | $3,749,999   | i9-12975HX           | 16 GB | Integrada            |
 
@@ -348,9 +348,9 @@
 
 | # | Tier    | Laptop                                        | Precio ARS   | CPU                  | RAM   | GPU                  |
 |---|---------|-----------------------------------------------|--------------|----------------------|-------|----------------------|
-| 1 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                | 64GB  | Integrada            |
-| 2 | barata  | Notebook Pcbox Fire Pcb-glw2 Intel Celeron N4 | $319,999     | N4020                | 4 GB  | Integrada            |
-| 3 | barata  | Notebook Exo Smart R41 Celeron N4020 Ram 4gb  | $367,499     | N4020                | 4 GB  | Integrada            |
+| 1 | barata  | Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro  | $497,680     | PRO 5650U            | 16 GB | Integrada            |
+| 2 | barata  | Notebook Cel L65 4gb64gb W11 14.1p - Exo      | $699,999     | Intel                |       | Integrada            |
+| 3 | barata  | Notebook EXO G4 10.1" color verde militar 2GB | $149,442     |                      | 2 GB  | Integrada            |
 | 4 | mediana | Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ra | $1,293,199   | 7520U                | 16 GB | Integrada            |
 | 5 | cara    | Acer Predator Phn16s Ultra 9 275hx 16gb 1tb R | $3,749,999   | i9-12975HX           | 16 GB | Integrada            |
 

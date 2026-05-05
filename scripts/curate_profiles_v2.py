@@ -64,6 +64,15 @@ DESKTOP_KW = ["mini pc", "mac mini", "mac studio", "nucbox", "minisforum", "gmkt
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
+def is_intel_mac(laptop: dict) -> bool:
+    """MacBooks/Macs con CPU Intel (pre-M1). No se recomiendan."""
+    is_mac = "mac" in (laptop.get("name") or "").lower() or \
+             "macos" in (laptop.get("os") or "").lower()
+    cpu = (laptop.get("cpu") or "").lower()
+    is_intel = bool(re.search(r"\bintel\b|\bi[3579][-\s]|\bcore\s+i[3579]\b", cpu))
+    return is_mac and is_intel
+
+
 def has_dedicated_gpu(laptop: dict) -> bool:
     combined = ((laptop.get("gpu") or "") + " " + (laptop.get("name") or "")).lower()
     return any(k in combined for k in GPU_DEDICATED_KW)
@@ -110,6 +119,7 @@ def select_for_profile(
     # ── Paso 1: OS ────────────────────────────────────────────────────────────
     if os_pref == "macos":
         pool = [l for l in laptops if "mac" in (l.get("os") or "").lower()]
+        pool = [l for l in pool if not is_intel_mac(l)]  # excluir MacBook Intel (pre-M1)
     else:
         pool = [l for l in laptops if "windows" in (l.get("os") or "").lower()]
 
@@ -132,14 +142,24 @@ def select_for_profile(
         if len(quality) >= 3:
             pool = quality + [l for l in pool if l not in quality]
 
-    elif workload == "productividad_estudio" and budget in ("equilibrado", "premium"):
-        # Excluir las de solo 4 GB RAM para perfiles no esenciales
-        decent_ram = [l for l in pool if ram_gb(l) >= 8]
-        if len(decent_ram) >= 5:
-            pool = decent_ram
+    # ── 4GB RAM policy ────────────────────────────────────────────────────────
+    # Esencial: se permite 1 × 4GB solo como última opción (fallback). Resto: prohibida.
+    four_gb_pool = sorted(
+        [l for l in pool if ram_gb(l) == 4],
+        key=lambda l: -(l.get("recommendation_score") or 0),
+    )
+    pool = [l for l in pool if ram_gb(l) != 4]
+    four_gb_limit = 1 if budget == "esencial" else 0
 
     # ── Ordenar por score DESC dentro del pool ────────────────────────────────
     pool = sorted(pool, key=lambda l: (-(l.get("recommendation_score") or 0), l.get("price") or 0))
+
+    # ── Mac mini / Mac Studio boost para macOS + escritorio_fijo ─────────────
+    if os_pref == "macos" and lifestyle == "escritorio_fijo":
+        mini_pcs  = [l for l in pool if (l.get("form_factor") or "laptop") == "mini_pc"]
+        non_minis = [l for l in pool if (l.get("form_factor") or "laptop") != "mini_pc"]
+        if mini_pcs:
+            pool = mini_pcs + non_minis  # ambos sub-listas ya ordenadas por score
 
     # ── Caso especial: gaming + escritorio_fijo — mezclar desktops + laptops ──
     if workload == "gaming_rendimiento" and lifestyle == "escritorio_fijo" and os_pref != "macos":
@@ -188,6 +208,13 @@ def select_for_profile(
                 used_ids.add(l["id"])
                 if len(selected) == 5:
                     break
+
+    # Último recurso para esencial: agregar 1 × 4GB si aún quedan slots
+    if four_gb_limit > 0 and len(selected) < 5:
+        for l in four_gb_pool:
+            if l["id"] not in used_ids:
+                selected.append(dict(l, _tier=tier_of(l.get("price"))))
+                break
 
     return selected[:5]
 
