@@ -3,7 +3,7 @@
   "generated_at": "2026-05-05T17:31:43.972361",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 26,
+  "total": 25,
   "laptops": [
     {
       "catalog_product_id": "MLA28766787",
@@ -1046,46 +1046,6 @@
         "https://http2.mlstatic.com/D_NQ_NP_724741-MLU74824717262_032024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26385767",
-      "affiliate_link": "",
-      "influencer_note": ""
-    },
-    {
-      "catalog_product_id": "MLA22357182",
-      "item_id": "MLA3168720832",
-      "name": "Apple MacBook Air Macbook Air 13 Pulgadas",
-      "brand": "Apple",
-      "price": 1300000,
-      "original_price": null,
-      "form_factor": "laptop",
-      "cpu": "Ver descripción",
-      "ram": "Ver descripción",
-      "gpu": "Integrada",
-      "storage": "Ver descripción",
-      "os": "macOS",
-      "screen_size": null,
-      "weight": null,
-      "color": null,
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "macOS"
-      ],
-      "usage_profiles": [
-        "creacion_desarrollo"
-      ],
-      "recommendation_score": 5,
-      "description": "",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_945082-MLA99953958717_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_955130-MLU71800044630_092023-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA22357182",
       "affiliate_link": "",
       "influencer_note": ""
     },

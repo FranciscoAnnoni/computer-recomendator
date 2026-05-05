@@ -174,6 +174,11 @@ def build_staging_row(entry: dict, d2id: str | None) -> dict:
         not ram or ram == "Ver descripción" or
         not storage or storage == "Ver descripción"
     )
+    # Always try to extract GPU from title when field is generic — even if other specs are fine
+    if gpu == "Integrada" or not gpu:
+        parsed_gpu = parse_specs_from_title(name, known_storage=storage)
+        if parsed_gpu["gpu"]:
+            gpu = parsed_gpu["gpu"]
     if needs_parse:
         parsed = parse_specs_from_title(name, known_storage=storage)
         if not cpu or cpu == "Ver descripción":
@@ -182,8 +187,6 @@ def build_staging_row(entry: dict, d2id: str | None) -> dict:
             ram = parsed["ram"] or ""
         if not storage or storage == "Ver descripción":
             storage = parsed["storage"] or ""
-        if gpu == "Integrada" and parsed["gpu"]:
-            gpu = parsed["gpu"]
 
     ram_gb       = extract_ram_gb(ram)
     dedicated_gpu = has_dedicated_gpu(gpu, name)

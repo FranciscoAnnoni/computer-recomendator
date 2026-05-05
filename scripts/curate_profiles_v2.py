@@ -127,6 +127,14 @@ def select_for_profile(
     if lifestyle == "maxima_portabilidad":
         pool = [l for l in pool if not is_desktop(l)]
 
+    # MacBook Neo excluida de perfiles premium (producto de entrada, no recomendable en rango alto)
+    if budget == "premium":
+        pool = [l for l in pool if "macbook neo" not in (l.get("name") or "").lower()]
+
+    # Mac Studio solo para macOS premium (es el equipo de mayor nivel)
+    if os_pref == "macos" and budget != "premium":
+        pool = [l for l in pool if "mac studio" not in (l.get("name") or "").lower()]
+
     # ── Paso 3: Workload ──────────────────────────────────────────────────────
     if workload == "gaming_rendimiento" and os_pref != "macos":
         with_gpu = [l for l in pool if has_dedicated_gpu(l)]
@@ -215,6 +223,19 @@ def select_for_profile(
             if l["id"] not in used_ids:
                 selected.append(dict(l, _tier=tier_of(l.get("price"))))
                 break
+
+    # Forzar MacBook Neo en todos los perfiles macOS no-premium
+    if os_pref == "macos" and budget != "premium":
+        neo_id = next(
+            (l["id"] for l in laptops if "macbook neo" in (l.get("name") or "").lower()),
+            None,
+        )
+        if neo_id and neo_id not in {l["id"] for l in selected}:
+            neo = next((l for l in laptops if l["id"] == neo_id), None)
+            if neo and len(selected) == 5:
+                selected = selected[:4] + [dict(neo, _tier=tier_of(neo.get("price")))]
+            elif neo:
+                selected.append(dict(neo, _tier=tier_of(neo.get("price"))))
 
     return selected[:5]
 
