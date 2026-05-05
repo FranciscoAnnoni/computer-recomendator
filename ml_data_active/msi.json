@@ -1,17 +1,18 @@
 {
   "brand": "MSI",
-  "generated_at": "2026-04-07T05:59:21.248429",
+  "generated_at": "2026-05-05T17:31:43.991276",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 2,
+  "total": 1,
   "laptops": [
     {
       "catalog_product_id": "MLA66589019",
       "item_id": "MLA1734099061",
       "name": "Laptop MSI Raider 18\" Ai Gaming 5090 64g RAM 2TB SSD, negro",
       "brand": "MSI",
-      "price": 13000000,
+      "price": 12947666,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "285HX (85 W TDP)",
       "ram": "64 GB",
       "gpu": "Integrada",
@@ -43,52 +44,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_922116-MLA107899943382_032026-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA66589019",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA66589019?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA48847530",
-      "item_id": "MLA1651471781",
-      "name": "Laptop Gaming Msi Crosshair 15 I7 8gb 512gb 15.6 Fhd",
-      "brand": "MSI",
-      "price": 2940000,
-      "original_price": null,
-      "cpu": "11800H",
-      "ram": "0 MB",
-      "gpu": "Integrada",
-      "storage": "0 MB",
-      "os": "Windows 11",
-      "screen_size": "0 \"",
-      "weight": "0 g",
-      "color": "Gris Titanium",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "Alto rendimiento",
-        "Gaming"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 7,
-      "description": "Laptop Gaming MSI Crosshair 15 i7-11800H 15.6\" 144Hz\n\nMODELO DE ESTA PUBLICACIÓN:\n- Estilo: i7-11800H/ RTX 3050/512GB\n\nDESCRIPCIÓN:\nMSI Crosshair15 15.6\" 144Hz 3ms FHD Laptop Gaming Intel Core i7-11800H RTX3050 8GB 512GB NVMe SSD\n\nCARACTERÍSTICAS DESTACADAS:\n- 15.6\" FHD, IPS-Level 144Hz 72% NTSC\n- Intel Core i7-11800H 8 Núcleos 2.4 - 4.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_675407-MLA83607877984_042025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_857955-MLA83900830291_042025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_961524-MLA83900820557_042025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_923166-MLA83607877992_042025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA48847530",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48847530?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

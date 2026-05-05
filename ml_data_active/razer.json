@@ -1,8 +1,52 @@
 {
   "brand": "Razer",
-  "generated_at": "2026-04-07T05:56:33.984779",
+  "generated_at": "2026-05-05T17:31:43.993059",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 0,
-  "laptops": []
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA62558690",
+      "item_id": "MLA2827702566",
+      "name": "Notebook Razer Blade 14 con AMD Ryzen AI 9, 32 GB RAM y 1 TB SSD",
+      "brand": "Razer",
+      "price": 5483500,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "365",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "1 TB",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.84 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "description": "[ Razer Blade 14 RZ0905306ES3R3U1 ]\n\n\n\n\nEspecificaciones técnicas:\nProcesador AMD Ryzen AI 9 365 de 10 núcleos y 20 subprocesos, 2,0 GHz (frecuencia turbo máxima de 5,0 GHz), 34 MB de caché inteligente\nNVIDIA GeForce RTX 5070 con 8 GB de VRAM GDDR7\nPantalla OLED QHD+ de 14 pulgadas (2880 x 1800) 120 Hz, hasta 100 % DCIP3\n1 TB M.2 NVMe PCIe 4.0 x4 SSD\n32 GB LPDDR5X 7500 MHz\nBluetooth 5.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_984148-MLA99147722388_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_864809-MLA99148225944_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_965787-MLA99147732100_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_845634-MLA99629328841_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_620721-MLA99147930162_112025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62558690",
+      "affiliate_link": "",
+      "influencer_note": ""
+    }
+  ]
 }

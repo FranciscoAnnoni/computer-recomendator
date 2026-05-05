@@ -1,10 +1,54 @@
 {
   "brand": "Gigabyte",
-  "generated_at": "2026-04-07T05:56:33.981208",
+  "generated_at": "2026-05-05T17:31:43.987147",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 1,
+  "total": 2,
   "laptops": [
+    {
+      "catalog_product_id": "MLA62642862",
+      "item_id": "MLA2827129086",
+      "name": "Gigabyte Aorus Master Ultra 9 275hx Rtx 5090 2tb Ssd 32gb Azul Marea",
+      "brand": "Gigabyte",
+      "price": 8327000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "275HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "2 TB",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 7,
+      "description": "[ GIGABYTE AORUS MASTER 16 BZHC6USE65SH ]\n\n\n\n\nEspecificaciones técnicas:\n Intel Core Ultra 9 275HX, 24 NÚCLEOS\n Nvidia GeForce RTX 5090 24GB GDDR7\n Pantalla OLED de 16 pulgadas 2560 x 1600 240 Hz\n 2TB M.2 NVMe SSD\n 32GB DDR5 RAM\n Bluetooth 5.4\n WiFi 7\n Windows 11 Home\n\n*AORUS MASTER 16*\n\n Procesador Intel Core Ultra Serie 200HX con capacidades de IA.\n GPU NVIDIA GeForce RTX Serie 50 para portátiles con potencia de IA.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_923426-MLA99359007776_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_785902-MLA99842248925_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_613735-MLA99359037066_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_823456-MLA99358861948_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_945410-MLA99842180161_112025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62642862",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
     {
       "catalog_product_id": "MLA26305490",
       "item_id": "MLA2324565436",
@@ -12,6 +56,7 @@
       "brand": "Gigabyte",
       "price": 2838148,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Intel",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -47,9 +92,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_740223-MLA94017737329_102025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26305490",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26305490?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

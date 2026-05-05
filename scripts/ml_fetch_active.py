@@ -707,10 +707,7 @@ def main():
 
         for query in mac_desktop_queries:
             print(f"\n  q='{query}'", file=sys.stderr)
-            # Try both laptop and desktop domains
             products = search_catalog_products(query, "Apple", 15, domain="MLA-DESKTOP_COMPUTERS")
-            if not products:
-                products = search_catalog_products(query, "Apple", 15, domain="MLA-NOTEBOOKS")
 
             for product in products:
                 pid = product.get("id", "")

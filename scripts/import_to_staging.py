@@ -162,6 +162,12 @@ def build_staging_row(entry: dict, d2id: str | None) -> dict:
     listing_type = entry.get("listing_type") or ""
     prod_id      = entry.get("catalog_product_id") or ""
 
+    # Detect ML attribute swap: ram > 128GB AND storage < 32GB → values are inverted
+    _ram_num     = extract_ram_gb(ram)
+    _storage_num = extract_ram_gb(storage)
+    if _ram_num > 128 and 0 < _storage_num <= 64:
+        ram, storage = storage, ram   # swap back to correct values
+
     # Fill in specs missing or placeholder from ML attributes
     needs_parse = (
         not cpu or cpu == "Ver descripción" or
@@ -181,8 +187,13 @@ def build_staging_row(entry: dict, d2id: str | None) -> dict:
 
     ram_gb       = extract_ram_gb(ram)
     dedicated_gpu = has_dedicated_gpu(gpu, name)
-    # Honor form_factor from scraper (desktop gaming); fallback to name inference
-    form_factor  = entry.get("form_factor") or infer_form_factor(name)
+    # Honor form_factor from scraper (desktop/mini_pc); fallback to name inference
+    # Safety: MacBook Air/Pro are always laptops regardless of what the scraper tagged
+    name_lower   = name.lower()
+    if any(k in name_lower for k in ("macbook air", "macbook pro")):
+        form_factor = "laptop"
+    else:
+        form_factor = entry.get("form_factor") or infer_form_factor(name)
     profiles     = infer_usage_profiles(name, gpu)
     score        = infer_score(price, cpu, ram_gb, dedicated_gpu, listing_type)
     affiliate    = make_affiliate_link(prod_id, d2id) if prod_id else entry.get("permalink") or ""

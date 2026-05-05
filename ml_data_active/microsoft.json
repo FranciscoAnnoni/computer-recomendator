@@ -1,0 +1,52 @@
+{
+  "brand": "Microsoft",
+  "generated_at": "2026-05-05T17:31:43.991655",
+  "source": "MercadoLibre Argentina — active quality listings",
+  "filter": "listing_type: gold_pro / gold_special / gold_premium",
+  "total": 1,
+  "laptops": [
+    {
+      "catalog_product_id": "MLA61224013",
+      "item_id": "MLA1580948041",
+      "name": "Microsoft Surface Laptop 2024, 13.8 Táctil, 16 Gb Ram, 1 Tb Duna",
+      "brand": "Microsoft",
+      "price": 5293000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "X Elite",
+      "ram": "0 MB",
+      "gpu": "Integrada",
+      "storage": "0 MB",
+      "os": "Windows 11",
+      "screen_size": "0 \"",
+      "weight": "2.722 kg",
+      "color": "Duna",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 8,
+      "description": "**TÍTULO:**  \nSurface Laptop 2024, Windows 11 Copilot+ PC, pantalla táctil de 13.8 pulgadas, Snapdragon X Elite 12 núcleos, 16 GB de RAM, almacenamiento SSD de 1 TB, duna\n\n**DETALLES:**  \nEsta es una PC Copilot. Experimente un rendimiento mejorado y capacidades de IA con Copilot PC, lo que aumenta la productividad teniendo en cuenta la seguridad y la privacidad.\n\nSurface Laptop: potencia, velocidad y versatilidad de pantalla táctil con funciones de IA.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_600672-MLA95878139838_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_674048-MLA96320905507_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_602374-MLA95878139850_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_930839-MLA95878103118_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_955372-MLA95878159216_102025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA61224013",
+      "affiliate_link": "",
+      "influencer_note": ""
+    }
+  ]
+}
