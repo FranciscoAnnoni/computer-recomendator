@@ -1,17 +1,18 @@
 {
   "brand": "Samsung",
-  "generated_at": "2026-04-07T05:59:21.250436",
+  "generated_at": "2026-05-05T17:31:43.993286",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 4,
+  "total": 5,
   "laptops": [
     {
       "catalog_product_id": "MLA48484970",
       "item_id": "MLA2210449712",
       "name": "Samsung Galaxy Book5 360 15.6 Ultra5 16gb 512gb Ssd",
       "brand": "Samsung",
-      "price": 4471000,
-      "original_price": null,
+      "price": 3556233,
+      "original_price": 3743404,
+      "form_factor": "laptop",
       "cpu": "Ultra 5",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -40,102 +41,17 @@
       "image_url": "https://http2.mlstatic.com/D_NQ_NP_732366-MLA95162107932_102025-F.jpg",
       "gallery_images": [],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA48484970",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48484970?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA52701496",
-      "item_id": "MLA2345757708",
-      "name": "Samsung Galaxy Book4 I5 15.6 512gb 16gb Ram Color Plata",
-      "brand": "Samsung",
-      "price": 2199999,
-      "original_price": null,
-      "cpu": "1335U",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "1.55 kg",
-      "color": "Plata",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 8,
-      "description": "Notebook Samsung. Procesador 1335U. 16 GB de RAM. almacenamiento 512 GB. pantalla 15.6 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_677108-MLA99477093572_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_815025-MLA87786442162_072025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_854688-MLA87786558930_072025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_925976-MLA87786568942_072025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_980698-MLA87786746398_072025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA52701496",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA52701496?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA26923095",
-      "item_id": "MLA1465039405",
-      "name": "Samsung Galaxy Book 3 15,6 Fhd I5 13gen 512gb ssd 8gb W11 Color Plateado",
-      "brand": "Samsung",
-      "price": 1750000,
-      "original_price": null,
-      "cpu": "Intel",
-      "ram": "8 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "1.57 kg",
-      "color": "Plateado",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "SSD rápido"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 6,
-      "description": "Con la notebook 2 en 1 Samsung Galaxy Book Galaxy Book 3 vas a disfrutar de la combinación única entre portabilidad y usabilidad. Su principal beneficio es su capacidad de transformarse en una tablet sin perder la potencia y el rendimiento de una computadora portátil. \n\nPantalla con gran impacto visual\nSu pantalla de 15.6\" y 1920x1080px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_867482-MLA99930560161_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_948446-MLA99446766830_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_861318-MLA93872769208_102025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_993734-MLA93872779232_102025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA26923095",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26923095?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA26923095",
-      "item_id": "MLA3020267568",
+      "item_id": "MLA2073679634",
       "name": "Notebook Samsung Galaxy Book Galaxy book 3 Gris 1920 px x 1080 px Intel 16GB de Ram",
       "brand": "Samsung",
-      "price": 1734200,
-      "original_price": 2990000,
+      "price": 2957468,
+      "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Intel",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -166,9 +82,132 @@
         "https://http2.mlstatic.com/D_NQ_NP_785484-MLU77506395554_072024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26923095",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26923095?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA27873526",
+      "item_id": "MLA1753528571",
+      "name": "Notebook Samsung Galaxy Book 3 Pro 14 I5 16gb Ram 512gb Ssd Color Graphite",
+      "brand": "Samsung",
+      "price": 2573206,
+      "original_price": 3573898,
+      "form_factor": "laptop",
+      "cpu": "1340P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "14 \"",
+      "weight": "1.17 kg",
+      "color": "Graphite",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "Cod. : NOT00347\nNotebook Samsung Galaxy Book 3 Pro 14\n\n_______________________________________________________________\n\nLa notebook Samsung Premium Galaxy Book3 Pro es una solución tanto para trabajar y estudiar como para entretenerte. Al ser portátil, el escritorio dejará de ser tu único espacio de uso para abrirte las puertas a otros ambientes ya sea en tu casa o en la oficina.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_987529-MLA99372292320_112025-F.jpg",
+      "gallery_images": [],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA27873526",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA25576662",
+      "item_id": "MLA1465039405",
+      "name": "Samsung Galaxy Book 3 15,6 Fhd I5 13gen 512gb ssd 8gb W11 Color Plateado",
+      "brand": "Samsung",
+      "price": 1750000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "Intel",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.57 kg",
+      "color": "Plateado",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 6,
+      "description": "Con la notebook 2 en 1 Samsung Galaxy Book Galaxy Book 3 vas a disfrutar de la combinación única entre portabilidad y usabilidad. Su principal beneficio es su capacidad de transformarse en una tablet sin perder la potencia y el rendimiento de una computadora portátil. \n\nPantalla con gran impacto visual\nSu pantalla de 15.6\" y 1920x1080px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_867482-MLA99930560161_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_948446-MLA99446766830_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_861318-MLA93872769208_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_993734-MLA93872779232_102025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA25576662",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA52701496",
+      "item_id": "MLA2764342924",
+      "name": "Samsung Galaxy Book4 I5 15.6 512gb 16gb Ram Color Plata",
+      "brand": "Samsung",
+      "price": 1719999,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "1335U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.55 kg",
+      "color": "Plata",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "description": "Notebook Samsung. Procesador 1335U. 16 GB de RAM. almacenamiento 512 GB. pantalla 15.6 \".",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_677108-MLA99477093572_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_815025-MLA87786442162_072025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_854688-MLA87786558930_072025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_925976-MLA87786568942_072025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_980698-MLA87786746398_072025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA52701496",
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

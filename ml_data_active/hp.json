@@ -1,105 +1,18 @@
 {
   "brand": "HP",
-  "generated_at": "2026-04-07T06:07:02.643088",
+  "generated_at": "2026-05-05T17:31:43.988381",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 19,
+  "total": 16,
   "laptops": [
-    {
-      "catalog_product_id": "MLA55559792",
-      "item_id": "MLA1727804619",
-      "name": "Notebook Hp 255 G10 Amd Ryzen 5 7520u, Ram 16gb, Ssd 512gb, Pantalla 15,6'' hd, Sistema Opertativo Windows 11 Home",
-      "brand": "HP",
-      "price": 1293199,
-      "original_price": 1489999,
-      "cpu": "7520U",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "1.5 kg",
-      "color": "Gris",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": 2,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "SSD rápido"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 7,
-      "description": "La Notebook HP 255 G10 está diseñada para ofrecer un rendimiento excepcional, ideal para profesionales y estudiantes que buscan una herramienta confiable y potente. Equipado con un procesador AMD Ryzen 5 7520U y 16 GB de RAM DDR4, este equipo garantiza una experiencia fluida incluso en las tareas más exigentes. Su almacenamiento SSD de 512 GB permite un acceso rápido a los datos y una eficiencia sobresaliente en la carga de aplicaciones.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_805015-MLA99950113511_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_608427-MLA91740453130_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_888825-MLA91740639296_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_861027-MLA99737868143_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_777510-MLA99737818389_112025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA55559792",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA55559792?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA54622919",
-      "item_id": "MLA1727801813",
-      "name": "Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram 512gb Ssd 15.6 Full Hd Gráficos Integrados Radeon 610m Windows 11 Home Pl",
-      "brand": "HP",
-      "price": 1293199,
-      "original_price": 1489999,
-      "cpu": "7520U",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": null,
-      "color": "Plateado",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": 7,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "SSD rápido"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 7,
-      "description": "Notebook Hp 255 G10 AMD Ryzen 5 7520U 16gb 512gb 15,6'' Fhd\n\n\nDiagonal de la pantalla 15,6\"\nResolución de pantalla 1920 x 1080 píxeles\nTipo HD Full HD\nTipo de panel IPS\nTecnología de bisel de pantalla Micro-borde\nBrillo de la pantalla 250 cd/m²\nDiagonal de la pantalla (métrica) 15,6\" (39,6 cm)\nEspacio de color RGB Sistema de clasificación de números arábigos (NTSC)\nGama de colores 45%\nFamilia de procesadores AMD Ryzen™ 5\nFabricante del procesador AMD\nModelo de procesador 7520U\nFrecuencia de aume...",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_940766-MLA99992495719_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_891056-MLA91329740826_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_872524-MLA91726610183_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_855194-MLA91329908480_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_769809-MLA91330007008_092025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA54622919",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54622919?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
     {
       "catalog_product_id": "MLA2020089210",
       "item_id": "MLA2519538466",
-      "name": "Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro 5650u 16 GB de RAM 256 GB Ssd Windows 11 Pro Business Notebook - Bueno (Rea",
+      "name": "Portátil HP Elitebook 845 G8 Amd Ryzen 5 Pro 5650u 16 GB de RAM 256 GB Ssd Windows 11 Pro Business y Gaming Notebook - B",
       "brand": "HP",
-      "price": 497680,
-      "original_price": 646346,
+      "price": 448026,
+      "original_price": 650570,
+      "form_factor": "laptop",
       "cpu": "PRO 5650U",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -115,12 +28,14 @@
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
-      "highlight_rank": 9,
+      "highlight_rank": 1,
       "simplified_tags": [
         "16GB+ RAM",
-        "SSD rápido"
+        "SSD rápido",
+        "Gaming"
       ],
       "usage_profiles": [
+        "gaming_rendimiento",
         "creacion_desarrollo"
       ],
       "recommendation_score": 6,
@@ -133,17 +48,62 @@
         "https://http2.mlstatic.com/D_NQ_NP_922381-MLA109972289433_042026-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA2020089210",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA2020089210?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA43286413",
+      "item_id": "MLA2720671134",
+      "name": "Notebook HP 255 G10 Ryzen 7 7730U | 16GB RAM | 512GB SSD NVMe | 15.6” Full HD | Windows 11 Home | Laptop Empresarial",
+      "brand": "HP",
+      "price": 1699999,
+      "original_price": 2199999,
+      "form_factor": "laptop",
+      "cpu": "7730u",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.5 kg",
+      "color": "Gris oscuro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": 7,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 8,
+      "description": "DESCRIPCIÓN DEL PRODUCTO\n*****************************************\nLa HP 255 G10 es una notebook confiable y potente, diseñada para trabajo profesional, estudio universitario y uso diario intensivo. Ofrece un equilibrio ideal entre rendimiento, portabilidad y durabilidad, con un diseño sobrio y liviano.\n\nEquipada con el procesador AMD Ryzen 7 7730U de 8 núcleos, brinda un desempeño sólido para multitarea, software de oficina, navegación avanzada y aplicaciones exigentes.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_783503-MLA99733568025_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_770234-MLA99877152297_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_852204-MLA91884170995_092025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_634346-MLA87786431500_072025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_684797-MLA87786431524_072025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA43286413",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA54637344",
-      "item_id": "MLA1655770573",
+      "item_id": "MLA1655614521",
       "name": "Notebook HP 15-fc0251la AMD Ryzen 5 8GB RAM 512GB SSD 15,6\" FHD Windows 11 Home - Incluye Mochila HP Prelude Pro",
       "brand": "HP",
-      "price": 1072499,
+      "price": 1199999,
       "original_price": 1499999,
+      "form_factor": "laptop",
       "cpu": "7520U",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -159,7 +119,7 @@
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
-      "highlight_rank": 14,
+      "highlight_rank": 8,
       "simplified_tags": [
         "SSD rápido"
       ],
@@ -176,24 +136,69 @@
         "https://http2.mlstatic.com/D_NQ_NP_950343-MLA91648128600_092025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA54637344",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54637344?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA55829992",
-      "item_id": "MLA1727827325",
-      "name": "Notebook Hp 255 G10 Amd Ryzen 5 7520u 16gb Ram Ddr4 512 Gb Ssd Pantalla 15.6 1366x768px Amd Radeon Rx Vega 7 Wi-fi 6 (80",
+      "catalog_product_id": "MLA63548884",
+      "item_id": "MLA2715968924",
+      "name": "Notebook Hp 255r G10 Amd Ryzen 7 7735u 16gb Ram 512gb Ssd 15.6 Full Hd Gráficos Integrados Radeon 680m Windows 11 Home C",
       "brand": "HP",
-      "price": 1293199,
-      "original_price": 1489999,
-      "cpu": "7520U",
+      "price": 1699999,
+      "original_price": 2199999,
+      "form_factor": "laptop",
+      "cpu": "7735U",
       "ram": "16 GB",
       "gpu": "Integrada",
       "storage": "512 GB",
       "os": "Windows 11",
       "screen_size": "15.6 \"",
-      "weight": null,
+      "weight": "1.52 kg",
+      "color": "Gris oscuro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": 14,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 8,
+      "description": "La Notebook HP 255R G10 es la herramienta ideal para quienes buscan rendimiento y versatilidad en un solo dispositivo. Equipado con un potente procesador AMD Ryzen 7 7735U y 16 GB de RAM DDR5, este equipo garantiza un rendimiento fluido y eficiente, perfecto para tareas multitarea y aplicaciones exigentes.\n\nSu almacenamiento SSD de 512 GB proporciona un acceso rápido a tus archivos y programas, mientras que su pantalla Full HD de 15.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_730278-MLA102672162393_122025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_855781-MLA102163822000_122025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_754643-MLA102163683204_122025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_766237-MLA102672162421_122025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_791292-MLA102672172257_122025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA63548884",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA53176721",
+      "item_id": "MLA3245111498",
+      "name": "Notebook HP Omnibook 5 Amd Ryzen Ia 7 350 16 GB DDR5 512 GB Ssd 16 2K 1920 px x 1200 px Windows 11",
+      "brand": "HP",
+      "price": 1461124,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "350",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "1.8 kg",
       "color": "Plateado",
       "battery": null,
       "listing_type": "gold_pro",
@@ -202,7 +207,7 @@
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
-      "highlight_rank": 18,
+      "highlight_rank": 15,
       "simplified_tags": [
         "16GB+ RAM",
         "SSD rápido"
@@ -211,26 +216,26 @@
         "productividad_estudio"
       ],
       "recommendation_score": 7,
-      "description": "La Notebook HP 255 G10 es la herramienta perfecta para aquellos que buscan un equilibrio entre rendimiento y portabilidad. Con un procesador AMD Ryzen 5 7520U y 16 GB de RAM DDR4, este dispositivo te garantiza una experiencia fluida, ya sea para trabajar, estudiar o disfrutar de tu contenido multimedia favorito. Su SSD de 512 GB proporciona un amplio espacio de almacenamiento y tiempos de carga rápidos, ideal para quienes necesitan eficiencia en su día a día.\n\nLa pantalla de 15.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_874169-MLA95634231308_102025-F.jpg",
+      "description": "----------------------------------------------------------\nEl HP OmniBook 5 16 pulgadas Laptop Next Gen AI PC está equipado con un potente procesador AMD Ryzen AI y hasta 50 NPU TOPS para que pueda completar todas sus tareas con facilidad. \n\nCree una idea tras otra con la potencia de un procesador AMD Ryzen AI y una línea de puertos ampliada. \nAcceda fácilmente a la IA con la tecla Copilot, mientras aprovecha al máximo su batería con HP Fast Charge.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_716063-MLA109558584488_042026-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_636434-MLA92620049190_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_881854-MLA92620088282_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_950722-MLA91836166306_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_864120-MLA91836018124_092025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_825758-MLA109558288858_042026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_904774-MLA109508902990_042026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_646548-MLA109508783678_042026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_953098-MLA110429868539_042026-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA55829992",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA55829992?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA53176721",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA52110942",
       "item_id": "MLA2960070962",
       "name": "Notebook Hp Omen Core Ultra 9 275hx 32gb 1tb Rtx5080 240hz Color Negro",
       "brand": "HP",
-      "price": 7685066,
-      "original_price": 9499999,
+      "price": 7632733,
+      "original_price": 9447665,
+      "form_factor": "laptop",
       "cpu": "275HX",
       "ram": "32 GB",
       "gpu": "Integrada",
@@ -264,9 +269,54 @@
         "https://http2.mlstatic.com/D_NQ_NP_655756-MLA87440999629_072025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA52110942",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA52110942?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA65895958",
+      "item_id": "MLA3038918956",
+      "name": "Notebook Gamer Hp Omen 16 I7 32gb Ram Rtx 5060 Ssd 1tb Negro",
+      "brand": "HP",
+      "price": 4254990,
+      "original_price": 5599990,
+      "form_factor": "laptop",
+      "cpu": "14650HX",
+      "ram": "32 GB",
+      "gpu": "Integrada",
+      "storage": "1 TB",
+      "os": "Windows 11",
+      "screen_size": "16 \"",
+      "weight": "2.5 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Gaming"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 8,
+      "description": "La HP Omen 16 modelo 16-AM0017DX redefine el rendimiento portátil mediante la integración del procesador Intel Core i7 14650HX de 14 núcleos. Este equipo permite alcanzar una velocidad máxima de 4.4 GHz, ideal para tareas de alta exigencia profesional y multitarea intensiva. La estructura combina aluminio y plástico con un diseño elegante en color negro.\n\nLa experiencia visual está garantizada por su pantalla IPS de 16 pulgadas con resolución WUXGA de 1920 x 1200 píxeles.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_886885-MLA106813237058_022026-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_942742-MLA106813524780_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_623443-MLA106813524790_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_992685-MLA106813636152_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_670297-MLA107486505489_022026-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA65895958",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA48719555",
@@ -275,6 +325,7 @@
       "brand": "HP",
       "price": 4155998,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "1215U",
       "ram": "0 MB",
       "gpu": "Integrada",
@@ -298,29 +349,29 @@
         "productividad_estudio"
       ],
       "recommendation_score": 8,
-      "description": "Notebook HP. Procesador 1215U. 0 MB de RAM. almacenamiento 0 MB. pantalla 0 \".",
+      "description": "Laptop HP Pavilion 15.6\" Táctil, Intel i3, 32GB RAM, 1.16TB\n\nCARACTERÍSTICAS:\n- Pantalla: 15.6\" HD LED Táctil, colores vibrantes y detalles nítidos.\n- Procesador: Intel Core i3-1215U, 1.2 GHz, 6 núcleos.\n- Memoria RAM: 32GB DDR4.\n- Almacenamiento: 1.16TB total (1TB SSD interno + 128GB en estación de acoplamiento + 32GB en tarjeta MicroSD).\n- Gráficos: Intel UHD Graphics integrados.\n- Teclado: Tamaño completo con teclado numérico integrado.\n- Sistema operativo: Windows 11 Pro.",
       "image_url": "https://http2.mlstatic.com/D_NQ_NP_988197-MLA83570423432_042025-F.jpg",
       "gallery_images": [],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA48719555",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA48719555?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA62129550",
-      "item_id": "MLA2571232524",
-      "name": "Notebook Hp Victus Ryzen 5-7535hs 32gb Ddr5 1tb 15-fb2063dx",
+      "catalog_product_id": "MLA29541832",
+      "item_id": "MLA1775512021",
+      "name": "Notebook Hp Elitebook 840 G10 14  intel Core I5 16gb Ram 512",
       "brand": "HP",
-      "price": 3642206,
+      "price": 3999999,
       "original_price": null,
-      "cpu": "7535HS",
-      "ram": "32 GB",
+      "form_factor": "laptop",
+      "cpu": "Intel Core i5-1335U",
+      "ram": "16 GB",
       "gpu": "Integrada",
-      "storage": "1 TB",
+      "storage": "512 GB",
       "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": null,
-      "color": "Negro",
+      "screen_size": "14 \"",
+      "weight": "1.36 kg",
+      "color": null,
       "battery": null,
       "listing_type": "gold_pro",
       "international_delivery": false,
@@ -330,23 +381,21 @@
       "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
-        "16GB+ RAM",
-        "Gaming"
+        "16GB+ RAM"
       ],
       "usage_profiles": [
-        "gaming_rendimiento"
+        "productividad_estudio"
       ],
-      "recommendation_score": 8,
-      "description": "La Notebook HP Victus Ryzen 5-7535HS es una potente herramienta diseñada para satisfacer las necesidades de los usuarios más exigentes. Equipado con un procesador Ryzen 5-7535HS de 6 núcleos y una velocidad máxima de 4.2 GHz, este dispositivo garantiza un rendimiento excepcional en tareas de alto rendimiento y gaming. Su memoria RAM de 32GB DDR5 y almacenamiento SSD de 1TB ofrecen una experiencia fluida y rápida. La pantalla de 15.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_698498-MLA97791902298_112025-F.jpg",
+      "recommendation_score": 9,
+      "description": "Nombre: Notebook HP EliteBook 840 G10 14\" Intel Core i5 16GB RAM 512GB SSD\nMarca: HP\nCategoría: Notebook Comercial\n\n- Procesador Intel Core i5-1335U (hasta 4,6 GHz con tecnología Intel Turbo Boost, 12 MB de caché L3, 10 núcleos y 12 subprocesos)\n- Windows 11 Pro\n- RAM DDR5-5200 MHz de 16 GB (1 x 16 GB)\n- Unidad de estado sólido PCIe NVMe de 512 GB\n- Gráficos Integradas\n- Peso 1,36 kg\n- Pantalla WUXGA, IPS, antirreflectante, de 35,6 cm (14\") en diagonal, 250 nits y 45 % de NTSC (1920 x 1200)",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_806542-MLA99986817055_112025-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_984172-MLA98258469905_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_608027-MLA98258390151_112025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_841515-MLA99502737718_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_746040-MLA93867933186_102025-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA62129550",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA62129550?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA29541832",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA49873153",
@@ -355,6 +404,7 @@
       "brand": "HP",
       "price": 3414998,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "3.3 GHz ryzen_5",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -383,68 +433,27 @@
       "image_url": "https://http2.mlstatic.com/D_NQ_NP_670588-MLA84353682084_052025-F.jpg",
       "gallery_images": [],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA49873153",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA49873153?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA43664461",
-      "item_id": "MLA1491173579",
-      "name": "Hp Notebook 440 G10 Tarjeta De Video Discreta Rtx 2050 4gb Color Plateado",
+      "catalog_product_id": "MLA49525991",
+      "item_id": "MLA1714548091",
+      "name": "Notebook HP Victus Gamer Intel Core i5 de 15.6\" con 144Hz",
       "brand": "HP",
-      "price": 2941500,
+      "price": 2600000,
       "original_price": null,
-      "cpu": "i5-1335U",
-      "ram": "32 GB",
+      "form_factor": "laptop",
+      "cpu": "12450H",
+      "ram": "Ver descripción",
       "gpu": "Integrada",
-      "storage": "1 TB",
-      "os": "Windows 11",
-      "screen_size": "14 \"",
-      "weight": "1.38 kg",
-      "color": "Plateado",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "Uso general"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 7,
-      "description": "La HP ProBook 440 G10 es una notebook profesional diseñada para ofrecer un rendimiento sólido y una gran versatilidad. Con su procesador Intel Core i5 de 13ª generación, 32GB de RAM y una tarjeta gráfica NVIDIA GeForce RTX 2050, esta notebook es capaz de manejar tareas exigentes como edición de video, diseño gráfico y juegos ligeros. Su pantalla de 14 pulgadas y su diseño elegante la hacen ideal para trabajar y crear contenido en cualquier lugar.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_928250-MLA99406374970_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_911008-MLA99405364284_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_818907-MLA99888974233_112025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA43664461",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA43664461?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA62129570",
-      "item_id": "MLA2571397262",
-      "name": "Notebook Hp Victus Ryzen 5-7535hs 16gb Ddr5 1tb 15-fb2063dx",
-      "brand": "HP",
-      "price": 2902121,
-      "original_price": null,
-      "cpu": "7535HS",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "1 TB",
+      "storage": "Ver descripción",
       "os": "Windows 11",
       "screen_size": "15.6 \"",
       "weight": null,
-      "color": "Negro",
+      "color": null,
       "battery": null,
-      "listing_type": "gold_pro",
+      "listing_type": "gold_special",
       "international_delivery": false,
       "seller_nickname": "",
       "seller_power_status": null,
@@ -452,23 +461,24 @@
       "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
-        "16GB+ RAM",
+        "Alta frecuencia",
         "Gaming"
       ],
       "usage_profiles": [
         "gaming_rendimiento"
       ],
-      "recommendation_score": 8,
-      "description": "La Notebook HP Victus Ryzen 5-7535HS es una potente herramienta diseñada para satisfacer las necesidades de alto rendimiento y gaming. Equipado con un procesador Ryzen 5-7535HS de 6 núcleos y una velocidad máxima de 4.2 GHz, garantiza un rendimiento fluido en tareas exigentes. Su memoria RAM de 16GB DDR5 y almacenamiento SSD de 1TB permiten un acceso rápido a tus aplicaciones y archivos. La pantalla de 15.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_700271-MLA97792348620_112025-F.jpg",
+      "recommendation_score": 6,
+      "description": "La Notebook HP Victus es una potente herramienta diseñada para satisfacer las necesidades de los usuarios más exigentes. Equipado con un procesador Intel Core i7 y 32 GB de RAM, este dispositivo garantiza un rendimiento excepcional en tareas multitarea y aplicaciones intensivas. Su almacenamiento de 1 TB SSD proporciona un amplio espacio para tus archivos y una velocidad de acceso rápida. La pantalla de 15.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_824660-MLA84574938849_052025-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_901397-MLA98258529539_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_978292-MLA98258084075_112025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_876780-MLA84575134933_052025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_909696-MLA84278006942_052025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_682770-MLA84278006944_052025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_846446-MLA84575076263_052025-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA62129570",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA62129570?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA49525991",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA19930874",
@@ -477,6 +487,7 @@
       "brand": "HP",
       "price": 2500000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "AMD",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -510,17 +521,17 @@
         "https://http2.mlstatic.com/D_NQ_NP_692555-MLA99453696200_112025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA19930874",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA19930874?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA51281228",
       "item_id": "MLA1532309529",
       "name": "Hp Notebook 455g9 15 Ryzen 5 5625u 16g/512g Windows 11 Pro Plateado",
       "brand": "HP",
-      "price": 2393661,
+      "price": 2459693,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "5625U",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -552,9 +563,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_852630-MLA85836526608_062025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA51281228",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51281228?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA36453479",
@@ -563,6 +573,7 @@
       "brand": "HP",
       "price": 2100000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "i5-13420H",
       "ram": "32 GB",
       "gpu": "Integrada",
@@ -598,9 +609,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_889003-MLA94284243397_102025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA36453479",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA36453479?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA26393605",
@@ -609,6 +619,7 @@
       "brand": "HP",
       "price": 1600000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Ver descripción",
       "ram": "Ver descripción",
       "gpu": "Integrada",
@@ -639,9 +650,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_902452-MLU71501693098_092023-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26393605",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26393605?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA38502774",
@@ -650,6 +660,7 @@
       "brand": "HP",
       "price": 1549999,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "i5-12450H",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -681,131 +692,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_825767-MLA110063485283_042026-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA38502774",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA38502774?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA63128585",
-      "item_id": "MLA2797479634",
-      "name": "Notebook Hp Victus Victus 15-fa2013dx Plateado 15.6 Disco Ssd 512 Gb Intel 13420h 8gb De Ram",
-      "brand": "HP",
-      "price": 1495000,
-      "original_price": 1498399,
-      "cpu": "13420H",
-      "ram": "8 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "2.2 kg",
-      "color": "Plateado",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "SSD rápido",
-        "Gaming"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 5,
-      "description": "Notebook HP. Procesador 13420H. 8 GB de RAM. almacenamiento 512 GB. pantalla 15.6 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_635676-MLA100700387610_122025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_841008-MLA100700280422_122025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_764070-MLA101196407451_122025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA63128585",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA63128585?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA22187594",
-      "item_id": "MLA2776821018",
-      "name": "Notebook HP 15-dq1071cl",
-      "brand": "HP",
-      "price": 1000000,
-      "original_price": null,
-      "cpu": "Ver descripción",
-      "ram": "Ver descripción",
-      "gpu": "Integrada",
-      "storage": "Ver descripción",
-      "os": "Windows 11",
-      "screen_size": null,
-      "weight": null,
-      "color": null,
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "Uso general"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 5,
-      "description": "",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_683311-MCO43756813283_102020-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_781994-MCO43757175858_102020-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA22187594",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA22187594?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
-    },
-    {
-      "catalog_product_id": "MLA22797996",
-      "item_id": "MLA1676342317",
-      "name": "Notebook HP HP Laptop Laptop 15-ef1019la (310J3LA)",
-      "brand": "HP",
-      "price": 600000,
-      "original_price": null,
-      "cpu": "Ver descripción",
-      "ram": "Ver descripción",
-      "gpu": "Integrada",
-      "storage": "Ver descripción",
-      "os": "Windows 11",
-      "screen_size": null,
-      "weight": null,
-      "color": null,
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "Uso general"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 5,
-      "description": "La Notebook HP Laptop 15-ef1019la (310J3LA) es la elección ideal para quienes buscan un equilibrio entre rendimiento y funcionalidad. Con un procesador Intel de la línea 7502 U, esta laptop ofrece una experiencia fluida y eficiente para tareas diarias, desde la navegación web hasta la edición de documentos. Su sistema operativo Windows 11 garantiza una interfaz moderna y fácil de usar, optimizada para satisfacer las necesidades actuales.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_669606-MLA99496515602_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_709924-MLU71776310132_092023-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA22797996",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA22797996?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

@@ -1,17 +1,107 @@
 {
   "brand": "Dell",
-  "generated_at": "2026-04-07T05:59:21.239532",
+  "generated_at": "2026-05-05T17:31:43.982492",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 5,
+  "total": 6,
   "laptops": [
+    {
+      "catalog_product_id": "MLA62420420",
+      "item_id": "MLA1742477277",
+      "name": "Laptop Dell Inspiron 15.6 pulgadas táctil Ryzen 7 7730U, 16GB RAM, 512GB SSD, pantalla FHD, Windows 11, color negro, alt",
+      "brand": "Dell",
+      "price": 1689799,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "7730u",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "1.9 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": 9,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "El Dell Inspiron 15.6 pulgadas táctil con procesador Ryzen 7 7730U es un ordenador portátil diseñado para usuarios que buscan un equilibrio sólido entre potencia, comodidad y versatilidad en el día a día. Este equipo combina un rendimiento eficiente con una experiencia de uso intuitiva, ideal tanto para trabajo profesional, estudio universitario como para entretenimiento multimedia.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_751478-MLA98664682842_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_950778-MLA99142339927_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_907589-MLA98664672676_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_994028-MLA99142212423_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_762190-MLA98664672686_112025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62420420",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA28259631",
+      "item_id": "MLA1489030125",
+      "name": "Portátil Dell Xps 9320 Core I7 12th 16 GB 1 TB SSD Cor Negro",
+      "brand": "Dell",
+      "price": 3250000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "1260P",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "1 TB",
+      "os": "Windows 11",
+      "screen_size": "13.4 \"",
+      "weight": "1.26 kg",
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "PORTÁTIL DELL XPS 9320 \n \n INTEL CORE I7 1260P 4,70 GHZ \n \n MEMORIA 16 GB 5200 MHZ LPDDR5 SDRAM \n \n SSD 1 TB \n \n VÍDEO INTEL IRIS XE GRAPHICS \n \n PANTALLA FULL HD DE 13,4 PULGADAS \n \n RESOLUCIÓN DE 1920 X 1200",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_902312-MLA94068234009_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_742502-MLA94068520041_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_828703-MLA99594402084_122025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_630096-MLA93646434970_102025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA28259631",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
     {
       "catalog_product_id": "MLA26685081",
       "item_id": "MLA2957862812",
       "name": "Notebook Dell Inspiron 3520 15 I7 16GB 512GB Negro",
       "brand": "Dell",
-      "price": 2250000,
+      "price": 2236500,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Intel",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -44,17 +134,58 @@
         "https://http2.mlstatic.com/D_NQ_NP_606719-MLA79522044250_102024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26685081",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26685081?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA47293132",
+      "item_id": "MLA2036578640",
+      "name": "Notebook Dell Inspiron 3511 Color Negro",
+      "brand": "Dell",
+      "price": 1950000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "8250U",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "Windows 11",
+      "screen_size": null,
+      "weight": null,
+      "color": "Negro",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM"
+      ],
+      "usage_profiles": [
+        "productividad_estudio"
+      ],
+      "recommendation_score": 7,
+      "description": "La Notebook Dell Inspiron 3511 es la herramienta perfecta para quienes buscan rendimiento y eficiencia en un diseño elegante y funcional. Con un potente procesador Intel Core i7-8250U y 16 GB de memoria RAM, esta laptop garantiza un funcionamiento fluido, ya sea para trabajar, estudiar o disfrutar de tu contenido favorito. Su capacidad de almacenamiento de 512 GB en disco SSD permite acceder a tus archivos rápidamente, además de ofrecerte espacio suficiente para tus proyectos.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_682661-MLA96644606237_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_741307-MLA91048145672_092025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_843441-MLA91440208361_092025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47293132",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA61632527",
-      "item_id": "MLA3121391852",
+      "item_id": "MLA3241170850",
       "name": "Notebook Dell Inspiron 15.6 Ryzen 7 7730u 16gb 1tb Touch",
       "brand": "Dell",
-      "price": 2122014,
-      "original_price": null,
+      "price": 1853276,
+      "original_price": 1960040,
+      "form_factor": "laptop",
       "cpu": "7730u",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -88,50 +219,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_659661-MLA96572591622_112025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA61632527",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA61632527?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA47293132",
-      "item_id": "MLA2036578640",
-      "name": "Notebook Dell Inspiron 3511 Color Negro",
-      "brand": "Dell",
-      "price": 1950000,
-      "original_price": null,
-      "cpu": "8250U",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": null,
-      "weight": null,
-      "color": "Negro",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 7,
-      "description": "La Notebook Dell Inspiron 3511 es la herramienta perfecta para quienes buscan rendimiento y eficiencia en un diseño elegante y funcional. Con un potente procesador Intel Core i7-8250U y 16 GB de memoria RAM, esta laptop garantiza un funcionamiento fluido, ya sea para trabajar, estudiar o disfrutar de tu contenido favorito. Su capacidad de almacenamiento de 512 GB en disco SSD permite acceder a tus archivos rápidamente, además de ofrecerte espacio suficiente para tus proyectos.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_682661-MLA96644606237_102025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_741307-MLA91048145672_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_843441-MLA91440208361_092025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA47293132",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47293132?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA28588726",
@@ -140,6 +229,7 @@
       "brand": "Dell",
       "price": 1100000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "AMD Ryzen 7",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -171,49 +261,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_890017-MLU73096500798_112023-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA28588726",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA28588726?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
-    },
-    {
-      "catalog_product_id": "MLA23239838",
-      "item_id": "MLA2188714440",
-      "name": "Laptop Dell Vostro 14 Ryzen 5 8gb Ram 256gb Ssd W10p",
-      "brand": "Dell",
-      "price": 780000,
-      "original_price": null,
-      "cpu": "3450U",
-      "ram": "8 GB",
-      "gpu": "Integrada",
-      "storage": "256 GB",
-      "os": "Windows 11",
-      "screen_size": "14 \"",
-      "weight": "1.7 kg",
-      "color": "Negro",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "SSD rápido"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 5,
-      "description": "Notebook Dell. Procesador 3450U. 8 GB de RAM. almacenamiento 256 GB. pantalla 14 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_905697-MLA99906926665_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_879471-MLA74806230225_022024-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA23239838",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA23239838?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

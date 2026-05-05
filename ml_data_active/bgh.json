@@ -1,17 +1,18 @@
 {
   "brand": "BGH",
-  "generated_at": "2026-04-06T19:31:35.253115",
+  "generated_at": "2026-05-05T17:31:43.981231",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 6,
+  "total": 4,
   "laptops": [
     {
-      "catalog_product_id": "MLA20020844",
+      "catalog_product_id": "MLA23233042",
       "item_id": "MLA1639435993",
       "name": "Notebook Positivo Bgh At510w Intel Celeron 4gb 64gb Win 11",
       "brand": "BGH",
       "price": 800000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Intel",
       "ram": "4 GB",
       "gpu": "Integrada",
@@ -23,7 +24,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "ROYO20240124151015",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -43,10 +44,9 @@
         "https://http2.mlstatic.com/D_NQ_NP_878383-MLU69389415587_052023-F.jpg",
         "https://http2.mlstatic.com/D_NQ_NP_963646-MLU74956676149_032024-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA20020844",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA20020844?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA23233042",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA56537341",
@@ -55,6 +55,7 @@
       "brand": "BGH",
       "price": 650000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Ver descripción",
       "ram": "Ver descripción",
       "gpu": "Integrada",
@@ -66,7 +67,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "GVN190381",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -87,9 +88,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_804717-MLA92272454424_092025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA56537341",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA56537341?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA20020844",
@@ -98,6 +98,7 @@
       "brand": "BGH",
       "price": 590000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Intel",
       "ram": "4 GB",
       "gpu": "Integrada",
@@ -109,10 +110,10 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "GTPROSTORE2021",
-      "seller_power_status": "gold",
-      "seller_level": "5_green",
-      "seller_transactions": 2814,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "SSD rápido"
@@ -125,52 +126,8 @@
       "image_url": "https://http2.mlstatic.com/D_NQ_NP_894348-MLA99414394472_112025-F.jpg",
       "gallery_images": [],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA20020844",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA20020844?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA20020844",
-      "item_id": "MLA1464256925",
-      "name": "Notebook Bgh Positivo At At520ln 14 4gb De Ram 128gb LED HD Wifi Ssd Intel Celeron Windows 11",
-      "brand": "BGH",
-      "price": 470000,
-      "original_price": null,
-      "cpu": "N4020",
-      "ram": "4 GB",
-      "gpu": "Integrada",
-      "storage": "128 GB",
-      "os": "Windows 11",
-      "screen_size": "14 \"",
-      "weight": "1.5 kg",
-      "color": null,
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "ANTONELLIMIA20220501135307",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "SSD rápido"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 5,
-      "description": "La Notebook AT520LN de Positivo BGH es una opción ideal para quienes buscan un equipo confiable y eficiente para el día a día. Con un procesador Intel Celeron N4020 y 4 GB de RAM DDR4, esta notebook ofrece un rendimiento fluido para tareas cotidianas como navegación web, procesamiento de textos y consumo de contenido multimedia. Su disco SSD de 128 GB garantiza un arranque rápido y un acceso ágil a tus archivos.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_677090-MLA99458185260_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_681408-MLA91878444547_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_743084-MLU77136087814_062024-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_924646-MLA91878857707_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_897858-MLA91480552058_092025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA20020844",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA20020844?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA17386661",
@@ -179,6 +136,7 @@
       "brand": "BGH",
       "price": 439000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "N3350",
       "ram": "4 GB",
       "gpu": "Integrada",
@@ -190,10 +148,10 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "TITO71",
+      "seller_nickname": "",
       "seller_power_status": null,
-      "seller_level": "5_green",
-      "seller_transactions": 21,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "Uso general"
@@ -209,51 +167,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_941614-MLU77621758151_072024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA17386661",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA17386661?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA23152366",
-      "item_id": "MLA2177158402",
-      "name": "Notebook Positivo Bgh At560w Celeron 500gb Rom / 4gb De Ram",
-      "brand": "BGH",
-      "price": 389000,
-      "original_price": null,
-      "cpu": "Intel",
-      "ram": "4 GB",
-      "gpu": "Integrada",
-      "storage": "Ver descripción",
-      "os": "Windows 11",
-      "screen_size": "14 \"",
-      "weight": "1.4 kg",
-      "color": "Gris",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "GTPROSTORE2021",
-      "seller_power_status": "gold",
-      "seller_level": "5_green",
-      "seller_transactions": 2814,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "Uso general"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 5,
-      "description": "La notebook Positivo BGH AT560W es una solución tanto para trabajar y estudiar como para entretenerte. Al ser portátil, el escritorio dejará de ser tu único espacio de uso para abrirte las puertas a otros ambientes ya sea en tu casa o en la oficina.\n\nEficiencia a tu alcance\nSu procesador Intel Celeron, te permitirá ejecutar programas variados y procesos indispensables para desenvolverte en el día a día, ya sea en tu trabajo o en los momentos de ocio en tu hogar.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_939962-MLA99491713922_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_618863-MLA99491922244_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_878510-MLA99491753710_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_796228-MLA99491902238_112025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA23152366",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA23152366?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

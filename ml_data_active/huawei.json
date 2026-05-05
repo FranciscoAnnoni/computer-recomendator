@@ -1,17 +1,18 @@
 {
   "brand": "Huawei",
-  "generated_at": "2026-04-07T05:59:21.244670",
+  "generated_at": "2026-05-05T17:31:43.989278",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
   "total": 2,
   "laptops": [
     {
       "catalog_product_id": "MLA38832469",
-      "item_id": "MLA2363168104",
+      "item_id": "MLA1894720312",
       "name": "Notebook Huawei Matebook D16 Core I5 16gb Ram 512gb Ssd 16'' Gris",
       "brand": "Huawei",
       "price": 2129999,
       "original_price": 2944149,
+      "form_factor": "laptop",
       "cpu": "12450H",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -45,17 +46,17 @@
         "https://http2.mlstatic.com/D_NQ_NP_800438-MLA109215827016_042026-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA38832469",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA38832469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA40588469",
       "item_id": "MLA2363850410",
       "name": "Notebook Huawei Matebook D14 Core I5 8gb Ram 512gb Ssd 14'' Plateado",
       "brand": "Huawei",
-      "price": 1699999,
+      "price": 1639299,
       "original_price": 2623499,
+      "form_factor": "laptop",
       "cpu": "3700U",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -88,9 +89,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_838275-MLU79172552805_092024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA40588469",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA40588469?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

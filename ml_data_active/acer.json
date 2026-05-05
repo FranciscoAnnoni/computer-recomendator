@@ -1,24 +1,25 @@
 {
   "brand": "Acer",
-  "generated_at": "2026-04-07T06:07:02.636939",
+  "generated_at": "2026-05-05T17:31:43.968237",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 12,
+  "total": 8,
   "laptops": [
     {
-      "catalog_product_id": "MLA57393906",
-      "item_id": "MLA2801814884",
-      "name": "Acer Predator Helio Neo 16s Core 9 Ultra 32gb Rtx 5070ti 1tb Negro",
+      "catalog_product_id": "MLA65954131",
+      "item_id": "MLA3069720826",
+      "name": "Acer Nitro Avn15 I7-13620h 16gb Rtx 5050 1tb Ssd 165hz Negro",
       "brand": "Acer",
-      "price": 5899997,
+      "price": 4400200,
       "original_price": null,
-      "cpu": "275HX",
-      "ram": "32 GB",
+      "form_factor": "laptop",
+      "cpu": "13620H",
+      "ram": "16 GB",
       "gpu": "Integrada",
-      "storage": "Ver descripción",
+      "storage": "1 TB",
       "os": "Windows 11",
-      "screen_size": "16 \"",
-      "weight": null,
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
       "color": "Negro",
       "battery": null,
       "listing_type": "gold_pro",
@@ -30,74 +31,32 @@
       "highlight_rank": null,
       "simplified_tags": [
         "16GB+ RAM",
-        "Gaming"
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
       ],
       "usage_profiles": [
         "gaming_rendimiento"
       ],
-      "recommendation_score": 8,
-      "description": "Notebook Acer. Procesador 275HX. 32 GB de RAM. pantalla 16 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_896319-MLA99523995928_122025-F.jpg",
+      "recommendation_score": 9,
+      "description": "La Acer Nitro AVN15 es la elección perfecta para quienes buscan potencia y rendimiento en una notebook. \n\nEquipado con un procesador Intel Core i7-13620H y 16 GB de memoria RAM DDR5, este dispositivo garantiza un rendimiento fluido y eficiente, ideal para tareas exigentes y juegos de última generación.\n\nSu tarjeta gráfica NVIDIA GeForce RTX 5050 con 8 GB de memoria de video permite disfrutar de gráficos impresionantes y una experiencia visual envolvente. \n\nLa pantalla IPS de 15.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_719558-MLA107597128587_022026-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_612484-MLA93123919891_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_627903-MLA92711969628_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_681066-MLA92712175540_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_845962-MLA92712234834_092025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_690239-MLA106915297142_022026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_918294-MLA107596622523_022026-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA57393906",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA57393906?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA65954131",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA46210869",
-      "item_id": "MLA3122298326",
-      "name": "Notebook Acer Predator Core9 Ultra 185h Rtx4070 1tb 32gb 16 Color Gris",
-      "brand": "Acer",
-      "price": 4428390,
-      "original_price": null,
-      "cpu": "Ultra 185H",
-      "ram": "32 GB",
-      "gpu": "Integrada",
-      "storage": "1 TB",
-      "os": "Windows 11",
-      "screen_size": "16 \"",
-      "weight": "2 kg",
-      "color": "Gris",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "Gaming"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 8,
-      "description": "Notebook Acer. Procesador Ultra 185H. 32 GB de RAM. almacenamiento 1 TB. pantalla 16 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_765066-MLA82296931798_022025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_846347-MLA82296931804_022025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_905686-MLA82296960886_022025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA46210869",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA46210869?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA46210869",
+      "catalog_product_id": "MLA34015191",
       "item_id": "MLA1782695298",
       "name": "Acer Predator 16 Ci9-13900hx 1tb Ssd 16ddr5 Rtx4080 16' Color Negro",
       "brand": "Acer",
       "price": 4200000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "13900HX",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -132,18 +91,18 @@
         "https://http2.mlstatic.com/D_NQ_NP_666271-MLU77515512915_072024-F.jpg",
         "https://http2.mlstatic.com/D_NQ_NP_736784-MLU77300518496_072024-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA46210869",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA46210869?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA34015191",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA66354589",
-      "item_id": "MLA1697808655",
+      "item_id": "MLA1763243745",
       "name": "Acer Predator Phn16s Ultra 9 275hx 16gb 1tb Rtx 5060 240hz Negro",
       "brand": "Acer",
-      "price": 3749999,
-      "original_price": 3999999,
+      "price": 3332493,
+      "original_price": null,
+      "form_factor": "laptop",
       "cpu": "i9-12975HX",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -179,9 +138,51 @@
         "https://http2.mlstatic.com/D_NQ_NP_629087-MLA108327445769_032026-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA66354589",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA66354589?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA22191951",
+      "item_id": "MLA1493685305",
+      "name": "Notebook Acer Predator 15.6 I7 8750h 8va Gtx1060 144hz Ssd 2",
+      "brand": "Acer",
+      "price": 3134221,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "Intel",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "256 GB",
+      "os": "Windows 11",
+      "screen_size": "15.6 \"",
+      "weight": "2.5 kg",
+      "color": null,
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "Alta frecuencia"
+      ],
+      "usage_profiles": [
+        "gaming_rendimiento"
+      ],
+      "recommendation_score": 8,
+      "description": "DESCRIPCION: \n\nEl portátil para juegos Acer Predator Helios 300 PH315-51-78NP viene con estas especificaciones de alto nivel: \n\n- Procesador Intel Core i7-8750H de octava generación de 2.2 GHz con tecnología Turbo Boost de hasta 4.1 GHz (9 MB de caché inteligente)\n- Windows 10 Home\n- Pantalla IPS de 15.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_745987-MLA100007264803_122025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_837139-MLU78449426510_082024-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22191951",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA40459992",
@@ -190,6 +191,7 @@
       "brand": "Acer",
       "price": 2700000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "RYZEN 5",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -220,159 +222,27 @@
         "https://http2.mlstatic.com/D_NQ_NP_634501-MLU78838585438_092024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA40459992",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA40459992?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA65954131",
-      "item_id": "MLA3121389026",
-      "name": "Acer Nitro Avn15 I7-13620h 16gb Rtx 5050 1tb Ssd 165hz Negro",
+      "catalog_product_id": "MLA41377970",
+      "item_id": "MLA3269420476",
+      "name": "Notebook Acer Aspire Core I5-1335u 8gb 512gb Ssd Color Gris",
       "brand": "Acer",
-      "price": 2669999,
+      "price": 1350000,
       "original_price": null,
-      "cpu": "13620H",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "1 TB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "2.5 kg",
-      "color": "Negro",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "SSD rápido",
-        "Alto rendimiento",
-        "Alta frecuencia"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 8,
-      "description": "La Acer Nitro AVN15 es la elección perfecta para quienes buscan potencia y rendimiento en una notebook. \n\nEquipado con un procesador Intel Core i7-13620H y 16 GB de memoria RAM DDR5, este dispositivo garantiza un rendimiento fluido y eficiente, ideal para tareas exigentes y juegos de última generación.\n\nSu tarjeta gráfica NVIDIA GeForce RTX 5050 con 8 GB de memoria de video permite disfrutar de gráficos impresionantes y una experiencia visual envolvente. \n\nLa pantalla IPS de 15.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_719558-MLA107597128587_022026-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_690239-MLA106915297142_022026-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_918294-MLA107596622523_022026-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA65954131",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA65954131?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA63163752",
-      "item_id": "MLA3074497208",
-      "name": "Portatil Gamer Acer Nitro V15 I5 13420h 16gb Rtx 5050 512gb Black",
-      "brand": "Acer",
-      "price": 2464599,
-      "original_price": 3966598,
-      "cpu": "13420H",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "2.1 kg",
-      "color": "Black",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "Gaming"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 8,
-      "description": "----------------------------------------------------------------\nNotebook Acer Nitro V 15 ANV15-53-57BB Intel Core I5-13420H\n----------------------------------------------------------------\n\nESPECIFICACIONES:\n\nModelo\nMarca: Acer\nLínea: Nitro V 15 \nColor: Negro\nSKU: NH-U1PAA-004\nEAN: \n\nSistema operativo\n- Windows 11 Home\n\nProcesador\n- Línea: Intel Core I5-13420H\n- Características: 8 núcleos, frecuencia máxima 4.6 GHz.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_850831-MLA104792263005_012026-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_986413-MLA100851496702_122025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_621649-MLA100851496706_122025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_848958-MLA104246197068_012026-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_871305-MLA100851496694_122025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA63163752",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA63163752?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA37511623",
-      "item_id": "MLA2806815230",
-      "name": "Laptop Acer Predator Triton 14: I7, 16gb, Rtx 4050, W11h Color Gris",
-      "brand": "Acer",
-      "price": 2300000,
-      "original_price": null,
-      "cpu": "13700H",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "Windows 11",
-      "screen_size": "14 \"",
-      "weight": null,
-      "color": "Gris",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "Alto rendimiento",
-        "GPU dedicada",
-        "Gaming"
-      ],
-      "usage_profiles": [
-        "gaming_rendimiento"
-      ],
-      "recommendation_score": 8,
-      "description": "Notebook Acer. Procesador 13700H. 16 GB de RAM. almacenamiento 512 GB. pantalla 14 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_848221-MLU76865329457_062024-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_723952-MLU76865445163_062024-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_949648-MLU76865221603_062024-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA37511623",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA37511623?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA62000166",
-      "item_id": "MLA2907669324",
-      "name": "Notebook Gamer Acer Nitro V15 Ryzen 5 8gb 512gb Ssd Rtx3050",
-      "brand": "Acer",
-      "price": 2059499,
-      "original_price": 4413148,
-      "cpu": "7535HS",
+      "form_factor": "laptop",
+      "cpu": "1335U",
       "ram": "8 GB",
       "gpu": "Integrada",
-      "storage": "Ver descripción",
+      "storage": "512 GB",
       "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": "2.1 kg",
-      "color": "Negro",
+      "screen_size": null,
+      "weight": "3.826 kg",
+      "color": "Gris",
       "battery": null,
-      "listing_type": "gold_pro",
+      "listing_type": "gold_special",
       "international_delivery": false,
       "seller_nickname": "",
       "seller_power_status": null,
@@ -380,25 +250,23 @@
       "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
-        "SSD rápido",
-        "Gaming"
+        "SSD rápido"
       ],
       "usage_profiles": [
-        "gaming_rendimiento"
+        "productividad_estudio"
       ],
-      "recommendation_score": 7,
-      "description": "Notebook Gamer Acer Nitro V15 ANV15-41-R6NM Ryzen 5 7535HS 8GB 512GB SSD RTX 3050 15.6\" FHD\n\nLa Acer Nitro V15 ANV15-41-R6NM es una notebook gamer diseñada para ofrecer un rendimiento equilibrado en juegos y multitarea. Equipada con procesador AMD Ryzen 5 7535HS de 6 núcleos, 8 GB de memoria DDR5 expandible hasta 32 GB y un rápido almacenamiento SSD de 512 GB, brinda velocidad y eficiencia para gaming, streaming y trabajo diario.\n\nSu pantalla de 15.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_736696-MLA97858247275_112025-F.jpg",
+      "recommendation_score": 5,
+      "description": "Tamaño de HD o SSD: SSD NVMe PCIe de 512GB  \nTeclado: Numérico retro iluminado en inglés  \nSistema Operacional: Windows 11 Home  \nCódigo de Barras: 195133214469  \nMarca: Acer  \nDisplay: LCD IPS con Tecnología ComfyView, Frecuencia de 60Hz  \nConecciones: 1x HDMI, 2x USB-A 3.2 Gen 1, 2x USB-C 3.2 Gen 2, Audio 3.5mm  \nMemória: LPDDR5 8GB  \nBatería: No Removible de Li-Ion, 57Wh  \nPeso: Embalaje 3.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_692827-MLA80235862461_102024-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_832785-MLA97857703565_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_865996-MLA97395494212_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_920119-MLA97396016422_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_731479-MLA97858445061_112025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_734542-MLA79709834799_102024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_745724-MLA79981138110_102024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_653582-MLA79709637137_102024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_879051-MLA79981021498_102024-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA62000166",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA62000166?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA41377970",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA51899187",
@@ -407,6 +275,7 @@
       "brand": "Acer",
       "price": 1099000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "1235U",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -438,50 +307,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_906817-MLA87048593929_072025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA51899187",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51899187?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
-    },
-    {
-      "catalog_product_id": "MLA21924457",
-      "item_id": "MLA1695042825",
-      "name": "Notebook Acer Aspire 3 15,6 Core I3 1005g1 4gb 1TB",
-      "brand": "Acer",
-      "price": 1007515,
-      "original_price": 1184195,
-      "cpu": "Intel",
-      "ram": "4 GB",
-      "gpu": "Integrada",
-      "storage": "Ver descripción",
-      "os": "Windows 11",
-      "screen_size": "15.6 \"",
-      "weight": null,
-      "color": "Negro",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "Uso general"
-      ],
-      "usage_profiles": [
-        "productividad_estudio"
-      ],
-      "recommendation_score": 6,
-      "description": "La Notebook Acer Aspire 3 es la herramienta ideal para quienes buscan un rendimiento confiable y eficiente en un diseño elegante. Con un procesador Intel Core i3-1005G1 y 4 GB de RAM, esta laptop está optimizada para tareas diarias, como navegación web, procesamiento de textos y entretenimiento multimedia. Su pantalla de 15.6 pulgadas con resolución Full HD (1920x1080) ofrece imágenes nítidas y vibrantes, perfectas para disfrutar de tus series y películas favoritas.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_964623-MLA44100752638_112020-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_795712-MLA44100752633_112020-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_803093-MLA44100744884_112020-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA21924457",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA21924457?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA45838283",
@@ -490,6 +317,7 @@
       "brand": "Acer",
       "price": 800000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "5-7520U",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -519,9 +347,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_857206-MLA82210444697_022025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA45838283",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA45838283?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

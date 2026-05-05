@@ -1,17 +1,18 @@
 {
   "brand": "Philco",
-  "generated_at": "2026-04-06T19:31:35.267000",
+  "generated_at": "2026-05-05T17:31:43.992480",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
   "total": 1,
   "laptops": [
     {
-      "catalog_product_id": "MLA47437286",
-      "item_id": "MLA1462782165",
+      "catalog_product_id": "MLA42114051",
+      "item_id": "MLA1751882119",
       "name": "Notebook Philco N14P4020 14.1 Pulgadas Intel Celeron 4gb 128gb Ssd Windows 11",
       "brand": "Philco",
-      "price": 371299,
-      "original_price": 479999,
+      "price": 455699,
+      "original_price": null,
+      "form_factor": "laptop",
       "cpu": "N4020",
       "ram": "4 GB",
       "gpu": "Integrada",
@@ -23,11 +24,11 @@
       "battery": null,
       "listing_type": "gold_pro",
       "international_delivery": false,
-      "seller_nickname": "PILISAR 33709180849",
-      "seller_power_status": "platinum",
-      "seller_level": "5_green",
-      "seller_transactions": 707251,
-      "highlight_rank": 11,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": 6,
       "simplified_tags": [
         "SSD rápido"
       ],
@@ -43,10 +44,9 @@
         "https://http2.mlstatic.com/D_NQ_NP_860678-MLA79816763500_102024-F.jpg",
         "https://http2.mlstatic.com/D_NQ_NP_648585-MLA80066888266_102024-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA47437286",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47437286?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA42114051",
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

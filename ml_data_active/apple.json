@@ -1,17 +1,18 @@
 {
   "brand": "Apple",
-  "generated_at": "2026-04-06T19:31:35.245605",
+  "generated_at": "2026-05-05T17:31:43.972361",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
-  "total": 18,
+  "total": 25,
   "laptops": [
     {
       "catalog_product_id": "MLA28766787",
       "item_id": "MLA1991763364",
       "name": "Apple MacBook Pro MacBook Pro 16\" M3 Pro MRW13LL/A Silver 16\" 3456 px x 2234 px Apple M3 Pro 18GB de Ram",
       "brand": "Apple",
-      "price": 7300000,
+      "price": 7256200,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M3 Pro",
       "ram": "18 GB",
       "gpu": "Integrada",
@@ -23,10 +24,10 @@
       "battery": null,
       "listing_type": "gold_pro",
       "international_delivery": false,
-      "seller_nickname": "LENPROD",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
-      "seller_transactions": 4,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "Alto rendimiento",
@@ -43,17 +44,148 @@
         "https://http2.mlstatic.com/D_NQ_NP_729372-MLA93861014408_102025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA28766787",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA28766787?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA47742443",
+      "catalog_product_id": "MLA51334554",
+      "item_id": "MLA2999210972",
+      "name": "Mac Studio Chip m4max Cpu14 núcleos Gpu32 núcleos 512 gb Ssd Color Plata",
+      "brand": "Apple",
+      "price": 7000000,
+      "original_price": null,
+      "form_factor": "mini_pc",
+      "cpu": "M4 Max",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "7.756 \"",
+      "weight": "2.74 kg",
+      "color": "Color Plata",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 9,
+      "description": "El Mac Studio te permitirá darle rienda suelta a tu creatividad gracias a la potencia y eficiencia de los increíbles chips M4 Max de Apple. Todo en un diseño increíblemente compacto que cabe debajo de la mayoría de los monitores, para que tengas a tu alcance la conectividad y la potencia que necesitas. El Mac Studio es un computador de alto rendimiento como ningún otro.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_798029-MLA85964298448_062025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_712527-MLA86278257779_062025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_801112-MLA86278228091_062025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_796853-MLA86278198191_062025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_739588-MLA86278198205_062025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA51334554",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA51114697",
+      "item_id": "MLA1688070511",
+      "name": "Apple Mac Studio M4 Max 14c Cpu 32c Gpu 512gb Ssd 36gb Ram Plateado",
+      "brand": "Apple",
+      "price": 7000000,
+      "original_price": null,
+      "form_factor": "mini_pc",
+      "cpu": "M4Max",
+      "ram": "36 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "0 \"",
+      "weight": "2.74 kg",
+      "color": "Plateado",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "El chip M4 Max te da una velocidad y una capacidad fuera de serie a la hora de procesar tareas profesionales y proyectos creativos. Mezcla una banda sonora épica con cientos de instrumentos virtuales, explora sin límite los efectos visuales con simulaciones y efectos de partículas más rápidos, y completa tareas de IA, como la optimización de imágenes y la creación de subtítulos, en un abrir y cerrar de ojos.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_709229-MLA85877285513_062025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_637047-MLA85877324969_062025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA51114697",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA47733719",
+      "item_id": "MLA3173917530",
+      "name": "Macbook Pro 14 Apple Pro M4 24gb Ssd 512gb Color Negro Espacial",
+      "brand": "Apple",
+      "price": 5649990,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "Chip Pro M4",
+      "ram": "24 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "14.2 \"",
+      "weight": "1.6 kg",
+      "color": "Negro espacial",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 9,
+      "description": "La MacBook Pro 14 es la laptop ideal para profesionales y creativos que necesitan potencia y eficiencia en un diseño compacto y elegante. Equipada con el potente chip Apple Pro M4, ofrece un rendimiento excepcional para tareas exigentes como edición de video, diseño gráfico y programación avanzada. Su memoria RAM de 24GB asegura una multitarea fluida, mientras que el disco SSD de 512GB proporciona velocidad y espacio suficiente para almacenar tus archivos más importantes.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_762067-MLA83571586133_042025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_804547-MLA92780041834_092025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_777265-MLA92780249430_092025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_692377-MLA92780071624_092025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_947285-MLA92780179748_092025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47733719",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA48955810",
       "item_id": "MLA1678655641",
       "name": "Macbook Pro 16 M4 Pro 24gb Ram 512gb Ssd - Space Black",
       "brand": "Apple",
-      "price": 4999999,
+      "price": 4969999,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M4 Pro",
       "ram": "24 GB",
       "gpu": "Integrada",
@@ -65,10 +197,10 @@
       "battery": null,
       "listing_type": "gold_pro",
       "international_delivery": false,
-      "seller_nickname": "R3V0LLJT10N",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
-      "seller_transactions": 2,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "SSD rápido",
@@ -87,101 +219,9 @@
         "https://http2.mlstatic.com/D_NQ_NP_763566-MLA84051572044_052025-F.jpg",
         "https://http2.mlstatic.com/D_NQ_NP_745747-MLA84051572048_052025-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA47742443",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47742443?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
-    },
-    {
-      "catalog_product_id": "MLA47733719",
-      "item_id": "MLA2898559150",
-      "name": "Macbook Pro 14 Apple Pro M4 24gb Ssd 512gb Color Negro Espacial",
-      "brand": "Apple",
-      "price": 4890000,
-      "original_price": null,
-      "cpu": "Chip Pro M4",
-      "ram": "24 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "macOS",
-      "screen_size": "14.2 \"",
-      "weight": "1.6 kg",
-      "color": "Negro espacial",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "ESPOSIL",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 8,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "SSD rápido",
-        "Alto rendimiento",
-        "macOS"
-      ],
-      "usage_profiles": [
-        "creacion_desarrollo"
-      ],
-      "recommendation_score": 8,
-      "description": "La MacBook Pro 14 es la laptop ideal para profesionales y creativos que necesitan potencia y eficiencia en un diseño compacto y elegante. Equipada con el potente chip Apple Pro M4, ofrece un rendimiento excepcional para tareas exigentes como edición de video, diseño gráfico y programación avanzada. Su memoria RAM de 24GB asegura una multitarea fluida, mientras que el disco SSD de 512GB proporciona velocidad y espacio suficiente para almacenar tus archivos más importantes.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_762067-MLA83571586133_042025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_804547-MLA92780041834_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_777265-MLA92780249430_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_692377-MLA92780071624_092025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_947285-MLA92780179748_092025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA47733719",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47733719?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
-    },
-    {
-      "catalog_product_id": "MLA51114742",
-      "item_id": "MLA1692231059",
-      "name": "Macbook Air 13\" Chip M4 512 gb Ssd - Color Plata",
-      "brand": "Apple",
-      "price": 4199990,
-      "original_price": null,
-      "cpu": "M4",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "512 GB",
-      "os": "macOS",
-      "screen_size": "13 \"",
-      "weight": "2.2 kg",
-      "color": "Color Plata",
-      "battery": null,
-      "listing_type": "gold_pro",
-      "international_delivery": false,
-      "seller_nickname": "MASTERSTECHNEW",
-      "seller_power_status": null,
-      "seller_level": "5_green",
-      "seller_transactions": 1209,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "SSD rápido",
-        "Alto rendimiento",
-        "macOS"
-      ],
-      "usage_profiles": [
-        "creacion_desarrollo"
-      ],
-      "recommendation_score": 10,
-      "description": "-Chip\nChip M4 de Apple\nCPU de 10 núcleos con 4 núcleos de rendimiento y 6 de eficiencia\nGPU de 10 núcleos\nTrazado de rayos acelerado por hardware\nNeural Engine de 16 núcleos\n120 GB/s de ancho de banda de memoria\n\n-Motor multimedia\nH.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_800887-MLA95191627600_102025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_840773-MLA85877293459_062025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_678104-MLA85877565665_062025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_951614-MLA85877575649_062025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_643982-MLA85877332561_062025-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA51114742",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51114742?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA48955810",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA53405066",
@@ -190,6 +230,7 @@
       "brand": "Apple",
       "price": 4199990,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M4",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -201,10 +242,10 @@
       "battery": null,
       "listing_type": "gold_pro",
       "international_delivery": false,
-      "seller_nickname": "MASTERSTECHNEW",
+      "seller_nickname": "",
       "seller_power_status": null,
-      "seller_level": "5_green",
-      "seller_transactions": 1209,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "16GB+ RAM",
@@ -225,9 +266,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_885399-MLA89357884689_082025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA53405066",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA53405066?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA28766778",
@@ -236,6 +276,7 @@
       "brand": "Apple",
       "price": 4099999,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M3 Pro",
       "ram": "18 GB",
       "gpu": "Integrada",
@@ -247,7 +288,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "VICAMORO",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -267,9 +308,98 @@
         "https://http2.mlstatic.com/D_NQ_NP_662897-MLA73366843489_122023-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA28766778",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA28766778?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA47742443",
+      "item_id": "MLA1699569079",
+      "name": "Macbook Pro Macbook Pro 16 M4 Pro 16 Color Plata 24gb De Ram 512gb Ssd 512gb Hdd Apple M4",
+      "brand": "Apple",
+      "price": 4000000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M4 Pro",
+      "ram": "24 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "16 \"",
+      "weight": "2.14 kg",
+      "color": "Plata",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "MacBook Pro de 16\" (M4 Pro) - Plateado / 24 GB de RAM / SSD de 512 GB\n\nEspecificaciones técnicas:\n\nProcesador:\n\nChip Apple M4 Pro (12 núcleos: 8 de rendimiento + 4 de eficiencia)\n\nGPU Apple con 19 núcleos\n\nNeural Engine de 16 núcleos (para IA y aprendizaje automático)\n\nMemoria:\n\n24 GB de RAM unificada (LPDDR5X)\n\nAlmacenamiento:\n\nSSD de 512 GB (velocidades de hasta 7,4 GB/s)\n\nPantalla:\n\nLiquid Retina XDR de 16,2\" (3456 x 2234)\n\nProMotion (hasta 120 Hz)\n\nBrillo de 1000 nits (pico de 1600 para HDR)...",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_890534-MLA99495649590_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_702262-MLA83573413769_042025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_963766-MLA83573471469_042025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_835536-MLA83573520319_042025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47742443",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA51114742",
+      "item_id": "MLA3202061026",
+      "name": "Macbook Air 13\" Chip M4 512 gb Ssd - Color Plata",
+      "brand": "Apple",
+      "price": 3578399,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M4",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "13 \"",
+      "weight": "2.2 kg",
+      "color": "Color Plata",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 10,
+      "description": "-Chip\nChip M4 de Apple\nCPU de 10 núcleos con 4 núcleos de rendimiento y 6 de eficiencia\nGPU de 10 núcleos\nTrazado de rayos acelerado por hardware\nNeural Engine de 16 núcleos\n120 GB/s de ancho de banda de memoria\n\n-Motor multimedia\nH.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_800887-MLA95191627600_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_840773-MLA85877293459_062025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_678104-MLA85877565665_062025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_951614-MLA85877575649_062025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_643982-MLA85877332561_062025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA51114742",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA51135443",
@@ -278,6 +408,7 @@
       "brand": "Apple",
       "price": 3500000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Apple macOS",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -289,7 +420,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "FEDERICODELISA",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -313,9 +444,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_944797-MLA85623226544_062025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA51135443",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51135443?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA44897258",
@@ -324,6 +454,7 @@
       "brand": "Apple",
       "price": 3500000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Chip M3 Pro",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -335,7 +466,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "GAUNANATALIA20210907193553",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -357,34 +488,35 @@
         "https://http2.mlstatic.com/D_NQ_NP_971655-MLA81486701531_122024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA44897258",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA44897258?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA47742443",
-      "item_id": "MLA2851980284",
-      "name": "Macbook Pro Macbook Pro 16 M4 Pro 16 Color Plata 24gb De Ram 512gb Ssd 512gb Hdd Apple M4",
+      "catalog_product_id": "MLA47742751",
+      "item_id": "MLA1678476559",
+      "name": "Macbook Pro 14 M4 16gb Ssd 512gb Color Plata Apple",
       "brand": "Apple",
-      "price": 3400000,
+      "price": 3500000,
       "original_price": null,
-      "cpu": "M4 Pro",
-      "ram": "24 GB",
+      "form_factor": "laptop",
+      "cpu": "Chip M4",
+      "ram": "16 GB",
       "gpu": "Integrada",
       "storage": "512 GB",
       "os": "macOS",
-      "screen_size": "16 \"",
-      "weight": "2.14 kg",
+      "screen_size": "14.2 \"",
+      "weight": "1.55 kg",
       "color": "Plata",
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "DISTRIBUIDORAPLATENSE MARTINEZ",
+      "seller_nickname": "",
       "seller_power_status": null,
-      "seller_level": "5_green",
-      "seller_transactions": 88,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
+        "16GB+ RAM",
         "SSD rápido",
         "Alto rendimiento",
         "macOS"
@@ -392,18 +524,147 @@
       "usage_profiles": [
         "creacion_desarrollo"
       ],
-      "recommendation_score": 8,
-      "description": "MacBook Pro de 16\" (M4 Pro) - Plateado / 24 GB de RAM / SSD de 512 GB\n\nEspecificaciones técnicas:\n\nProcesador:\n\nChip Apple M4 Pro (12 núcleos: 8 de rendimiento + 4 de eficiencia)\n\nGPU Apple con 19 núcleos\n\nNeural Engine de 16 núcleos (para IA y aprendizaje automático)\n\nMemoria:\n\n24 GB de RAM unificada (LPDDR5X)\n\nAlmacenamiento:\n\nSSD de 512 GB (velocidades de hasta 7,4 GB/s)\n\nPantalla:\n\nLiquid Retina XDR de 16,2\" (3456 x 2234)\n\nProMotion (hasta 120 Hz)\n\nBrillo de 1000 nits (pico de 1600 para HDR)...",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_890534-MLA99495649590_112025-F.jpg",
+      "recommendation_score": 9,
+      "description": "Pantalla Liquid Retina XDR de 14 pulgadas²\nPantalla estándar\nChip Apple M4 con CPU de 10 núcleos, GPU de 10 núcleos y motor neuronal de 16 núcleos\n16 GB de memoria unificada\nAlmacenamiento SSD de 512 GB\nAdaptador de corriente USB-C de 70 W",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_772084-MLA99462364096_112025-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_702262-MLA83573413769_042025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_963766-MLA83573471469_042025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_835536-MLA83573520319_042025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_676182-MLA87069147547_072025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_865598-MLA87069087989_072025-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA47742443",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA47742443?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47742751",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA22855572",
+      "item_id": "MLA1407618787",
+      "name": "Apple MacBook Pro 16 Chip M2 Pro(cpu 12n Y Gpu 19n) 512gb",
+      "brand": "Apple",
+      "price": 3300000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M2 Pro",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "16 \"",
+      "weight": "2.15 kg",
+      "color": "Plata",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 9,
+      "description": "El MacBook Pro de 16 pulgadas con los chips M2 Pro alcanza una potencia y una velocidad sin precedentes, incluso cuando no está conectado a la corriente. Tiene una espectacular pantalla Liquid RetinaXDR, todos los puertos que necesitas y una batería que te acompaña todo el día (1). Este notebook está listo para salir a comerse el mundo.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_937121-MLA95214411316_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_881633-MLC54340285038_032023-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_832071-MLC54340285036_032023-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_804590-MLC54340285048_032023-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA22855572",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA62661444",
+      "item_id": "MLA2866690696",
+      "name": "Notebook Macbook MacBook Air MacBook Air M4 MW0W3BZ/A Silver 2025 13.6\" 2560 px x 1664 px disco SSD 256 GB Apple M4 16GB",
+      "brand": "Apple",
+      "price": 3285132,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M4",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "256 GB",
+      "os": "macOS",
+      "screen_size": "13.6 \"",
+      "weight": "1.24 kg",
+      "color": "Silver",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 10,
+      "description": "Notebook Apple. Procesador M4. 16 GB de RAM. almacenamiento 256 GB. pantalla 13.6 \".",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_864617-MLA99384572130_112025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_904745-MLA99384611990_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_756268-MLA99384602158_112025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_655130-MLA99384602168_112025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA62661444",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA54109555",
+      "item_id": "MLA1678225659",
+      "name": "Apple MacBook Air MacBook Air M4 MW0W3BZ/A Azul medianoche 13\" 2560 px x 1664 px Apple M4 16GB de Ram",
+      "brand": "Apple",
+      "price": 3099999,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M4",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "256 GB",
+      "os": "macOS",
+      "screen_size": "13 \"",
+      "weight": null,
+      "color": "Azul medianoche",
+      "battery": null,
+      "listing_type": "gold_pro",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 10,
+      "description": "Notebook Apple. Procesador M4. 16 GB de RAM. almacenamiento 256 GB. pantalla 13 \".",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_984236-MLA96137571995_102025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_644923-MLA91203398093_082025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_653558-MLA91203061023_082025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA54109555",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA64701742",
@@ -412,6 +673,7 @@
       "brand": "Apple",
       "price": 2799000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M4",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -423,10 +685,10 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "PYGCOMEXARG",
+      "seller_nickname": "",
       "seller_power_status": null,
-      "seller_level": "5_green",
-      "seller_transactions": 642,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "16GB+ RAM",
@@ -447,17 +709,17 @@
         "https://http2.mlstatic.com/D_NQ_NP_919230-MLA105478445763_012026-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA64701742",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA64701742?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA54109556",
-      "item_id": "MLA2803031214",
+      "item_id": "MLA1685850269",
       "name": "Apple MacBook Air MacBook Air M4 MW0W3BZ/A Blanco estelar 13\" 2560 px x 1664 px Apple M4 16GB de Ram",
       "brand": "Apple",
-      "price": 2250000,
+      "price": 2749999,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M4",
       "ram": "16 GB",
       "gpu": "Integrada",
@@ -467,12 +729,12 @@
       "weight": null,
       "color": "Blanco estelar",
       "battery": null,
-      "listing_type": "gold_special",
+      "listing_type": "gold_pro",
       "international_delivery": false,
-      "seller_nickname": "SAMSUNGINSUMOS",
+      "seller_nickname": "",
       "seller_power_status": null,
-      "seller_level": "4_light_green",
-      "seller_transactions": 9,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "16GB+ RAM",
@@ -482,7 +744,7 @@
       "usage_profiles": [
         "creacion_desarrollo"
       ],
-      "recommendation_score": 8,
+      "recommendation_score": 9,
       "description": "Notebook Apple. Procesador M4. 16 GB de RAM. almacenamiento 256 GB. pantalla 13 \".",
       "image_url": "https://http2.mlstatic.com/D_NQ_NP_724931-MLA95657253554_102025-F.jpg",
       "gallery_images": [
@@ -490,9 +752,139 @@
         "https://http2.mlstatic.com/D_NQ_NP_887412-MLA90813628844_082025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA54109556",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA54109556?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA47733715",
+      "item_id": "MLA1756023275",
+      "name": "Macbook Air Macbook Air M2 15.3 Plateado 8gb De Ram - 512gb Ssd - 512gb Hdd - Apple Chip M2",
+      "brand": "Apple",
+      "price": 2499000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M2",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "512 GB",
+      "os": "macOS",
+      "screen_size": "15.3 \"",
+      "weight": "1.51 kg",
+      "color": "Plateado",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "SSD rápido",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 6,
+      "description": "Notebook Apple. Procesador M2. 8 GB de RAM. almacenamiento 512 GB. pantalla 15.3 \".",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_951103-MLA83570641103_042025-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_630705-MLA83570868293_042025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_658607-MLA83570641111_042025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_628870-MLA83569813523_042025-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47733715",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA64373257",
+      "item_id": "MLA1683932435",
+      "name": "Macbook Air M4 16 GB 256 GB SSD 2025 Midnight",
+      "brand": "Apple",
+      "price": 2450000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M4 Base",
+      "ram": "16 GB",
+      "gpu": "Integrada",
+      "storage": "256 GB",
+      "os": "macOS",
+      "screen_size": "13 \"",
+      "weight": null,
+      "color": "Midnight",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "16GB+ RAM",
+        "SSD rápido",
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 8,
+      "description": "El Apple MacBook Air con chip M4 es la elección ideal para quienes buscan rendimiento y portabilidad. Con 16 GB de RAM y 256 GB de almacenamiento SSD, este portátil ofrece velocidad y eficiencia para todas tus tareas diarias, desde la navegación web hasta la edición de vídeo. \n \n La pantalla de 13,6 pulgadas proporciona una experiencia visual inmersiva, mientras que la tecnología de pantalla táctil permite una interacción intuitiva y fluida.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_708758-MLA105013922993_012026-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_639469-MLA104459541866_012026-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_732355-MLA105013893113_012026-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA64373257",
+      "affiliate_link": "",
+      "influencer_note": ""
+    },
+    {
+      "catalog_product_id": "MLA37738309",
+      "item_id": "MLA3271046838",
+      "name": "Apple MacBook Air 15-inch Silver 15\" Apple M3 8GB de Ram",
+      "brand": "Apple",
+      "price": 2400000,
+      "original_price": null,
+      "form_factor": "laptop",
+      "cpu": "M3",
+      "ram": "8 GB",
+      "gpu": "Integrada",
+      "storage": "256 GB",
+      "os": "macOS",
+      "screen_size": "15 \"",
+      "weight": null,
+      "color": "Silver",
+      "battery": null,
+      "listing_type": "gold_special",
+      "international_delivery": false,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": null,
+      "simplified_tags": [
+        "Alto rendimiento",
+        "macOS"
+      ],
+      "usage_profiles": [
+        "creacion_desarrollo"
+      ],
+      "recommendation_score": 7,
+      "description": "El MacBook Air 15 pulgadas con el potente chip Apple M3 es la opción perfecta para quienes buscan una experiencia premium de rendimiento, diseño y portabilidad en una laptop. Su pantalla Retina de 15\" ofrece colores nítidos y detalles vibrantes, ideal para trabajos creativos, entretenimiento y productividad diaria.",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_858180-MLA76812206386_062024-F.jpg",
+      "gallery_images": [
+        "https://http2.mlstatic.com/D_NQ_NP_913533-MLA77018895711_062024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_612260-MLA76812167722_062024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_799411-MLA76812206376_062024-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_915727-MLA79581388207_092024-F.jpg"
+      ],
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA37738309",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA24162954",
@@ -501,6 +893,7 @@
       "brand": "Apple",
       "price": 2200000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Apple",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -512,7 +905,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "CLAUDIOAREVALO",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -533,49 +926,48 @@
         "https://http2.mlstatic.com/D_NQ_NP_819997-MLA99382045006_112025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA24162954",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA24162954?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA26692939",
-      "item_id": "MLA1730650233",
-      "name": "Apple MacBook Air MacBook Air M2 Blanco estelar 13\" 2.880 por 1.864 a 224 píxeles por pulgada 512GB de Ram",
+      "catalog_product_id": "MLA42801924",
+      "item_id": "MLA2103930286",
+      "name": "Apple M2 2022 Silver 13.6\" Apple M2 8GB de Ram",
       "brand": "Apple",
-      "price": 2000000,
+      "price": 2172830,
       "original_price": null,
-      "cpu": "Ver descripción",
-      "ram": "512 GB",
+      "form_factor": "laptop",
+      "cpu": "M2",
+      "ram": "8 GB",
       "gpu": "Integrada",
-      "storage": "8 GB",
+      "storage": "Ver descripción",
       "os": "macOS",
-      "screen_size": "13 \"",
-      "weight": "1.51 kg",
-      "color": "Blanco estelar",
+      "screen_size": "13.6 \"",
+      "weight": null,
+      "color": "Silver",
       "battery": null,
-      "listing_type": "gold_pro",
+      "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "GRZINCICHNATALIA",
+      "seller_nickname": "",
       "seller_power_status": null,
-      "seller_level": "4_light_green",
-      "seller_transactions": 32,
+      "seller_level": null,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
-        "macOS"
+        "Uso general"
       ],
       "usage_profiles": [
-        "creacion_desarrollo"
+        "productividad_estudio"
       ],
-      "recommendation_score": 7,
-      "description": "Notebook Apple. 512 GB de RAM. almacenamiento 8 GB. pantalla 13 \".",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_885333-MLU71381525244_082023-F.jpg",
+      "recommendation_score": 6,
+      "description": "Notebook Apple. Procesador M2. 8 GB de RAM. pantalla 13.6 \".",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_624827-MLA95657570837_102025-F.jpg",
       "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_639153-MLU74831100996_032024-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_871275-MLA80252867242_112024-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA26692939",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26692939?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA42801924",
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA26385766",
@@ -584,6 +976,7 @@
       "brand": "Apple",
       "price": 1900000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Ver descripción",
       "ram": "256 GB",
       "gpu": "Integrada",
@@ -595,7 +988,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "LEGUIZAMONLILIAN17",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -613,53 +1006,8 @@
         "https://http2.mlstatic.com/D_NQ_NP_724741-MLU74824717262_032024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26385766",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26385766?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
-    },
-    {
-      "catalog_product_id": "MLA51135999",
-      "item_id": "MLA1692726167",
-      "name": "Macbook Air M4 16 GB 256 GB SSD 2025 Midnight",
-      "brand": "Apple",
-      "price": 1900000,
-      "original_price": null,
-      "cpu": "M4 Base",
-      "ram": "16 GB",
-      "gpu": "Integrada",
-      "storage": "256 GB",
-      "os": "macOS",
-      "screen_size": "13 \"",
-      "weight": null,
-      "color": "Midnight",
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "AM20260127095844",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 6,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "16GB+ RAM",
-        "SSD rápido",
-        "Alto rendimiento",
-        "macOS"
-      ],
-      "usage_profiles": [
-        "creacion_desarrollo"
-      ],
-      "recommendation_score": 8,
-      "description": "El Apple MacBook Air con chip M4 es la elección ideal para quienes buscan rendimiento y portabilidad. Con 16 GB de RAM y 256 GB de almacenamiento SSD, este portátil ofrece velocidad y eficiencia para todas tus tareas diarias, desde la navegación web hasta la edición de vídeo. \n \n La pantalla de 13,6 pulgadas proporciona una experiencia visual inmersiva, mientras que la tecnología de pantalla táctil permite una interacción intuitiva y fluida.",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_708758-MLA105013922993_012026-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_639469-MLA104459541866_012026-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_732355-MLA105013893113_012026-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA51135999",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA51135999?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
       "catalog_product_id": "MLA26385767",
@@ -668,6 +1016,7 @@
       "brand": "Apple",
       "price": 1700000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "Ver descripción",
       "ram": "512 GB",
       "gpu": "Integrada",
@@ -679,7 +1028,7 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "FREEZONETANDIL",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
       "seller_transactions": 0,
@@ -697,57 +1046,17 @@
         "https://http2.mlstatic.com/D_NQ_NP_724741-MLU74824717262_032024-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA26385767",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26385767?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
+      "affiliate_link": "",
+      "influencer_note": ""
     },
     {
-      "catalog_product_id": "MLA22357182",
-      "item_id": "MLA1473663581",
-      "name": "Apple MacBook Air Macbook Air 13 Pulgadas",
-      "brand": "Apple",
-      "price": 1500000,
-      "original_price": null,
-      "cpu": "Ver descripción",
-      "ram": "Ver descripción",
-      "gpu": "Integrada",
-      "storage": "Ver descripción",
-      "os": "macOS",
-      "screen_size": null,
-      "weight": null,
-      "color": null,
-      "battery": null,
-      "listing_type": "gold_special",
-      "international_delivery": false,
-      "seller_nickname": "NAHIRAYALA",
-      "seller_power_status": null,
-      "seller_level": null,
-      "seller_transactions": 0,
-      "highlight_rank": null,
-      "simplified_tags": [
-        "macOS"
-      ],
-      "usage_profiles": [
-        "creacion_desarrollo"
-      ],
-      "recommendation_score": 5,
-      "description": "",
-      "image_url": "https://http2.mlstatic.com/D_NQ_NP_945082-MLA99953958717_112025-F.jpg",
-      "gallery_images": [
-        "https://http2.mlstatic.com/D_NQ_NP_955130-MLU71800044630_092023-F.jpg"
-      ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA22357182",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA22357182?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": true
-    },
-    {
-      "catalog_product_id": "MLA26692939",
+      "catalog_product_id": "MLA47734619",
       "item_id": "MLA1514744933",
       "name": "Macbook Air (mgn63la/a) 13 M1 8gb 256gb Gris",
       "brand": "Apple",
       "price": 1050000,
       "original_price": null,
+      "form_factor": "laptop",
       "cpu": "M1",
       "ram": "8 GB",
       "gpu": "Integrada",
@@ -759,10 +1068,10 @@
       "battery": null,
       "listing_type": "gold_special",
       "international_delivery": false,
-      "seller_nickname": "ELCUCHU2007",
+      "seller_nickname": "",
       "seller_power_status": null,
       "seller_level": null,
-      "seller_transactions": 1,
+      "seller_transactions": 0,
       "highlight_rank": null,
       "simplified_tags": [
         "macOS"
@@ -776,10 +1085,9 @@
       "gallery_images": [
         "https://http2.mlstatic.com/D_NQ_NP_946811-MLA83572128997_042025-F.jpg"
       ],
-      "permalink": "https://www.mercadolibre.com.ar/p/MLA26692939",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA26692939?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "permalink": "https://www.mercadolibre.com.ar/p/MLA47734619",
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }

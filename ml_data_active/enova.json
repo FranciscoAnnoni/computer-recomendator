@@ -1,17 +1,18 @@
 {
   "brand": "Enova",
-  "generated_at": "2026-04-06T19:31:35.259561",
+  "generated_at": "2026-05-05T17:31:43.986071",
   "source": "MercadoLibre Argentina — active quality listings",
   "filter": "listing_type: gold_pro / gold_special / gold_premium",
   "total": 1,
   "laptops": [
     {
       "catalog_product_id": "MLA23827239",
-      "item_id": "MLA1554259363",
-      "name": "Notebook Enova 14 Celeron N4020 Ram 4gb Ssd 128gb Gris",
+      "item_id": "MLA1866919000",
+      "name": "Notebook Enova de 14\" con Intel Celeron N4020, 4 GB de RAM y SSD de 128 GB",
       "brand": "Enova",
-      "price": 396899,
-      "original_price": 459999,
+      "price": 355189,
+      "original_price": 443989,
+      "form_factor": "laptop",
       "cpu": "N4020",
       "ram": "4 GB",
       "gpu": "Integrada",
@@ -23,11 +24,11 @@
       "battery": null,
       "listing_type": "gold_pro",
       "international_delivery": false,
-      "seller_nickname": "NOVOGAR",
-      "seller_power_status": "platinum",
-      "seller_level": "5_green",
-      "seller_transactions": 190799,
-      "highlight_rank": 4,
+      "seller_nickname": "",
+      "seller_power_status": null,
+      "seller_level": null,
+      "seller_transactions": 0,
+      "highlight_rank": 5,
       "simplified_tags": [
         "SSD rápido"
       ],
@@ -39,14 +40,13 @@
       "image_url": "https://http2.mlstatic.com/D_NQ_NP_853703-MLA99991185023_112025-F.jpg",
       "gallery_images": [
         "https://http2.mlstatic.com/D_NQ_NP_874455-MLA99506931584_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_793957-MLA99990990619_112025-F.jpg",
         "https://http2.mlstatic.com/D_NQ_NP_679916-MLA99991010637_112025-F.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_995950-MLA95500290786_102025-F.jpg"
+        "https://http2.mlstatic.com/D_NQ_NP_995950-MLA95500290786_102025-F.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_988752-MLA99506941206_112025-F.jpg"
       ],
       "permalink": "https://www.mercadolibre.com.ar/p/MLA23827239",
-      "affiliate_link": "https://www.mercadolibre.com.ar/p/MLA23827239?matt_d2id=a3e2a9a0-f26e-4b8f-acf6-96f2b4d77f85",
-      "influencer_note": "",
-      "availability_warning": false
+      "affiliate_link": "",
+      "influencer_note": ""
     }
   ]
 }
