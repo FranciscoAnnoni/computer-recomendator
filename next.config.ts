@@ -4,7 +4,7 @@ import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 const nextConfig = (phase: string): NextConfig => ({
   outputFileTracingRoot: process.cwd(),
   ...(phase === PHASE_DEVELOPMENT_SERVER && {
-    allowedDevOrigins: ["192.168.1.62", "192.168.*", "10.*"],
+    allowedDevOrigins: ["192.168.1.*", "10.*"],
   }),
   turbopack: {},
   images: {
