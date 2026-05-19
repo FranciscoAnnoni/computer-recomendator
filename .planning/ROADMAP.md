@@ -163,7 +163,7 @@
 
 ### Phase 13: Catalog Product Sorting and Profile Curation
 
-**Goal:** Every one of the 81 quiz profiles has exactly 5 well-chosen, curated laptop recommendations matching the profile's dimensions (workload, lifestyle, budget, os_preference). A single Python script (`scripts/curate_profiles.py`) computes algorithmic recommendation_scores for all 55 live-DB laptops, fills missing influencer_notes, selects 5 laptops per profile via OS → budget → workload → lifestyle → score → brand-diversity logic, and PATCHes Supabase profiles.laptop_ids — with --dry-run safety and a regenerated seed-profiles-81.sql so the seed file mirrors the live DB.
+**Goal:** Every one of the 81 quiz profiles has exactly 5 well-chosen, curated laptop recommendations matching the profile's dimensions (workload, lifestyle, budget, os_preference). A single Python script (`scripts/curate_profiles.py`) computes algorithmic recommendation_scores for all 55 live-DB laptops, fills missing influencer_notes, selects 5 laptops per profile via OS -> budget -> workload -> lifestyle -> score -> brand-diversity logic, and PATCHes Supabase profiles.laptop_ids -- with --dry-run safety and a regenerated seed-profiles-81.sql so the seed file mirrors the live DB.
 **Requirements:** REQ-01, REQ-02, REQ-03, REQ-04, REQ-05, REQ-06, REQ-07, REQ-08, REQ-09
 **UI hint:** no
 **Dependencies:** Phase 12
@@ -172,12 +172,33 @@
 1. Running `python3 scripts/curate_profiles.py --dry-run` prints proposed laptop_ids assignments for all 81 profiles without writing to Supabase, exits 0.
 2. Running `python3 scripts/curate_profiles.py --apply` writes recommendation_score (1-10) and influencer_note to all laptops missing them, then PATCHes profiles.laptop_ids 81 times.
 3. After apply: every profile in the live DB has exactly 5 laptop UUIDs in `laptop_ids` (no empty arrays); every laptop has non-NULL `recommendation_score` and non-NULL `influencer_note`.
-4. macOS profiles only get macOS laptops; gaming + windows profiles only get laptops with dedicated GPU when ≥5 are available; gaming + macOS profiles get best macOS laptops with documented gap warning.
-5. `supabase/seed-profiles-81.sql` contains 81 `UPDATE profiles SET laptop_ids = ARRAY[...]::uuid[]` statements — keeping the seed file in sync with the live DB.
+4. macOS profiles only get macOS laptops; gaming + windows profiles only get laptops with dedicated GPU when >=5 are available; gaming + macOS profiles get best macOS laptops with documented gap warning.
+5. `supabase/seed-profiles-81.sql` contains 81 `UPDATE profiles SET laptop_ids = ARRAY[...]::uuid[]` statements -- keeping the seed file in sync with the live DB.
 
 **Plans:** 2/2 plans complete
 - [x] 13-01-PLAN.md — Build `scripts/curate_profiles.py` (3-stage script: enrich + select + assign) + Wave 0 pytest stubs covering 7 testable behaviors
 - [ ] 13-02-PLAN.md — Run dry-run, user-checkpoint review, --apply to Supabase, regenerate seed-profiles-81.sql, audit live DB state
+
+---
+
+### Phase 14: Quiz Result Unlock Card
+
+**Goal:** When the user finishes the quiz, before the profile recommendations appear, a full-screen overlay reveals a beautifully designed "unlocked computer" card with the ideal specs for their profile (derived from their quiz answers). After dismissing the modal, the existing profile view appears normally in the background.
+
+**Requirements:** UNLOCK-01, UNLOCK-02, UNLOCK-03, UNLOCK-04, UNLOCK-05
+**UI hint:** yes
+**Dependencies:** none
+
+**Success Criteria:**
+1. Immediately after quiz submission, a full-screen overlay appears with a card reveal animation (Framer Motion) before the profile recommendations are shown.
+2. The card displays the user's ideal computer specs derived from their quiz answers: OS, RAM, storage, GPU, display size, and battery life -- no real product, just the ideal spec sheet.
+3. The card has a premium "unlocked" visual design -- distinct from the rest of the UI, feels like acquiring a collectible profile card.
+4. Dismissing the modal (via button or Escape key) closes it and reveals the existing profile result view exactly as it was before this change.
+5. If the quiz is retaken, the modal appears again with specs derived from the new answers.
+
+**Plans:** 2 plans
+- [ ] 14-01-PLAN.md — Create src/lib/ideal-specs.ts (computeIdealSpecs pure function) and src/components/quiz/ideal-pc-card.tsx (IdealPcCard overlay component)
+- [ ] 14-02-PLAN.md — Modify quiz-celebration.tsx (onHidden prop) and quiz-result.tsx (3-state orchestration: loading -> confetti -> card -> navigate)
 
 ---
 
@@ -191,4 +212,5 @@
 | 10. Profile Avatars | 0/? | Not started | - |
 | 11. Mobile UX | 0/? | Not started | - |
 | 12. Catalog Refresh | 2/2 | Complete    | 2026-05-01 |
-| 13. Profile Curation | 1/2 | Complete    | 2026-05-01 |
+| 13. Profile Curation | 2/2 | Complete    | 2026-05-19 |
+| 14. Quiz Result Unlock Card | 0/2 | Planned | - |
