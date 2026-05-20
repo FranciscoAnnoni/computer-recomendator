@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
-status: completed
-stopped_at: Completed 13-01-PLAN.md
-last_updated: "2026-05-01T22:16:34.682Z"
-last_activity: 2026-05-01
+status: executing
+stopped_at: Completed 14-01-PLAN.md
+last_updated: "2026-05-20T10:14:43.210Z"
+last_activity: 2026-05-20
 progress:
-  total_phases: 13
+  total_phases: 14
   completed_phases: 9
-  total_plans: 29
-  completed_plans: 26
+  total_plans: 31
+  completed_plans: 27
 ---
 
 # State: Computer Recomendator
@@ -20,13 +20,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-17)
 
 **Core value:** El recomendador de 81 perfiles que mapea usuarios reales a laptops concretas.
-**Current focus:** Phase 13 — catalog-product-sorting-and-profile-curation
+**Current focus:** Phase 14 — quiz-result-unlock-card
 
 ## Project Overview
 
-- **Status:** Milestone complete
+- **Status:** Executing Phase 14
 - **Current Milestone:** v1.1 Launch-Ready Polish
-- **Last activity:** 2026-05-01
+- **Last activity:** 2026-05-20
 
 ## Context Memory
 
@@ -95,6 +95,9 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 13-catalog-product-sorting-and-profile-curation]: EFFECTIVE_TIERS uses 600k/1.5M boundaries (from 13-RESEARCH.md) not stale CONTEXT.md values
 - [Phase 13-catalog-product-sorting-and-profile-curation]: gaming+macos gap logged in output rather than crashing — best available macOS laptops assigned
 - [Phase 13-catalog-product-sorting-and-profile-curation]: default mode is --dry-run; --apply required to write; zero PATCH calls in dry-run verified by test
+- [Phase 14-01]: IdealPcCard casts selections tuple internally, calls computeIdealSpecs with typed cast — keeps component interface simple
+- [Phase 14-01]: Spring animation: stiffness 260, damping 20, initial scale 0.85 locked from CONTEXT.md decisions
+- [Phase 14-01]: No Escape key dismiss on IdealPcCard — onDone is the only dismiss path per CONTEXT.md
 
 ## Performance Metrics
 
@@ -123,11 +126,12 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P01 | 8min | 2 tasks | 12 files |
 | Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P02 | 3min | 2 tasks | 5 files |
 | Phase 13-catalog-product-sorting-and-profile-curation P01 | 12min | 2 tasks | 3 files |
+| Phase 14-quiz-result-unlock-card P01 | 2min | 2 tasks | 2 files |
 
 ## Session
 
-- **Last session:** 2026-05-01T21:50:04.424Z
-- **Stopped at:** Completed 13-01-PLAN.md
+- **Last session:** 2026-05-20T10:14:43.207Z
+- **Stopped at:** Completed 14-01-PLAN.md
 
 ## Accumulated Context
 
