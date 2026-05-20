@@ -6,9 +6,10 @@ import { AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { QuizCelebration } from "@/components/quiz/quiz-celebration";
 import { IdealPcCard } from "@/components/quiz/ideal-pc-card";
+import { ProfileRevealCard } from "@/components/quiz/profile-reveal-card";
 import { fetchProfile, fetchLaptopsByIds } from "@/lib/quiz-data";
 import { PROFILE_STORAGE_KEY } from "@/types/quiz";
-import type { Workload, Lifestyle, Budget, OsPreference } from "@/types/quiz";
+import type { Workload, Lifestyle, Budget, OsPreference, ProfileResult } from "@/types/quiz";
 
 interface QuizResultProps {
   selections: [string | null, string | null, string | null, string | null];
@@ -19,7 +20,8 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
   const [backendComplete, setBackendComplete] = useState(false);
-  const [showCard, setShowCard] = useState(false);
+  const [cardStep, setCardStep] = useState<null | "perfil" | "pc">(null);
+  const [profileData, setProfileData] = useState<ProfileResult | null>(null);
 
   const handleNavigate = useCallback(() => {
     router.push("/profile");
@@ -52,6 +54,7 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
           // ignore storage errors
         }
 
+        setProfileData(profileResult);
         setBackendComplete(true);
       } catch (err) {
         console.error(
@@ -82,23 +85,31 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
     );
   }
 
-  // Orchestrate 3-state sequence: loading -> confetti -> card -> navigate
+  // Sequence: loading -> confetti -> perfil card -> pc card -> navigate
   return (
     <>
       <AnimatePresence mode="wait">
-        {!showCard && (
+        {cardStep === null && (
           <QuizCelebration
             key="celebration"
             show={true}
             backendComplete={backendComplete}
-            onHidden={() => setShowCard(true)}
+            onHidden={() => setCardStep("perfil")}
           />
         )}
-        {showCard && (
+        {cardStep === "perfil" && profileData && (
+          <ProfileRevealCard
+            key="perfil"
+            profile={profileData}
+            onContinue={() => setCardStep("pc")}
+          />
+        )}
+        {cardStep === "pc" && (
           <IdealPcCard
             key="ideal-pc-card"
             selections={selections}
             onDone={handleNavigate}
+            onBack={() => setCardStep("perfil")}
           />
         )}
       </AnimatePresence>
