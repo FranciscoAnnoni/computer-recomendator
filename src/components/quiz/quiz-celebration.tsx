@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 interface QuizCelebrationProps {
   show: boolean;
   backendComplete: boolean;
-  onDone: () => void;
+  onHidden: () => void;
 }
 
 const CONFETTI_COLORS = [
@@ -20,7 +20,7 @@ const SPARKLES = [
   { emoji: "🌟", top: "75%", left: "12%" },
 ];
 
-export function QuizCelebration({ show, backendComplete, onDone }: QuizCelebrationProps) {
+export function QuizCelebration({ show, backendComplete, onHidden }: QuizCelebrationProps) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -31,11 +31,11 @@ export function QuizCelebration({ show, backendComplete, onDone }: QuizCelebrati
     if (visible && backendComplete) {
       const hide = setTimeout(() => {
         setVisible(false);
-        setTimeout(onDone, 400);
+        setTimeout(onHidden, 400);
       }, 2200);
       return () => clearTimeout(hide);
     }
-  }, [visible, backendComplete, onDone]);
+  }, [visible, backendComplete, onHidden]);
 
   const confetti = Array.from({ length: 90 }, (_, i) => ({
     id: i,
@@ -103,9 +103,6 @@ export function QuizCelebration({ show, backendComplete, onDone }: QuizCelebrati
             </h2>
             <p className="text-white/85 text-xl">
               Encontramos las mejores laptops para vos
-            </p>
-            <p className="text-white/50 text-sm mt-1 animate-pulse">
-              Redirigiendo a tu perfil…
             </p>
           </motion.div>
         </motion.div>

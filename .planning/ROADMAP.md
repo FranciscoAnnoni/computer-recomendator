@@ -196,9 +196,9 @@
 4. Dismissing the modal (via button or Escape key) closes it and reveals the existing profile result view exactly as it was before this change.
 5. If the quiz is retaken, the modal appears again with specs derived from the new answers.
 
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans executed
 - [x] 14-01-PLAN.md — Create src/lib/ideal-specs.ts (computeIdealSpecs pure function) and src/components/quiz/ideal-pc-card.tsx (IdealPcCard overlay component)
-- [ ] 14-02-PLAN.md — Modify quiz-celebration.tsx (onHidden prop) and quiz-result.tsx (3-state orchestration: loading -> confetti -> card -> navigate)
+- [x] 14-02-PLAN.md — Modify quiz-celebration.tsx (onHidden prop) and quiz-result.tsx (3-state orchestration: loading -> confetti -> card -> navigate)
 
 ---
 
@@ -213,4 +213,4 @@
 | 11. Mobile UX | 0/? | Not started | - |
 | 12. Catalog Refresh | 2/2 | Complete    | 2026-05-01 |
 | 13. Profile Curation | 2/2 | Complete    | 2026-05-19 |
-| 14. Quiz Result Unlock Card | 1/2 | In Progress|  |
+| 14. Quiz Result Unlock Card | 2/2 | Complete    | 2026-05-20 |

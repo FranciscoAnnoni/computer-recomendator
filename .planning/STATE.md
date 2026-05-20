@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: — Launch-Ready Polish
-status: executing
-stopped_at: Completed 14-01-PLAN.md
-last_updated: "2026-05-20T10:14:43.210Z"
+status: completed
+stopped_at: Completed 14-02-PLAN.md
+last_updated: "2026-05-20T10:18:20.714Z"
 last_activity: 2026-05-20
 progress:
   total_phases: 14
   completed_phases: 9
   total_plans: 31
-  completed_plans: 27
+  completed_plans: 28
 ---
 
 # State: Computer Recomendator
@@ -98,6 +98,9 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 - [Phase 14-01]: IdealPcCard casts selections tuple internally, calls computeIdealSpecs with typed cast — keeps component interface simple
 - [Phase 14-01]: Spring animation: stiffness 260, damping 20, initial scale 0.85 locked from CONTEXT.md decisions
 - [Phase 14-01]: No Escape key dismiss on IdealPcCard — onDone is the only dismiss path per CONTEXT.md
+- [Phase 14-02]: onHidden prop name chosen over onDone to communicate semantics: fires after exit animation, not on user action
+- [Phase 14-02]: AnimatePresence mode=wait mandatory: confetti fully exits before IdealPcCard enters — no simultaneous visibility
+- [Phase 14-02]: showCard boolean toggle is single source of truth for which phase is active in the unlock sequence
 
 ## Performance Metrics
 
@@ -127,11 +130,12 @@ See: .planning/PROJECT.md (updated 2026-04-17)
 | Phase 12-catalog-refresh-mercadolibre-scraping-affiliate-links-and-profile-updates P02 | 3min | 2 tasks | 5 files |
 | Phase 13-catalog-product-sorting-and-profile-curation P01 | 12min | 2 tasks | 3 files |
 | Phase 14-quiz-result-unlock-card P01 | 2min | 2 tasks | 2 files |
+| Phase 14-quiz-result-unlock-card P02 | 5min | 2 tasks | 2 files |
 
 ## Session
 
-- **Last session:** 2026-05-20T10:14:43.207Z
-- **Stopped at:** Completed 14-01-PLAN.md
+- **Last session:** 2026-05-20T10:18:20.710Z
+- **Stopped at:** Completed 14-02-PLAN.md
 
 ## Accumulated Context
 
