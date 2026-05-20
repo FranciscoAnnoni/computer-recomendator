@@ -2,8 +2,10 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { QuizCelebration } from "@/components/quiz/quiz-celebration";
+import { IdealPcCard } from "@/components/quiz/ideal-pc-card";
 import { fetchProfile, fetchLaptopsByIds } from "@/lib/quiz-data";
 import { PROFILE_STORAGE_KEY } from "@/types/quiz";
 import type { Workload, Lifestyle, Budget, OsPreference } from "@/types/quiz";
@@ -17,6 +19,7 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
   const [backendComplete, setBackendComplete] = useState(false);
+  const [showCard, setShowCard] = useState(false);
 
   const handleNavigate = useCallback(() => {
     router.push("/profile");
@@ -79,13 +82,26 @@ export function QuizResult({ selections, onRetry }: QuizResultProps) {
     );
   }
 
-  // Show celebration overlay while fetching and after backend completes.
-  // The overlay handles navigation to /profile once it finishes.
+  // Orchestrate 3-state sequence: loading -> confetti -> card -> navigate
   return (
-    <QuizCelebration
-      show={true}
-      backendComplete={backendComplete}
-      onDone={handleNavigate}
-    />
+    <>
+      <AnimatePresence mode="wait">
+        {!showCard && (
+          <QuizCelebration
+            key="celebration"
+            show={true}
+            backendComplete={backendComplete}
+            onHidden={() => setShowCard(true)}
+          />
+        )}
+        {showCard && (
+          <IdealPcCard
+            key="ideal-pc-card"
+            selections={selections}
+            onDone={handleNavigate}
+          />
+        )}
+      </AnimatePresence>
+    </>
   );
 }
